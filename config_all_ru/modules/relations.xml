@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config>
+
+    <notesConfig maxLength="40"/>
+
+    <statuses>
+        
+        <status id="0" label="#relationEnemy" icon="RelationEnemyIcon@ui" mLabel="#relationEnemys" canCreate="1">
+            <progress value="-100" status="1" />
+        </status>
+        
+        <status id="1" label="#relationBadEnemy" icon="RelationEnemyIcon@ui" mLabel="#relationBadEnemys">
+            <progress value="-100" status="2" />
+            <progress value="100" status="0" />
+        </status>
+        
+        <status id="2" label="#relationWorstEnemy" icon="RelationEnemyIcon@ui" mLabel="#relationWorstEnemys">
+            <progress value="100" status="1" />
+        </status>
+        
+        <status id="10" label="#relationStranger" icon="RelationStrangerIcon@ui" mLabel="#relationStrangers" />
+        
+        <status id="20" label="#relationAssociate" icon="RelationAssociateIcon@ui" mLabel="#relationAssociates" canCreate="1">
+            <progress value="-100" status="21" />
+            <progress value="100" status="22" />
+        </status>
+        
+        <status id="21" label="#relationBadAssociate" icon="RelationAssociateIcon@ui" mLabel="#relationBadAssociates">
+            <progress value="100" status="20" />
+        </status>
+        
+        <status id="22" label="#relationGoodAssociate" icon="RelationAssociateIcon@ui" mLabel="#relationGoodAssociates">
+            <progress value="-100" status="20" />
+        </status>
+        
+        <status id="23" label="#relationExFriend" icon="RelationAssociateIcon@ui" mLabel="#relationExFriends">
+            <progress value="-100" status="21" />
+            <progress value="100" status="22" />
+        </status>
+        
+        <status id="24" label="#relationExEngaged" icon="RelationExIcon@ui" mLabel="#relationExEngageds" confirmLabel="#exEngagedConfirmTitle" confirmButton="#exEngagedConfirmButton">
+            <progress value="-100" status="21" />
+            <progress value="100" status="22" />
+        </status>
+        
+        <status id="25" label="#relationExMarried" icon="RelationExIcon@ui" mLabel="#relationExMarrieds" confirmLabel="#exMarriedConfirmTitle" confirmButton="#exMarriedConfirmButton">
+            <progress value="-100" status="21" />
+            <progress value="100" status="22" />
+        </status>
+        
+        <status id="26" label="#relationExBeloved" icon="RelationExIcon@ui" mLabel="#relationExBeloveds" confirmLabel="#exBelovedConfirmTitle" confirmButton="#exBelovedConfirmButton">
+            <progress value="-100" status="21" />
+            <progress value="100" status="22" />
+        </status>
+        
+        <status id="27" label="#relationExEnemy" icon="RelationAssociateIcon@ui" mLabel="#relationExEnemys">
+            <progress value="-100" status="21" />
+            <progress value="100" status="22" />
+        </status>
+        
+        
+        
+        <status id="40" label="#relationFriend" icon="RelationFriendIcon@ui" mLabel="#relationFriends">
+            <progress value="-100" status="41" />
+            <progress value="100" status="42" />
+        </status>
+        
+        <status id="41" label="#relationBadFriend" icon="RelationFriendIcon@ui" mLabel="#relationBadFriends">
+            <progress value="100" status="40" />
+        </status>
+        
+        <status id="42" label="#relationGoodFriend" icon="RelationFriendIcon@ui" mLabel="#relationGoodFriends">
+            <progress value="-100" status="40" />
+            <progress value="100" status="43" />
+        </status>
+        
+        <status id="43" label="#relationBestFriend" icon="RelationFriendIcon@ui" mLabel="#relationBestFriends">
+            <progress value="-100" status="42" />
+        </status>
+        
+        
+        
+        <status id="50" label="#relationBeloved" icon="RelationLoveIcon@ui" mLabel="#relationBeloveds" confirmLabel="#belovedConfirmTitle" confirmButton="#addBelovedButtonTitle" />
+        <status id="60" label="#relationEngaged" icon="RelationLoveIcon@ui" comment="" mLabel="#relationEngageds" confirmLabel="#engadegConfirmTitle" confirmButton="#engegedButtonTitle" />
+        <status id="70" label="#relationMarried" icon="RelationLoveIcon@ui" comment="" mLabel="#relationMarrieds" confirmLabel="#marriedConfirmTitle" confirmButton="#marriedButtonTitle" />
+        
+    </statuses>
+
+    <groups>
+    
+        <group id="enemy" label="#relationEnemyGroup" icon="RelationEnemyIcon@ui">
+            <status id="0" />
+            <status id="1" />
+            <status id="2" />
+        </group>
+        
+        <group id="stranger" label="#relationStrangerGroup" icon="RelationStrangerIcon@ui">
+            <status id="10" />
+        </group>
+        
+        <group id="associate" label="#relationAssociateGroup" icon="RelationAssociateIcon@ui">
+            <status id="20" />
+            <status id="21" />
+            <status id="22" />
+            <status id="23" />
+            <status id="24" />
+            <status id="25" />
+            <status id="26" />
+            <status id="27" />
+        </group>
+        
+        <group id="friend" label="#relationFriendsGroup" icon="RelationFriendIcon@ui">
+            <status id="40" />
+            <status id="41" />
+            <status id="42" />
+            <status id="43" />
+        </group>
+        
+        <group id="love" label="#relationLoveGroup" icon="RelationLoveIcon@ui">
+            <status id="50" />
+            <status id="60" />
+            <status id="70" />
+        </group>
+        
+    </groups>
+    
+    <permissions>
+        
+        <!-- RELATIONS -->
+        
+        <rule resource="avatar" privilege="addToAssociates">
+            <allow groups="stranger" userConfirm="assoc" />
+        </rule>
+        
+        <rule resource="avatar" privilege="addToEnemies">
+            <allow groups="stranger" />
+        </rule>
+        
+        <rule resource="avatar" privilege="removeFromAssociates">
+            <allow groups="associate" />
+        </rule>
+        
+        <rule resource="avatar" privilege="addToFriends">
+            <allow statuses="22" userConfirm="friends" />
+            <deny group="associate" message="#bestAssociateBeforeMessage" />
+        </rule>
+        
+        <rule resource="avatar" privilege="showAddToFriends">
+            <allow groups="associate" />
+        </rule>
+        
+        <rule resource="avatar" privilege="removeFromFriends">
+            <allow groups="friend" />
+        </rule>
+        
+        <rule resource="avatar" privilege="removeFromEnemies">
+            <allow groups="enemy" userConfirm="notenemy" />
+        </rule>
+        
+        <rule resource="avatar" privilege="appologize">
+            <allow groups="enemy" />
+        </rule>
+        
+        <rule resource="avatar" privilege="addToBeloved">
+            <allow statuses="43" userConfirm="beloved" />
+            <deny group="friend" message="#bestFriendsBeforeMessage" />
+        </rule>
+        
+        <rule resource="avatar" privilege="showAddToBeloved">
+            <allow groups="friend" />
+        </rule>
+        
+        <rule resource="avatar" privilege="removeFromBeloved">
+            <allow statuses="50" />
+        </rule>
+
+        <rule resource="avatar" privilege="addToEngaged">
+            <allow statuses="50" userConfirm="engaged" />
+        </rule>
+        
+        <rule resource="avatar" privilege="removeFromEngaged">
+            <allow statuses="60" />
+        </rule>
+
+        <rule resource="avatar" privilege="addToMarried">
+            <allow statuses="60" userConfirm="married" />
+        </rule>
+        
+        <rule resource="avatar" privilege="removeFromMarried">
+            <allow statuses="70" />
+        </rule>
+
+        <rule resource="avatar" privilege="transfer">
+            <allow statuses="70" />
+        </rule>
+        
+        
+        <!-- ACTIONS -->
+        <rule resource="avatar" privilege="kickAss" >
+            <allow groups="enemy,stranger,associate,friend,love" />
+        </rule>
+
+        <rule resource="avatar" privilege="sendMailMessage" >
+            <allow groups="associate,friend,love" />
+        </rule>
+        
+        <rule resource="avatar" privilege="slap">
+            <allow groups="enemy,stranger,associate,friend,love" />
+        </rule>
+        
+        <rule resource="avatar" privilege="trade">
+            <allow groups="friend,love" statuses="22" />
+            <deny group="associate" message="#tradePermissionsRequestMessage2" />
+            <deny group="stranger" message="#tradePermissionsRequestMessage" neededStatus="20" userConfirm="assoc" />
+            <deny group="enemy" message="#tradePermissionsRequestMessage" neededStatus="27" userConfirm="notenemy" />
+        </rule>
+
+        <rule resource="avatar" privilege="gift">
+            <allow groups="associate,friend,love" />
+        </rule>
+        
+        <rule resource="avatar" privilege="kiss">
+            <allow groups="associate,friend" userConfirm="kiss" />
+            <allow groups="love" />
+            <deny group="stranger" message="#kissPermissionsRequestMessage2" />
+            <deny group="enemy" message="#kissPermissionsRequestMessage2" />
+        </rule>
+
+        <rule resource="avatar" privilege="longKiss">
+            <allow statuses="70" />
+        </rule>
+        
+        <rule resource="avatar" privilege="hug">
+            <allow groups="stranger,associate" userConfirm="hug" />
+            <allow groups="friend,love" />
+            <deny group="enemy" message="#hugPermissionsRequestMessage" neededStatus="27" userConfirm="assoc" />
+        </rule>
+        
+        <rule resource="avatar" privilege="fight">
+            <allow groups="enemy,stranger,associate,friend,love" userConfirm="fight" />
+        </rule>
+        
+        <!-- APPLIANCE SETTINGS -->
+        
+        <rule resource="jacuzzi" privilege="broke">
+            <allow groups="enemy,stranger,associate,friend,love" />
+        </rule>
+        
+        <rule resource="jacuzzi" privilege="repair">
+            <allow groups="love"/>
+        </rule>
+        
+        <rule resource="computerAppliance" privilege="broke">
+            <allow groups="enemy,stranger,associate,friend,love" />
+        </rule>
+        
+        <rule resource="computerAppliance" privilege="repair">
+            <allow groups="love"/>
+        </rule>
+        
+        <rule resource="computerAppliance" privilege="sendMailMessage">
+            <allow groups="associate,friend,love" />
+        </rule>
+        
+        <rule resource="tvAppliance" privilege="broke">
+            <allow groups="enemy,stranger,associate,friend,love" />
+        </rule>
+        
+        <rule resource="tvAppliance" privilege="repair">
+            <allow groups="love"/>
+        </rule>
+        
+        <rule resource="musicCenterAppliance" privilege="broke">
+            <allow groups="enemy,stranger,associate,friend,love" />
+        </rule>
+        
+        <rule resource="musicCenterAppliance" privilege="repair">
+            <allow groups="love"/>
+        </rule>
+        
+        <rule resource="newYearFir" privilege="placeFirToy">
+            <allow groups="enemy,stranger,associate,friend,love" />
+        </rule>
+        
+        <rule resource="furnitureSit" privilege="plantPaintBomb">
+            <allow groups="enemy,stranger,associate,friend,love" />
+        </rule>
+        
+        <rule resource="wall" privilege="drawGraffiti">
+            <allow groups="enemy,stranger,associate,friend,love" />
+        </rule>
+        
+        <rule resource="refrigerator" privilege="useRefrigerator">
+            <allow groups="love" statuses="42,43"/>
+        </rule>
+        
+        <rule resource="refrigerator" privilege="treadFriend">
+            <allow groups="associate,friend,love"/>
+        </rule>
+        
+        <!-- ISLAND ACTIONS -->
+        
+        <rule resource="ridge" privilege="collectRidge">
+            <allow groups="associate,friend,love"/>
+        </rule>
+        
+        <rule resource="ridge" privilege="clearRidge">
+            <allow groups="associate,friend,love"/>
+        </rule>
+        
+        <rule resource="ridge" privilege="useFertilizer">
+            <allow groups="associate,friend,love"/>
+        </rule>
+        
+        <rule resource="fruitTree" privilege="collectFruitTree">
+            <allow groups="associate,friend,love"/>
+        </rule>
+        
+        <rule resource="fruitTree" privilege="clearFruitTree">
+            <allow groups="associate,friend,love"/>
+        </rule>
+        
+        <rule resource="fruitTree" privilege="useFertilizer">
+            <allow groups="associate,friend,love"/>
+        </rule>
+        
+        <rule resource="fishRidge" privilege="collectFishRidge">
+            <allow groups="associate,friend,love"/>
+        </rule>
+        
+        <rule resource="fishRidge" privilege="clearFishRidge">
+            <allow groups="associate,friend,love"/>
+        </rule>
+        
+        <rule resource="fishRidge" privilege="useFishFertilizer">
+            <allow groups="associate,friend,love"/>
+        </rule>
+        
+        <rule resource="weed" privilege="serviceWeed">
+            <allow groups="associate,friend,love"/>
+        </rule>
+        
+    </permissions>
+    
+    <progresses>
+        <progress reason="kiss" value="8" />
+        <progress reason="longKiss" value="10" />
+        <!-- <progress reason="hug" value="300" /> -->
+        <progress reason="hug" value="3" />
+        <progress reason="kickAss" value="-8" />
+        <progress reason="slap" value="-3" />
+        <progress reason="fight" value="-8" />
+        <progress reason="give" value="4" />
+        <progress reason="appologize" value="5" />
+        <progress reason="throwCake" value="-5" />
+        <progress reason="brokeJacuzzi" value="-10" />
+        <progress reason="brokeTv" value="-10" />
+        <progress reason="brokeComputer" value="-10" />
+        <progress reason="brokeMusicCenter" value="-10" />
+        <progress reason="placeFirToy" value="10" />
+        <progress reason="drawGraffiti" value="-10" />
+    </progresses>
+    
+</config>

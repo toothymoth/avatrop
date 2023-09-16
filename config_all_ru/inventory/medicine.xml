@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config>
+
+    <!-- <item id="" label="#Title" name="" icon="Icon" gold="0" silver="0" energy="0" saleSilver="0" saleEnergy="0" priority="1" 
+        canSale="1" canTrade="0" canGift="0"> <params></params> <oldPrice gold="0" silver="0"/> </item> -->
+
+    <category id="medicine" label="#medicineCategory" priority="1" typeClass="food" library="resources" logCategory1="medicine">
+        <category id="medPets" logCategory2="pet">
+            <item id="pVit" label="#petVitaminesTitle" description="#petVitaminesDescription" name="PetVitamin" icon="PetVitaminIcon"
+                gold="1" silver="25" saleSilver="0" priority="50" canSale="0" cooldown="0" buyCount="1" cursorId="petHeal" canUse="1">
+                <modifiers>
+                    <modifier name="health" effect="10" />
+                    <modifier name="cheerfullness" effect="-3" />
+                </modifiers>
+            </item>
+            <item id="pMix" label="#petMixtureTitle" description="#petMixtureDescription" name="PetMixture" icon="PetMixtureIcon"
+                gold="1" silver="50" saleSilver="0" priority="49" canSale="0" cooldown="0" buyCount="1" cursorId="petHeal" canUse="1">
+                <modifiers>
+                    <modifier name="health" effect="25" />
+                    <modifier name="cheerfullness" effect="-5" />
+                </modifiers>
+            </item>
+            <item id="pSlv" label="#petSalveTitle" description="#petSalveDescription" name="PetSalve" icon="PetSalveIcon"
+                gold="1" silver="80" saleSilver="0" priority="48" canSale="0" cooldown="0" buyCount="1" cursorId="petHeal" canUse="1">
+                <modifiers>
+                    <modifier name="health" effect="40" />
+                    <modifier name="cheerfullness" effect="-5" />
+                </modifiers>
+            </item>
+            <category id="medPetsCraft" target="lab">
+	            <item id="teaClvr" label="#teaFromCloverTitle" description="#canCraftInLab" name="TeaFromClover"
+	                icon="TeaFromCloverIcon" gold="5" silver="0" saleSilver="0" priority="47" canSale="0" cooldown="0"
+	                buyCount="1" cursorId="petHeal" canUse="1" canBuy="0" canBuyInAdventure="1">
+	                <modifiers>
+	                    <modifier name="health" effect="35" />
+	                    <modifier name="cheerfullness" effect="-3" />
+	                </modifiers>
+	            </item>
+	            <item id="tinctOfAloes" label="#tinctureOfAloesTitle" description="#canCraftInLab" name="TinctureOfAloes"
+	                icon="TinctureOfAloesIcon" gold="7" silver="0" saleSilver="0" priority="46" canSale="0" cooldown="0"
+	                buyCount="1" cursorId="petHeal" canUse="1" canBuy="0" canBuyInAdventure="1">
+	                <modifiers>
+	                    <modifier name="health" effect="50" />
+	                    <modifier name="cheerfullness" effect="-5" />
+	                </modifiers>
+	            </item>
+	            <item id="aniseNect" label="#aniseNectarTitle" description="#canCraftInLab" name="AniseNectar"
+	                icon="AniseNectarIcon" gold="9" silver="0" saleSilver="0" priority="45" canSale="0" cooldown="0"
+	                buyCount="1" cursorId="petHeal" canUse="1" canBuy="0" canBuyInAdventure="1">
+	                <modifiers>
+	                    <modifier name="health" effect="65" />
+	                    <modifier name="cheerfullness" effect="-5" />
+	                </modifiers>
+	            </item>
+	            <item id="teaWRsp" label="#teaWithRosehipTitle" description="#canCraftInLab" name="TeaWithRosehip"
+	                icon="TeaWithRosehipIcon" gold="10" silver="0" saleSilver="0" priority="44" canSale="0" cooldown="0"
+	                buyCount="1" cursorId="petHeal" canUse="1" canBuy="0" canBuyInAdventure="1">
+	                <modifiers>
+	                    <modifier name="health" effect="75" />
+	                    <modifier name="cheerfullness" effect="-5" />
+	                </modifiers>
+	            </item>
+	            <item id="tntFMs" label="#tinctureFromMossTitle" description="#canCraftInLab" name="TinctureFromMoss"
+	                icon="TinctureFromMossIcon" gold="14" silver="0" saleSilver="0" priority="43" canSale="0" cooldown="0"
+	                buyCount="1" cursorId="petHeal" canUse="1" canBuy="0" canBuyInAdventure="1">
+	                <modifiers>
+	                    <modifier name="health" effect="90" />
+	                    <modifier name="cheerfullness" effect="-5" />
+	                </modifiers>
+	            </item>
+            </category>
+        </category>
+
+        <category id="medAvatar" logCategory2="avatar">
+            <item id="elExp" label="#elexirExperienceTitle" name="ElixirExperienceLoot" icon="ElixirExperienceIcon"
+                gold="0" silver="1" saleSilver="0" priority="30" canSale="1" />
+            <item id="natFs" label="#naturalForceTitle" name="ElixirInvisibleLoot" icon="ElixirInvisibleIcon" gold="0"
+                silver="1" saleSilver="0" priority="29" canSale="1" />
+            <item id="invFs" label="#invisibleForceTitle" name="ElixirNatureLoot" icon="ElixirNatureIcon" gold="0"
+                silver="1" saleSilver="0" priority="28" canSale="1" />
+            <item id="thFlng" label="#thinFeelingTitle" name="ElixirSenseLoot" icon="ElixirSenseIcon" gold="0" silver="1"
+                saleSilver="0" priority="27" canSale="1" />
+            <item id="crOwn" label="#caringOwnerTitle" name="ElixirCareLoot" icon="ElixirCareIcon" gold="0" silver="1"
+                saleSilver="0" priority="26" canSale="1" />
+        </category>
+    </category>
+
+</config>

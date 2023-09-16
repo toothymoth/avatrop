@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+
+    <category id="weeds" label="#islandWeedsCategoryTitle" typeClass="weed" library="islandWeed" logCategory1="weed">
+
+        <category id="weedGrass" grownOnPeriod="10" surfacing="20" library="islandWeed" tagId="gr"
+            regenerateSpeed="1" logCategory2="grass">
+            <item id="wg1" interactCount="1" name="GrassJungle">
+                <dimension width="1" length="1" height="1" />
+            </item>
+            <item id="wg2" interactCount="2" name="GrassJungleWide" label="#wgGrassJungleWideLabel">
+                <dimension width="1" length="1" height="3" />
+            </item>
+        </category>
+
+        <category id="weedTrees" grownOnPeriod="2" surfacing="7" library="islandWeed" tagId="tr"
+            regenerateSpeed="10" logCategory2="tree">
+            <item id="wt1" interactCount="30" name="PalmAverage" label="#wtPalmLabel">
+                <dimension width="2" length="2" height="9" />
+            </item>
+            <item id="wt2" interactCount="18" name="PalmHigh" label="#wtPalmLabel">
+                <dimension width="1" length="1" height="12" />
+            </item>
+            <item id="wt3" interactCount="7" name="PalmSmall" label="#wtPalmLabel">
+                <dimension width="1" length="1" height="5" />
+            </item>
+            <item id="wt4" interactCount="25" name="PalmWithYellowFlowers" label="#wtPalmLabel">
+                <dimension width="2" length="2" height="7" />
+            </item>
+            <item id="wt5" interactCount="15" name="TreeHigh" label="#wtTreeLabel">
+                <dimension width="2" length="2" height="8" />
+            </item>
+            <item id="wt6" interactCount="7" name="TreeSmallRound" label="#wtTreeLabel">
+                <dimension width="2" length="2" height="5" />
+            </item>
+            <item id="wt7" interactCount="24" name="TreeSocotra" label="#wtTreeLabel">
+                <dimension width="2" length="2" height="7" />
+            </item>
+        </category>
+
+        <category id="weedBushes" grownOnPeriod="3" surfacing="10" library="islandWeed" tagId="bu"
+            regenerateSpeed="2" logCategory2="bush">
+            <item id="wb1" interactCount="3" name="Bamboo" label="#wbBambooLabel">
+                <dimension width="1" length="1" height="4.5" />
+            </item>
+            <item id="wb2" interactCount="2" name="Bush" label="#wbBushLabel">
+                <dimension width="1" length="1" height="5" />
+            </item>
+            <item id="wb3" interactCount="3" name="BushRound" label="#wbBushLabel">
+                <dimension width="1" length="1" height="4" />
+            </item>
+            <item id="wb4" interactCount="2" name="Monstera" label="#wbMonsteraLabel">
+                <dimension width="1" length="1" height="4" />
+            </item>
+            <item id="wb5" interactCount="2" name="Strelitzia" label="#wbStrelitziaLabel">
+                <dimension width="1" length="1" height="5" />
+            </item>
+        </category>
+
+        <category id="weedStones" grownOnPeriod="2" surfacing="10" library="islandWeed" tagId="st"
+            regenerateSpeed="10" logCategory2="stone">
+            <item id="ws1" interactCount="50" name="StoneAverage" label="#wsStoneLabel">
+                <dimension width="1" length="1" height="2.5" />
+            </item>
+            <item id="ws2" interactCount="10" name="StoneAverage" label="#wsStoneLabel">
+                <dimension width="1" length="1" height="2.5" />
+            </item>
+        </category>
+
+    </category>
+
+</config>

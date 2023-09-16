@@ -1,0 +1,1 @@
+const showHeader=document.getElementsByClassName('show-header')[0];const header=document.getElementsByTagName('header')[0];showHeader.addEventListener('click',()=>{if(header.classList.contains('visible')){header.classList.remove('visible');}else{header.classList.add('visible');}});

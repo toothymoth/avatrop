@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+
+    <category id="accCraft" typeClass="accCraft" logCategory1="accelerateCraft">
+
+        <item id="accCraft1" name="AccelerateCraft1" icon="AccelerateCraft1Icon" label="#accelerateCrat1Label" gold="2"
+            time="20" priority="10" />
+        <item id="accCraft2" name="AccelerateCraft2" icon="AccelerateCraft2Icon" label="#accelerateCrat1Label" gold="4"
+            time="45" priority="9" />
+        <item id="accCraft3" name="AccelerateCraft3" icon="AccelerateCraft3Icon" label="#accelerateCrat1Label" gold="6"
+            time="100" priority="8" />
+
+    </category>
+
+</config>

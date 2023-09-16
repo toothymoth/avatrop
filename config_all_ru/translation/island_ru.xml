@@ -1,0 +1,601 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<dictionary>
+    <locale name="ru">
+
+        <message key="on">на</message>
+        <message key="complete">готово</message>
+        <message key="collect">собрать</message>
+        <message key="accelerate">ускорить</message>
+        <message key="build">строить</message>
+        <message key="send">отправить</message>
+
+        <plural key="T">
+            <form>:value: Т</form>
+            <form>:value: Т</form>
+            <form>:value: Т</form>
+        </plural>
+
+        <plural key="garderBed">
+            <form>грядка</form>
+            <form>грядки</form>
+            <form>грядок</form>
+        </plural>
+
+        <plural key="countPlural">
+            <form>раз</form>
+            <form>раза</form>
+            <form>раз</form>
+        </plural>
+
+        <gender key="genderAsked">
+            <form>просил</form>
+            <form>просила</form>
+        </gender>
+        
+        <message key="buyFor">купить за :value:</message>
+        <message key="transfer">перевести</message>
+        <message key="inventory">инвентарь</message>
+        
+        <message key="gotoAvatariaText"><![CDATA[Увлекательный мир, где каждый найдет себе развлечение по душе. Обставляй квартиру, ходи на работу, заводи новых друзей и знакомых, играй в игры. Дерзай и этот мир падет к твоим ногам!]]></message>
+        
+        <message key="toAvatariaConfirmTitle">Аватария</message>
+        <message key="toAvatariaConfirmDescription">Хочешь вернуться в Аватарию?</message>
+        
+        <message key="photoAlbumName">Тропикания</message>
+        <message key="photoAlbumDescription"><![CDATA[Я играю в Тропиканию. Альбом посвящен красивым местам и интересным моментам игры. Присоединяйтесь!
+
+:appLink:]]></message>
+        
+        
+        <!-- INTERFACE -->
+        
+        <!-- PANELS -->
+        <message key="worldButtonLabel">Мир</message>
+        <message key="islandLocationsLabel">Локации</message>
+        <message key="inDevelopmentLabel">В разработке</message>
+        
+        <message key="petsLevelProgressLabel"></message>
+        <message key="petsEnergyProgressLabel"></message>
+        <message key="islandExplorationProgressLabel">Исследованность территории острова</message>
+        <message key="marketButtonLabel">Рынок</message>
+        <message key="marketPetButtonLabel">Зоомагазин</message>
+        <message key="avatarAppearanceButtonLabel">Внешность</message>
+        <message key="avatarClothesButtonLabel">Гардероб</message>
+        <message key="clothesMarketButtonLabel">Одежда</message>
+        <message key="islandLevelProgressLabel">Уровень и опыт. Чем выше уровень, тем больше возможностей открывается для тебя.</message>
+        <message key="gotoHome">домой</message>
+        <message key="islandSelfOwner">Твой остров</message>
+        <message key="islandOwner">Хозяин</message>
+        <!-- 
+        <message key="islandEnergyProgressLabel">Каждое действие требует 1 единицу энергии. Энергия восстанавливается со временем.</message>
+         -->
+        <message key="islandEnergyProgressLabel">+1 энергии через :time:</message>
+        <message key="islandEnergyFullLabel">Уровень энергии полон</message>
+        <message key="explorationInfo">Исследовано :value:% территории острова</message>
+        <message key="exitLabel">Аватария</message>
+        <message key="buddyListSortOnExplore">Территории</message>
+        
+        <!-- DIALOG -->
+        <message key="makeBuildingLabDialogTitile">Лаборатория</message>
+        <message key="makeBuildingDialogLevelProgress">уровень :current: из :max:</message>
+        <message key="makeBuildingDialogStageProgress">стадия :current: из :max:</message>
+        <message key="makeBuildingDialogDescription">После переработки еды на кухне, помимо полученных продуктов, игрок получает "отходы", которые идут на производство удобрений.</message>
+        <message key="needText">Необходимо:</message>
+        <message key="makeBuildingAskButtonLabel">попросить</message>
+        <message key="makeBuildingBuildButtonLabel">Строить</message>
+        
+        <message key="inventoryDialogTitle">Инвентарь</message>
+        <message key="inventoryTabSeedsTitle">семена</message>
+        <message key="inventoryTabHarvestTitle">урожай</message>
+        <message key="inventoryTabFoodTitle">еда</message>
+        <message key="inventoryTabMedicineTitle">лекарства</message>
+        <message key="inventoryTabFertilizerTitle">удобрения</message>
+        <message key="inventoryTabResourcesTitle">ресурсы</message>
+        <message key="inventoryTabDecorTitle">декор</message>
+        <message key="inventoryTabPetToysTitle">игрушки</message>
+        <message key="useInventoryComponentLabel">использовать</message>
+        <message key="inventoryComponentCounterLabel">продать</message>
+        
+        <message key="marketDialogTitile">Рынок</message>
+        <message key="marketTabSeedsTitle">семена</message>
+        <message key="marketTabHarvestTitle">урожай</message>
+        <message key="marketTabFertilizerTitle">удобрения</message>
+        <message key="marketTabPetsTitle">питомцы</message>
+        <message key="marketTabFoodTitle">еда</message>
+        <message key="marketTabMedicineTitle">лекарства</message>
+        <message key="marketTabBuildingsTitle">здания</message>
+        <message key="marketTabDecorTitle">декор</message>
+        <message key="ripenTimeLabel">рост:</message>
+        <message key="ripenTimeValue">:value: мин</message>
+        <message key="ripenAccelerationLabel">рост:</message>
+        <message key="ripenAccelerationValue">:value: мин</message>
+        <message key="ripenBedsLabel">грядок:</message>
+        <message key="modificatorEnergyLabel">энергия:</message>        
+        <message key="modificatorHealthLabel">здоровье:</message>        
+        <message key="modificatorHigieneLabel">гигиена:</message>        
+        <message key="modificatorCheerfullnessLabel">бодрость:</message>        
+        <message key="modificatorHappynessLabel">счастье:</message>        
+        <message key="modificatorSatietyLabel">сытость:</message>        
+        <message key="saleParamLabel">продажа:</message>
+       
+        <message key="upgradeButtonTitle">Строить</message>
+        
+        <message key="kitchenDialogTitle">Кухня</message>
+        <message key="balloonsAreaDialogTitle">Воздуходром</message>
+        <message key="laboratoryDialogTitle">Лаборатория</message>
+        <message key="officeDialogTitle">Контора</message>
+        <message key="cookButtonTitile">готовить</message>
+        <message key="labCookButtonTitle">приготовить</message>
+        <message key="craftCreateTime">:value: мин</message>
+        <message key="craftSaleText">продажа: :value:</message>
+        <message key="craftItemModEnergyEffect">энергии</message>
+        <message key="purchaseReceptButtonLabel">разблокировать</message>
+        <message key="purchaseReceptButtonLabel2">за :value:</message>
+        <message key="craftLimitNeedTitle">Требует:</message>
+        <message key="craftLimitNeedLevel">уровень не менее :value:</message>
+        <message key="craftLimitNeedFriends">соседей не менее :value:</message>
+        <message key="craftBuyComponentsButtonLabel">купить всё</message>
+        <message key="craftBuyComponentsButtonLabel2">за :value:</message>
+        <message key="craftSlotAddedHint">Чтобы получить дополнительный слот для производства, необходимо улучшить здание</message>
+        <message key="craftSlotEmptyHint">Выберите рецепт из списка</message>
+        <message key="cancelCraftTitle">Отменить производство</message>
+        <message key="cancelCraftMessage">Ты действительно хочешь отменить производство ":name:"?</message>
+        <message key="lowPlayerLevelForUpgrade">Для улучшения требуется :level: уровень.</message>
+        <message key="accelerateCraftInfo">Хочешь ускорить производство?</message>
+        <message key="noEmptyCraftSlots">К сожалению, все слоты заняты.</message>
+        <message key="noEmptyCraftSlotsUpgrade">К сожалению, все слоты заняты. Чтобы получить дополнительный слот для производства, необходимо улучшить здание. Сделать это сейчас?</message>
+        
+        <message key="timeEffect">минут роста</message>
+        <message key="cellsEffect">клеток</message>
+        <message key="energyEffect">энергии</message>
+        
+        <message key="craftButtonTitle">мастерить</message>
+        <message key="upgradeButtonTitle">строить</message>        
+        <message key="cookingButtonTitle">готовить</message>
+        
+        <message key="balloonsAreaSendButtonTitle">отправить</message>
+        <message key="sendCocktailButtonTitle">угостить</message>
+        
+        <message key="accelerateCraftDialogTitile">Ускорение работ</message>
+        <message key="accelerated">ускорить за :value:</message>
+        <message key="accelerateTime">Ускорение :value:</message>
+        <message key="crafrAccelerateFull">Полностью</message>
+        <message key="crafrAccelerateTime">на :value: мин.</message>
+        
+        <message key="marketPetDialogTitile">Зоомагазин</message>
+        <message key="marketPetTabPetssTitle">питомцы</message>
+        <message key="marketPetTabFoodTitle">еда</message>
+        <message key="marketPetTabMedicineTitle">лекарства</message>
+        <message key="marketPetTabToysTitle">игрушки</message>
+        <message key="marketPetTabBatheTitle">гигиена</message>
+        
+        <message key="questTitleDialog">Задание</message>
+        <message key="buyQuestTaskFor">пропустить за :value:</message>
+        <message key="questTaskHintButtonLabael">перейти</message>
+        <message key="questAwardTitle">Награда:</message>
+        <message key="takeButtonTitle">хорошо</message>
+        <message key="baseAwardDialogTitle">Поздравляем!</message>
+        <gender key="baseAwardTitle">
+            <form>Ты получил награду</form>
+            <form>Ты получил награду</form>
+        </gender>
+        <message key="baseAwardPanelTitle">Твоя награда:</message>
+        <gender key="questCompleteInfo">
+            <form>Ты выполнил задание “:name:”</form>
+            <form>Ты выполнила задание “:name:”</form>
+        </gender>
+        <message key="questAwardPanelTitle">Твоя награда:</message>
+        
+        <message key="npcTaskButtonTitle">выполнить</message>
+        
+        <message key="editPetDialogTitle">Редактирование</message>
+        <message key="noPetNameWarning">Ты не ввел имя питомца</message>
+        <message key="tooShortPetNameWarning">Слишком короткое имя питомца</message>
+        <message key="petNameNotChanged">Имя питомца не изменилось</message>
+        <message key="buyPetNameLabel">Имя:</message>
+        <message key="randomNameButtonLabel">Подобрать имя</message>
+        <message key="selectColorLabel">Выберите окрас:</message>
+
+        <message key="petHouseNotFinishedTitile">Покупка питомца</message>
+        <message key="petHouseNotFinished">Домик питомца не построен польностью. Дострой его перед заселением питомца.</message>
+        
+        <message key="requestResourceDialogTitle">Помощь</message>
+        <message key="askButtonTitle">попросить</message>
+        <message key="requestResourceComment">Попросить у друзей, опубликовав на странице</message>
+        <message key="publishRequestResourceConfirm">Попросить помощи у друзей?</message>
+        <message key="askResourceComponentTitle">просит помощи</message>
+        <message key="resourceResponseNotificationPanelTitle">Ресурсы</message>
+        <message key="resourceResponseNotificationButton">ресурсы</message>
+        <gender key="resourceResponseNotificationDescription">
+            <form><![CDATA[<p>:name: прислал тебе <span class="bold">:component:</span></p>]]></form>
+            <form><![CDATA[<p>:name: прислала тебе <span class="bold">:component:</span></p>]]></form>
+        </gender>
+        <message key="resourceFriendRequestDialogTitile">Подарки</message>
+        <message key="resourceFriendRequestTabTitle">Запросы (:count:)</message>
+        <message key="resourceFriendResponseTabTitle">Ответы (:count:)</message>
+        <message key="resourceFriendRequestPanelTitle">Ты можешь отправить :count: :gift: сегодня.</message>
+        <message key="resourceFriendResponsePanelTitle">Друзья прислали тебе:</message>
+        <message key="resourceFriendResponsePanelEmptyTitle">Тебе ничего не подарили</message>
+        <message key="resourceFriendRequestDescription">Мне нужен предмет :item:. Пожалуйста, пришли его мне!</message>
+        <message key="resourceFriendRequestApprove">подарить</message>
+        <message key="resourceFriendRequestDeny">отклонить</message>
+        <message key="resourceFriendResponseOk">ок</message>
+        <message key="resourceFriendResponseDescription">Вот тебе :item:, что ты :action:</message>
+        <message key="resourceFriendRequestDefaultText"><![CDATA[<p><center>Список запросов пуст. <a href="event:1">Приглашай</a> больше друзей и помогай им ресурсами.</center></p>]]></message>
+        <message key="resourceFriendResponseDefaultText"><![CDATA[<p><center>Тебе ничего не подарили сегодня. <a href="event:1">Приглашай</a> друзей и получай от них подарки.</center></p>]]></message>
+        
+        <message key="dailyGiftTitle">Ежедневные подарки</message>
+        <message key="todayGiftTitle">Сегодня</message>
+        <message key="dailyGiftDayTitle">:num: день</message>
+        <message key="dailyGiftComment">Заходи в игру каждый день и получай подарки</message>
+        <message key="dayliGiftGetButtonTitle">забрать</message>
+        
+        <message key="transferItemsDialogTitile">Перевозки</message>
+        <message key="sendToAvatariaButtonTitle">Отправить в Аватарию</message>
+        <message key="transferComponentCounterLabel">кол-во</message>
+        <message key="transferCompleteNotificationTitle">Передача ресурсов</message>
+        <message key="transferCompleteNotificationDescription">:name: успешно передан в Аватарию</message>
+        <message key="transferMoneySuccessTitle">Передача денег</message>
+        <message key="transferMoneySuccessMessage">Операция успешно завершена</message>
+        <message key="transferResourcesPanelTitle">Перевести ресурсы</message>
+        <message key="islandGameTitle">Тропикания</message>
+        <message key="avatariaGameTitle">Аватария</message>
+        <message key="islandTransferPlayerLevel">Нужен :level: уровень</message>
+        <message key="transferRemaindText">В игре останется:</message>
+        <message key="zeroTransferWarning">Ничего не выбрано. Нажмите на стрелки слева от суммы, чтобы установить количество переводимых денег.</message>
+        <message key="transferResourcesConfirmDialogTitile">Потверждение перевода</message>
+        <message key="transferResourcesConfirmTitle">Ты обмениваешь:</message>
+        
+        <message key="itemSuccessfullyBuyedMessage">Предмет успешно куплен</message>
+        
+        <message key="newLevelDialogTitle">Поздравляем!</message>
+        <message key="newLevelAwardInfo">У тебя новый уровень:</message>
+        <message key="newLevelAwardBonuses">Твоя награда:</message>
+        
+        <message key="allTabFilterLabel">все</message>
+        <message key="needLevelForBuy">требуется уровень :value:</message>
+        
+        <message key="exchangeButtonTitle">отправить</message>
+        <message key="exchangeWithAborigenesButtonTitle">обмен с туземцами</message>
+        <message key="findPetButtonTitle">найти</message>
+        <message key="removePetButtonTitle">отпустить</message>
+        <message key="removePet">Удалить питомца</message>
+        <message key="removePetMessage">Вы уверены, что хотите навсегда удалить питомца со своего острова?</message>
+        <message key="removePetNotificationTitle">Отпустить питомца</message>
+        <message key="removePetNotificationMessage">Питомец ":name:" успешно покинул остров</message>
+        
+        <message key="offerHelpButtonTitle">предложить помощь</message>
+        <message key="askHelpButtonTitle">попросить о помощи</message>
+        <message key="acceptButtonTitle">принять</message>
+        <message key="friendHelpNotAllowedMessage">Для данного действия необходимо разрешение хозяина острова.</message>
+        <message key="friendOfflineHelpErrorMessage">Хозяин острова не в сети.</message>
+        <message key="friendHelpNotAllowedErrorMessage">Хозяин острова не разрешил себе помогать.</message>
+        <message key="alreadyAskedHelp">Помощь разрешена</message>
+        
+        <message key="settingsButtonHintLabel">Настройки</message>
+        <message key="officeTasksTitle">Текущий контракт:</message>
+        <message key="officeAwardTitle">Твоя награда:</message>
+        <message key="skipTasksButtonTitle">Сменить контракт за :value:</message>
+        <gender key="officeCompleteInfo">
+            <form>Ты выполнил все контракты конторы</form>
+            <form>Ты выполнила все контракты конторы</form>
+        </gender>
+        
+        <gender key="npcStepCompleteInfo">
+            <form>Ты выполнил задание</form>
+            <form>Ты выполнила задание</form>
+        </gender>
+        
+        <message key="inventoryItemReceived">Получено: ":name:" x:count:</message>
+        <message key="officeTaskDailyTitle">Ежедневный контракт</message>
+        <message key="officeTaskDailyMessage">Ты можешь выполнить только один контракт в день. Приходи завтра и получи свою награду.</message>
+        
+        <!-- BUILDINGS -->
+        
+        <message key="houseBuildingTitle">Хижина</message>
+        <message key="houseBuildingDescription">Отдохнуть или просто подремать, спрятаться от палящего зноя или проливного дождя — твоя хижина воистину многофункциональна!</message>
+        <message key="lakeBuildingTitle">Пруд</message>
+        <message key="lakeBuildingDescription">Для купания не пригоден, а вот для разведения малька — самое то!</message>
+        <message key="kitchenBuildingTitle">Кухня</message>
+        <message key="kitchenBuildingDescription">Кипящие котлы на открытом огне бурлят и пенятся, превращая твой урожай в кулинарные шедевры.</message>
+        <message key="laboratoryBuildingTitle">Лаборатория</message>
+        <message key="laboratoryBuildingDescription">Кто сказал что отходы нужно выбрасывать? Отходы нужно перерабатывать!</message>
+        <message key="officeBuildingTitle">Контора</message>
+        <message key="officeBuildingDescription">Выполняй контракты и получай золотые монеты — здесь, в конторе!</message>
+        <message key="workshopBuildingTitle">Мастерская</message>
+        <message key="workshopBuildingDescription">Зачем что-то покупать, если можно сделать это своими руками?</message>
+        <message key="balloonsAreaBuildingTitle">Воздуходром</message>
+        <message key="balloonsAreaBuildingDescription">Туземцы с соседних островов с радостью обменяются с тобой редкими ресурсами.</message>
+        <message key="ridgeFarmTitle">Грядка</message>
+        <message key="ridgeFarmDescription">Грядка как грядка</message>
+        <message key="cancelProductionTitle">Производство</message>
+        <message key="cancelProductionDescription">Отменить приготовление?</message>
+        <message key="accelerateButtonTitile">ускорить</message>
+        <message key="petHouseBuildingTitle">Домик питомца</message>
+        <message key="petHouseBuildingDescription">У всех должно быть свое жилище, включая твоих питомцев. Мы в ответе за тех, кого приручили.</message>
+
+        <message key="lightningRodTitle">Молниеуловитель</message>
+        <message key="lightningRodDescription">Ты можешь восстанавливать свою энергию раз в 4 часа, используя этот монумент.</message>
+        <message key="lightningRodDescriptionWait">Следующее восстанавливление энергии доступно через :value:</message>
+        <message key="lightningRodDescriptionAlien">Восстанавливает энергию раз в 4 часа.</message>
+        <message key="monumentToPioneerTitle">Памятник первооткрывателю</message>
+        <message key="monumentToPioneerDescription">Памятник себе любимому. Стоит только захотеть, и можно получить что-нибудь полезное.</message>
+        <message key="monumentToPioneerDescriptionWait">Следующий ресурс можно будет забрать через :value:</message>
+        <message key="monumentToPioneerDescriptionAlien">Памятник первооткрывателю. Дает возможность хозяину, получить что-нибудь полезное.</message>
+        <message key="miniPigStatueTitle">Статуя минипига</message>
+        <message key="miniPigStatueDescription">Питомцы требуют внимания и ухода. Чтобы облегчить твою жизнь и была построена данная статуя.</message>
+        <message key="miniPigStatueDescriptionWait">Следующий случайный предмет для твоего питомца будет доступен через :value:</message>
+        <message key="miniPigStatueDescriptionAlien">Дает питомцу хозяина полезную вещицу.</message>
+        
+        <message key="buyCountLimitMessage">Построено максимальное количество</message>
+        <message key="canBuildingMessage">Для начала построй здание ":name:"</message>
+        
+        <message key="inventoryButtonTitle">инвентарь</message>
+        <message key="changeSkinButtonTitle">оформление</message>
+        <message key="selectButtonTitle">выбрать</message>
+        <message key="changeBuildingSkinMessage">Ты можешь изменить внешний вид здания</message>
+        <message key="selected">выбрано</message>
+        
+        <message key="villaWhiteTitle">Белая вилла</message>
+        <message key="hutStoneTitle">Землянка</message>
+        
+       	<!-- RESOURCES -->
+        
+        <message key="gold">Золото</message>
+        <message key="silver">Серебро</message>
+        <message key="energy">Энергия</message>
+        <message key="exp">Опыт</message>
+        <message key="islBuyEnergyMessage"><![CDATA[<p>Ты можешь получить <span class="bold">:energy: энергии прямо сейчас</span>, купив ее за золотые монеты. Бесплатно энергия восстанавливается по 1 единице каждую минуту.</p>]]></message>
+        
+        <!-- FARM OBJECTS -->
+        
+        <message key="islandFarmRidgeWastedMessage">Грядка загрязнена</message>
+        <message key="islandFarmRidgeProductionCompleteMessage">Урожай созрел</message>
+        <message key="islandFarmRidgeProductionTimeLeftMessage">Рост: :timeLeft:</message>
+        
+        <message key="weedCategoryTreesAction">рубить</message>
+        <message key="weedCategoryBushesAction">стричь</message>
+        <message key="weedCategoryGrassAction">косить</message>
+        <message key="weedCategoryStonesAction">колоть</message>
+        
+        <!-- EXPANSION -->
+        
+        <message key="buyExpansionTitle">Исследование</message>
+        <message key="buyExpansionLabel">Хочешь исследовать новую территорию?</message>
+        <message key="buyExpansionButtonLabel">купить за :value:</message>
+        <message key="buyExpansionNotEnoughtLevel">Для того, чтобы исследовать эту территорию, нужно достичь :level: уровня.</message>
+        <message key="expansionTitle">Исследовать</message>
+        <message key="expansionDescription">Исследуя территорию острова, ты будешь находить не только новые залежи ресурсов, но и получать новые задания и принимать участие в увлекательных приключениях!</message>
+        
+        <message key="interactRemainInfo">осталось :remain: из :count:</message>
+        <message key="buyResourcesTitle">Купить ресурсы</message>
+        <message key="buyResourcesConfirmMessage">Ты точно хочешь купить ресурсы?</message>
+        <message key="removeFarmObjectRequest">Ты точно хочешь удалить этот объект с участка?</message>
+        <message key="moveToInventoryFarmObjectRequest">Ты действительно хочешь убрать предмет в инвентарь?</message>
+        <message key="moveEditorObjectWrongPositionMessage">Один из объектов находится в неправильном месте. Пожалуйста, поставь его так, чтобы он не мешал другим объектам.</message>
+        
+        <!-- PET -->
+        
+        <message key="petInfoDialogTitle">Информация</message>
+        <message key="newPet">Новый питомец</message>
+        <message key="newPetCongratulations">Поздравляем! У тебя появился новый питомец!</message>
+        <message key="needPetHouseMessage">Питомец должен где-то жить. Хочешь построить для него домик?</message>
+        
+        <message key="petName0">Лодырь</message>
+        <message key="petName1">Растяпа</message>
+        <message key="petName2">Недотепа</message>
+        <message key="petName3">Пушистик</message>
+        <message key="petName4">Шалун</message>
+        <message key="petName5">Разгильдяй</message>
+        <message key="petName6">Лакомка</message>
+        <message key="petName7">Ловкач</message>
+        <message key="petName8">Лентяй</message>
+        <message key="petName9">Нюня</message>
+        
+        <message key="editPetNameButtonTitle">переименовать</message>
+        
+        <!-- NPC -->
+        <message key="petDalmatianNpcTitle">Ошалелый</message>
+        
+        <!-- PET -->
+        
+        <message key="petUseItemDialogTitle">Предметы</message>
+        <message key="usePetItemDialogDescription">Ты можешь использовать один из следующих предметов:</message>
+        
+        <message key="petPlayButtonTitle">Играть</message>
+        <message key="petFeedButtonTitle">Кормить</message>
+        <message key="petHealButtonTitle">Лечить</message>
+        <message key="petBatheButtonTitle">Купать</message>
+        <message key="petLayButtonTitle">Спать</message>
+        <message key="petLayNapButtonTitle">Вздремнуть</message>
+        <message key="petLaySleepButtonTitle">Поспать</message>
+        <message key="petWakeUpButtonTitle">Разбудить</message>
+        <message key="petInfoButtonTitle">Информация</message>
+        
+        <message key="petLayTextMessage">Поспать :time: минут</message>
+        <message key="petLayNapHintMessage">15-ти минутная дрема восстановит бодрость в :grownMultipler: быстрее</message>
+        <message key="petLaySleepHintMessage">Получасовой сон восстановит бодрость в :grownMultipler: быстрее</message>
+        
+        <message key="petCantPlayMessage">Питомец пока не хочет играть</message>
+        <message key="petCantFeedMessage">Питомец пока что не хочет кушать</message>
+        <message key="petCantHealMessage">Питомец не нуждается в лечении</message>
+        <message key="petCantBatheMessage">Питомец не нуждается в купании</message>
+        <message key="petCantAdventureMessage">В данный момент ты не можешь отправить питомца в приключение</message>
+        <message key="noAvailablePetsForAdventureText">В данный момент нет доступных для приключений питомцев</message>
+        <message key="petCantLayMessage">Питомец пока не хочет спать</message>
+        <message key="petSleepingMessage">Питомец спит</message>
+        <message key="petInAdventureHintLabel">Питомец в приключении еще :time:</message>
+        <message key="petInAdventureLess30HintLabel">менее 30 секунд</message>
+        <message key="notAvailableOnFriendFarm">Недоступно на острове друга</message>
+        
+        <message key="navigateToMarketButtonTitle">В магазин</message>
+        <message key="navigateToKitchenButtonTitle">На кухню</message>
+        <message key="navigateToOfficeButtonTitle">В контору</message>
+        <message key="navigateToWorkshopButtonTitle">В мастерскую</message>
+        <message key="navigateToLabButtonTitle">В лабораторию</message>
+        
+        <message key="buyLabMessage">купить лабораторию</message>
+        <message key="buyOfficeMessage">купить контору</message>
+        <message key="buyWorkshopMessage">купить мастерскую</message>
+        <message key="buyKitchenMessage">купить кухню</message>
+        
+        <message key="stCharacterName">сытость</message>
+        <message key="hpCharacterName">счастье</message>
+        <message key="hlCharacterName">здоровье</message>
+        <message key="hgCharacterName">гигиена</message>
+        <message key="cfCharacterName">бодрость</message>
+        
+        <message key="satietyEffect">сытость</message>
+        <message key="happinessEffect">счастье</message>
+        <message key="healthEffect">здоровье</message>
+        <message key="higieneEffect">гигиена</message>
+        <message key="cheerfullnessEffect">бодрость</message>
+        <message key="durability">количество</message>
+        <message key="buyPetItemDialogTitle">Купить вещь</message>
+        <message key="canUsePetItemThrough">Можно использовать через :time:</message>
+        <message key="notEnougthPetCheerfullnessMessage">Питомец устал и хочет спать, сейчас ему не до этого.</message>
+                
+        <!-- NOTIFICATION -->
+        
+        <message key="noNotificationsMessage">Здесь будут отображаться все события, которые происходят на твоем острове.</message>
+        <message key="notificationsButtonLabel">События</message>
+        <message key="notificationList">Список событий</message>
+        <message key="moreButtonTitle">подробнее</message>
+        <message key="collectButtonTitle">забрать</message>
+        <message key="thankButtonTitle">поблагодарить</message>
+        <message key="collectLabel">Получить</message>
+        <message key="collectedAtLabel">Получено :time:</message>
+        
+        <message key="ntfFriendFarmHelpTitle">Помощь друга</message>
+        <message key="ntfFriendFarmHelpTip">Твой друг :senderName: помог тебе на ферме.</message>
+        <message key="ntfFriendFarmHelpDescription">Твой друг :senderName: помог тебе на ферме. Все собранные ресурсы по праву принадлежат тебе. Ты можешь забрать их.</message>
+
+        <message key="ntfSocialFriendHelpTip">Твой друг :senderName: прислал тебе ресурсы.</message>
+        <message key="ntfSocialFriendHelpDescription">Твой друг :senderName: прислал тебе ресурсы. Ты можешь забрать их.</message>
+        
+        <message key="ntfPetAdventureTitle">Возвращение питомца</message>
+        <message key="ntfPetAdventureTip">Твой питомец :petName: вернулся из приключения.</message>
+        <message key="ntfPetAdventureDescription">Твой питомец :petName: вернулся из приключения не с пустыми лапами. Все принесенные питомцем ресурсы ты можешь забрать себе.</message>
+        
+        <message key="notificationTabAll">Все</message>
+        <message key="notificationTabFriends">Друзья</message>
+        <message key="notificationTabPet">Питомцы</message>
+        
+        <message key="friendHelpRequestTitle">Запрос о помощи</message>
+        <message key="userRequestHelpAskMessage">просит тебя помочь на острове. Принять?</message>
+        <message key="userRequestHelpOfferMessage">предлагает тебе свою помощь на острове. Принять?</message>
+        <message key="friendHelpAcceptTitle">Помощь принята</message>
+        <gender key="userAcceptedHelpAskMessage">
+            <form>:name: согласился тебе помочь.</form>
+            <form>:name: согласилась тебе помочь.</form>
+        </gender>
+        <gender key="userAcceptedHelpOfferMessage">
+            <form>:name: согласился на твою помощь.</form>
+            <form>:name: согласилась на твою помощь.</form>
+        </gender>
+        <message key="friendHelpDeclineTitle">В помощи отказано</message>
+        <gender key="userDeclinedHelpOfferMessage">
+            <form>:name: отказался от твоей помощи.</form>
+            <form>:name: отказалась от твоей помощи.</form>
+        </gender>
+        <gender key="userDeclinedHelpAskMessage">
+            <form>:name: отказал тебе в помощи.</form>
+            <form>:name: отказала тебе в помощи.</form>
+        </gender>
+        <message key="friendHelpRequestSendedMessage">Запрос о помощи отправлен.</message>
+		<message key="askResourceComponentDescription">Друзья, помогите! Мне нужен предмет — :component:! Пришлите, пожалуйста, в долгу не останусь!</message>
+		
+		<message key="notItemFromInventoryForPlace">У тебя закончились предметы для размещения. Хочешь посетить магазин для покупки дополнительных предметов?</message>
+        
+        <!-- ADVENTURES -->
+        
+        <message key="petAdventuresButtonTitle">Приключения</message>
+        <message key="petCompetitionsButtonTitle">Соревнования</message>
+        <message key="petGamesDialogTitle">Игры</message>
+        <message key="petAdventureInfoDialogTitle">Приключение</message>
+        <message key="adventureRequredPetCharactersLabel">Необходимые харастеристики</message>
+        <message key="adventureTimeLabel">Время приключения :time:</message>
+        <message key="seeMoreButtonTitle">подробности</message>
+        <message key="travelButtonTitle">отправить</message>
+        <message key="adventureRewardLabel">Возможная награда</message>
+        <message key="withdrawAdventureButtonTitle">отказаться</message>
+        <message key="petAdventurePriceLabelText">Необходимые ресурсы</message>
+        <message key="petAdventurePriceRewardText">Возможные награды</message>
+        <message key="petNotReadyForAdventureWarningMessage">Твой питомец не готов для данного прилючения.</message>
+        <message key="notEnoughResourcesForAdventureWarningMessage">Недостаточно ресурсов для данного прилючения.</message>
+        <message key="withdrawAdventureConfirmTitle">Покинуть приключение</message>
+        <message key="withdrawAdventureConfirmMessage">Ты точно хочешь отказаться от приключения?</message>
+        <message key="countText">шт.</message>
+        <message key="petAdventureCompleteText">Вернется через</message>
+        
+        
+        <message key="adventure1Label">Прогулка по острову</message>
+        <message key="adventure1Description">Твой питомец гораздо лучше ориентируется в джунглях, чем ты. К тому же, небольшая прогулка пойдет ему на пользу. И если повезет, то питомец найдет что-нибудь полезное для своего хозяина.</message>
+        <message key="adventure2Label">Поиск сокровищ</message>
+        <message key="adventure2Description">Неподалеку от твоей хижины есть несколько пещер и расщелин. Наверняка, там можно найти что-нибудь полезное для жизни на острове. Вот только тебе самому вряд ли получится пробраться внутрь — очень уж узкий лаз в пещеру. А вот твой питомец справился бы.</message>
+        <message key="adventure3Label">Небольшое путешествие</message>
+        <message key="adventure3Description">Освоив близлежащие окрестности, питомец готов отправиться в небольшое путешествие в еще неизведанные области острова. Кто знает, что там может находиться?</message>
+        <message key="adventure4Label">Жуткая пещера</message>
+        <message key="adventure4Description">Прогуливаясь по диким местам на острове, ты обнаружил пещеру. От нее веяло холодом, и не было никакого желания туда заходить. Зато твоему питомцу нипочем — он радостно и бесстрашно удалился в темноту. Что ж, придется ждать его возвращения.</message>
+        <message key="adventure5Label">Дальний поход</message>
+        <message key="adventure5Description">На этот раз ты собираешься отправить питомца вглубь острова, поэтому его надо как следует подготовить в это длительное путешествие.</message>
+
+        <message key="itemsTabTitle">Ресурсы</message>
+        <message key="resourcesTabTitle">Деньги</message>
+        
+        <message key="noOperationInIsland">Доступно только на твоем острове</message>
+        <message key="forPet">питомцу</message>
+        <message key="restoreEnergyGold">Ты можешь мгновенно восстановить энергию за золотые монеты.
+Или просто немного подождать :)</message>
+        <message key="restoreEnergyInventory">Ты можешь восстановить энергию за золотые монеты или съесть чего-нибудь вкусненького из своего инвентаря.</message>
+        <message key="restoreBuyGold">восстановить за :value:</message>
+        <message key="toInventoryButton">в инвентарь</message>
+        <message key="ratingParamLabel">комфорт:</message>
+        <message key="volumeParamLabel">объем:</message>
+        
+        <!-- BETA TESTING -->
+        
+        <message key="betaTestTitle">Идет тестирование</message>
+        <message key="betaTestMessage"><![CDATA[Приложение находится в режиме тестирования. Доступ к приложению доступен только участникам группы <a href="http://vk.com/club:groupId:">Тропикания</a>.]]></message>
+        
+        <!-- FOLLOW -->
+        
+        <message key="followFriendIslandTitle">Поиск приятеля</message>
+        <message key="followFriendIslandMessage">Твой приятель сейчас играет с питомцем на своей ферме. Хочешь заняться тем же?</message>
+        
+        <message key="followFriendCityTitle">Поиск приятеля</message>
+        <message key="followFriendCityMessage">Твой приятель сейчас у себя дома. Хочешь пойти к нему в гости?</message>
+        
+        <message key="publishSayThanksTitle">благодарит тебя</message>
+        <message key="publishSayThanksConfirm">Хочешь поблагодарить друга?</message>
+        <gender key="publishSayThanksDescription">
+            <form>Спасибо, что помог мне! В следующий раз я обязательно помогу тебе!</form>
+            <form>Спасибо, что помогла мне! В следующий раз я обязательно помогу тебе!</form>
+        </gender>
+        
+        <message key="notItemFromInventoryForPlace">Кончились объекты, хочешь приобрести их на рынке?</message>
+        
+        <!-- SPECIAL OFFER -->
+        
+        <message key="specialOffer">Специальное предложение</message>
+        <message key="itemOfDayToEnd">до окончания акции:</message>
+        <message key="specialOfferOldPrice">Цена без скидки:</message>
+        <message key="specialOfferBuyTitle">Покупка завершена</message>
+        <message key="specialOfferBuyMessage">Поздравляем с выгодной покупкой!</message>
+        <message key="or">или</message>
+        
+        <message key="beachLocationTitle">Пляж</message>
+        <message key="beachMenuDialogTitle">Меню</message>
+        <message key="takeGiftTitle">Тебе подарок</message>
+        <gender key="takeGiftDescription">
+            <form>:name: послал тебе подарок.</form>
+            <form>:name: послала тебе подарок.</form>
+        </gender>
+        <message key="makeGiftTitle">Подарок</message>
+        <gender key="makeGiftDescription">
+            <form>:name: получил твой подарок.</form>
+            <form>:name: получила твой подарок.</form>
+        </gender>
+        
+    </locale>
+</dictionary>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+
+    <categories>
+        <category id="1" description="#badWordsBanReason" />
+        <category id="2" description="#floodBanReason" />
+        <category id="3" description="#badBehaviourBanReason" />
+        <category id="4" description="#youAreBanned" />
+        <category id="5" description="#badRulesBanReason" />
+
+        <category id="6" paragraph="3" description="#paragraphNumber #moderationRule3Full" />
+        <category id="7" paragraph="4" description="#paragraphNumber #moderationRule4Full" />
+        <category id="8" paragraph="5" description="#paragraphNumber #moderationRule5Full" />
+        <category id="9" paragraph="6" description="#paragraphNumber #moderationRule6Full" />
+        <category id="10" paragraph="7.1" description="#paragraphNumber #moderationRule7_1Full" />
+        <category id="22" paragraph="7.2" description="#paragraphNumber #moderationRule7_2Full" />
+        <category id="11" paragraph="8" description="#paragraphNumber #moderationRule8Full" />
+        <category id="12" paragraph="9" description="#paragraphNumber #moderationRule9Full" />
+        <category id="13" paragraph="10"  description="#paragraphNumber #moderationRule10Full" />
+        <category id="14" paragraph="11" description="#paragraphNumber #moderationRule11Full" />
+        <category id="15" paragraph="12" description="#paragraphNumber #moderationRule12Full" />
+        <category id="16" paragraph="13" description="#paragraphNumber #moderationRule13Full" />
+        <category id="17" paragraph="14" description="#paragraphNumber #moderationRule14Full" />
+        <category id="18" paragraph="15" description="#paragraphNumber #moderationRule15Full" />
+        <category id="19" paragraph="16" description="#paragraphNumber #moderationRule16Full" />
+        <category id="20" paragraph="17.1" description="#paragraphNumber #moderationRule17_1Full" />
+        <category id="23" paragraph="17.2" description="#paragraphNumber #moderationRule17_2Full" />
+        <category id="21" paragraph="18" description="#paragraphNumber #moderationRule18Full" />
+    </categories>
+
+    <banRules>
+        <banRule id="1" categoryId="6" title="#moderationRule3Title" banDuration="10080" banChat="0" fastBan="0" />
+        <banRule id="2" categoryId="7" title="#moderationRule4Title" banDuration="10080" banChat="0" fastBan="0" />
+        <banRule id="3" categoryId="8" title="#moderationRule5Title" banDuration="10080" banChat="0" fastBan="0" />
+        <banRule id="4" categoryId="9" title="#moderationRule6Title" banDuration="10080" banChat="0" fastBan="0" />
+        <banRule id="5" categoryId="10" title="#moderationRule7_1Title" banDuration="60" banChat="1" fastBan="0" />
+        <banRule id="6" categoryId="22" title="#moderationRule7_2Title" banDuration="4320" banChat="1" fastBan="0" />
+        <banRule id="7" categoryId="11" title="#moderationRule8Title" banDuration="30" banChat="1" fastBan="1" />
+        <banRule id="8" categoryId="12" title="#moderationRule9Title" banDuration="1440" banChat="1" fastBan="1" />
+        <banRule id="9" categoryId="13" title="#moderationRule10Title" banDuration="10" banChat="0" fastBan="0" />
+        <banRule id="10" categoryId="14" title="#moderationRule11Title" banDuration="10" banChat="1" fastBan="1" />
+        <banRule id="11" categoryId="15" title="#moderationRule12Title" banDuration="525600" banChat="0" fastBan="0" />
+        <banRule id="12" categoryId="16" title="#moderationRule13Title" banDuration="43200" banChat="0" fastBan="0" />
+        <banRule id="13" categoryId="17" title="#moderationRule14Title" banDuration="1440" banChat="0" fastBan="0" />
+        <banRule id="14" categoryId="18" title="#moderationRule15Title" banDuration="43200" banChat="0" fastBan="0" />
+        <banRule id="15" categoryId="19" title="#moderationRule16Title" banDuration="1440" banChat="0" fastBan="0" />
+        <banRule id="16" categoryId="20" title="#moderationRule17_1Title" banDuration="4320" banChat="0" fastBan="0" />
+        <banRule id="17" categoryId="23" title="#moderationRule17_2Title" banDuration="10080" banChat="0" fastBan="1" />
+        <banRule id="18" categoryId="21" title="#moderationRule18Title" banDuration="10" banChat="1" fastBan="1" />
+    </banRules>
+
+    <notifications>
+        <notification id="1" categoryId="6" title="#paragraphNumber #moderationRule3Title" description="#paragraphNumber #moderationRule3Notify" />
+        <notification id="2" categoryId="7" title="#paragraphNumber #moderationRule4Title" description="#paragraphNumber #moderationRule4Notify" />
+        <notification id="3" categoryId="8" title="#paragraphNumber #moderationRule5Title" description="#paragraphNumber #moderationRule5Notify" />
+        <notification id="4" categoryId="9" title="#paragraphNumber #moderationRule6Title" description="#paragraphNumber #moderationRule6Notify" />
+        <notification id="5" categoryId="10" title="#paragraphNumber #moderationRule7_1Title" description="#paragraphNumber #moderationRule7_1Notify" />
+        <notification id="6" categoryId="22" title="#paragraphNumber #moderationRule7_2Title" description="#paragraphNumber #moderationRule7_2Notify" />
+        <notification id="7" categoryId="11" title="#paragraphNumber #moderationRule8Title" description="#paragraphNumber #moderationRule8Notify" />
+        <notification id="8" categoryId="12" title="#paragraphNumber #moderationRule9Title" description="#paragraphNumber #moderationRule9Notify" />
+        <notification id="9" categoryId="13" title="#paragraphNumber #moderationRule10Title" description="#paragraphNumber #moderationRule10Notify" />
+        <notification id="10" categoryId="14" title="#paragraphNumber #moderationRule11Title" description="#paragraphNumber #moderationRule11Notify" />
+        <notification id="11" categoryId="15" title="#paragraphNumber #moderationRule12Title" description="#paragraphNumber #moderationRule12Notify" />
+        <notification id="12" categoryId="16" title="#paragraphNumber #moderationRule13Title" description="#paragraphNumber #moderationRule13Notify" />
+        <notification id="13" categoryId="17" title="#paragraphNumber #moderationRule14Title" description="#paragraphNumber #moderationRule14Notify" />
+        <notification id="14" categoryId="18" title="#paragraphNumber #moderationRule15Title" description="#paragraphNumber #moderationRule15Notify" />
+        <notification id="15" categoryId="19" title="#paragraphNumber #moderationRule16Title" description="#paragraphNumber #moderationRule16Notify" />
+        <notification id="16" categoryId="20" title="#paragraphNumber #moderationRule17_1Title" description="#paragraphNumber #moderationRule17_1Notify" />
+        <notification id="17" categoryId="23" title="#paragraphNumber #moderationRule17_2Title" description="#paragraphNumber #moderationRule17_2Notify" />
+        <notification id="18" categoryId="21" title="#paragraphNumber #moderationRule18Title" description="#paragraphNumber #moderationRule18Notify" />
+        <notification id="19" categoryId="21" title="#moderationRule18_1Title" description="#moderationRule18_1Notify" />
+    </notifications>
+
+</config>

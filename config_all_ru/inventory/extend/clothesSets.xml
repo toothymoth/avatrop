@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<clothesSets>
+    <!-- BOY -->
+    
+    <!-- DEFAULT 
+    <clothesSet id="dfltBSt1" iconName="BoyDefaultContumeIcon@islandAvatarIcons" label="#boyDefaultContume1Label" gender="boy" priority="1">
+        <item itemId="bShrt1"/>
+        <item itemId="bPnts1"/>
+        <item itemId="bShs1"/>
+    </clothesSet>
+    -->
+    
+    <!-- ABORIGINE -->
+    <clothesSet id="abgnBSt2" iconName="BoyCostumeTropikaniaAborigineIcon@islandAvatarIcons" label="#boyAborigeneContume2Label" gender="boy" priority="2">
+        <item itemId="bPnts2"/>
+        <item itemId="bShs2"/>
+        <item itemId="bTto1"/>
+        <item itemId="bTto2"/>
+        <item itemId="bHat1"/>
+        <item itemId="bPdnt1"/>
+    </clothesSet>
+    
+    <!-- AFRICA -->
+    <clothesSet id="afrcBSt3" iconName="BoyCostumeTropikaniaAfricaIcon@islandAvatarIcons" label="#boyAfricaContume3Label" gender="boy" priority="3">
+        <item itemId="bShrt2"/>
+        <item itemId="bPnts3"/>
+        <item itemId="bShs3"/>
+        <item itemId="bBrslt1"/>
+        <item itemId="bPdnt2"/>
+    </clothesSet>
+    
+    <!-- HAWAII -->
+    <clothesSet id="hwiiBSt4" iconName="BoyCostumeTropikaniaHawaiiIcon@islandAvatarIcons" label="#boyHawaiiContume3Label" gender="boy" priority="4">
+        <item itemId="bShrt3"/>
+        <item itemId="bPnts4"/>
+        <item itemId="bShs4"/>
+        <item itemId="bHat2"/>
+        <item itemId="bPdnt3"/>
+    </clothesSet>
+    
+    <!-- PARROT -->
+    <clothesSet id="prrtBSt5" iconName="BoyCostumeTropikaniaParrotIcon@islandAvatarIcons" label="#boyParrotContume3Label" gender="boy" priority="5">
+        <item itemId="bShrt4"/>
+        <item itemId="bPnts5"/>
+        <item itemId="bShs5"/>
+        <item itemId="bGlss1"/>
+        <item itemId="bPdnt4"/>
+    </clothesSet>
+    
+    <!-- LEOPARD -->
+    <clothesSet id="prrtBSt6" iconName="BoyCostumeTropikaniaLeopardIcon@islandAvatarIcons" label="#boyLeopardContume3Label" gender="boy" priority="6">
+        <item itemId="bShrt5"/>
+        <item itemId="bPnts6"/>
+        <item itemId="bShs6"/>
+        <item itemId="bHat3"/>
+        <item itemId="bBrslt2"/>
+        <item itemId="bPdnt5"/>
+    </clothesSet>
+    
+    <!-- BARBARIAN -->
+    
+    <clothesSet id="prrtBSt7" iconName="BoyCostumeTropikaniaBarbarianIcon@islandAvatarIcons" label="#boyBarbarianContume3Label" gender="boy" priority="7">
+        <item itemId="bShrt6"/>
+        <item itemId="bPnts7"/>
+        <item itemId="bShs7"/>
+        <item itemId="bGlvs1"/>
+        <item itemId="bHat4"/>
+        <item itemId="bPdnt6"/>
+    </clothesSet>
+    
+    <!-- EGYPT -->
+    
+    <clothesSet id="prrtBSt8" iconName="BoyCostumeTropikaniaEgyptIcon@islandAvatarIcons" label="#boyEgyptContume3Label" gender="boy" priority="8">
+        <item itemId="bShrt7"/>
+        <item itemId="bPnts8"/>
+        <item itemId="bShs8"/>
+        <item itemId="bGlss2"/>
+        <item itemId="bGlvs2"/>
+    </clothesSet>
+    
+    
+	<!-- GIRL -->
+	
+	<!-- DEFAULT 
+	<clothesSet id="dfltGSt1" iconName="GirlDefaultContumeIcon@islandAvatarIcons" label="#girlDefaultContume3Label" gender="girl" priority="1">
+		<item itemId="gShrt1"/>
+		<item itemId="gPnts1"/>
+		<item itemId="gShs1"/>
+		<item itemId="gBrlt1"/>
+		<item itemId="gNckls1"/>
+	</clothesSet>
+	-->
+	
+	<!-- AFRICA -->
+	<clothesSet id="afrcGSt2" iconName="GirlCostumeTropikaniaAfricaIcon@islandAvatarIcons" label="#girlAfricaContume3Label" gender="girl" priority="2">
+		<item itemId="gDrss1"/>
+		<item itemId="gShs2"/>
+		<item itemId="gBrlt2"/>
+		<item itemId="gNckls2"/>
+		<item itemId="gHat1"/>
+		<item itemId="gErrgs1"/>
+	</clothesSet>
+	
+	<!-- BEACH -->
+	<clothesSet id="bchGSt3" iconName="GirlCostumeTropikaniaBeachIcon@islandAvatarIcons" label="#girlBeachContume3Label" gender="girl" priority="3">
+		<item itemId="gShrt2"/>
+		<item itemId="gJckt1"/>
+		<item itemId="gShs3"/>
+		<item itemId="gBrlt3"/>
+		<item itemId="gErrgs2"/>
+		<item itemId="gHrp1"/>
+		<item itemId="gGss1"/>
+	</clothesSet>
+	
+	<!-- BUTTERFLY -->
+	<clothesSet id="bflGSt4" iconName="GirlCostumeTropikaniaButterflyIcon@islandAvatarIcons" label="#girlButterflyContume3Label" gender="girl" priority="4">
+		<item itemId="gPhs1"/>
+		<item itemId="gShs4"/>
+		<item itemId="gDrss2"/>
+		<item itemId="gNckls3"/>
+		<item itemId="gErrgs3"/>
+		<item itemId="gHrp2"/>
+		<item itemId="gGss2"/>
+	</clothesSet>
+	
+	<!-- HAWAII -->
+	<clothesSet id="hwiGSt5" iconName="GirlCostumeTropikaniaHawaiiIcon@islandAvatarIcons" label="#girlHawaiiContume3Label" gender="girl" priority="5">
+		<item itemId="gShrt3"/>
+		<item itemId="gSkrt1"/>
+		<item itemId="gShs5"/>
+		<item itemId="gBrlt4"/>
+		<item itemId="gNckls4"/>
+		<item itemId="gErrgs4"/>
+		<item itemId="gHrp3"/>
+	</clothesSet>
+
+	<!-- PEACOCK -->
+	<clothesSet id="hwiGSt6" iconName="GirlCostumeTropikaniaPeacockIcon@islandAvatarIcons" label="#girlPeacockContume3Label" gender="girl" priority="6">
+		<item itemId="gDrss3"/>
+		<item itemId="gErrgs5"/>
+		<item itemId="gNckls5"/>
+		<item itemId="gShs6"/>
+		<item itemId="gHat2"/>
+	</clothesSet>
+	
+	<!-- AMAZON -->
+	<clothesSet id="hwiGSt7" iconName="GirlCostumeTropikaniaAmazonIcon@islandAvatarIcons" label="#girlAmazonContume3Label" gender="girl" priority="7">
+	    <item itemId="gShs7"/>
+        <item itemId="gBrlt5"/>
+        <item itemId="gErrgs6"/>
+        <item itemId="gHat3"/>
+        <item itemId="gGlvs1"/>
+        <item itemId="gSkrt2"/>
+        <item itemId="gShrt4"/>
+	</clothesSet>
+	
+	<!-- EGYPT -->
+	
+    <clothesSet id="hwiGSt8" iconName="GirlCostumeTropikaniaEgyptIcon@islandAvatarIcons" label="#girlEgyptContume3Label" gender="girl" priority="8">
+        <item itemId="gBrlt6"/>
+        <item itemId="gDrss4"/>
+        <item itemId="gErrgs7"/>
+        <item itemId="gNckls6"/>
+        <item itemId="gShs8"/>
+        <item itemId="gHat4"/>
+    </clothesSet>	
+	
+	
+</clothesSets>

@@ -1,0 +1,1291 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+
+<config>
+    
+    <boy>
+	    <skinSet index="1">
+	        <color name="0" value="0xF2CFD4" />
+	        <color name="1" value="0xE8D5CA" />
+	        <color name="2" value="0xE2C8BA" />
+	        <color name="3" value="0xDBB8A6" />
+	        <color name="4" value="0xCFA18E" />
+	        <color name="5" value="0xC79074" />
+	    </skinSet>
+	    
+	    <skinSet index="2">
+	        <color name="0" value="0xF2CFD4" />
+	        <color name="1" value="0xE0C4B5" />
+	        <color name="2" value="0xD7B39F" />
+	        <color name="3" value="0xD0A48E" />
+	        <color name="4" value="0xC28367" />
+	        <color name="5" value="0xC28367" />
+	    </skinSet>
+	    
+	    <skinSet index="3">
+	        <color name="0" value="0xE4B69B" />
+	        <color name="1" value="0xD5AD90" />
+	        <color name="2" value="0xCFA38D" />
+	        <color name="3" value="0xC79277" />
+	        <color name="4" value="0xBA7454" />
+	        <color name="5" value="0xB25F32" />
+	    </skinSet>
+	    
+	    <skinSet index="4">
+	        <color name="0" value="0xE4B69B" />
+	        <color name="1" value="0xD0A17E" />
+	        <color name="2" value="0xC99875" />
+	        <color name="3" value="0xC48C65" />
+	        <color name="4" value="0xB8713E" />
+	        <color name="5" value="0xB46F34" />
+	    </skinSet>
+	    
+	    <skinSet index="5">
+	        <color name="0" value="0xBB7554" />
+	        <color name="1" value="0xB6805F" />
+	        <color name="2" value="0xB17552" />
+	        <color name="3" value="0xA7623C" />
+	        <color name="4" value="0x9D5025" />
+	        <color name="5" value="0x933A11" />
+	    </skinSet>
+	    
+	    <!-- HAIR -->
+	    
+	    <hairSet index="1" order="1">
+	        <color name="6" value="0xF1E6D1" />
+		    <color name="7" value="0xE0C386" />
+		    <color name="8" value="0xD6AD5B" />
+		    <color name="9" value="0xD09E40" />
+	    </hairSet>
+	    
+	    <hairSet index="2" order="2" salonOnly="1">
+	        <color name="6" value="0xCF9C45" />
+		    <color name="7" value="0xC3821F" />
+		    <color name="8" value="0xB16618" />
+		    <color name="9" value="0x945213" />
+		</hairSet>
+	    
+		<hairSet index="3" order="3">
+		    <color name="6" value="0xEAA930" />
+		    <color name="7" value="0xE48830" />
+		    <color name="8" value="0xD0781C" />
+		    <color name="9" value="0xC56317" />
+		</hairSet>
+	    
+		<hairSet index="4" order="4" salonOnly="1">
+		    <color name="6" value="0xE06B19" />
+		    <color name="7" value="0xD24711" />
+		    <color name="8" value="0xB82E08" />
+		    <color name="9" value="0x9A2605" />
+		</hairSet>
+		
+		<hairSet index="5" order="5">
+		    <color name="6" value="0xB66B3B" />
+		    <color name="7" value="0x96471C" />
+		    <color name="8" value="0x832E08" />
+		    <color name="9" value="0x612104" />
+		</hairSet>
+	    
+		<hairSet index="6" order="6">
+		    <color name="6" value="0xA07F75" />
+		    <color name="7" value="0x825547" />
+		    <color name="8" value="0x643221" />
+		    <color name="9" value="0x4D1401" />
+		</hairSet>
+	    
+		<hairSet index="7" order="9">
+		    <color name="6" value="0x969696" />
+		    <color name="7" value="0x5F5F5F" />
+		    <color name="8" value="0x282828" />
+		    <color name="9" value="0x000000" />
+		</hairSet>
+	    
+		<hairSet index="8" order="10" salonOnly="1">
+		    <color name="6" value="0xE3851F" />
+		    <color name="7" value="0xDF6618" />
+		    <color name="8" value="0xDD4D12" />
+		    <color name="9" value="0xBD400F" />
+		</hairSet>
+	    
+		<hairSet index="9" order="11" salonOnly="1">
+		    <color name="6" value="0xD894B5" />
+		    <color name="7" value="0xC45C8E" />
+		    <color name="8" value="0xB42E70" />
+		    <color name="9" value="0xA40051" />
+		</hairSet>
+	    
+		<hairSet index="10" order="12" salonOnly="1">
+		    <color name="6" value="0xE5928F" />
+		    <color name="7" value="0xD5635E" />
+		    <color name="8" value="0xC54452" />
+		    <color name="9" value="0xB61426" />
+		</hairSet>
+	    
+		<hairSet index="11" order="14" salonOnly="1">
+		    <color name="6" value="0xC59BE4" />
+		    <color name="7" value="0x9E66BC" />
+		    <color name="8" value="0x8C51AC" />
+		    <color name="9" value="0x75338D" />
+		</hairSet>
+	    
+		<hairSet index="12" order="18" salonOnly="1">
+		    <color name="6" value="0x70C5E4" />
+		    <color name="7" value="0x5EA4CF" />
+		    <color name="8" value="0x4C85BB" />
+		    <color name="9" value="0x3C6BB1" />
+		</hairSet>
+		
+		<hairSet index="13" order="21" salonOnly="1">
+		    <color name="6" value="0x63AE4F" />
+		    <color name="7" value="0x508A4F" />
+		    <color name="8" value="0x3B6629" />
+		    <color name="9" value="0x213B0D" />
+		</hairSet>
+		
+		<hairSet index="14" order="23" salonOnly="1">
+		    <color name="6" value="0x66747F" />
+		    <color name="7" value="0x40515F" />
+		    <color name="8" value="0x1D3141" />
+		    <color name="9" value="0x0C1729" />
+		</hairSet>
+		
+		<!-- NEW HAIR COLORS -->
+        
+        <hairSet index="15" order="7" salonOnly="1">
+            <color name="6" value="0xd6b7ad" />
+            <color name="7" value="0xbb9485" />
+            <color name="8" value="0xaa7870" />
+            <color name="9" value="0x91645c" />
+        </hairSet>
+        
+        <hairSet index="16" order="8" salonOnly="1">
+            <color name="6" value="0xc9ba8f" />
+            <color name="7" value="0xb09d7f" />
+            <color name="8" value="0x968a6b" />
+            <color name="9" value="0x7d7052" />
+        </hairSet>
+        
+        <hairSet index="17" order="13" salonOnly="1">
+            <color name="6" value="0xf2579c" />
+            <color name="7" value="0xd66196" />
+            <color name="8" value="0xc25780" />
+            <color name="9" value="0xb42e4d" />
+        </hairSet>
+        
+        <hairSet index="18" order="15" salonOnly="1">
+            <color name="6" value="0xb5529e" />
+            <color name="7" value="0x88297d" />
+            <color name="8" value="0x751766" />
+            <color name="9" value="0x580d43" />
+        </hairSet>
+        
+        <hairSet index="19" order="16" salonOnly="1">
+            <color name="6" value="0x1a87d4" />
+            <color name="7" value="0x1a6bc2" />
+            <color name="8" value="0x1a47b0" />
+            <color name="9" value="0x1a3b91" />
+        </hairSet>
+
+        <hairSet index="21" order="17" salonOnly="1">
+            <color name="6" value="0x3b99cd" />
+            <color name="7" value="0x2375b3" />
+            <color name="8" value="0x14639c" />
+            <color name="9" value="0x124e8b" />
+        </hairSet>
+
+        <hairSet index="20" order="19" salonOnly="1">
+            <color name="6" value="0x00c9d9" />
+            <color name="7" value="0x00adb5" />
+            <color name="8" value="0x009e9e" />
+            <color name="9" value="0x007d85" />
+        </hairSet>
+        
+        <hairSet index="22" order="20" salonOnly="1">
+            <color name="6" value="0x43bfa3" />
+            <color name="7" value="0x43ab91" />
+            <color name="8" value="0x43997e" />
+            <color name="9" value="0x247d5e" />
+        </hairSet>
+        
+        <hairSet index="23" order="22" salonOnly="1">
+            <color name="6" value="0xdbe026" />
+            <color name="7" value="0xbfbf26" />
+            <color name="8" value="0x9ca826" />
+            <color name="9" value="0x8b8f1b" />
+        </hairSet>
+		
+	    <!-- BEARD -->
+	    
+	    <beardSet index="1" order="1">
+            <color name="12" value="0xF1E6D1" />
+            <color name="13" value="0xE0C386" />
+            <color name="14" value="0xD6AD5B" />
+            <color name="15" value="0xD09E40" />
+        </beardSet>
+        
+        <beardSet index="2" order="2" salonOnly="1">
+            <color name="12" value="0xCF9C45" />
+            <color name="13" value="0xC3821F" />
+            <color name="14" value="0xB16618" />
+            <color name="15" value="0x945213" />
+        </beardSet>
+        
+        <beardSet index="3" order="3">
+            <color name="12" value="0xEAA930" />
+            <color name="13" value="0xE48830" />
+            <color name="14" value="0xD0781C" />
+            <color name="15" value="0xC56317" />
+        </beardSet>
+        
+        <beardSet index="4" order="4" salonOnly="1">
+            <color name="12" value="0xE06B19" />
+            <color name="13" value="0xD24711" />
+            <color name="14" value="0xB82E08" />
+            <color name="15" value="0x9A2605" />
+        </beardSet>
+        
+        <beardSet index="5" order="5">
+            <color name="12" value="0xB66B3B" />
+            <color name="13" value="0x96471C" />
+            <color name="14" value="0x832E08" />
+            <color name="15" value="0x612104" />
+        </beardSet>
+        
+        <beardSet index="6" order="6">
+            <color name="12" value="0xA07F75" />
+            <color name="13" value="0x825547" />
+            <color name="14" value="0x643221" />
+            <color name="15" value="0x4D1401" />
+        </beardSet>
+        
+        <beardSet index="7" order="9">
+            <color name="12" value="0x969696" />
+            <color name="13" value="0x5F5F5F" />
+            <color name="14" value="0x282828" />
+            <color name="15" value="0x000000" />
+        </beardSet>
+        
+        <beardSet index="8" order="10" salonOnly="1">
+            <color name="12" value="0xE3851F" />
+            <color name="13" value="0xDF6618" />
+            <color name="14" value="0xDD4D12" />
+            <color name="15" value="0xBD400F" />
+        </beardSet>
+        
+        <beardSet index="9" order="11" salonOnly="1">
+            <color name="12" value="0xD894B5" />
+            <color name="13" value="0xC45C8E" />
+            <color name="14" value="0xB42E70" />
+            <color name="15" value="0xA40051" />
+        </beardSet>
+        
+        <beardSet index="10" order="12" salonOnly="1">
+            <color name="12" value="0xE5928F" />
+            <color name="13" value="0xD5635E" />
+            <color name="14" value="0xC54452" />
+            <color name="15" value="0xB61426" />
+        </beardSet>
+        
+        <beardSet index="11" order="14" salonOnly="1">
+            <color name="12" value="0xC59BE4" />
+            <color name="13" value="0x9E66BC" />
+            <color name="14" value="0x8C51AC" />
+            <color name="15" value="0x75338D" />
+        </beardSet>
+        
+        <beardSet index="12" order="18" salonOnly="1">
+            <color name="12" value="0x70C5E4" />
+            <color name="13" value="0x5EA4CF" />
+            <color name="14" value="0x4C85BB" />
+            <color name="15" value="0x3C6BB1" />
+        </beardSet>
+        
+        <beardSet index="13" order="21" salonOnly="1">
+            <color name="12" value="0x63AE4F" />
+            <color name="13" value="0x508A4F" />
+            <color name="14" value="0x3B6629" />
+            <color name="15" value="0x213B0D" />
+        </beardSet>
+        
+        <beardSet index="14" order="23" salonOnly="1">
+            <color name="12" value="0x66747F" />
+            <color name="13" value="0x40515F" />
+            <color name="14" value="0x1D3141" />
+            <color name="15" value="0x0C1729" />
+        </beardSet>
+	    
+	    <!-- NEW BEARD COLORS -->
+        
+        <beardSet index="15" order="7" salonOnly="1">
+            <color name="12" value="0xd6b7ad" />
+            <color name="13" value="0xbb9485" />
+            <color name="14" value="0xaa7870" />
+            <color name="15" value="0x91645c" />
+        </beardSet>
+        
+        <beardSet index="16" order="8" salonOnly="1">
+            <color name="12" value="0xc9ba8f" />
+            <color name="13" value="0xb09d7f" />
+            <color name="14" value="0x968a6b" />
+            <color name="15" value="0x7d7052" />
+        </beardSet>
+        
+        <beardSet index="17" order="13" salonOnly="1">
+            <color name="12" value="0xf2579c" />
+            <color name="13" value="0xd66196" />
+            <color name="14" value="0xc25780" />
+            <color name="15" value="0xb42e4d" />
+        </beardSet>
+        
+        <beardSet index="18" order="15" salonOnly="1">
+            <color name="12" value="0xb5529e" />
+            <color name="13" value="0x88297d" />
+            <color name="14" value="0x751766" />
+            <color name="15" value="0x580d43" />
+        </beardSet>
+        
+        <beardSet index="19" order="16" salonOnly="1">
+            <color name="12" value="0x1a87d4" />
+            <color name="13" value="0x1a6bc2" />
+            <color name="14" value="0x1a47b0" />
+            <color name="15" value="0x1a3b91" />
+        </beardSet>
+
+        <beardSet index="21" order="17" salonOnly="1">
+            <color name="12" value="0x3b99cd" />
+            <color name="13" value="0x2375b3" />
+            <color name="14" value="0x14639c" />
+            <color name="15" value="0x124e8b" />
+        </beardSet>
+
+        <beardSet index="20" order="19" salonOnly="1">
+            <color name="12" value="0x00c9d9" />
+            <color name="13" value="0x00adb5" />
+            <color name="14" value="0x009e9e" />
+            <color name="15" value="0x007d85" />
+        </beardSet>
+        
+        <beardSet index="22" order="20" salonOnly="1">
+            <color name="12" value="0x43bfa3" />
+            <color name="13" value="0x43ab91" />
+            <color name="14" value="0x43997e" />
+            <color name="15" value="0x247d5e" />
+        </beardSet>
+        
+        <beardSet index="23" order="22" salonOnly="1">
+            <color name="12" value="0xdbe026" />
+            <color name="13" value="0xbfbf26" />
+            <color name="14" value="0x9ca826" />
+            <color name="15" value="0x8b8f1b" />
+        </beardSet>
+	    
+	    <!-- BROWS -->
+	    
+        <browsSet index="1" order="1">
+            <color name="16" value="0x000000" />
+        </browsSet>
+        <browsSet index="2" order="2" defaultOnly="1">
+            <color name="16" value="0x5E0A06"/>
+        </browsSet>
+        <browsSet index="3" order="3" defaultOnly="1">
+            <color name="16" value="0x742A06"/>
+        </browsSet>
+        <browsSet index="4" order="4" defaultOnly="1">
+            <color name="16" value="0x994506"/>
+        </browsSet>
+        <browsSet index="5" order="5" defaultOnly="1">
+            <color name="16" value="0xA66106"/>
+        </browsSet>
+       <browsSet index="6" order="2" salonOnly="1">
+           <color name="16" value="0xc48b6f" />
+       </browsSet>
+       <browsSet index="7" order="3" salonOnly="1">
+           <color name="16" value="0x945213" />
+       </browsSet>
+       <browsSet index="8" order="4" salonOnly="1">
+           <color name="16" value="0xb46844" />
+       </browsSet>
+       <browsSet index="9" order="5" salonOnly="1">
+           <color name="16" value="0x8e3e14" />
+       </browsSet>
+       <browsSet index="10" order="6" salonOnly="1">
+           <color name="16" value="0x612104" />
+       </browsSet>
+       <browsSet index="11" order="7" salonOnly="1">
+           <color name="16" value="0x4d1401" />
+       </browsSet>
+       <browsSet index="12" order="8" salonOnly="1">
+           <color name="16" value="0x91645c" />
+       </browsSet>
+       <browsSet index="13" order="9" salonOnly="1">
+           <color name="16" value="0x7d7052" />
+       </browsSet>
+       <browsSet index="14" order="10" salonOnly="1">
+           <color name="16" value="0xdf6618" />
+       </browsSet>
+       <browsSet index="15" order="11" salonOnly="1">
+           <color name="16" value="0xd5635e" />
+       </browsSet>
+       <browsSet index="16" order="12" salonOnly="1">
+           <color name="16" value="0xc45c8e" />
+       </browsSet>
+       <browsSet index="17" order="13" salonOnly="1">
+           <color name="16" value="0xb42e4d" />
+       </browsSet>
+       <browsSet index="18" order="14" salonOnly="1">
+           <color name="16" value="0x9e66bc" />
+       </browsSet>
+       <browsSet index="19" order="15" salonOnly="1">
+           <color name="16" value="0xb5529e" />
+       </browsSet>
+       <browsSet index="20" order="16" salonOnly="1">
+           <color name="16" value="0x1a6bc2" />
+       </browsSet>
+       <browsSet index="21" order="17" salonOnly="1">
+           <color name="16" value="0x00a6e8" />
+       </browsSet>
+       <browsSet index="22" order="18" salonOnly="1">
+           <color name="16" value="0x12a6ff" />
+       </browsSet>
+       <browsSet index="23" order="19" salonOnly="1">
+           <color name="16" value="0x00c2de" />
+       </browsSet>
+       <browsSet index="24" order="20" salonOnly="1">
+           <color name="16" value="0x03bda1" />
+       </browsSet>
+       <browsSet index="25" order="21" salonOnly="1">
+           <color name="16" value="0x47b84f" />
+       </browsSet>
+       <browsSet index="26" order="22" salonOnly="1">
+           <color name="16" value="0xbfbf26" />
+       </browsSet>
+       <browsSet index="27" order="23" salonOnly="1">
+           <color name="16" value="0x66747f" />
+       </browsSet>
+	    
+	    <!-- MOUTH -->
+	    
+        <mouthSet index="1" order="1" >
+            <color name="11" value="0xc48b6f" />
+        </mouthSet>
+        <mouthSet index="2" order="2" >
+            <color name="11" value="0xb46844" />
+        </mouthSet>
+        <mouthSet index="3" order="3">
+            <color name="11" value="0x8e3e14" />
+        </mouthSet>
+        
+        <!-- NEW MOUTH COLORS -->
+        
+       <mouthSet index="4" order="4" salonOnly="1">
+           <color name="11" value="0x945213" />
+       </mouthSet>
+       <mouthSet index="5" order="5" salonOnly="1">
+           <color name="11" value="0x612104" />
+       </mouthSet>
+       <mouthSet index="6" order="6" salonOnly="1">
+           <color name="11" value="0x4d1401" />
+       </mouthSet>
+       <mouthSet index="7" order="7" salonOnly="1">
+           <color name="11" value="0x91645c" />
+       </mouthSet>
+       <mouthSet index="8" order="8" salonOnly="1">
+           <color name="11" value="0x7d7052" />
+       </mouthSet>
+       <mouthSet index="9" order="9" salonOnly="1">
+           <color name="11" value="0xdf6618" />
+       </mouthSet>
+       <mouthSet index="10" order="11" salonOnly="1">
+           <color name="11" value="0xd5635e" />
+       </mouthSet>
+       <mouthSet index="11" order="12" salonOnly="1">
+           <color name="11" value="0xc45c8e" />
+       </mouthSet>
+       <mouthSet index="12" order="13" salonOnly="1">
+           <color name="11" value="0xb42e4d" />
+       </mouthSet>
+       <mouthSet index="13" order="14" salonOnly="1">
+           <color name="11" value="0x9e66bc" />
+       </mouthSet>
+       <mouthSet index="14" order="15" salonOnly="1">
+           <color name="11" value="0xb5529e" />
+       </mouthSet>
+       <mouthSet index="15" order="16" salonOnly="1">
+           <color name="11" value="0x1a6bc2" />
+       </mouthSet>
+       <mouthSet index="16" order="17" salonOnly="1">
+           <color name="11" value="0x00a6e8" />
+       </mouthSet>
+       <mouthSet index="17" order="18" salonOnly="1">
+           <color name="11" value="0x12a6ff" />
+       </mouthSet>
+       <mouthSet index="18" order="19" salonOnly="1">
+           <color name="11" value="0x00c2de" />
+       </mouthSet>
+       <mouthSet index="19" order="20" salonOnly="1">
+           <color name="11" value="0x03bda1" />
+       </mouthSet>
+       <mouthSet index="20" order="21" salonOnly="1">
+           <color name="11" value="0x47b84f" />
+       </mouthSet>
+       <mouthSet index="21" order="22" salonOnly="1">
+           <color name="11" value="0xbfbf26" />
+       </mouthSet>
+       <mouthSet index="22" order="23" salonOnly="1">
+           <color name="11" value="0x66747f" />
+       </mouthSet>
+	   <mouthSet index="23" order="1" salonOnly="1">
+           <color name="11" value="0x000000" />
+       </mouthSet>
+	    <!-- EYES -->
+	    
+	    <eyesSet index="1" order="2" defaultOnly="1" >
+           <color name="10" value="0x589BD4" />
+       </eyesSet>
+       <eyesSet index="2" order="3" defaultOnly="1" >
+           <color name="10" value="0x67737F" />
+       </eyesSet>
+       <eyesSet index="3" order="4" defaultOnly="1" >
+           <color name="10" value="0x80BE2D" />
+       </eyesSet>
+       <eyesSet index="4" order="5" defaultOnly="1" >
+           <color name="10" value="0x823606" />
+       </eyesSet>
+       <eyesSet index="5" order="1" >
+           <color name="10" value="0x000000" />
+       </eyesSet>
+        
+        <!-- NEW EYES COLORS -->
+        
+       <eyesSet index="6" order="2" salonOnly="1">
+           <color name="10" value="0xc48b6f" />
+       </eyesSet>
+       <eyesSet index="7" order="3" salonOnly="1">
+           <color name="10" value="0x945213" />
+       </eyesSet>
+       <eyesSet index="8" order="4" salonOnly="1">
+           <color name="10" value="0xb46844" />
+       </eyesSet>
+       <eyesSet index="9" order="5" salonOnly="1">
+           <color name="10" value="0x8e3e14" />
+       </eyesSet>
+       <eyesSet index="10" order="6" salonOnly="1">
+           <color name="10" value="0x612104" />
+       </eyesSet>
+       <eyesSet index="11" order="7" salonOnly="1">
+           <color name="10" value="0x4d1401" />
+       </eyesSet>
+       <eyesSet index="12" order="8" salonOnly="1">
+           <color name="10" value="0x91645c" />
+       </eyesSet>
+       <eyesSet index="13" order="9" salonOnly="1">
+           <color name="10" value="0x7d7052" />
+       </eyesSet>
+       <eyesSet index="14" order="10" salonOnly="1">
+           <color name="10" value="0xdf6618" />
+       </eyesSet>
+       <eyesSet index="15" order="11" salonOnly="1">
+           <color name="10" value="0xd5635e" />
+       </eyesSet>
+       <eyesSet index="16" order="12" salonOnly="1">
+           <color name="10" value="0xc45c8e" />
+       </eyesSet>
+       <eyesSet index="17" order="13" salonOnly="1">
+           <color name="10" value="0xb42e4d" />
+       </eyesSet>
+       <eyesSet index="18" order="14" salonOnly="1">
+           <color name="10" value="0x9e66bc" />
+       </eyesSet>
+       <eyesSet index="19" order="15" salonOnly="1">
+           <color name="10" value="0xb5529e" />
+       </eyesSet>
+       <eyesSet index="20" order="16" salonOnly="1">
+           <color name="10" value="0x1a6bc2" />
+       </eyesSet>
+       <eyesSet index="21" order="17" salonOnly="1">
+           <color name="10" value="0x00a6e8" />
+       </eyesSet>
+       <eyesSet index="22" order="18" salonOnly="1">
+           <color name="10" value="0x12a6ff" />
+       </eyesSet>
+       <eyesSet index="23" order="19" salonOnly="1">
+           <color name="10" value="0x00c2de" />
+       </eyesSet>
+       <eyesSet index="24" order="20" salonOnly="1">
+           <color name="10" value="0x03bda1" />
+       </eyesSet>
+       <eyesSet index="25" order="21" salonOnly="1">
+           <color name="10" value="0x47b84f" />
+       </eyesSet>
+       <eyesSet index="26" order="22" salonOnly="1">
+           <color name="10" value="0xbfbf26" />
+       </eyesSet>
+       <eyesSet index="27" order="23" salonOnly="1">
+           <color name="10" value="0x66747f" />
+       </eyesSet>
+
+        <!-- SHADOW -->
+
+        <shadowSet index="1" order="1" salonOnly="1">
+            <color name="18" value="0x000000"/>
+        </shadowSet>
+        <shadowSet index="2" order="2" salonOnly="1">
+            <color name="18" value="0xe0c386"/>
+        </shadowSet>
+        <shadowSet index="3" order="3" salonOnly="1">
+            <color name="18" value="0x945213"/>
+        </shadowSet>
+        <shadowSet index="4" order="4" salonOnly="1">
+            <color name="18" value="0xe48830"/>
+        </shadowSet>
+        <shadowSet index="5" order="5" salonOnly="1">
+            <color name="18" value="0x9a2605"/>
+        </shadowSet>
+        <shadowSet index="6" order="6" salonOnly="1">
+            <color name="18" value="0x612104"/>
+        </shadowSet>
+        <shadowSet index="7" order="7" salonOnly="1">
+            <color name="18" value="0x4d1401"/>
+        </shadowSet>
+        <shadowSet index="8" order="8" salonOnly="1">
+            <color name="18" value="0x91645c"/>
+        </shadowSet>
+        <shadowSet index="9" order="9" salonOnly="1">
+            <color name="18" value="0x7d7052"/>
+        </shadowSet>
+        <shadowSet index="10" order="10" salonOnly="1">
+            <color name="18" value="0xdf6618"/>
+        </shadowSet>
+        <shadowSet index="11" order="11" salonOnly="1">
+            <color name="18" value="0xd5635e"/>
+        </shadowSet>
+        <shadowSet index="12" order="12" salonOnly="1">
+            <color name="18" value="0xc45c8e"/>
+        </shadowSet>
+        <shadowSet index="13" order="13" salonOnly="1">
+            <color name="18" value="0xb42e4d"/>
+        </shadowSet>
+        <shadowSet index="14" order="14" salonOnly="1">
+            <color name="18" value="0x9e66bc"/>
+        </shadowSet>
+        <shadowSet index="15" order="15" salonOnly="1">
+            <color name="18" value="0xb5529e"/>
+        </shadowSet>
+        <shadowSet index="16" order="16" salonOnly="1">
+            <color name="18" value="0x1a6bc2"/>
+        </shadowSet>
+        <shadowSet index="17" order="17" salonOnly="1">
+            <color name="18" value="0x00a6e8"/>
+        </shadowSet>
+        <shadowSet index="18" order="18" salonOnly="1">
+            <color name="18" value="0x12a6ff"/>
+        </shadowSet>
+        <shadowSet index="19" order="19" salonOnly="1">
+            <color name="18" value="0x00c2de"/>
+        </shadowSet>
+        <shadowSet index="20" order="20" salonOnly="1">
+            <color name="18" value="0x03bda1"/>
+        </shadowSet>
+        <shadowSet index="21" order="21" salonOnly="1">
+            <color name="18" value="0x47b84f"/>
+        </shadowSet>
+        <shadowSet index="22" order="22" salonOnly="1">
+            <color name="18" value="0xbfbf26"/>
+        </shadowSet>
+        <shadowSet index="23" order="23" salonOnly="1">
+            <color name="18" value="0x66747f"/>
+        </shadowSet>
+        <shadowSet index="34" order="24" salonOnly="1">
+            <color name="18" value="0xE06A53"/>
+        </shadowSet>
+        <shadowSet index="35" order="25" salonOnly="1">
+            <color name="18" value="0xAA0021"/>
+        </shadowSet>
+        <shadowSet index="36" order="26" salonOnly="1">
+            <color name="18" value="0xC18FB2"/>
+        </shadowSet>
+        <shadowSet index="37" order="27" salonOnly="1">
+            <color name="18" value="0xAFA9A7"/>
+        </shadowSet>
+    </boy>
+    
+    <girl>
+        <skinSet index="1">
+            <color name="0" value="0xF2CFD4" />
+            <color name="1" value="0xE8D5CA" />
+            <color name="2" value="0xE2C8BA" />
+            <color name="3" value="0xDBB8A6" />
+            <color name="4" value="0xCFA18E" />
+            <color name="5" value="0xC79074" />
+        </skinSet>
+        
+        <skinSet index="2">
+            <color name="0" value="0xF2CFD4" />
+            <color name="1" value="0xE0C4B5" />
+            <color name="2" value="0xD7B39F" />
+            <color name="3" value="0xD0A48E" />
+            <color name="4" value="0xC28367" />
+            <color name="5" value="0xC28367" />
+        </skinSet>
+        
+        <skinSet index="3">
+            <color name="0" value="0xE4B69B" />
+            <color name="1" value="0xD5AD90" />
+            <color name="2" value="0xCFA38D" />
+            <color name="3" value="0xC79277" />
+            <color name="4" value="0xBA7454" />
+            <color name="5" value="0xB25F32" />
+        </skinSet>
+        
+        <skinSet index="4">
+            <color name="0" value="0xE4B69B" />
+            <color name="1" value="0xD0A17E" />
+            <color name="2" value="0xC99875" />
+            <color name="3" value="0xC48C65" />
+            <color name="4" value="0xB8713E" />
+            <color name="5" value="0xB46F34" />
+        </skinSet>
+    
+        <skinSet index="5">
+            <color name="0" value="0xBB7554" />
+            <color name="1" value="0xB6805F" />
+            <color name="2" value="0xB17552" />
+            <color name="3" value="0xA7623C" />
+            <color name="4" value="0x9D5025" />
+            <color name="5" value="0x933A11" />
+        </skinSet>
+        
+        <!-- HAIR -->
+        
+        <hairSet index="1" order="1">
+            <color name="6" value="0xF1E6D1" />
+            <color name="7" value="0xE0C386" />
+            <color name="8" value="0xD6AD5B" />
+            <color name="9" value="0xD09E40" />
+        </hairSet>
+        
+        <hairSet index="2" order="2" salonOnly="1">
+            <color name="6" value="0xCF9C45" />
+            <color name="7" value="0xC3821F" />
+            <color name="8" value="0xB16618" />
+            <color name="9" value="0x945213" />
+        </hairSet>
+        
+        <hairSet index="3" order="3">
+            <color name="6" value="0xEAA930" />
+            <color name="7" value="0xE48830" />
+            <color name="8" value="0xD0781C" />
+            <color name="9" value="0xC56317" />
+        </hairSet>
+        
+        <hairSet index="4" order="4" salonOnly="1">
+            <color name="6" value="0xE06B19" />
+            <color name="7" value="0xD24711" />
+            <color name="8" value="0xB82E08" />
+            <color name="9" value="0x9A2605" />
+        </hairSet>
+        
+        <hairSet index="5" order="5">
+            <color name="6" value="0xB66B3B" />
+            <color name="7" value="0x96471C" />
+            <color name="8" value="0x832E08" />
+            <color name="9" value="0x612104" />
+        </hairSet>
+        
+        <hairSet index="6" order="6">
+            <color name="6" value="0xA07F75" />
+            <color name="7" value="0x825547" />
+            <color name="8" value="0x643221" />
+            <color name="9" value="0x4D1401" />
+        </hairSet>
+        
+        <hairSet index="7" order="9">
+            <color name="6" value="0x969696" />
+            <color name="7" value="0x5F5F5F" />
+            <color name="8" value="0x282828" />
+            <color name="9" value="0x000000" />
+        </hairSet>
+        
+        <hairSet index="8" order="10" salonOnly="1">
+            <color name="6" value="0xE3851F" />
+            <color name="7" value="0xDF6618" />
+            <color name="8" value="0xDD4D12" />
+            <color name="9" value="0xBD400F" />
+        </hairSet>
+        
+        <hairSet index="9" order="11" salonOnly="1">
+            <color name="6" value="0xD894B5" />
+            <color name="7" value="0xC45C8E" />
+            <color name="8" value="0xB42E70" />
+            <color name="9" value="0xA40051" />
+        </hairSet>
+        
+        <hairSet index="10" order="12" salonOnly="1">
+            <color name="6" value="0xE5928F" />
+            <color name="7" value="0xD5635E" />
+            <color name="8" value="0xC54452" />
+            <color name="9" value="0xB61426" />
+        </hairSet>
+        
+        <hairSet index="11" order="14" salonOnly="1">
+            <color name="6" value="0xC59BE4" />
+            <color name="7" value="0x9E66BC" />
+            <color name="8" value="0x8C51AC" />
+            <color name="9" value="0x75338D" />
+        </hairSet>
+        
+        <hairSet index="12" order="18" salonOnly="1">
+            <color name="6" value="0x70C5E4" />
+            <color name="7" value="0x5EA4CF" />
+            <color name="8" value="0x4C85BB" />
+            <color name="9" value="0x3C6BB1" />
+        </hairSet>
+        
+        <hairSet index="13" order="21" salonOnly="1">
+            <color name="6" value="0x63AE4F" />
+            <color name="7" value="0x508A4F" />
+            <color name="8" value="0x3B6629" />
+            <color name="9" value="0x213B0D" />
+        </hairSet>
+        
+        <hairSet index="14" order="23" salonOnly="1">
+            <color name="6" value="0x66747F" />
+            <color name="7" value="0x40515F" />
+            <color name="8" value="0x1D3141" />
+            <color name="9" value="0x0C1729" />
+        </hairSet>
+        
+        <!-- NEW HAIR COLORS -->
+        
+        <hairSet index="15" order="7" salonOnly="1">
+            <color name="6" value="0xd6b7ad" />
+            <color name="7" value="0xbb9485" />
+            <color name="8" value="0xaa7870" />
+            <color name="9" value="0x91645c" />
+        </hairSet>
+        
+        <hairSet index="16" order="8" salonOnly="1">
+            <color name="6" value="0xc9ba8f" />
+            <color name="7" value="0xb09d7f" />
+            <color name="8" value="0x968a6b" />
+            <color name="9" value="0x7d7052" />
+        </hairSet>
+        
+        <hairSet index="17" order="13" salonOnly="1">
+            <color name="6" value="0xf2579c" />
+            <color name="7" value="0xd66196" />
+            <color name="8" value="0xc25780" />
+            <color name="9" value="0xb42e4d" />
+        </hairSet>
+        
+        <hairSet index="18" order="15" salonOnly="1">
+            <color name="6" value="0xb5529e" />
+            <color name="7" value="0x88297d" />
+            <color name="8" value="0x751766" />
+            <color name="9" value="0x580d43" />
+        </hairSet>
+        
+        <hairSet index="19" order="16" salonOnly="1">
+            <color name="6" value="0x1a87d4" />
+            <color name="7" value="0x1a6bc2" />
+            <color name="8" value="0x1a47b0" />
+            <color name="9" value="0x1a3b91" />
+        </hairSet>
+
+        <hairSet index="21" order="17" salonOnly="1">
+            <color name="6" value="0x3b99cd" />
+            <color name="7" value="0x2375b3" />
+            <color name="8" value="0x14639c" />
+            <color name="9" value="0x124e8b" />
+        </hairSet>
+
+        <hairSet index="20" order="19" salonOnly="1">
+            <color name="6" value="0x00c9d9" />
+            <color name="7" value="0x00adb5" />
+            <color name="8" value="0x009e9e" />
+            <color name="9" value="0x007d85" />
+        </hairSet>
+        
+        <hairSet index="22" order="20" salonOnly="1">
+            <color name="6" value="0x43bfa3" />
+            <color name="7" value="0x43ab91" />
+            <color name="8" value="0x43997e" />
+            <color name="9" value="0x247d5e" />
+        </hairSet>
+        
+        <hairSet index="23" order="22" salonOnly="1">
+            <color name="6" value="0xdbe026" />
+            <color name="7" value="0xbfbf26" />
+            <color name="8" value="0x9ca826" />
+            <color name="9" value="0x8b8f1b" />
+        </hairSet>
+        
+        <!-- BROWS -->
+        
+        <browsSet index="1" order="1">
+            <color name="16" value="0x000000" />
+        </browsSet>
+        <browsSet index="2" order="2" defaultOnly="1">
+            <color name="16" value="0x5E0A06"/>
+        </browsSet>
+        <browsSet index="3" order="3" defaultOnly="1">
+            <color name="16" value="0x742A06"/>
+        </browsSet>
+        <browsSet index="4" order="4" defaultOnly="1">
+            <color name="16" value="0x994506"/>
+        </browsSet>
+        <browsSet index="5" order="5" defaultOnly="1">
+            <color name="16" value="0xA66106"/>
+        </browsSet>
+        
+       <browsSet index="6" order="2" salonOnly="1">
+           <color name="16" value="0xe0c386" />
+       </browsSet>
+       <browsSet index="7" order="3" salonOnly="1">
+           <color name="16" value="0x945213" />
+       </browsSet>
+       <browsSet index="8" order="4" salonOnly="1">
+           <color name="16" value="0xe48830" />
+       </browsSet>
+       <browsSet index="9" order="5" salonOnly="1">
+           <color name="16" value="0x9a2605" />
+       </browsSet>
+       <browsSet index="10" order="6" salonOnly="1">
+           <color name="16" value="0x612104" />
+       </browsSet>
+       <browsSet index="11" order="7" salonOnly="1">
+           <color name="16" value="0x4d1401" />
+       </browsSet>
+       <browsSet index="12" order="8" salonOnly="1">
+           <color name="16" value="0x91645c" />
+       </browsSet>
+       <browsSet index="13" order="9" salonOnly="1">
+           <color name="16" value="0x7d7052" />
+       </browsSet>
+       <browsSet index="14" order="10" salonOnly="1">
+           <color name="16" value="0xdf6618" />
+       </browsSet>
+       <browsSet index="15" order="11" salonOnly="1">
+           <color name="16" value="0xd5635e" />
+       </browsSet>
+       <browsSet index="16" order="12" salonOnly="1">
+           <color name="16" value="0xc45c8e" />
+       </browsSet>
+       <browsSet index="17" order="13" salonOnly="1">
+           <color name="16" value="0xb42e4d" />
+       </browsSet>
+       <browsSet index="18" order="14" salonOnly="1">
+           <color name="16" value="0x9e66bc" />
+       </browsSet>
+       <browsSet index="19" order="15" salonOnly="1">
+           <color name="16" value="0xb5529e" />
+       </browsSet>
+       <browsSet index="20" order="16" salonOnly="1">
+           <color name="16" value="0x1a6bc2" />
+       </browsSet>
+       <browsSet index="21" order="17" salonOnly="1">
+           <color name="16" value="0x00a6e8" />
+       </browsSet>
+       <browsSet index="22" order="18" salonOnly="1">
+           <color name="16" value="0x12a6ff" />
+       </browsSet>
+       <browsSet index="23" order="19" salonOnly="1">
+           <color name="16" value="0x00c2de" />
+       </browsSet>
+       <browsSet index="24" order="20" salonOnly="1">
+           <color name="16" value="0x03bda1" />
+       </browsSet>
+       <browsSet index="25" order="21" salonOnly="1">
+           <color name="16" value="0x47b84f" />
+       </browsSet>
+       <browsSet index="26" order="22" salonOnly="1">
+           <color name="16" value="0xbfbf26" />
+       </browsSet>
+       <browsSet index="27" order="23" salonOnly="1">
+           <color name="16" value="0x66747f" />
+       </browsSet>
+        
+        <!-- MOUTH -->
+        
+       <mouthSet index="1" order="1" defaultOnly="1">
+           <color name="11" value="0xb880b5" />
+       </mouthSet>
+       <mouthSet index="2" order="2" defaultOnly="1" >
+           <color name="11" value="0xa6405e" />
+       </mouthSet>
+       <mouthSet index="3" order="3" defaultOnly="1" >
+           <color name="11" value="0x9a2020" />
+       </mouthSet>
+       <mouthSet index="4" order="4" defaultOnly="1" >
+           <color name="11" value="0xbd0008" />
+       </mouthSet>
+        
+        <!-- NEW MOUTH COLORS -->
+        
+       <mouthSet index="5" order="1" salonOnly="1">
+           <color name="11" value="0x000000"/>
+       </mouthSet>
+       <mouthSet index="6" order="2" salonOnly="1">
+           <color name="11" value="0xe0c386" />
+       </mouthSet>
+       <mouthSet index="7" order="3" salonOnly="1">
+           <color name="11" value="0x945213" />
+       </mouthSet>
+       <mouthSet index="8" order="4" salonOnly="1">
+           <color name="11" value="0xe48830" />
+       </mouthSet>
+       <mouthSet index="9" order="5" salonOnly="1">
+           <color name="11" value="0x9a2605" />
+       </mouthSet>
+       <mouthSet index="10" order="6" salonOnly="1">
+           <color name="11" value="0x612104" />
+       </mouthSet>
+       <mouthSet index="11" order="7" salonOnly="1">
+           <color name="11" value="0x4d1401" />
+       </mouthSet>
+       <mouthSet index="12" order="8" salonOnly="1">
+           <color name="11" value="0x91645c" />
+       </mouthSet>
+       <mouthSet index="13" order="9" salonOnly="1">
+           <color name="11" value="0x7d7052" />
+       </mouthSet>
+       <mouthSet index="14" order="10" salonOnly="1">
+           <color name="11" value="0xdf6618" />
+       </mouthSet>
+       <mouthSet index="15" order="11" salonOnly="1">
+           <color name="11" value="0xd5635e" />
+       </mouthSet>
+       <mouthSet index="16" order="12" salonOnly="1">
+           <color name="11" value="0xc45c8e" />
+       </mouthSet>
+       <mouthSet index="17" order="13" salonOnly="1">
+           <color name="11" value="0xb42e4d" />
+       </mouthSet>
+       <mouthSet index="18" order="14" salonOnly="1">
+           <color name="11" value="0x9e66bc" />
+       </mouthSet>
+       <mouthSet index="19" order="15" salonOnly="1">
+           <color name="11" value="0xb5529e" />
+       </mouthSet>
+       <mouthSet index="20" order="16" salonOnly="1">
+           <color name="11" value="0x1a6bc2" />
+       </mouthSet>
+       <mouthSet index="21" order="17" salonOnly="1">
+           <color name="11" value="0x00a6e8" />
+       </mouthSet>
+       <mouthSet index="22" order="18" salonOnly="1">
+           <color name="11" value="0x12a6ff" />
+       </mouthSet>
+       <mouthSet index="23" order="19" salonOnly="1">
+           <color name="11" value="0x00c2de" />
+       </mouthSet>
+       <mouthSet index="24" order="20" salonOnly="1">
+           <color name="11" value="0x03bda1" />
+       </mouthSet>
+       <mouthSet index="25" order="21" salonOnly="1">
+           <color name="11" value="0x47b84f" />
+       </mouthSet>
+       <mouthSet index="26" order="22" salonOnly="1">
+           <color name="11" value="0xbfbf26" />
+       </mouthSet>
+       <mouthSet index="27" order="23" salonOnly="1">
+           <color name="11" value="0x66747f" />
+       </mouthSet>
+        
+        <!-- EYES -->
+        
+        <eyesSet index="1" order="2" defaultOnly="1" >
+            <color name="10" value="0x589BD4" />
+        </eyesSet>
+        <eyesSet index="2" order="3" defaultOnly="1" >
+            <color name="10" value="0x67737F" />
+        </eyesSet>
+        <eyesSet index="3" order="4" defaultOnly="1" >
+            <color name="10" value="0x80BE2D" />
+        </eyesSet>
+        <eyesSet index="4" order="5" defaultOnly="1" >
+            <color name="10" value="0x823606" />
+        </eyesSet>
+        <eyesSet index="5" order="1" >
+            <color name="10" value="0x000000" />
+        </eyesSet>
+         
+         <!-- NEW EYES COLORS -->
+         
+        <eyesSet index="6" order="2" salonOnly="1">
+           <color name="10" value="0xe0c386" />
+       </eyesSet>
+       <eyesSet index="7" order="3" salonOnly="1">
+           <color name="10" value="0x945213" />
+       </eyesSet>
+       <eyesSet index="8" order="4" salonOnly="1">
+           <color name="10" value="0xe48830" />
+       </eyesSet>
+       <eyesSet index="9" order="5" salonOnly="1">
+           <color name="10" value="0x9a2605" />
+       </eyesSet>
+       <eyesSet index="10" order="6" salonOnly="1">
+           <color name="10" value="0x612104" />
+       </eyesSet>
+       <eyesSet index="11" order="7" salonOnly="1">
+           <color name="10" value="0x4d1401" />
+       </eyesSet>
+       <eyesSet index="12" order="8" salonOnly="1">
+           <color name="10" value="0x91645c" />
+       </eyesSet>
+       <eyesSet index="13" order="9" salonOnly="1">
+           <color name="10" value="0x7d7052" />
+       </eyesSet>
+       <eyesSet index="14" order="10" salonOnly="1">
+           <color name="10" value="0xdf6618" />
+       </eyesSet>
+       <eyesSet index="15" order="11" salonOnly="1">
+           <color name="10" value="0xd5635e" />
+       </eyesSet>
+       <eyesSet index="16" order="12" salonOnly="1">
+           <color name="10" value="0xc45c8e" />
+       </eyesSet>
+       <eyesSet index="17" order="13" salonOnly="1">
+           <color name="10" value="0xb42e4d" />
+       </eyesSet>
+       <eyesSet index="18" order="14" salonOnly="1">
+           <color name="10" value="0x9e66bc" />
+       </eyesSet>
+       <eyesSet index="19" order="15" salonOnly="1">
+           <color name="10" value="0xb5529e" />
+       </eyesSet>
+       <eyesSet index="20" order="16" salonOnly="1">
+           <color name="10" value="0x1a6bc2" />
+       </eyesSet>
+       <eyesSet index="21" order="17" salonOnly="1">
+           <color name="10" value="0x00a6e8" />
+       </eyesSet>
+       <eyesSet index="22" order="18" salonOnly="1">
+           <color name="10" value="0x12a6ff" />
+       </eyesSet>
+       <eyesSet index="23" order="19" salonOnly="1">
+           <color name="10" value="0x00c2de" />
+       </eyesSet>
+       <eyesSet index="24" order="20" salonOnly="1">
+           <color name="10" value="0x03bda1" />
+       </eyesSet>
+       <eyesSet index="25" order="21" salonOnly="1">
+           <color name="10" value="0x47b84f" />
+       </eyesSet>
+       <eyesSet index="26" order="22" salonOnly="1">
+           <color name="10" value="0xbfbf26" />
+       </eyesSet>
+       <eyesSet index="27" order="23" salonOnly="1">
+           <color name="10" value="0x66747f" />
+       </eyesSet>
+        
+        <!-- ROUGE -->
+        
+        <rougeSet index="1" order="1" salonOnly="1">
+            <color name="17" value="0xffabff" />
+        </rougeSet>
+        <rougeSet index="2" order="2" salonOnly="1">
+            <color name="17" value="0xFF6E66" />
+        </rougeSet>
+        <rougeSet index="3" order="3" salonOnly="1">
+            <color name="17" value="0xFF76FF" />
+        </rougeSet>
+        <rougeSet index="4" order="4" salonOnly="1">
+            <color name="17" value="0xf2579c" />
+        </rougeSet>
+        <rougeSet index="5" order="5" salonOnly="1">
+            <color name="17" value="0xd66196" />
+        </rougeSet>
+        <rougeSet index="6" order="6" salonOnly="1">
+            <color name="17" value="0xa40051" />
+        </rougeSet>
+        <rougeSet index="7" order="7" salonOnly="1">
+            <color name="17" value="0xcc00a3" />
+        </rougeSet>
+        <rougeSet index="8" order="8" salonOnly="1">
+            <color name="17" value="0xd5635e" />
+        </rougeSet>
+        <rougeSet index="9" order="9" salonOnly="1">
+            <color name="17" value="0xbf3066" />
+        </rougeSet>
+        <rougeSet index="10" order="10" salonOnly="1">
+            <color name="17" value="0xff463c" />
+        </rougeSet>
+        <rougeSet index="11" order="11" salonOnly="1">
+            <color name="17" value="0xff9469" />
+        </rougeSet>
+
+        <!-- SHADOW -->
+       
+       <shadowSet index="1" order="1" salonOnly="1">
+           <color name="18" value="0x000000"/>
+       </shadowSet>
+       <shadowSet index="2" order="2" salonOnly="1">
+           <color name="18" value="0xe0c386" />
+       </shadowSet>
+       <shadowSet index="3" order="3" salonOnly="1">
+           <color name="18" value="0x945213" />
+       </shadowSet>
+       <shadowSet index="4" order="4" salonOnly="1">
+           <color name="18" value="0xe48830" />
+       </shadowSet>
+       <shadowSet index="5" order="5" salonOnly="1">
+           <color name="18" value="0x9a2605" />
+       </shadowSet>
+       <shadowSet index="6" order="6" salonOnly="1">
+           <color name="18" value="0x612104" />
+       </shadowSet>
+       <shadowSet index="7" order="7" salonOnly="1">
+           <color name="18" value="0x4d1401" />
+       </shadowSet>
+       <shadowSet index="8" order="8" salonOnly="1">
+           <color name="18" value="0x91645c" />
+       </shadowSet>
+       <shadowSet index="9" order="9" salonOnly="1">
+           <color name="18" value="0x7d7052" />
+       </shadowSet>
+       <shadowSet index="10" order="10" salonOnly="1">
+           <color name="18" value="0xdf6618" />
+       </shadowSet>
+       <shadowSet index="11" order="11" salonOnly="1">
+           <color name="18" value="0xd5635e" />
+       </shadowSet>
+       <shadowSet index="12" order="12" salonOnly="1">
+           <color name="18" value="0xc45c8e" />
+       </shadowSet>
+       <shadowSet index="13" order="13" salonOnly="1">
+           <color name="18" value="0xb42e4d" />
+       </shadowSet>
+       <shadowSet index="14" order="14" salonOnly="1">
+           <color name="18" value="0x9e66bc" />
+       </shadowSet>
+       <shadowSet index="15" order="15" salonOnly="1">
+           <color name="18" value="0xb5529e" />
+       </shadowSet>
+       <shadowSet index="16" order="16" salonOnly="1">
+           <color name="18" value="0x1a6bc2" />
+       </shadowSet>
+       <shadowSet index="17" order="17" salonOnly="1">
+           <color name="18" value="0x00a6e8" />
+       </shadowSet>
+       <shadowSet index="18" order="18" salonOnly="1">
+           <color name="18" value="0x12a6ff" />
+       </shadowSet>
+       <shadowSet index="19" order="19" salonOnly="1">
+           <color name="18" value="0x00c2de" />
+       </shadowSet>
+       <shadowSet index="20" order="20" salonOnly="1">
+           <color name="18" value="0x03bda1" />
+       </shadowSet>
+       <shadowSet index="21" order="21" salonOnly="1">
+           <color name="18" value="0x47b84f" />
+       </shadowSet>
+       <shadowSet index="22" order="22" salonOnly="1">
+           <color name="18" value="0xbfbf26" />
+       </shadowSet>
+       <shadowSet index="23" order="23" salonOnly="1">
+           <color name="18" value="0x66747f" />
+       </shadowSet>
+        
+    </girl>
+    
+</config>

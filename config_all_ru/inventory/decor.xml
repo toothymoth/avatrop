@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+
+    <category id="decor" label="#decorCategory" priority="3" typeClass="decor" library="decor" logCategory1="island" logCategory2="decor">
+ 
+        <category id="decFurniture" label="#decorFurnitureCategoryLabel" priority="3">
+            <item id="dfrn1" label="#decorFirniture1Title" name="Sunbed" icon="SunbedIcon" gold="40" silver="0"
+                saleSilver="400" rating="100" priority="88" canWalk="0" tags="lie">
+                <dimension width="3" length="1" height="1" sitZ="0.5" />
+                <direction names="SW,SE" />
+                <!--<oldPrice gold="19" />-->
+            </item>
+            <item id="dfrn2" label="#decorFirniture2Title" name="Chair1" icon="Chair1Icon" gold="60" silver="0"
+                saleSilver="600" rating="150" priority="93" canWalk="0" tags="sit">
+                <dimension width="1" length="1" height="2.5" sitZ="0.5" />
+                <direction names="SW,SE" />
+                <!--<oldPrice gold="29" />-->
+            </item>
+            <item id="dfrn3" label="#decorFirniture3Title" name="Chair2" icon="Chair2Icon" gold="40" silver="0"
+                saleSilver="400" rating="100" priority="92" canWalk="0" tags="sit">
+                <dimension width="1" length="1" height="2.5" sitZ="0.5" />
+                <direction names="SW,SE" />
+                <!--<oldPrice gold="19" />-->
+            </item>
+            <item id="dfrn4" label="#decorFirniture4Title" name="Hammock" icon="HammockIcon" gold="555" silver="0"
+                saleSilver="5550" rating="1500" priority="99" canWalk="0" tags="lie">
+                <dimension width="3" length="3" height="5.5" sitZ="0.7" />
+                <direction names="SW,SE" />
+                <!--<oldPrice gold="299" />-->
+            </item>
+            <item id="dfrn5" label="#decorFirniture5Title" name="LoungeWhite" icon="LoungeWhiteIcon" gold="85" silver="0"
+                saleSilver="850" rating="215" priority="96" canWalk="0" tags="lie">
+                <dimension width="3" length="1" height="1" sitZ="1" />
+                <direction names="SW,SE" />
+                <!--<oldPrice gold="49" />-->
+            </item>
+            <item id="dfrn6" label="#decorFirniture6Title" name="Swing" icon="SwingIcon" gold="175" silver="0"
+                saleSilver="1750" rating="450" priority="98" canWalk="0" tags="sit">
+                <dimension width="2" length="2" height="4" sitZ="1.6" />
+                <direction names="SW,SE" />
+                <!--<oldPrice gold="99" />-->
+            </item>
+            <item id="dfrn7" label="#decorFirniture7Title" name="ChairWhite" icon="ChairWhiteIcon" gold="18" silver="0"
+                saleSilver="180" rating="36" priority="90" canWalk="0" tags="sit">
+                <dimension width="1" length="1" height="2" sitZ="0.7" />
+                <direction names="SW,SE" />
+                <!--<oldPrice gold="9" />-->
+            </item>
+            <item id="dfrn8" label="#decorFirniture8Title" name="TableWhite" icon="TableWhiteIcon" gold="150" silver="0"
+                saleSilver="1500" rating="380" priority="97" canWalk="0">
+                <dimension width="1" length="1" height="1.5" />
+                <direction names="SW" />
+                <!--<oldPrice gold="75" />-->
+            </item>
+        </category>
+        
+        <category id="decPlants" label="#decorPlantsCategoryLabel" priority="2">
+            <item id="dplnt1" label="#decorPlantTitle" name="FlowerPinkTropical" icon="FlowerPinkTropicalIcon" gold="15" silver="0"
+                saleSilver="150" rating="30" priority="76" canWalk="0">
+                <dimension width="1" length="1" height="2" />
+                <direction names="SW" />
+                <!--<oldPrice gold="7" />-->
+            </item>
+            <item id="dplnt2" label="#decorPlantTitle" name="FlowerWhiteTropical" icon="FlowerWhiteTropicalIcon" gold="15" silver="0"
+                saleSilver="150" rating="30" priority="77" canWalk="0">
+                <dimension width="1" length="1" height="0.4" />
+                <direction names="SW,SE" />
+                <!--<oldPrice gold="7" />-->
+            </item>
+            <item id="dplnt3" label="#decorPlant3Title" name="Hibiscus" icon="HibiscusIcon" gold="25" silver="0"
+                saleSilver="250" rating="55" priority="78" canWalk="0">
+                <dimension width="1" length="1" height="2.5" />
+                <direction names="SW,SE" />
+                <!--<oldPrice gold="12" />-->
+            </item>
+            <item id="dplnt4" label="#decorPlant4Title" name="Kaala" icon="KaalaIcon" gold="20" silver="0"
+                saleSilver="200" rating="45" priority="79" canWalk="0">
+                <dimension width="1" length="1" height="2.5" />
+                <direction names="SW,SE" />
+                <!--<oldPrice gold="9" />-->
+            </item>
+            <item id="dplnt5" label="#decorPlant5Title" name="Orchid" icon="OrchidIcon" gold="15" silver="0"
+                saleSilver="150" rating="30" priority="80" canWalk="0">
+                <dimension width="1" length="1" height="2" />
+                <direction names="SW,SE" />
+                <!--<oldPrice gold="7" />-->
+            </item>
+            <item id="dplnt6" label="#decorPlant6Title" name="Lawn1" icon="Lawn1Icon" gold="0" silver="250"
+                saleSilver="25" rating="2" priority="74" canWalk="1">
+                <dimension width="1" length="1" height="0.1" />
+                <direction names="SW" />
+            </item>
+            <item id="dplnt7" label="#decorPlant7Title" name="Lawn2" icon="Lawn2Icon" gold="3" silver="0"
+                saleSilver="30" rating="5" priority="75" canWalk="1">
+                <dimension width="1" length="1" height="0.1" />
+                <direction names="SW" />
+            </item>
+            <item id="dplnt8" label="#decorPlant8Title" name="TreeBottleFinal" icon="TreeBottleFinalIcon" gold="15" silver="0"
+                saleSilver="350" rating="90" priority="83" canWalk="0">
+                <dimension width="1" length="1" height="5.5" />
+                <direction names="SW" />
+                <!--<oldPrice gold="35" />-->
+            </item>
+            <item id="dplnt9" label="#decorPlant9Title" name="FlowerInMarblePot" icon="FlowerInMarblePotIcon" gold="35" silver="0"
+                saleSilver="350" rating="90" priority="84" canWalk="0">
+                <dimension width="1" length="1" height="1.5" />
+                <direction names="SW" />
+                <!--<oldPrice gold="15" />-->
+            </item>
+            <item id="dplnt10" label="#decorPlant10Title" name="Gloriosa" icon="GloriosaIcon" gold="25" silver="0"
+                saleSilver="250" rating="55" priority="81" canWalk="0">
+                <dimension width="1" length="1" height="1.5" />
+                <direction names="SW" />
+                <!--<oldPrice gold="12" />-->
+            </item>
+            <item id="dplnt11" label="#decorPlant8Title" name="TreeBottleSprout" icon="TreeBottleSproutIcon" gold="20" silver="0"
+                saleSilver="200" rating="45" priority="82" canWalk="0">
+                <dimension width="1" length="1" height="3.5" />
+                <direction names="SW" />
+                <!--<oldPrice gold="9" />-->
+            </item>
+        </category>
+        
+        <category id="decDecor" label="#decorDecorCategoryLabel" priority="1">
+            <item id="dd1" label="#decorDecor1Title" name="Fence" icon="FenceIcon" gold="35" silver="0"
+                saleSilver="350" rating="90" priority="85" canWalk="0">
+                <dimension width="1" length="2" height="1" />
+                <direction names="SW,SE" />
+                <!--<oldPrice gold="15" />-->
+            </item>
+            <item id="dd2" label="#decorDecor2Title" name="FountainBucket" icon="FountainBucketIcon" gold="265" silver="0"
+                saleSilver="2650" rating="665" priority="87" canWalk="0">
+                <dimension width="2" length="1" height="4" />
+                <direction names="SW,SE" />
+                <!--<oldPrice gold="139" />-->
+            </item>
+            <item id="dd3" label="#decorDecor3Title" name="FountainFrog" icon="FountainFrogIcon" gold="350" silver="0"
+                saleSilver="3500" rating="875" priority="95" canWalk="0">
+                <dimension width="2" length="2" height="1.5" />
+                <direction names="SW,SE" />
+                <!--<oldPrice gold="199" />-->
+            </item>
+            <item id="dd4" label="#decorDecor4Title" name="FountainPalmLeaves" icon="FountainPalmLeavesIcon" gold="250" silver="0"
+                saleSilver="2500" rating="625" priority="94" canWalk="0">
+                <dimension width="2" length="2" height="0.5" />
+                <direction names="SW" />
+                <!--<oldPrice gold="129" />-->
+            </item>
+            <item id="dd5" label="#decorDecor5Title" name="Gate" icon="GateIcon" gold="25" silver="0"
+                saleSilver="250" rating="55" priority="86" canWalk="1">
+                <dimension width="1" length="2" height="3.2" />
+                <direction names="SW,SE" />
+                <!--<oldPrice gold="12" />-->
+            </item>
+            <item id="dd6" label="#decorDecor6Title" name="StoneRoad" icon="StoneRoadIcon" gold="0" silver="300"
+                saleSilver="30" rating="3" priority="73" canWalk="1">
+                <dimension width="1" length="1" height="0.1" />
+                <direction names="SW" />
+            </item>
+            <item id="dd7" label="#decorDecor7Title" name="Umbrella" icon="UmbrellaIcon" gold="80" silver="0"
+                saleSilver="800" rating="200" priority="89" canWalk="0">
+                <dimension width="1" length="1" height="4" />
+                <direction names="SW" />
+                <!--<oldPrice gold="39" />-->
+            </item>
+            <item id="dd8" label="#decorDecor7Title" name="SunUmbrellaWhite" icon="SunUmbrellaWhiteIcon" gold="120" silver="0"
+                saleSilver="1200" rating="300" priority="91" canWalk="0">
+                <dimension width="1" length="1" height="4" />
+                <direction names="SW" />
+                <!--<oldPrice gold="79" />-->
+            </item>
+        </category>
+
+        <category id="weedDecor" label="#weedsDecorCategoryLabel" priority="1" typeClass="weedDecor" library="islandWeed" >
+            <item id="weedd1" label="#weedDecor1Title" name="StoneAverage" icon="StoneAverageIcon" gold="4" silver="0"
+                saleSilver="350" rating="0" priority="85" canWalk="1" relatedWeed="ws1">
+                <dimension width="1" length="1" height="1" />
+                <direction names="SW" />
+            </item>
+            <item id="weedd2" label="#weedDecor1Title" name="StoneAverage" icon="StoneAverageIcon" gold="0" silver="1200"
+                saleSilver="350" rating="0" priority="85" canWalk="1" relatedWeed="ws2">
+                <dimension width="1" length="1" height="1" />
+                <direction names="SW" />
+            </item>
+        </category>
+    </category>
+
+</config>

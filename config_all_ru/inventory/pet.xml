@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+
+    <category id="pet" label="#petCategory" typeClass="pet" logCategory1="pet" logCategory2="buyPet">
+
+        <item id="petDlm" label="#petDalmatianTitle" name="Dalmatian" icon="PetDalmatianIcon@ui" button="PetDalmatianButton@ui" silver="1800" priority="11">
+            <character>
+                <line name="st" downTime="259200" priority="1"/>
+                <line name="hp" downTime="168480" priority="2" />
+                <line name="hl" downTime="349920" priority="3" />
+                <line name="hg" downTime="168480" priority="4" />
+                <line name="cf" downTime="349920" upTime="7020" priority="5"/>
+            </character>
+            <sounds>
+                <sound duration="0.3">Dalmatian1</sound>
+                <sound duration="0.5">Dalmatian2</sound>
+                <sound duration="1.2">Dalmatian3</sound>
+            </sounds>
+        </item>
+        
+        <item id="petBld" label="#petBulldogTitle" name="Bulldog" icon="PetBulldogIcon@ui" button="PetBulldogButton@ui" silver="1200" priority="13">
+            <character>
+                <line name="st" downTime="168480" priority="1"/>
+                <line name="hp" downTime="349920" priority="2" />
+                <line name="hl" downTime="259200" priority="3" />
+                <line name="hg" downTime="349920" priority="4" />
+                <line name="cf" downTime="168480" upTime="14580" priority="5"/>
+            </character>
+            <sounds>
+                <sound duration="0.6">Bulldog1</sound>
+                <sound duration="0.6">Bulldog2</sound>
+                <sound duration="2.3">Bulldog3</sound>
+            </sounds>
+        </item>
+        
+        <item id="petPkBll" label="#petPinkBallTitle" name="PinkBall" icon="PetPinkBallIcon@ui" button="PetPinkBallButton@ui" gold="75" priority="7">
+            <character>
+                <line name="st" downTime="349920" priority="1"/>
+                <line name="hp" downTime="168480" priority="2" />
+                <line name="hl" downTime="168480" priority="3" />
+                <line name="hg" downTime="259200" priority="4" />
+                <line name="cf" downTime="349920" upTime="7020" priority="5"/>
+            </character>
+            <sounds>
+                <sound duration="0.8">Pokemon1</sound>
+                <sound duration="0.6">Pokemon2</sound>
+                <sound duration="1.1">Pokemon3</sound>
+            </sounds>
+        </item>
+        
+        <item id="petCtBW" label="#petCatBWTitle" name="CatBW" icon="PetCatBWIcon@ui" button="PetCatBWButton@ui" silver="1000" priority="14">
+            <character>
+                <line name="st" downTime="349920" priority="1"/>
+                <line name="hp" downTime="168480" priority="2" />
+                <line name="hl" downTime="349920" priority="3" />
+                <line name="hg" downTime="168480" priority="4" />
+                <line name="cf" downTime="259200" upTime="10800" priority="5"/>
+            </character>
+            <sounds>
+                <sound duration="1.3">Cat1</sound>
+                <sound duration="1.3">Cat2</sound>
+                <sound duration="0.7">Cat3</sound>
+            </sounds>
+        </item>
+        
+        <item id="petKttn" label="#petKittenTitle" name="Kitten" icon="PetKittenIcon@ui" button="PetKittenButton@ui" silver="1500" priority="12">
+            <character>
+                <line name="st" downTime="349920" priority="1"/>
+                <line name="hp" downTime="168480" priority="2" />
+                <line name="hl" downTime="349920" priority="3" />
+                <line name="hg" downTime="168480" priority="4" />
+                <line name="cf" downTime="259200" upTime="10800" priority="5"/>
+            </character>
+            <sounds>
+                <sound duration="0.9">Kitten1</sound>
+                <sound duration="0.9">Kitten2</sound>
+                <sound duration="1.4">Kitten3</sound>
+            </sounds>
+        </item>
+        
+        <item id="petMPg" label="#petMiniPigTitle" name="MiniPig" icon="PetMiniPigIcon@ui" button="PetMiniPigButton@ui" gold="25" priority="10">
+            <character>
+                <line name="st" downTime="259200" priority="1"/>
+                <line name="hp" downTime="349920" priority="2" />
+                <line name="hl" downTime="168480" priority="3" />
+                <line name="hg" downTime="349920" priority="4" />
+                <line name="cf" downTime="168480" upTime="14580" priority="5"/>
+            </character>
+            <sounds>
+                <sound duration="0.5">Minipig1</sound>
+                <sound duration="0.7">Minipig2</sound>
+                <sound duration="1.0">Minipig3</sound>
+            </sounds>
+        </item>
+        
+        <item id="petShpd" label="#petShepherdTitle" name="Shepherd" icon="PetShepherdIcon@ui" button="PetShepherdButton@ui" silver="750" priority="15">
+            <character>
+                <line name="st" downTime="259200" priority="1"/>
+                <line name="hp" downTime="168480" priority="2" />
+                <line name="hl" downTime="349920" priority="3" />
+                <line name="hg" downTime="168480" priority="4" />
+                <line name="cf" downTime="349920" upTime="7020" priority="5"/>
+            </character>
+            <sounds>
+                <sound duration="0.7">Dog1</sound>
+                <sound duration="1.2">Dog2</sound>
+                <sound duration="1.8">Dog3</sound>
+            </sounds>
+        </item>
+        
+        <item id="petCGgr" label="#petCatGingerTitle" name="CatGinger" icon="PetCatOrangeIcon@ui" button="PetCatOrangeButton@ui" silver="1150" priority="13">
+            <character>
+                <line name="st" downTime="349920" priority="1"/>
+                <line name="hp" downTime="168480" priority="2" />
+                <line name="hl" downTime="349920" priority="3" />
+                <line name="hg" downTime="168480" priority="4" />
+                <line name="cf" downTime="259200" upTime="10800" priority="5"/>
+            </character>
+            <sounds>
+                <sound duration="1.3">Cat1</sound>
+                <sound duration="1.3">Cat2</sound>
+                <sound duration="0.7">Cat3</sound>
+            </sounds>
+        </item>
+        
+        <item id="petCrdl" label="#petCrocodileTitle" name="Crocodile" icon="PetCrocodileIcon@ui" button="PetCrocodileButton@ui" gold="50" priority="8">
+            <character>
+                <line name="st" downTime="168480" priority="1"/>
+                <line name="hp" downTime="349920" priority="2" />
+                <line name="hl" downTime="259200" priority="3" />
+                <line name="hg" downTime="349920" priority="4" />
+                <line name="cf" downTime="168480" upTime="14580" priority="5"/>
+            </character>
+            <sounds>
+                <sound duration="2.1">Crocodile1</sound>
+                <sound duration="1.2">Crocodile2</sound>
+                <sound duration="1.9">Crocodile3</sound>
+            </sounds>
+        </item>
+        
+        <item id="petJba" label="#petJerboaTitle" name="Jerboa" icon="PetFantasticAnimalIcon@ui" button="PetFantasticAnimalButton@ui" gold="75" priority="7">
+            <character>
+                <line name="st" downTime="259200" priority="1"/>
+                <line name="hp" downTime="168480" priority="2" />
+                <line name="hl" downTime="168480" priority="3" />
+                <line name="hg" downTime="349920" priority="4" />
+                <line name="cf" downTime="349920" upTime="7020" priority="5"/>
+            </character>
+            <sounds>
+                <sound duration="0.4">Jerboa1</sound>
+                <sound duration="0.5">Jerboa2</sound>
+                <sound duration="1.8">Jerboa3</sound>
+            </sounds>
+        </item>
+        
+        <item id="petLmr" label="#petLemurTitle" name="Lemur" icon="PetLemurIcon@ui" button="PetLemurButton@ui" gold="35" priority="9">
+            <character>
+                <line name="st" downTime="349920" priority="1"/>
+                <line name="hp" downTime="259200" priority="2" />
+                <line name="hl" downTime="349920" priority="3" />
+                <line name="hg" downTime="168480" priority="4" />
+                <line name="cf" downTime="168480" upTime="14580" priority="5"/>
+            </character>
+            <sounds>
+                <sound duration="0.4">Lemur1</sound>
+                <sound duration="0.7">Lemur2</sound>
+                <sound duration="1.1">Lemur3</sound>
+            </sounds>
+        </item>
+
+    </category>
+
+</config>

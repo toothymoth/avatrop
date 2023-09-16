@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<petCharacter>
+    <!-- 
+	<cheerfullnessReducePrice>
+		<modifier id="health" price="5"/>
+		<modifier id="higiene" price="4"/>
+		<modifier id="satiety" price="3"/>
+		<modifier id="happiness" price="2"/>
+	</cheerfullnessReducePrice>
+	 -->
+	<layParams>
+		<type id="nap" grownMultipler="2" time="1200"/>
+		<type id="sleep" grownMultipler="3" time="1800"/>
+	</layParams>
+</petCharacter>

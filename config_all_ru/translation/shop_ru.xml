@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dictionary>
+    <locale name="ru">
+
+		<!-- SEED'n'HARVEST -->
+        <message key="bilberryTitle">Черника</message>
+        <message key="pumpkinTitle">Тыква</message>
+        <message key="blackberryTitle">Ежевика</message>
+        <message key="watermelonTitle">Арбуз</message>
+        <message key="grapesTitle">Виноград</message>
+        <message key="melonTitle">Дыня</message>
+        <message key="pineappleTitle">Ананас</message>
+        <message key="feijoaTitle">Фейхоа</message>
+        <message key="strawberryTitle">Клубника</message>
+        <message key="currantTitle">Смородина</message>
+        <message key="cranberryTitle">Клюква</message>
+        <message key="gooseberryTitle">Крыжовник</message>
+        <message key="flaxTitle">Лён</message>
+        <message key="cottonTitle">Хлопок</message>
+
+        <message key="appleTitle">Яблоко</message>
+        <message key="pearTitle">Груша</message>
+        <message key="apricotTitle">Абрикос</message>
+        <message key="cherryTitle">Вишня</message>
+        <message key="peachTitle">Персик</message>
+        <message key="plumTitle">Слива</message>
+        <message key="bananaTitle">Банан</message>
+        <message key="coconutPalmTitle">Кокос</message>
+        <message key="papayaTitle">Папайя</message>
+        <message key="miracleTitle">Чудо-фрукт</message>
+
+        <message key="cloverTitle">Клевер</message>
+        <message key="aloeTitle">Алоэ</message>
+        <message key="aniseTitle">Анис</message>
+        <message key="dogRoseTitle">Шиповник</message>
+        <message key="medicinalMossTitle">Целебный мох</message>
+        
+        <message key="spratTitle">Килька</message>
+        <message key="perchTitle">Окунь</message>
+        <message key="pikeTitle">Щука</message>
+        <message key="catfishTitle">Сом</message>
+        <message key="shrimpTitle">Креветка</message>
+        <message key="sturgeonTitle">Осетр</message>
+        <message key="tunnyTitle">Тунец</message>
+        <message key="squidTitle">Кальмар</message>
+        
+        <!-- FOOD -->
+        <message key="blueberriesGratedTitle">Черника тертая</message>
+        <message key="blueberryJamTitle">Черничное варенье</message>
+        <message key="pumpkinPorridgeTitle">Каша из тыквы</message>
+        <message key="pumpkinCreamTitle">Пюре из тыквы</message>
+        <message key="appleJuiceTitle">Яблочный сок</message>
+        <message key="freshBerriesTitle">Ягодный фреш</message>
+        <message key="pearPureeTitle">Грушевое пюре</message>
+        <message key="freshWatermelonTitle">Арбузный фреш</message>
+        <message key="porridgeWithCloverTitle">Каша с клевером</message>
+        <message key="porridgeWithCloverDescription">Питательная и полезная каша. Можно сварить на кухне</message>
+        <message key="cocktailWithAloeTitle">Коктейль с алоэ</message>
+        <message key="compoteTitle">Компот</message>
+        <message key="fruitDrinkTitle">Морс из ягод</message>
+        <message key="fruitSyrupTitle">Фруктовый сироп</message>
+        <message key="cherryJamTitle">Вишневое варенье</message>
+        <message key="melonCocktailTitle">Дынный коктейль</message>
+        <message key="fruitSaladTitle">Фруктовый салат</message>
+        <message key="pineappleJuiceTitle">Ананасовый сок</message>
+        <message key="aniseSyrupTitle">Анисовый сироп</message>
+        <message key="feijoaJuiceTitle">Сок фейхоа</message>
+        <message key="creamOfFeijoaTitle">Пюре из фейхоа</message>
+        <message key="plumJamTitle">Сливовое варенье</message>
+        <message key="strawberryJamTitle">Клубничный джем</message>
+        <message key="bananaChipsTitle">Банановые чипсы</message>
+        <message key="delicatePureeTitle">Нежное пюре</message>
+        <message key="coconutMilkTitle">Кокосовое молочко</message>
+        <message key="tropicalCocktailTitle">Тропический коктейль</message>
+        <message key="currantJellyTitle">Смородиновое желе</message>
+        <message key="cranberryWaterTitle">Клюквенный морс</message>
+        <message key="creamOfPapayaTitle">Пюре из папайи</message>
+        
+        <message key="spratsTitle">Шпроты</message>
+        <message key="fishSoupTitle">Уха</message>
+        <message key="tinnedFoodTitle">Консервы</message>
+        <message key="stuffedPikeTitle">Фаршированная щука</message>
+        <message key="fishPlateTitle">Рыбное ассорти</message>
+        <message key="staffedSheatfishTitle">Сом фаршированный</message>
+        <message key="shrimpSoupTitle">Суп из креветок</message>
+        <message key="sturgeonInSyrupTitle">Осетр в сиропе</message>
+        <message key="sturgeonFishSoupTitle">Уха из осетра</message>
+        <message key="tunnyBakedTitle">Тунец запеченный</message>
+        <message key="fishMixTitle">Солянка рыбная</message>
+        <message key="seaCocktailTitle">Морской коктейль</message>
+        <message key="driedSquidTitle">Кальмар вяленый</message>
+        
+        <!-- MEDICINE -->
+        <message key="teaFromCloverTitle">Чай из клевера</message>
+        <message key="tinctureOfAloesTitle">Настойка из алоэ</message>
+        <message key="aniseNectarTitle">Анисовый нектар</message>
+        <message key="teaWithRosehipTitle">Чай с шиповником</message>
+        <message key="tinctureFromMossTitle">Настойка из мха</message>
+        
+        <!-- WEED -->
+        <message key="wgGrassJungleWideLabel">Заросли</message>
+        
+        <message key="wtPalmLabel">Пальма</message>
+        <message key="wtTreeLabel">Дерево</message>
+        <message key="wtSocotraLabel">Сокотра</message>
+
+        <message key="wbBambooLabel">Бамбук</message>
+        <message key="wbBushLabel">Куст</message>
+        <message key="wbMonsteraLabel">Монстера</message>
+        <message key="wbStrelitziaLabel">Стрелитция</message>
+
+        <message key="wsStoneLabel">Камень</message>
+        
+        <!-- PET -->
+        <message key="petDalmatianTitle">Далматинец</message>
+        <message key="petDlmKinderName">Щенок далматинца</message>
+        <message key="petDlmKinderDescription">Пятнистый щенок доставит много радости своему хозяину. Преданный и верный, он всегда будет оставаться рядом, чтобы ни случилось.</message>
+        
+        <message key="petShepherdTitle">Овчарка</message>
+        <message key="petShpdKinderName">Щенок овчарки</message>
+        <message key="petShpdKinderDescription">Овчарка по праву считается одной из лучших пород собак. 
+Лекго дрессируется и выполняет все команды, полностью доверяясь своему хозяину.</message>
+        
+        <message key="petCatBWTitle">Кошечка</message>
+        <message key="petCtBWKinderName">Кошечка</message>
+        <message key="petCtBWKinderDescription">Кошечка с черно-белым окрасом. Любит нежиться на солнце и играть, но обязательно рядом с хозяином.</message>
+        
+        <message key="petKittenTitle">Котенок</message>
+        <message key="petKttnKinderName">Котенок</message>
+        <message key="petKttnKinderDescription">Нежный и ласковый комочек счастья. Излучает самые теплые чувства, которыми всегда готов поделиться с хозяином.</message>
+        
+        <message key="petMiniPigTitle">Минипиг</message>
+        <message key="petMPgKinderName">Минипиг</message>
+        <message key="petMPgKinderDescription">Маленькая хрюшка — чудо селекции. Этот забавный карапуз доставит море радости и счастливых минут своему хозяину.</message>
+        
+        <message key="petPinkBallTitle">Существо</message>
+        <message key="petPkBllKinderName">Существо</message>
+        <message key="petPkBllKinderDescription">Любит смех, веселье, фрукты и своего хозяина!</message>
+        
+        <message key="petBulldogTitle">Бульдог</message>
+        <message key="petBldKinderName">Щенок бульдога</message>
+        <message key="petBldKinderDescription">Эталон мужества и силы. С виду агрессивен, но на самом деле добрый и верный друг.</message>
+        
+        <message key="petCatGingerTitle">Кошечка</message>
+        <message key="petCGgrKinderName">Кошечка</message>
+        <message key="petCGgrKinderDescription">Яркий окрас этой кошечки прекрасно смотрится среди сочной зелени острова, поднимая настроение всем вокруг.</message>
+        
+        <message key="petCrocodileTitle">Крокодил</message>
+        <message key="petCrdlKinderName">Детеныш крокодила</message>
+        <message key="petCrdlKinderDescription">Грозен и зубаст. Но это только кажется, поскольку крокодил-то — ручной!</message>
+        
+        <message key="petJerboaTitle">Тушканчик</message>
+        <message key="petJbaKinderName">Тушканчик</message>
+        <message key="petJbaKinderDescription">Игривый и жизнерадостный тушканчик, привезенный с далеких островов. Полон эмоций и радости, и всегда готов поделиться ими с хозяином.</message>
+        
+        <message key="petLemurTitle">Лемур</message>
+        <message key="petLmrKinderName">Лемур</message>
+        <message key="petLmrKinderDescription">Большие глаза и пушистый хвост — именно за это многие и любят лемуров.</message>
+        
+        <!-- PET ITEMS -->
+        <message key="petVegetableSaladTitle">Овощной салат</message>
+        <message key="petVegetableSaladDescription">Легкий салат, который идеально подойдет, чтобы "заморить червячка".</message>
+        <message key="petSweetDesertTitle">Нежный десерт</message>
+        <message key="petSweetDesertDescription">Питательный десерт, который не только утолит голод, но и поднимет твоему питомцу настроение.</message>
+        <message key="petBarbecueTitle">Барбекю</message>
+        <message key="petBarbecueDescription">Сочная вырезка с овощами, пожаренная на костре. Лучшее средство от голода.</message>
+        <message key="petVitaminesTitle">Витамины</message>
+        <message key="petVitaminesDescription">Если витаминов из овощей и фруктов не хватает, на помощь придут витамины из баночки.</message>
+        <message key="petMixtureTitle">Микстура</message>
+        <message key="petMixtureDescription">Быстро поставит на ноги твоего питомца.</message>
+        <message key="petSalveTitle">Мазь</message>
+        <message key="petSalveDescription">Заживляет раны и позволяет питомцу как можно быстрее встать на ноги. То есть, на лапы.</message>
+        <message key="petToyBallTitle">Резиновый мяч</message>
+        <message key="petToyBallDescription">Самый обыкновенный мяч для игры на свежем воздухе.</message>
+        <message key="petFriesbeeTitle">Фрисби</message>
+        <message key="petFriesbeeDescription">Веселая забава и просто любимая игрушка питомцев, всех без исключения.</message>
+        <message key="petShampooTitle">Шампунь</message>
+        <message key="petShampooDescription">Лучшее средство для поддержания твоих питомцев в чистоте.</message>
+        <message key="petBrushTitle">Щетка</message>
+        <message key="petBrushDescription">Самое простое и проверенное средство гигиены.</message>
+        <message key="petBrainteaserTitle">Головоломка</message>
+        <message key="petBrainteaserDescription">Иногда бывает полезно пособирать кубик-рубик вместо того, чтобы бегать в такую жару.</message>
+        <message key="petClockworkToyTitle">Заводная мышь</message>
+        <message key="petClockworkToyDescription">Прекрасная забава для твоего питомца.</message>
+        <message key="petSoapTitle">Душистое мыло</message>
+        <message key="petSoapDescription">Прекрасно помогает поддерживать гигиену твоего питомца.</message>
+        <message key="petFoamTitle">Пена для ванн</message>
+        <message key="petFoamDescription">Да, питомцы тоже не прочь поваляться в джакузи с пеной.</message>
+        <message key="teaFromCloverTitle">Чай из клевера</message>
+        <message key="teaFromCloverDescription">Поддерживает здоровье питомца. Этот чай можно сварить в лаборатории.</message>
+        <message key="tinctureOfAloesTitle">Настойка из алоэ</message>
+        <message key="tinctureOfAloesDescription">Поддерживает здоровье питомца. Можно сделать в лаборатории.</message>
+        <message key="aniseNectarTitle">Анисовый нектар</message>
+        <message key="aniseNectarDescription">Поддерживает здоровье питомца. Можно сделать в лаборатории.</message>
+        
+        <!-- FERTILIZER -->
+        <message key="humusTitle">Перегной</message>
+        <message key="cmpstTitle">Компост</message>
+        
+        <message key="humus3pcs">Перегной (3 мешка)</message>
+        <message key="cmpst2pcs">Компост (2 мешка)</message>
+        <message key="cmpst5pcs">Компост (5 мешков)</message>
+        
+        <message key="fishFertTitle">Прикорм</message>
+        <message key="goodFishFertTitle">Хороший прикорм</message>
+        
+        <message key="fishFert3pcs">Прикорм (3 шт.)</message>
+        <message key="goodFishFert2pcs">Хороший прикорм (2 шт.)</message>
+        <message key="goodFishFert5pcs">Хороший прикорм (5 шт.)</message>
+        
+        <message key="shopFert20Title">Удобрение</message>
+        <message key="shopFert60Title">Быстрый рост</message>
+        <message key="shopFert180Title">Расти большой</message>
+        
+        <message key="fishShopFert20Title">Малый корм</message>
+        <message key="fishShopFert60Title">Средний корм</message>
+        <message key="fishShopFert180Title">Большой корм</message>
+        
+        <!-- RESOURCES -->
+        <message key="woodResourceTitle">Дерево</message>
+        <message key="stoneResourceTitle">Камень</message>
+        <message key="marbleResourceTitle">Мрамор</message>
+        <message key="boardResourceTitle">Доска</message>
+        <message key="linenFabricResourceTitle">Льняная ткань</message>
+        <message key="cottonFabricResourceTitle">Хлопковая ткань</message>
+        <message key="toolBoxResourceTitle">Инструменты</message>
+        <message key="glassResourceTitle">Склянка</message>
+        <message key="graniteResourceTitle">Гранит</message>
+        <message key="redWoodResourceTitle">Красное дерево</message>
+        <message key="steelResourceTitle">Сталь</message>
+        <message key="ironResourceTitle">Железо</message>
+        <message key="totemResourceTitle">Тотем</message>
+        <message key="wasteResourceTitle">Отходы</message>
+        
+        <message key="glazeResourceTitle">Глазурь</message>
+        <message key="bucketResourceTitle">Ведро</message>
+        
+        <message key="woodResourceDesc">можно получить при рубке деревьев</message>
+        <message key="stoneResourceDesc">можно получить, ломая камни</message>
+        <message key="aborigineResourceDesc">можно выменять у туземцев</message>
+        <message key="workshopResourceDesc">можно сделать в мастерской</message>
+        <message key="workshopAborigineResourceDesc">можно сделать в мастерской или выменять у туземцев</message>
+        <message key="friendsResourceDesc">можно попросить у друзей</message>
+        <message key="friendsWorkshopResourceDesc">можно попросить у друзей или сделать в мастерской</message>
+        <message key="friendsAborigineResourceDesc">можно попросить у друзей или выменять у туземцев</message>
+        
+        <message key="wasteResourceDesc">остается после чистки фруктов и рыбы</message>
+        
+        <message key="canCooked">готовится на кухне</message>
+        <message key="canCraftInLab">делается в лаборатории</message>
+        <message key="canBuyInPetShop">продается в зоомагазине</message>
+        
+        <!-- CATEGORY -->
+        <message key="baseSeedsCategoryLabel">растения</message>        
+        <message key="fruitTreesCategoryLabel">деревья</message>        
+        <message key="medicalSeedsCategoryLabel">лекарства</message>        
+        <message key="fishFryCategoryLabel">рыба</message>        
+
+        <message key="plantFertilizerCategoryLabel">растения</message>        
+        <message key="fishFertilizerCategoryLabel">рыбы</message>        
+
+        <!-- SHOP CLOTHES -->
+        <message key="costumesCollections">Костюмы</message>
+
+        <message key="rootFurnitureCategory">Мебель</message>
+        <message key="avatarClothesCategoryBoy">Одежда</message>
+        <message key="avatarClothesCategoryGirl">Одежда</message>
+        <message key="rootGameCategory">Игры</message>
+        <message key="activeCategory">Вещи</message>
+        
+        <message key="avatarSuitsCategoryLabel">Костюмы</message>
+        <message key="avatarCollectionsCategoryLabel">Коллекции</message>
+		<message key="costumesLabel">Костюмы</message>
+        
+        <message key="avatarClothesCategory0">Рубашки</message>
+        <message key="avatarClothesCategory1">Штаны</message>
+        <message key="avatarClothesCategory2">Юбки</message>
+        <message key="avatarClothesCategory3">Носки</message>
+        <message key="avatarClothesCategory4">Куртки</message>
+        <message key="avatarClothesCategory5">Обувь</message>
+        <message key="avatarClothesCategory6">Платья</message>
+        <message key="avatarClothesCategory7">Шляпы</message>
+        <message key="avatarClothesCategory8">Аксессуары</message>
+        <message key="avatarClothesCategory9">Нижнее белье</message>
+        <message key="avatarClothesCategory10">Верх</message>
+        <message key="avatarClothesCategory11">Низ</message>
+        <message key="avatarClothesCategory12">Шорты</message>
+        <message key="avatarClothesCategory13">Верх</message>
+        <message key="avatarClothesCategory14">Низ</message>
+        <message key="avatarClothesBoySwimsuit">Плавки</message>
+        <message key="avatarClothesGirlSwimsuit">Купальники</message>
+        <message key="avatarClothesGirlPantyhose">Колготки</message>
+        <message key="avatarClothesGirlUnder">Нижнее белье</message>
+        <message key="avatarClothesGirlUnderweare">Белье</message>
+        <message key="avatarClothesBoyUnder">Нижнее белье</message>
+        <message key="avatarClothesBoyUnderweare">Белье</message>
+        <message key="boySuitsCategory">Комбинезоны</message>
+        <message key="girlSuitsCategory">Комбинезоны</message>
+        <message key="boyVestsCategory">Жилетки</message>
+        <message key="girlVestsCategory">Жилетки</message>
+        <message key="boyGlassesCategory">Очки</message>
+        <message key="girlGlassesCategory">Очки</message>
+        <message key="boyOtherDecorCategory">Прочее</message>
+        <message key="girlOtherDecorCategory">Прочее</message>
+        <message key="boyGlovesCategory">Перчатки</message>
+        <message key="girlGlovesCategory">Перчатки</message>
+        <message key="boyHatsCategory">Шляпы</message>
+        <message key="girlHatsCategory">Шляпы</message>
+        <message key="boyDecorationsCategory">Украшения</message>
+        <message key="girlDecorationsCategory">Украшения</message>
+        <message key="boyWeddingJacketsCategory">Пиджаки</message>
+        <message key="boyWeddingPantsCategory">Штаны</message>
+        <message key="girlWeddingDressCategory">Платья</message>
+        
+        <!-- BOY CLOTHES -->
+        <message key="boyTShirtTropikaniaDefaultLabel">Майка с узором</message>
+        <message key="boyTShirtTropikaniaAfrica">Майка "Африка"</message>
+        <message key="boyTShirtTropikaniaHawaii">Гавайская рубаха</message>
+        <message key="boyTShirtTropikaniaParrot">Майка "Parrot"</message>
+        <message key="boyBeltTropikaniaBarbarian">Пояс "Варвар"</message>
+        <message key="boyTShirtTropikaniaEgypt">Рубашка "Египтянин"</message>
+        <message key="boyTShirtTropikaniaLeopard">Майка "Леопард"</message>
+        
+        <message key="boyShortsTropikaniaDefault">Шорты</message>
+        <message key="boyShortsTropikaniaAborigine">Набедренная повязка</message>
+        <message key="boyPantsTropikaniaAfrica">Штаны "Африка"</message>
+        <message key="boyShortsTropikaniaHawaii">Гавайские шорты</message>
+        <message key="boyPantsTropikaniaParrot">Штаны "Parrot"</message>
+        <message key="boyPantsTropikaniaBarbarian">Штаны "Варвар"</message>
+        <message key="boyPantsTropikaniaEgypt">Штаны "Египтянин"</message>
+        <message key="boyPantsTropikaniaLeopard">Штаны "Леопард"</message>
+        
+        <message key="boySandalsTropikaniaDefault">Сандали</message>
+        <message key="boySandalsTropikaniaAborigine">Мокасины</message>
+        <message key="boyShoesTropikaniaAfrica">Шлепанцы "Африка"</message>
+        <message key="boySandalsTropikaniaHawaii">Гавайские сланцы</message>
+        <message key="boySandalsTropikaniaParrot">Шлепанцы "Parrot"</message>
+        <message key="boySandalsTropikaniaEgypt">Сандали "Египтянин"</message>
+        <message key="boySandalsTropikaniaLeopard">Сандали "Леопард"</message>
+        <message key="boyShoesTropikaniaBarbarian">Сапоги "Варвар"</message>
+        
+        <message key="boyTatooTropikaniaAborigine1">Татуировка аборигена</message>
+        <message key="boyTatooTropikaniaAborigine2">Татуировка аборигена</message>
+        <message key="boyMaskTropikaniaAborigine">Маска туземца</message>
+        <message key="boyHatTropikaniaHawaii">Гавайская шляпа</message>
+        <message key="boyBraceletTropikaniaAfrica">Браслет "Африка"</message>
+        <message key="boyPendantTropikaniaAborigine">Кулон аборигена</message>
+        <message key="boyPendantTropikaniaAfrica">Подвеска "Африка"</message>
+        <message key="boyPendantTropikaniaHawaii">Гавайский кулон</message>
+        <message key="boyPendantTropikaniaParrot">Кулон "Parrot"</message>
+        <message key="boyBraceletTropikaniaEgypt">Браслеты "Египтянин"</message>
+        <message key="boyBraceletTropikaniaLeopard">Браслет "Леопард"</message>
+        <message key="boyFilletTropikaniaBarbarian">Повязка "Варвар"</message>
+        <message key="boyFilletTropikaniaLeopard">Повязка "Леопард"</message>
+        <message key="boyGlassesTropikaniaParrot">Очки "Parrot"</message>
+        <message key="boyGlassesTropikaniaEgypt">Очки "Египтянин"</message>
+        <message key="boyMittensTropikaniaBarbarian">Рукавицы "Варвар"</message>
+        <message key="boyPendantTropikaniaBarbarian">Кулон "Варвар"</message>
+        <message key="boyPendantTropikaniaLeopard">Кулон "Леопард"</message>
+        
+        <message key="boyAborigeneContume2Label">Наряд аборигена</message>
+        <message key="boyAfricaContume3Label">Комплект одежды "Африка"</message>
+        <message key="boyHawaiiContume3Label">Гавайский наряд</message>
+        <message key="boyParrotContume3Label">Комплект одежды "Parrot"</message>
+        <message key="boyLeopardContume3Label">Комплект одежды "Леопард"</message>
+        <message key="boyBarbarianContume3Label">Комплект одежды "Варвар"</message>
+        <message key="boyEgyptContume3Label">Комплект одежды "Египтянин"</message>
+        
+        <!-- GIRL CLOTHES -->
+        <message key="girlTShirtTropikaniaDefault">Топик</message>
+        <message key="girlSwimsuitTropikaniaBeach">Купальник "Beach"</message>
+        <message key="girlTopTropikaniaHawaii">Гавайский топ</message>
+        <message key="girlPareoTropikaniaBeach">Парео "Beach"</message>
+        <message key="girlDressTropikaniaEgypt">Платье "Египтянка"</message>
+        <message key="girlDressTropikaniaPeacock">Платье "Павлин"</message>
+        <message key="girlTShirtTropikaniaAmazon">Топ "Амазонка"</message>
+        
+        <message key="girlPantsTropikaniaDefault">Штаны</message>
+        <message key="girlSkirtTropikaniaHawaii">Гавайская юбка</message>
+        <message key="girlStockingsTropikaniaButterfly">Колготки "Butterfly"</message>
+        <message key="girlSkirtTropikaniaAmazon">Юбка "Амазонка"</message>
+        
+        <message key="girlSandalsTropikaniaDefault">Сандали</message>
+        <message key="girlSandalsTropikaniaAfrica">Сандали "Африка"</message>
+        <message key="girlSandalsTropikaniaBeach">Сандали "Beach"</message>
+        <message key="girlShoesTropikaniaButterfly">Шлепанцы "Butterfly"</message>
+        <message key="girlSandalsTropikaniaHawaii">Гавайские шлепанцы</message>
+        <message key="girlBootsTropikaniaAmazon">Мокасины "Амазонка"</message>
+        <message key="girlSandalsTropikaniaEgypt">Сандали "Египтянка"</message>
+        <message key="girlSandalsTropikaniaPeacock">Сандали "Павлин"</message>
+        
+        <message key="girlDressTropikaniaAfrica">Платье "Африка"</message>
+        <message key="girlDressTropikaniaButterfly">Платье "Butterfly"</message>
+        
+        <message key="girlBraceletTropikaniaDefault">Браслет</message>
+        <message key="girlBraceletTropikaniaAfrica">Браслет "Африка"</message>
+        <message key="girlBraceletTropikaniaBeach">Браслет "Beach"</message>
+        <message key="girlBrasletTropikaniaHawaii">Гавайский браслет</message>
+        <message key="girlPendantTropikaniaDefault">Кулон</message>
+        <message key="girlPendantTropikaniaAfrica">Подвеска "Африка"</message>
+        <message key="girlScarfTropikaniaButterfly">Шарфик "Butterfly"</message>
+        <message key="girlScarfTropikaniaHawaii">Гавайское украшение</message>
+        <message key="girlBraceletTropikaniaAmazon">Браслет "Амазонка"</message>
+        <message key="girlBraceletTropikaniaEgypt">Браслет "Египтянка"</message>
+        <message key="girlFilletTropikaniaAmazon">Повязка "Амазонка"</message>
+        <message key="girlMittensTropikaniaAmazon">Перчатки "Амазонка"</message>
+        <message key="girlPendantTropikaniaEgypt">Подвеска "Египтянка"</message>
+        <message key="girlPendantTropikaniaPeacock">Кулон "Павлин"</message>
+        
+        <message key="girlEarringsTropikaniaAfrica">Серьги "Африка"</message>
+        <message key="girlEarringstTropikaniaBeach">Серьги "Beach"</message>
+        <message key="girlEarringsTropikaniaButterfly">Серьги "Butterfly"</message>
+        <message key="girlEarringsTropikaniaHawaii">Гавайские сережки</message>
+        <message key="girlHairpinTropikaniaBeach">Заколка "Beach"</message>
+        <message key="girlHairpinsTropikaniaButterfly">Заколка "Butterfly"</message>
+        <message key="girlHairpinTropikaniaHawaii">Гавайская заколка</message>
+        <message key="girlGlassesTropikaniaBeach">Очки "Beach"</message>
+        <message key="girlGlassesTropikaniaButterfly">Очки "Butterfly"</message>
+        <message key="girlBandanaTropikaniaAfrica">Бандана "Африка"</message>
+        <message key="girlEarringsTropikaniaAmazon">Серьги "Амазонка"</message>
+        <message key="girlEarringsTropikaniaEgypt">Серьги "Египтянка"</message>
+        <message key="girlEarringsTropikaniaPeacock">Серьги "Павлин"</message>
+        <message key="girlTiaraTropikaniaEgypt">Диадема "Египтянка"</message>
+        <message key="girlTiaraTropikaniaPeacock">Диадема "Павлин"</message>
+        
+        <message key="girlAfricaContume3Label">Комплект одежды "Африка"</message>
+        <message key="girlBeachContume3Label">Пляжный комплект</message>
+        <message key="girlButterflyContume3Label">Комплект одежды "Butterfly"</message>
+        <message key="girlHawaiiContume3Label">Гавайский наряд</message>
+        <message key="girlPeacockContume3Label">Яркий комплект "Павлин"</message>
+        <message key="girlAmazonContume3Label">Комплект "Амазонка"</message>
+        <message key="girlEgyptContume3Label">Комплект "Египтянка"</message>
+        
+        <!-- DECOR -->
+        <message key="decorFurnitureCategoryLabel">мебель</message>
+        <message key="decorPlantsCategoryLabel">растения</message>
+        <message key="decorDecorCategoryLabel">декор</message>
+        <message key="decorWeedsCategoryLabel">ресурсы</message>
+        
+        <message key="decorFirniture1Title">Лежак</message>
+        <message key="decorFirniture2Title">Плетеный стул</message>
+        <message key="decorFirniture3Title">Табурет</message>
+        <message key="decorFirniture4Title">Гамак</message>
+        <message key="decorFirniture5Title">Кровать</message>
+        <message key="decorFirniture6Title">Качели</message>
+        <message key="decorFirniture7Title">Стул</message>
+        <message key="decorFirniture8Title">Столик</message>
+        <message key="decorPlantTitle">Куст цветов</message>
+        <message key="decorPlant3Title">Гибискус</message>
+        <message key="decorPlant4Title">Калла</message>
+        <message key="decorPlant5Title">Орхидея</message>
+        <message key="decorPlant6Title">Газон</message>
+        <message key="decorPlant7Title">Лужайка</message>
+        <message key="decorPlant8Title">Бутылочное дерево</message>
+        <message key="decorPlant9Title">Цветок в горшке</message>
+        <message key="decorPlant10Title">Глориоза</message>
+        <message key="decorDecor1Title">Забор</message>
+        <message key="decorDecor2Title">Фонтан аборигенов</message>
+        <message key="decorDecor3Title">Античный фонтан</message>
+        <message key="decorDecor4Title">Пальмовый фонтан</message>
+        <message key="decorDecor5Title">Ворота</message>
+        <message key="decorDecor6Title">Дорожка</message>
+        <message key="decorDecor7Title">Зонтик</message>
+
+        <!-- GAME -->
+        <message key="pinaColadaTitle">Ананасовый фреш</message>
+        <message key="blueHawaiiTitle">Кокосовое молочко</message>
+        <message key="strawberryDaiquiriTitle">Клубничный сок</message>
+        <!-- <message key="pinaColadaTitle">Пина Колада</message>
+        <message key="blueHawaiiTitle">Голубые Гавайи</message>
+        <message key="strawberryDaiquiriTitle">Клубничный Дайкири</message> -->
+    </locale>
+</dictionary>

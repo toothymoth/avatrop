@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+
+    <!-- <item id="" label="#Title" name="" icon="Icon" gold="1" silver="1" saleSilver="1" priority="1" canSale="1" > <params></params> 
+        <oldPrice gold="1" silver="1"/> </item> -->
+
+    <category id="food" label="#foodCategory" priority="1" typeClass="food" library="resources" logCategory1="food">
+
+        <category id="foodPets" target="ktchn" mainModifier="satiety" logCategory2="pet">
+            <item id="pVSal" label="#petVegetableSaladTitle" description="#petVegetableSaladDescription" name="PetVegetableSalad" icon="PetVegetableSaladIcon"
+                gold="1" silver="40" saleSilver="0" priority="100" canSale="0" cursorId="petFeed" canUse="1" rating="1">
+                <modifiers>
+                    <modifier name="satiety" effect="15" />
+                    <modifier name="health" effect="5" />
+                    <modifier name="cheerfullness" effect="-5" />
+                </modifiers>
+            </item>
+            <item id="pSDes" label="#petSweetDesertTitle" description="#petSweetDesertDescription" name="PetSweetDesert" icon="PetSweetDesertIcon"
+                gold="1" silver="70" saleSilver="0" priority="99" canSale="0" cursorId="petFeed" canUse="1" rating="1">
+                <modifiers>
+                    <modifier name="satiety" effect="25" />
+                    <modifier name="happiness" effect="10" />
+                    <modifier name="cheerfullness" effect="-5" />
+                </modifiers>
+            </item>
+            <item id="pBbq" label="#petBarbecueTitle" description="#petBarbecueDescription" name="PetBarbecue" icon="PetBarbecueIcon"
+                gold="1" silver="120" saleSilver="0" priority="98" canSale="0" cursorId="petFeed" canUse="1" rating="1">
+                <modifiers>
+                    <modifier name="satiety" effect="45" />
+                    <modifier name="happiness" effect="15" />
+                    <modifier name="cheerfullness" effect="-5" />
+                </modifiers>
+            </item>
+            <item id="porrWClover" label="#porridgeWithCloverTitle" name="PorridgeWithCloverLoot" icon="PorridgeWithCloverIcon" 
+	            gold="4" silver="0" canBuy="0" saleSilver="325" priority="92" canSale="1" canUse="1" description="#canCooked" cursorId="petFeed" canBuyInAdventure="1">
+	            <modifiers>
+	                <modifier name="satiety" effect="55" />
+                  	<modifier name="health" effect="25" />
+                  	<modifier name="cheerfullness" effect="-5" />
+	            </modifiers>
+	        </item>
+	        <item id="aniseSyrup" label="#aniseSyrupTitle" name="AniseSyrupLoot" icon="AniseSyrupIcon" gold="20" silver="0"
+	            saleSilver="2760" priority="83" canSale="1" canBuy="0" canUse="1" description="#canCooked" cursorId="petFeed">
+	            <modifiers>
+	                <modifier name="satiety" effect="65" />
+	                <modifier name="happiness" effect="20" />
+	                <modifier name="cheerfullness" effect="-5" />
+	            </modifiers>
+	        </item>
+	        <item id="tropCock" label="#tropicalCocktailTitle" name="TropicalCocktailLoot" icon="TropicalCocktailIcon"
+	            gold="41" silver="0" saleSilver="5975" priority="75" canSale="1" canBuy="0" canUse="1" description="#canCooked" cursorId="petFeed">
+	            <modifiers>
+	                <modifier name="satiety" effect="75" />
+	                <modifier name="health" effect="35" />
+	                <modifier name="cheerfullness" effect="-5" />
+	            </modifiers>
+	        </item>
+	        <item id="crOfPapaya" label="#creamOfPapayaTitle" name="CreamOfPapayaLoot" icon="CreamOfPapayaIcon" gold="42"
+	            silver="0" saleSilver="6800" priority="72" canSale="1" canBuy="0" canUse="1" description="#canCooked" cursorId="petFeed">
+	            <modifiers>
+	                <modifier name="satiety" effect="75" />
+	                <modifier name="happiness" effect="30" />
+	                <modifier name="cheerfullness" effect="-7" />
+	            </modifiers>
+	        </item>
+	        <item id="tinFood" label="#tinnedFoodTitle" name="TinnedFoodLoot" icon="TinnedFoodIcon" gold="7" silver="0"
+	            saleSilver="560" priority="48" canSale="1" canBuy="0" canUse="1" description="#canCooked" cursorId="petFeed" canBuyInAdventure="1">
+	            <modifiers>
+	                <modifier name="satiety" effect="40" />
+	                <modifier name="happiness" effect="10" />
+	                <modifier name="cheerfullness" effect="-5" />
+	            </modifiers>
+	        </item>
+	        <item id="sturgInSyrup" label="#sturgeonInSyrupTitle" name="SturgeonInSyrupLoot" icon="SturgeonInSyrupIcon"
+	            gold="20" silver="0" saleSilver="2715" priority="43" canSale="1" canBuy="0" canUse="1" description="#canCooked" cursorId="petFeed">
+	            <modifiers>
+	                <modifier name="satiety" effect="55" />
+	                <modifier name="health" effect="15" />
+	                <modifier name="cheerfullness" effect="-5" />
+	            </modifiers>
+	        </item>
+	        <item id="tunBaked" label="#tunnyBakedTitle" name="TunnyBakedLoot" icon="TunnyBakedIcon" gold="25" silver="0"
+	            saleSilver="3825" priority="41" canSale="1" canBuy="0" canUse="1" description="#canCooked" cursorId="petFeed">
+	            <modifiers>
+	                <modifier name="satiety" effect="65" />
+	                <modifier name="health" effect="25" />
+	                <modifier name="cheerfullness" effect="-6" />
+	            </modifiers>
+	        </item>
+	        <item id="seaCockt" label="#seaCocktailTitle" name="SeaCocktailLoot" icon="SeaCocktailIcon" gold="40"
+	            silver="0" saleSilver="6280" priority="39" canSale="1" canBuy="0" canUse="1" description="#canCooked" cursorId="petFeed">
+	            <modifiers>
+	                <modifier name="satiety" effect="75" />
+	                <modifier name="health" effect="35" />
+	                <modifier name="cheerfullness" effect="-8" />
+	            </modifiers>
+	        </item>
+        </category>
+        
+        <category id="avatarFood" target="ktchn" logCategory2="avatar">
+	        <category id="fruitBerryFood" target="ktchn">
+	            <item id="bluebGrt" label="#blueberriesGratedTitle" name="BlueberriesGratedLoot" icon="BlueberriesGratedIcon"
+	                gold="2" silver="0" saleSilver="90" priority="100" canSale="1" canUse="1" description="#canCooked">
+	                <modifiers>
+	                    <modifier name="energy" effect="3" />
+	                </modifiers>
+	           	</item>
+	            <item id="pmpPorridge" label="#pumpkinPorridgeTitle" name="PumpkinPorridgeLoot" icon="PumpkinPorridgeIcon"
+	                gold="3" silver="0" saleSilver="135" priority="99" canSale="1" canUse="1" description="#canCooked">
+	                <modifiers>
+	                    <modifier name="energy" effect="3" />
+	                </modifiers>
+	            </item>
+	            <item id="bluebJam" label="#blueberryJamTitle" name="BlueberryJamLoot" icon="BlueberryJamIcon" gold="5"
+	                silver="0" saleSilver="215" priority="98" canSale="1" canUse="1" description="#canCooked">
+	                <modifiers>
+	                    <modifier name="energy" effect="5" />
+	                </modifiers>
+	            </item>
+	            <item id="pmpCream" label="#pumpkinCreamTitle" name="PumpkinCreamLoot" icon="PumpkinCreamIcon" gold="7"
+	                silver="0" saleSilver="350" priority="97" canSale="1" canUse="1" description="#canCooked">
+	                <modifiers>
+	                    <modifier name="energy" effect="7" />
+	                </modifiers>
+	            </item>
+	            <item id="appJuice" label="#appleJuiceTitle" name="AppleJuiceLoot" icon="AppleJuiceIcon" gold="5"
+	                silver="0" saleSilver="465" priority="96" canBuy="0" canSale="1" canUse="1" description="#canCooked">
+	                <modifiers>
+	                    <modifier name="energy" effect="8" />
+	                </modifiers>
+	            </item>
+	            <item id="frBerries" label="#freshBerriesTitle" name="FreshBerriesLoot" icon="FreshBerriesIcon" gold="5"
+	                silver="0" saleSilver="450" priority="95" canSale="1" canUse="1" description="#canCooked">
+	                <modifiers>
+	                    <modifier name="energy" effect="9" />
+	                </modifiers>
+	            </item>
+	            <item id="frWtrmelon" label="#freshWatermelonTitle" name="FreshWatermelonLoot" icon="FreshWatermelonIcon"
+	                gold="5" silver="0" saleSilver="585" priority="94" canSale="1" canUse="1" description="#canCooked">
+	                <modifiers>
+	                    <modifier name="energy" effect="10" />
+	                </modifiers>
+	            </item>
+	            <item id="pearPuree" label="#pearPureeTitle" name="PearPureeLoot" icon="PearPureeIcon" gold="10" silver="0"
+	                saleSilver="715" priority="93" canSale="1" canUse="1" description="#canCooked">
+	                <modifiers>
+	                    <modifier name="energy" effect="12" />
+	                </modifiers>
+	            </item>
+	            <item id="compote" label="#compoteTitle" name="CompoteLoot" icon="CompoteIcon" gold="10" silver="0"
+	                saleSilver="960" priority="91" canSale="1" canUse="1" description="#canCooked">
+	                <modifiers>
+	                    <modifier name="energy" effect="15" />
+	                </modifiers>
+	            </item>
+	            <item id="cocktWAloe" label="#cocktailWithAloeTitle" name="CocktailWithAloeLoot" icon="CocktailWithAloeIcon"
+	                gold="11" silver="0" saleSilver="1050" priority="90" canSale="1" canUse="1" description="#canCooked">
+	                <modifiers>
+	                    <modifier name="energy" effect="17" />
+	                </modifiers>
+	            </item>
+	            <item id="frDrink" label="#fruitDrinkTitle" name="FruitDrinkLoot" icon="FruitDrinkIcon" gold="11" silver="0"
+	                saleSilver="1270" priority="89" canSale="1" canBuy="0" canUse="1" description="#canCooked">
+	                <modifiers>
+	                    <modifier name="energy" effect="20" />
+	                </modifiers>
+	            </item>
+	            <item id="melonCockt" label="#melonCocktailTitle" name="MelonCocktailLoot" icon="MelonCocktailIcon" gold="10"
+	                silver="0" saleSilver="1280" priority="88" canSale="1" canUse="1" description="#canCooked">
+	                <modifiers>
+	                    <modifier name="energy" effect="18" />
+	                </modifiers>
+	            </item>
+	            <item id="chrJam" label="#cherryJamTitle" name="CherryJamLoot" icon="CherryJamIcon" gold="17" silver="0"
+	                saleSilver="1875" priority="87" canSale="1" canBuy="0" canUse="1" description="#canCooked">
+	                <modifiers>
+	                    <modifier name="energy" effect="25" />
+	                </modifiers>
+	            </item>
+	            <item id="frSyrup" label="#fruitSyrupTitle" name="FruitSyrupLoot" icon="FruitSyrupIcon" gold="15" silver="0"
+	                saleSilver="1600" priority="86" canSale="1" canUse="1" description="#canCooked">
+	                <modifiers>
+	                    <modifier name="energy" effect="20" />
+	                </modifiers>
+	            </item>
+	            <item id="pinappJuice" label="#pineappleJuiceTitle" name="PineappleJuiceLoot" icon="PineappleJuiceIcon"
+	                gold="14" silver="0" saleSilver="1935" priority="85" canSale="1" canUse="1" description="#canCooked">
+	                <modifiers>
+	                    <modifier name="energy" effect="22" />
+	                </modifiers>
+	            </item>
+	            <item id="frSalad" label="#fruitSaladTitle" name="FruitSaladLoot" icon="FruitSaladIcon" gold="19" silver="0"
+	                saleSilver="2200" priority="84" canSale="1" canUse="1" description="#canCooked">
+	                <modifiers>
+	                    <modifier name="energy" effect="25" />
+	                </modifiers>
+	            </item>
+	            <item id="fjJuice" label="#feijoaJuiceTitle" name="FeijoaJuiceLoot" icon="FeijoaJuiceIcon" gold="15" silver="0"
+	                saleSilver="2060" priority="82" canSale="1" canUse="1" description="#canCooked">
+	                <modifiers>
+	                    <modifier name="energy" effect="28" />
+	                </modifiers>
+	            </item>
+	            <item id="creamOfFj" label="#creamOfFeijoaTitle" name="CreamOfFeijoaLoot" icon="CreamOfFeijoaIcon" gold="27"
+	                silver="0" saleSilver="6825" priority="81" canSale="1" canBuy="0" canUse="1" description="#canCooked">
+	                <modifiers>
+	                    <modifier name="energy" effect="45" />
+	                </modifiers>
+	            </item>
+	            <item id="plumJam" label="#plumJamTitle" name="PlumJamLoot" icon="PlumJamIcon" gold="22" silver="0"
+	                saleSilver="2515" priority="80" canSale="1" canUse="1" description="#canCooked">
+	                <modifiers>
+	                    <modifier name="energy" effect="30" />
+	                </modifiers>
+	            </item>
+	            <item id="cranbWtr" label="#cranberryWaterTitle" name="CranberryWaterLoot" icon="CranberryWaterIcon" gold="20"
+	                silver="0" saleSilver="2975" priority="79" canSale="1" canUse="1" description="#canCooked">
+	                <modifiers>
+	                    <modifier name="energy" effect="33" />
+	                </modifiers>
+	            </item>
+	            <item id="strbJam" label="#strawberryJamTitle" name="StrawberryJamLoot" icon="StrawberryJamIcon" gold="28"
+	                silver="0" saleSilver="6830" priority="78" canSale="1" canUse="1" description="#canCooked">
+	                <modifiers>
+	                    <modifier name="energy" effect="17" />
+	                </modifiers>
+	            </item>
+	            <item id="delicPuree" label="#delicatePureeTitle" name="DelicatePureeLoot" icon="DelicatePureeIcon" gold="34"
+	                silver="0" saleSilver="9000" priority="77" canSale="1" canBuy="0" canUse="1" description="#canCooked">
+	                <modifiers>
+	                    <modifier name="energy" effect="55" />
+	                </modifiers>
+	            </item>
+	            <item id="currtJelly" label="#currantJellyTitle" name="CurrantJellyLoot" icon="CurrantJellyIcon" gold="28"
+	                silver="0" saleSilver="7900" priority="76" canSale="1" canUse="1" description="#canCooked">
+	                <modifiers>
+	                    <modifier name="energy" effect="38" />
+	                </modifiers>
+	            </item>
+	            <item id="cocMilk" label="#coconutMilkTitle" name="CoconutMilkLoot" icon="CoconutMilkIcon" gold="31" silver="0"
+	                saleSilver="4635" priority="74" canSale="1" canUse="1" description="#canCooked">
+	                <modifiers>
+	                    <modifier name="energy" effect="40" />
+	                </modifiers>
+	            </item>
+	            <item id="banChips" label="#bananaChipsTitle" name="BananaChipsLoot" icon="BananaChipsIcon" gold="39"
+	                silver="0" saleSilver="5280" priority="78" canSale="1" canUse="1" description="#canCooked">
+	                <modifiers>
+	                    <modifier name="energy" effect="42" />
+	                </modifiers>
+	            </item>
+	            <item id="glaze" label="#glazeResourceTitle" name="GlazeLoot" icon="GlazeIcon" gold="2" silver="0" saleSilver="90" 
+	                priority="200" canSale="1" canUse="0" description="#canCooked" />
+	        </category>
+	
+	        <category id="fishFood" logCategory2="fish">
+	            <item id="sprtscns" label="#spratsTitle" name="SpratsFoodLoot" icon="SpratsFoodIcon" gold="3"
+	                silver="0" saleSilver="160" priority="50" canSale="1" canUse="1" description="#canCooked">
+	                <modifiers>
+	                    <modifier name="energy" effect="3" />
+	                </modifiers>
+	            </item>
+	            <item id="fishSoup" label="#fishSoupTitle" name="FishSoupLoot" icon="FishSoupIcon" gold="5" silver="0"
+	                saleSilver="400" priority="49" canSale="1" canUse="1" description="#canCooked">
+	                <modifiers>
+	                    <modifier name="energy" effect="5" />
+	                </modifiers>
+	            </item>
+	            <item id="stuffPike" label="#stuffedPikeTitle" name="StuffedPikeLoot" icon="StuffedPikeIcon" gold="7"
+	                silver="0" saleSilver="650" priority="47" canSale="1" canUse="1" description="#canCooked">
+	                <modifiers>
+	                    <modifier name="energy" effect="7" />
+	                </modifiers>
+	            </item>
+	            <item id="fishPlate" label="#fishPlateTitle" name="FishPlateLoot" icon="FishPlateIcon" gold="7" silver="0"
+	                saleSilver="740" priority="46" canSale="1" canBuy="0" canUse="1" description="#canCooked">
+	                <modifiers>
+	                    <modifier name="energy" effect="10" />
+	                </modifiers>
+	            </item>
+	            <item id="staffShfish" label="#staffedSheatfishTitle" name="StaffedSheatfishLoot" icon="StaffedSheatfishIcon"
+	                gold="9" silver="0" saleSilver="845" priority="45" canSale="1" canUse="1" description="#canCooked">
+	                <modifiers>
+	                    <modifier name="energy" effect="11" />
+	                </modifiers>
+	            </item>
+	            <item id="shrimpSoup" label="#shrimpSoupTitle" name="ShrimpSoupLoot" icon="ShrimpSoupIcon" gold="11" silver="0"
+	                saleSilver="1105" priority="44" canSale="1" canUse="1" description="#canCooked">
+	                <modifiers>
+	                    <modifier name="energy" effect="15" />
+	                </modifiers>
+	            </item>
+	            <item id="sturgFishSoup" label="#sturgeonFishSoupTitle" name="SturgeonFishSoupLoot" icon="SturgeonFishSoupIcon"
+	                gold="19" silver="0" saleSilver="2295" priority="42" canSale="1" canUse="1" description="#canCooked">
+	                <modifiers>
+	                    <modifier name="energy" effect="20" />
+	                </modifiers>
+	            </item>
+	            <item id="fishMix" label="#fishMixTitle" name="FishMixLoot" icon="FishMixIcon" gold="21" silver="0"
+	                saleSilver="2885" priority="40" canSale="1" canUse="1" description="#canCooked">
+	                <modifiers>
+	                    <modifier name="energy" effect="25" />
+	                </modifiers>
+	            </item>
+	            <item id="driedSqd" label="#driedSquidTitle" name="DriedSquidLoot" icon="DriedSquidIcon" gold="30" silver="0"
+	                saleSilver="4300" priority="38" canSale="1" canUse="1" description="#canCooked">
+	                <modifiers>
+	                    <modifier name="energy" effect="35" />
+	                </modifiers>
+	            </item>
+            </category>
+        </category>
+    </category>
+</config>

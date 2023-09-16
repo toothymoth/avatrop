@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+
+    <!-- <item id="" label="#Title" name="" icon="Icon" gold="0" silver="0" energy="0" saleSilver="0" saleEnergy="0" priority="1" 
+        canSale="1" canTrade="0" canGift="0"> <params></params> <oldPrice gold="0" silver="0"/> </item> -->
+
+    <category id="fertilizer" label="#fertilizerCategory" typeClass="fertilizer" library="resources" logCategory1="fertilizer">
+        
+        <category id="craftFertilizer" label="#craftFertilizerCategory" priority="3" useFertilizerExpBonus="1" useFriendFertilizerExpBonus="1">
+
+
+        </category>
+        
+        <category id="plantFertilizer" label="#plantFertilizerCategory" priority="1" useFertilizerExpBonus="1" useFriendFertilizerExpBonus="1" logCategory2="plant">
+
+            <item id="frt1" label="#humusTitle" name="Fert1Loot" icon="Fert1Icon"
+                gold="0" silver="0" saleSilver="0" priority="30" canBuy="0" canUse="1" canSale="0">
+                <modifiers>
+                    <modifier name="time" effect="-10" />
+                    <modifier name="cells" effect="1" />
+                </modifiers>
+            </item>
+            <item id="frt2" label="#humusTitle" name="Fert1Loot" icon="Fert1Icon"
+                gold="0" silver="0" saleSilver="0" priority="28" canBuy="0" canUse="1" canSale="0">
+                <modifiers>
+                    <modifier name="time" effect="-10" />
+                    <modifier name="cells" effect="1" />
+                </modifiers>
+            </item>
+            <item id="frt3" label="#humusTitle" name="Fert1Loot" icon="Fert1Icon"
+                gold="0" silver="0" saleSilver="0" priority="26" canBuy="0" canUse="1" canSale="0">
+                <modifiers>
+                    <modifier name="time" effect="-20" />
+                    <modifier name="cells" effect="1" />
+                </modifiers>
+            </item>
+            <item id="frt4" label="#cmpstTitle" name="Fert2Loot" icon="Fert2Icon"
+                gold="0" silver="1" saleSilver="0" priority="24" canBuy="0" canUse="1" canSale="0">
+                <modifiers>
+                    <modifier name="time" effect="-30" />
+                    <modifier name="cells" effect="1" />
+                </modifiers>
+            </item>
+            <item id="frt5" label="#cmpstTitle" name="Fert2Loot" icon="Fert2Icon"
+                gold="0" silver="1" saleSilver="0" priority="22" canBuy="0" canUse="1" canSale="0">
+                <modifiers>
+                    <modifier name="time" effect="-30" />
+                    <modifier name="cells" effect="1" />
+                </modifiers>
+            </item>
+            <item id="frt6" label="#cmpstTitle" name="Fert2Loot" icon="Fert2Icon"
+                gold="1" silver="0" saleSilver="0" priority="20" canBuy="0" canUse="1" canSale="0">
+                <modifiers>
+                    <modifier name="time" effect="-45" />
+                    <modifier name="cells" effect="1" />
+                </modifiers>
+            </item>
+	        <item id="frt10" label="#shopFert20Title" name="Fert3Loot" icon="Fert3Icon"
+	            gold="1" silver="0" saleSilver="0" priority="6" canBuy="1" canUse="1" canSale="0">
+	            <modifiers>
+	                <modifier name="time" effect="-20" />
+	                <modifier name="cells" effect="1" />
+	            </modifiers>
+	        </item>
+	        <item id="frt11" label="#shopFert60Title" name="Fert4Loot" icon="Fert4Icon"
+	            gold="2" silver="0" saleSilver="0" priority="4" canBuy="1" canUse="1" canSale="0">
+	            <modifiers>
+	                <modifier name="time" effect="-60" />
+	                <modifier name="cells" effect="1" />
+	            </modifiers>
+	        </item>
+	        <item id="frt12" label="#shopFert180Title" name="Fert5Loot" icon="Fert5Icon"
+	            gold="3" silver="0" saleSilver="0" priority="2" canBuy="1" canUse="1" canSale="0">
+	            <modifiers>
+	                <modifier name="time" effect="-180" />
+	                <modifier name="cells" effect="1" />
+	            </modifiers>
+	        </item>
+        </category>
+
+        <category id="fishFertilizer" label="#fishFertilizerCategory" priority="2" useFertilizerExpBonus="1" useFriendFertilizerExpBonus="1" logCategory2="fish">
+
+            <item id="frt16" label="#fishFertTitle" name="FishFert5Loot" icon="FishFert5Icon"
+                gold="0" silver="0" saleSilver="0" priority="29" canBuy="0" canUse="1" canSale="0">
+                <modifiers>
+                    <modifier name="time" effect="-10" />
+                    <modifier name="cells" effect="1" />
+                </modifiers>
+            </item>
+            <item id="frt17" label="#fishFertTitle" name="FishFert5Loot" icon="FishFert5Icon"
+                gold="0" silver="0" saleSilver="0" priority="27" canBuy="0" canUse="1" canSale="0">
+                <modifiers>
+                    <modifier name="time" effect="-10" />
+                    <modifier name="cells" effect="1" />
+                </modifiers>
+            </item>
+            <item id="frt18" label="#fishFertTitle" name="FishFert5Loot" icon="FishFert5Icon"
+                gold="0" silver="0" saleSilver="0" priority="25" canBuy="0" canUse="1" canSale="0">
+                <modifiers>
+                    <modifier name="time" effect="-20" />
+                    <modifier name="cells" effect="1" />
+                </modifiers>
+            </item>
+            <item id="frt19" label="#goodFishFertTitle" name="FishFert1Loot" icon="FishFert1Icon"
+                gold="0" silver="0" saleSilver="0" priority="23" canBuy="0" canUse="1" canSale="0">
+                <modifiers>
+                    <modifier name="time" effect="-30" />
+                    <modifier name="cells" effect="1" />
+                </modifiers>
+            </item>
+            <item id="frt20" label="#goodFishFertTitle" name="FishFert1Loot" icon="FishFert1Icon"
+                gold="0" silver="0" saleSilver="0" priority="21" canBuy="0" canUse="1" canSale="0">
+                <modifiers>
+                    <modifier name="time" effect="-30" />
+                    <modifier name="cells" effect="1" />
+                </modifiers>
+            </item>
+            <item id="frt21" label="#goodFishFertTitle" name="FishFert1Loot" icon="FishFert1Icon"
+                gold="0" silver="0" saleSilver="0" priority="19" canBuy="0" canUse="1" canSale="0">
+                <modifiers>
+                    <modifier name="time" effect="-45" />
+                    <modifier name="cells" effect="1" />
+                </modifiers>
+            </item>
+            <item id="frt13" label="#fishShopFert20Title" name="FishFert2Loot" icon="FishFert2Icon"
+                gold="1" silver="0" saleSilver="0" priority="5" canBuy="1" canUse="1" canSale="0">
+                <modifiers>
+                    <modifier name="time" effect="-20" />
+                    <modifier name="cells" effect="1" />
+                </modifiers>
+            </item>
+            <item id="frt14" label="#fishShopFert60Title" name="FishFert3Loot" icon="FishFert3Icon"
+                gold="2" silver="0" saleSilver="0" priority="3" canBuy="1" canUse="1" canSale="0">
+                <modifiers>
+                    <modifier name="time" effect="-60" />
+                    <modifier name="cells" effect="1" />
+                </modifiers>
+            </item>
+            <item id="frt15" label="#fishShopFert180Title" name="FishFert4Loot" icon="FishFert4Icon"
+                gold="3" silver="0" saleSilver="0" priority="1" canBuy="1" canUse="1" canSale="0">
+                <modifiers>
+                    <modifier name="time" effect="-180" />
+                    <modifier name="cells" effect="1" />
+                </modifiers>
+            </item>
+        </category>
+
+    </category>
+
+</config>

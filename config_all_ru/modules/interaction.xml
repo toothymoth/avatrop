@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interaction>
+    <item categoryId="baseSeeds">
+        <interactBonus>
+	        <target id="seed" energy="0" silver="0" gold="0" exp="1"/>
+	        <target id="collect" energy="0" silver="0" gold="0" exp="1"/>
+	        <target id="clear" energy="0" silver="3" gold="0" exp="1">
+                <item typeId="wst" probability="0.5" count="1" />
+            </target>
+	        <target id="fertilize" energy="0" silver="0" gold="0" exp="1"/>
+	        <target id="collectHelp" energy="0" silver="10" gold="0" exp="2"/>
+	        <target id="clearHelp" energy="0" silver="10" gold="0" exp="2" />
+	        <target id="fertilizeHelp" energy="0" silver="10" gold="0" exp="2"/>
+        </interactBonus>
+        <interactPrice>
+            <target id="seed" value="0"/>
+            <target id="collect" value="1"/>
+            <target id="clear" value="1"/>
+            <target id="fertilize" value="0"/>
+            <target id="collectHelp" value="1"/>
+            <target id="clearHelp" value="1"/>
+            <target id="fertilizeHelp" value="0"/>
+        </interactPrice>
+    </item>
+    <item categoryId="fruitTrees">
+        <interactBonus>
+	        <target id="seed" energy="0" silver="0" gold="0" exp="1"/>
+	        <target id="collect" energy="0" silver="0" gold="0" exp="1"/>
+	        <target id="clear" energy="0" silver="3" gold="0" exp="1">
+                <item typeId="wst" probability="0.5" count="1" />
+            </target>
+	        <target id="fertilize" energy="0" silver="0" gold="0" exp="1"/>
+	        <target id="collectHelp" energy="0" silver="10" gold="0" exp="2"/>
+	        <target id="clearHelp" energy="0" silver="10" gold="0" exp="2" />
+	        <target id="fertilizeHelp" energy="0" silver="25" gold="0" exp="2"/>
+        </interactBonus>
+        <interactPrice>
+            <target id="seed" value="0"/>
+            <target id="collect" value="1"/>
+            <target id="clear" value="1"/>
+            <target id="fertilize" value="0"/>
+            <target id="collectHelp" value="1"/>
+            <target id="clearHelp" value="1"/>
+            <target id="fertilizeHelp" value="0"/>
+        </interactPrice>
+    </item>
+    <item categoryId="medicalSeeds">
+		<interactBonus>
+		    <target id="seed" energy="0" silver="0" gold="0" exp="1"/>
+		    <target id="collect" energy="0" silver="0" gold="0" exp="1"/>
+		    <target id="clear" energy="0" silver="3" gold="0" exp="1">
+                <item typeId="wst" probability="0.5" count="1" />
+            </target>
+		    <target id="fertilize" energy="0" silver="0" gold="0" exp="1"/>
+		    <target id="collectHelp" energy="0" silver="10" gold="0" exp="2"/>
+		    <target id="clearHelp" energy="0" silver="10" gold="0" exp="2" />
+		    <target id="fertilizeHelp" energy="0" silver="25" gold="0" exp="2"/>
+        </interactBonus>
+        <interactPrice>
+            <target id="seed" value="0"/>
+            <target id="collect" value="1"/>
+            <target id="clear" value="1"/>
+            <target id="fertilize" value="0"/>
+            <target id="collectHelp" value="1"/>
+            <target id="clearHelp" value="1"/>
+            <target id="fertilizeHelp" value="0"/>
+        </interactPrice>
+    </item>
+    <item categoryId="fishFry">
+        <interactBonus>
+	        <target id="seed" energy="0" silver="0" gold="0" exp="1"/>
+	        <target id="collect" energy="0" silver="0" gold="0" exp="1"/>
+	        <target id="clear" energy="0" silver="3" gold="0" exp="1">
+                <item typeId="wst" probability="0.5" count="1" />
+            </target>
+	        <target id="fertilize" energy="0" silver="0" gold="0" exp="1"/>
+	        <target id="collectHelp" energy="0" silver="10" gold="0" exp="2"/>
+	        <target id="clearHelp" energy="0" silver="10" gold="0" exp="2" />
+	        <target id="fertilizeHelp" energy="0" silver="25" gold="0" exp="2"/>
+	    </interactBonus>
+        <interactPrice>
+            <target id="seed" value="0"/>
+            <target id="collect" value="1"/>
+            <target id="clear" value="1"/>
+            <target id="fertilize" value="0"/>
+            <target id="collectHelp" value="1"/>
+            <target id="clearHelp" value="1"/>
+            <target id="fertilizeHelp" value="0"/>
+        </interactPrice>
+    </item>
+    <item categoryId="weedGrass">
+	    <interactBonus>
+	        <target id="clear" energy="0" silver="3" gold="0" exp="1"/>
+	        <target id="clearHelp" energy="0" silver="10" gold="0" exp="2"/>
+        </interactBonus>
+        <interactPrice>
+            <target id="clear" value="1"/>
+            <target id="clearHelp" value="1"/>
+        </interactPrice>
+    </item>
+    <item categoryId="weedTrees">
+        <interactBonus>
+            <target id="clear" energy="0" silver="3" gold="0" exp="1">
+                <item typeId="wd" probability="1" count="1" />
+            </target>
+            <target id="clearHelp" energy="0" silver="10" gold="0" exp="2" />
+        </interactBonus>
+        <interactPrice>
+            <target id="clear" value="1"/>
+            <target id="clearHelp" value="1"/>
+        </interactPrice>
+    </item>
+    <item categoryId="weedBushes">
+        <interactBonus>
+            <target id="clear" energy="0" silver="3" gold="0" exp="1">
+                <item typeId="wd" probability="1" count="1" />
+            </target>
+            <target id="clearHelp" energy="0" silver="10" gold="0" exp="2" />
+        </interactBonus>
+        <interactPrice>
+            <target id="clear" value="1"/>
+            <target id="clearHelp" value="1"/>
+        </interactPrice>
+    </item>
+    <item categoryId="weedStones">
+        <interactBonus>
+            <target id="clear" energy="0" silver="3" gold="0" exp="1">
+                <item typeId="stn" probability="1" count="1" />
+            </target>
+            <target id="clearHelp" energy="0" silver="10" gold="0" exp="2" />
+        </interactBonus>
+        <interactPrice>
+            <target id="clear" value="1"/>
+            <target id="clearHelp" value="1"/>
+        </interactPrice>
+    </item>
+</interaction>

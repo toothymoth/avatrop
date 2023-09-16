@@ -1,0 +1,558 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+
+<config>
+
+    <category id="clothes" label="#avatarClothesCategory" typeClass="clothes">
+
+        <category id="boyClothes" label="#avatarClothesCategoryBoy" priority="1" typeClass="clothes" gender="boy" logCategory1="boyClothes">
+
+<!-- CLOTHES SETS ITEMS LIST
+    DEFAULT:
+        bShrt1
+        bPnts1
+        bShs1
+    ABORIGINE:
+        bPnts2
+        bShs2
+        bTto1
+        bTto2
+        bHat1
+        bPdnt1
+    AFRICA:
+        bShrt2
+        bPnts3
+        bShs3
+        bBrslt1
+        bPdnt2
+    HAWAII:
+        bShrt3
+        bPnts4
+        bShs4
+        bHat2
+        bPdnt3
+    PARROT:
+        bShrt4
+        bPnts5
+        bShs5
+        bGlss1
+        bPdnt4
+    LEOPARD:
+        bShrt5
+        bPnts6
+        bShs6        
+        bHat3
+        bBrslt2
+        bPdnt5
+    BARBARIAN:
+        bShrt6
+        bPnts7
+        bShs7
+        bGlvs1
+        bHat4
+        bPdnt6
+    EGYPT:
+        bShrt7
+        bPnts8
+        bShs8
+        bGlss2
+        bGlvs2
+ -->
+
+            <category id="boyTopClothes" label="#avatarClothesCategory10" priority="1" logCategory2="top">
+            
+                <category id="boyShirts" label="#avatarClothesCategory0" priority="1" visible="false" >
+                
+                    <item id="bShrt1" label="#boyTShirtTropikaniaDefaultLabel"
+                        name="TShirtTropikaniaDefault" icon="BoyTShirtTropikaniaDefaultIcon@islandAvatarIcons"
+                        gold="0" silver="1000" saleSilver="100" rating="10" priority="1" />
+                    <item id="bShrt2" label="#boyTShirtTropikaniaAfrica"
+                        name="TShirtTropikaniaAfrica" icon="BoyTShirtTropikaniaAfricaIcon@islandAvatarIcons"
+                        gold="10" silver="0" saleSilver="100" rating="20" priority="1" />
+                    <item id="bShrt3" label="#boyTShirtTropikaniaHawaii"
+                        name="TShirtTropikaniaHawaii" icon="BoyTShirtTropikaniaHawaiiIcon@islandAvatarIcons"
+                        gold="12" silver="0" saleSilver="120" rating="25" priority="1" />
+                    <item id="bShrt4" label="#boyTShirtTropikaniaParrot"
+                        name="TShirtTropikaniaParrot" icon="BoyTShirtTropikaniaParrotIcon@islandAvatarIcons"
+                        gold="21" silver="0" saleSilver="210" rating="50" priority="1" />
+                    <item id="bShrt5" label="#boyTShirtTropikaniaLeopard"
+                        name="TShirtTropikaniaLeopard" icon="BoyTShirtTropikaniaLeopardIcon@islandAvatarIcons"
+                        gold="18" silver="0" saleSilver="180" rating="36" priority="2" />
+                    <item id="bShrt6" label="#boyBeltTropikaniaBarbarian"
+                        name="BeltTropikaniaBarbarian" icon="BoyBeltTropikaniaBarbarianIcon@islandAvatarIcons"
+                        gold="35" silver="0" saleSilver="350" rating="90" priority="3" />
+                    <item id="bShrt7" label="#boyTShirtTropikaniaEgypt"
+                        name="TShirtTropikaniaEgypt" icon="BoyTShirtTropikaniaEgyptIcon@islandAvatarIcons"
+                        gold="22" silver="0" saleSilver="220" rating="50" priority="4" />
+                    
+                </category>
+                
+            </category>
+            
+            <category id="boyBottomClothes" label="#avatarClothesCategory11" priority="2" logCategory2="bottom">
+            
+                <category id="boyPants" label="#avatarClothesCategory1" priority="3" visible="false" >
+                    <item id="bPnts1" label="#boyShortsTropikaniaDefault"
+                        name="ShortsTropikaniaDefault" icon="BoyShortsTropikaniaDefaultIcon@islandAvatarIcons"
+                        gold="0" silver="1650" saleSilver="165" rating="16" priority="1" canTrade="0" />
+                    <item id="bPnts2" label="#boyShortsTropikaniaAborigine"
+                        name="ShortsTropikaniaAborigine" icon="BoyShortsTropikaniaAborigineIcon@islandAvatarIcons"
+                        gold="15" silver="0" saleSilver="150" rating="32" priority="1" canTrade="0" />
+                    <item id="bPnts3" label="#boyPantsTropikaniaAfrica"
+                        name="PantsTropikaniaAfrica" icon="BoyPantsTropikaniaAfricaIcon@islandAvatarIcons"
+                        gold="25" silver="0" saleSilver="250" rating="60" priority="1" canTrade="0" />
+                    <item id="bPnts4" label="#boyShortsTropikaniaHawaii"
+                        name="ShortsTropikaniaHawaii" icon="BoyShortsTropikaniaHawaiiIcon@islandAvatarIcons"
+                        gold="18" silver="0" saleSilver="180" rating="38" priority="1" canTrade="0" />
+                    <item id="bPnts5" label="#boyPantsTropikaniaParrot"
+                        name="PantsTropikaniaParrot" icon="BoyPantsTropikaniaParrotIcon@islandAvatarIcons"
+                        gold="33" silver="0" saleSilver="330" rating="90" priority="1" canTrade="0" />
+                    <item id="bPnts6" label="#boyPantsTropikaniaLeopard"
+                        name="PantsTropikaniaLeopard" icon="BoyPantsTropikaniaLeopardIcon@islandAvatarIcons"
+                        gold="30" silver="0" saleSilver="30" rating="75" priority="2" canTrade="0" />
+                    <item id="bPnts7" label="#boyPantsTropikaniaBarbarian"
+                        name="PantsTropikaniaBarbarian" icon="BoyPantsTropikaniaBarbarianIcon@islandAvatarIcons"
+                        gold="15" silver="0" saleSilver="150" rating="30" priority="3" canTrade="0" />
+                    <item id="bPnts8" label="#boyPantsTropikaniaEgypt"
+                        name="PantsTropikaniaEgypt" icon="BoyPantsTropikaniaEgyptIcon@islandAvatarIcons"
+                        gold="35" silver="0" saleSilver="350" rating="90" priority="4" canTrade="0" />
+                    
+                </category>
+
+            </category>
+
+            <category id="boyShoes" label="#avatarClothesCategory5" priority="4" logCategory2="shoes">
+                
+                <item id="bShs1" label="#boySandalsTropikaniaDefault" name="SandalsTropikaniaDefault"
+                    icon="BoySandalsTropikaniaDefaultIcon@islandAvatarIcons" gold="0" silver="425"
+                    rating="4" priority="1" canTrade="0" />
+                <item id="bShs2" label="#boySandalsTropikaniaAborigine" name="SandalsTropikaniaAborigine"
+                    icon="BoySandalsTropikaniaAborigineIcon@islandAvatarIcons" gold="0" silver="730"
+                    rating="7" priority="1" canTrade="0" />
+                <item id="bShs3" label="#boyShoesTropikaniaAfrica" name="ShoesTropikaniaAfrica"
+                    icon="BoyShoesTropikaniaAfricaIcon@islandAvatarIcons" gold="10" silver="0"
+                    rating="7" priority="1" canTrade="0" />
+                <item id="bShs4" label="#boySandalsTropikaniaHawaii" name="SandalsTropikaniaHawaii"
+                    icon="BoySandalsTropikaniaHawaiiIcon@islandAvatarIcons" gold="4" silver="0"
+                    rating="7" priority="1" canTrade="0" />
+                <item id="bShs5" label="#boySandalsTropikaniaParrot" name="SandalsTropikaniaParrot"
+                    icon="BoySandalsTropikaniaParrotIcon@islandAvatarIcons" gold="5" silver="0"
+                    rating="9" priority="1" canTrade="0" />
+                <item id="bShs6" label="#boySandalsTropikaniaLeopard" name="SandalsTropikaniaLeopard"
+                    icon="BoySandalsTropikaniaLeopardIcon@islandAvatarIcons" gold="14" silver="0"
+                    rating="28" priority="2" canTrade="0" />
+                <item id="bShs7" label="#boyShoesTropikaniaBarbarian" name="ShoesTropikaniaBarbarian"
+                    icon="BoyShoesTropikaniaBarbarianIcon@islandAvatarIcons" gold="24" silver="0"
+                    rating="55" priority="3" canTrade="0" />
+                <item id="bShs8" label="#boySandalsTropikaniaEgypt" name="SandalsTropikaniaEgypt"
+                    icon="BoySandalsTropikaniaEgyptIcon@islandAvatarIcons" gold="18" silver="0"
+                    rating="36" priority="3" canTrade="0" />
+                
+            </category>
+
+            <category id="boyDecor" label="#avatarClothesCategory8" priority="5" logCategory2="decor">
+
+                <category id="boyGlasses" label="#boyGlassesCategory" priority="1" visible="false">
+                    
+                    <item id="bGlss1" label="#boyGlassesTropikaniaParrot" name="GlassesTropikaniaParrot"
+                        icon="BoyGlassesTropikaniaParrotIcon@islandAvatarIcons" gold="12" silver="0" saleSilver="120"
+                        rating="25" priority="1" canTrade="0" />
+                    <item id="bGlss2" label="#boyGlassesTropikaniaEgypt" name="GlassesTropikaniaEgypt"
+                        icon="BoyGlassesTropikaniaEgyptIcon@islandAvatarIcons" gold="15" silver="0" saleSilver="150"
+                        rating="30" priority="1" canTrade="0" />
+                    
+                </category>
+                
+                <category id="boyOtherDecor" label="#boyOtherDecorCategory" priority="5" visible="false">
+                
+                    <category id="boyTattoos" label="#boyTattoosCategory" visible="false">
+                        <item id="bTto1" label="#boyTatooTropikaniaAborigine1" name="TatooTropikaniaAborigine1"
+                            icon="BoyTatooTropikaniaAborigine1Icon" gold="11" silver="0" saleSilver="110"
+                            rating="24" priority="1" subType="left" />
+                        <item id="bTto2" label="#boyTatooTropikaniaAborigine2" name="TatooTropikaniaAborigine2"
+                            icon="BoyTatooTropikaniaAborigine2Icon" gold="8" silver="0" saleSilver="80"
+                            rating="15" priority="1" subType="right" />
+                    </category>
+                </category>
+                 
+                 
+                <category id="boyGloves" label="#boyGlovesCategory" priority="2" visible="false">
+                    
+                    <item id="bGlvs1" label="#boyMittensTropikaniaBarbarian" name="MittensTropikaniaBarbarian"
+                        icon="BoyMittensTropikaniaBarbarianIcon@islandAvatarIcons" gold="22" silver="0" saleSilver="220"
+                        rating="50" priority="1" canTrade="0" />
+                    <item id="bGlvs2" label="#boyBraceletTropikaniaEgypt" name="BraceletTropikaniaEgypt"
+                        icon="BoyBraceletTropikaniaEgyptIcon@islandAvatarIcons" gold="15" silver="0" saleSilver="150"
+                        rating="30" priority="1" canTrade="0" />
+                            
+                </category>
+                            
+                <category id="boyHats" label="#boyHatsCategory" priority="3" visible="false">
+                    
+                    <item id="bHat1" label="#boyMaskTropikaniaAborigine"
+                        name="MaskTropikaniaAborigine" icon="BoyMaskTropikaniaAborigineIcon@islandAvatarIcons"
+                        saleSilver="170" silver="0" gold="17" rating="35" priority="4" canTrade="0" />
+                    <item id="bHat2" label="#boyHatTropikaniaHawaii"
+                        name="HatTropikaniaHawaii" icon="BoyHatTropikaniaHawaiiIcon@islandAvatarIcons"
+                        saleSilver="140" silver="0" gold="14" rating="30" priority="4" canTrade="0" />
+                    <item id="bHat3" label="#boyFilletTropikaniaLeopard"
+                        name="FilletTropikaniaLeopard" icon="BoyFilletTropikaniaLeopardIcon@islandAvatarIcons"
+                        saleSilver="120" silver="0" gold="12" rating="25" priority="5" canTrade="0" />
+                    <item id="bHat4" label="#boyFilletTropikaniaBarbarian"
+                        name="FilletTropikaniaBarbarian" icon="BoyFilletTropikaniaBarbarianIcon@islandAvatarIcons"
+                        saleSilver="170" silver="0" gold="17" rating="35" priority="6" canTrade="0" />
+                    
+                </category>
+                 
+                <category id="boyDecorations" label="#boyDecorationsCategory" priority="4" visible="false">
+
+                    <category id="boyBraceletes" label="#boyBraceletesCategory" visible="false">
+                        
+                        <item id="bBrslt1" label="#boyBraceletTropikaniaAfrica" name="BraceletTropikaniaAfrica"
+                            icon="BoyBraceletTropikaniaAfricaIcon@islandAvatarIcons" gold="0" silver="650"
+                            saleSilver="65" subType="left" rating="6" priority="1" />
+                        <item id="bBrslt2" label="#boyBraceletTropikaniaLeopard" name="BraceletTropikaniaLeopard"
+                            icon="BoyBraceletTropikaniaLeopardIcon@islandAvatarIcons" gold="9" silver="0"
+                            saleSilver="90" subType="left" rating="15" priority="2" />
+                        
+                    </category>
+                     
+                    <category id="boyNecklace" label="#boyNecklaceCategory" visible="false">
+                        
+                        <item id="bPdnt1" label="#boyPendantTropikaniaAborigine"
+                            name="PendantTropikaniaAborigine" icon="BoyPendantTropikaniaAborigineIcon@islandAvatarIcons"
+                            gold="10" silver="0" saleSilver="100" rating="20" priority="6" />
+                        <item id="bPdnt2" label="#boyPendantTropikaniaAfrica"
+                            name="PendantTropikaniaAfrica" icon="BoyPendantTropikaniaAfricaIcon@islandAvatarIcons"
+                            gold="6" silver="0" saleSilver="10" rating="2" priority="6" />
+                        <item id="bPdnt3" label="#boyPendantTropikaniaHawaii"
+                            name="PendantTropikaniaHawaii" icon="BoyPendantTropikaniaHawaiiIcon@islandAvatarIcons"
+                            gold="6" silver="0" saleSilver="60" rating="10" priority="6" />
+                        <item id="bPdnt4" label="#boyPendantTropikaniaParrot"
+                            name="PendantTropikaniaParrot" icon="BoyPendantTropikaniaParrotIcon@islandAvatarIcons"
+                            gold="9" silver="0" saleSilver="90" rating="20" priority="6" />
+                        <item id="bPdnt5" label="#boyPendantTropikaniaLeopard"
+                            name="PendantTropikaniaLeopard" icon="BoyPendantTropikaniaLeopardIcon@islandAvatarIcons"
+                            gold="12" silver="0" saleSilver="120" rating="25" priority="7" />
+                        <item id="bPdnt6" label="#boyPendantTropikaniaBarbarian"
+                            name="PendantTropikaniaBarbarian" icon="BoyPendantTropikaniaBarbarianIcon@islandAvatarIcons"
+                            gold="15" silver="0" saleSilver="150" rating="30" priority="8" />
+                        
+                    </category>
+                    
+                </category>
+
+            </category>
+
+            <category id="boyUnder" label="#avatarClothesBoyUnder" priority="6" visible="false">
+                 
+                <category id="boyUnderdress" label="#avatarClothesCategory9" visible="false">
+                    <item id="boyUnderdress1" label="#boyDefaultUnderdress" name="Underdress1" canBuy="0" />
+                </category>
+
+            </category>
+            
+        </category>
+
+        <category id="girlClothes" label="#avatarClothesCategoryGirl" priority="2" typeClass="clothes" gender="girl" logCategory1="girlClothes">
+
+<!-- CLOTHES SETS ITEMS LIST
+    DEFAULT:
+        gShrt1
+        gPnts1
+        gShs1
+        gBrlt1
+        gNckls1
+    AFRICA:
+        gDrss1
+        gShs2
+        gBrlt2
+        gNckls2
+        gHat1
+    BEACH:
+        gShrt2
+        gJckt1
+        gShs3
+        gBrlt3
+        gErrgs2
+        gHrp1
+        gGss1
+    BUTTERFLY:
+        gShs4
+        gDrss2
+        gNckls3
+        gErrgs3
+        gHrp2
+        gGss2
+    HAWAII:
+        gShrt3
+        gSkrt1
+        gShs5
+        gBrlt4
+        gNckls4
+        gErrgs4
+        gHrp3
+    PEACOCK:
+        gDrss3
+        gErrgs5
+        gNckls5
+        gShs6
+        gHat2
+    AMAZON:
+        gShs7
+        gBrlt5
+        gErrgs6
+        gHat3
+        gGlvs1
+        gSkrt2
+        gShrt4
+    EGYPT:
+        gBrlt6
+        gDrss4
+        gErrgs7
+        gNckls6
+        gShs8
+        gHat4
+ -->
+            <category id="girlTopClothes" label="#avatarClothesCategory13" priority="1" logCategory2="top">
+
+                <category id="girlShirts" label="#avatarClothesCategory0" priority="1" visible="false" >
+                    <item id="gShrt1" label="#girlTShirtTropikaniaDefault" canTrade="0"
+                        name="TShirtTropikaniaDefault" icon="GirlTShirtTropikaniaDefaultIcon@islandAvatarIcons"
+                        gold="0" silver="965" saleSilver="95" rating="9" priority="1" />
+                    <item id="gShrt2" label="#girlSwimsuitTropikaniaBeach" canTrade="0"
+                        name="SwimsuitTropikaniaBeach" icon="GirlSwimsuitTropikaniaBeachIcon@islandAvatarIcons"
+                        gold="14" silver="0" saleSilver="140" rating="30" priority="1" />
+                    <item id="gShrt3" label="#girlTopTropikaniaHawaii" canTrade="0"
+                        name="TopTropikaniaHawaii" icon="GirlTopTropikaniaHawaiiIcon@islandAvatarIcons"
+                        gold="12" silver="0" saleSilver="120" rating="25" priority="1" />
+                    <item id="gShrt4" label="#girlTShirtTropikaniaAmazon" canTrade="0"
+                        name="TShirtTropikaniaAmazon" icon="GirlTShirtTropikaniaAmazonIcon@islandAvatarIcons"
+                        gold="30" silver="0" saleSilver="300" rating="75" priority="2" />
+                </category>
+
+            </category>
+
+            <category id="girlBottomClothes" label="#avatarClothesCategory14" priority="2" logCategory2="bottom">
+
+                <category id="girlPants" label="#avatarClothesCategory1" priority="4" visible="false" >
+                    <item id="gPnts1" label="#girlPantsTropikaniaDefault" canTrade="0"
+                        name="PantsTropikaniaDefault" icon="GirlPantsTropikaniaDefaultIcon@islandAvatarIcons"
+                        gold="0" silver="1250" saleSilver="125" rating="12" priority="1" />
+                </category>
+
+                <category id="girlSkirts" label="#avatarClothesCategory2" priority="3" visible="false" >
+                    <item id="gSkrt1" label="#girlSkirtTropikaniaHawaii" name="SkirtTropikaniaHawaii"
+                        icon="GirlSkirtTropikaniaHawaiiIcon@islandAvatarIcons" gold="11" silver="0" saleSilver="110"
+                        rating="22" priority="1" />
+                    <item id="gSkrt2" label="#girlSkirtTropikaniaAmazon" name="SkirtTropikaniaAmazon"
+                        icon="GirlSkirtTropikaniaAmazonIcon@islandAvatarIcons" gold="35" silver="0" saleSilver="350"
+                        rating="90" priority="2" />
+                </category>
+                
+                <category id="girlPantyhose" label="#avatarClothesGirlPantyhose" priority="5" visible="false" >
+                    <item id="gPhs1" label="#girlStockingsTropikaniaButterfly" name="StockingsTropikaniaButterfly"
+	                    icon="GirlStockingsTropikaniaButterflyIcon@islandAvatarIcons" gold="17" silver="0" saleSilver="170"
+	                    rating="35" priority="1" canTrade="0" />
+                </category>
+
+            </category>
+
+            <category id="girlShoes" label="#avatarClothesCategory5" priority="6" logCategory2="shoes">
+                
+                <item id="gShs1" label="#girlSandalsTropikaniaDefault" name="SandalsTropikaniaDefault"
+                    icon="GirlSandalsTropikaniaDefaultIcon@islandAvatarIcons" gold="0" silver="425" saleSilver="40"
+                    rating="4" priority="1" canTrade="0" />
+                <item id="gShs2" label="#girlSandalsTropikaniaAfrica" name="SandalsTropikaniaAfrica"
+                    icon="GirlSandalsTropikaniaAfricaIcon@islandAvatarIcons" gold="12" silver="0" saleSilver="120"
+                    rating="25" priority="1" canTrade="0" />
+                <item id="gShs3" label="#girlSandalsTropikaniaBeach" name="SandalsTropikaniaBeach"
+                    icon="GirlSandalsTropikaniaBeachIcon@islandAvatarIcons" gold="11" silver="0" saleSilver="110"
+                    rating="22" priority="1" canTrade="0" />
+                <item id="gShs4" label="#girlShoesTropikaniaButterfly" name="ShoesTropikaniaButterfly"
+                    icon="GirlShoesTropikaniaButterflyIcon@islandAvatarIcons" gold="0" silver="730" saleSilver="70"
+                    rating="7" priority="1" canTrade="0" />
+                <item id="gShs5" label="#girlSandalsTropikaniaHawaii" name="SandalsTropikaniaHawaii"
+                    icon="GirlSandalsTropikaniaHawaiiIcon@islandAvatarIcons" gold="13" silver="0" saleSilver="130"
+                    rating="28" priority="1" canTrade="0" />
+                <item id="gShs6" label="#girlSandalsTropikaniaPeacock" name="SandalsTropikaniaPeacock"
+                    icon="GirlSandalsTropikaniaPeacockIcon@islandAvatarIcons" gold="24" silver="0" saleSilver="240"
+                    rating="55" priority="2" canTrade="0" />
+                <item id="gShs7" label="#girlBootsTropikaniaAmazon" name="BootsTropikaniaAmazon"
+                    icon="GirlBootsTropikaniaAmazonIcon@islandAvatarIcons" gold="33" silver="0" saleSilver="330"
+                    rating="85" priority="3" canTrade="0" />
+                <item id="gShs8" label="#girlSandalsTropikaniaEgypt" name="SandalsTropikaniaEgypt"
+                    icon="GirlSandalsTropikaniaEgyptIcon@islandAvatarIcons" gold="27" silver="0" saleSilver="270"
+                    rating="60" priority="4" canTrade="0" />
+                    
+            </category>
+
+            <category id="girlDress" label="#avatarClothesCategory6" priority="5">
+                
+                <item id="gDrss1" label="#girlDressTropikaniaAfrica"
+                    name="DressTropikaniaAfrica" icon="GirlDressTropikaniaAfricaIcon@islandAvatarIcons"
+                    gold="37" silver="0" saleSilver="370" rating="100" priority="1" />
+                <item id="gDrss2" label="#girlDressTropikaniaButterfly"
+                    name="DressTropikaniaButterfly" icon="GirlDressTropikaniaButterflyIcon@islandAvatarIcons"
+                    gold="45" silver="0" saleSilver="450" rating="120" priority="1" />
+                <item id="gDrss3" label="#girlDressTropikaniaPeacock"
+                    name="DressTropikaniaPeacock" icon="GirlDressTropikaniaPeacockIcon@islandAvatarIcons"
+                    gold="65" silver="0" saleSilver="650" rating="165" priority="2" />
+                <item id="gDrss4" label="#girlDressTropikaniaEgypt"
+                    name="DressTropikaniaEgypt" icon="GirlDressTropikaniaEgyptIcon@islandAvatarIcons"
+                    gold="55" silver="0" saleSilver="550" rating="140" priority="3" />
+                    
+            </category>
+            
+            <category id="girlDecor" label="#avatarClothesCategory8" priority="7" logCategory2="decor">
+
+                <category id="girlDecorations" label="#girlDecorationsCategory" priority="1" visible="false" >
+
+                    <category id="girlBraceletes" label="#girlBraceletesCategory" visible="false">
+                        
+                        <item id="gBrlt1" label="#girlBraceletTropikaniaDefault"
+                            name="BraceletTropikaniaDefault" icon="GirlBraceletTropikaniaDefaultIcon@islandAvatarIcons"
+                            gold="4" silver="0" saleSilver="40" subType="left" rating="8" priority="1" />
+                        <item id="gBrlt2" label="#girlBraceletTropikaniaAfrica"
+                            name="BraceletTropikaniaAfrica" icon="GirlBraceletTropikaniaAfricaIcon@islandAvatarIcons"
+                            gold="0" silver="650" saleSilver="65" subType="left" rating="6" priority="1" />
+                        <item id="gBrlt3" label="#girlBraceletTropikaniaBeach"
+                            name="BraceletTropikaniaBeach" icon="GirlBraceletTropikaniaBeachIcon@islandAvatarIcons"
+                            gold="6" silver="0" saleSilver="60" subType="left" rating="10" priority="1" />
+                        <item id="gBrlt4" label="#girlBrasletTropikaniaHawaii"
+                            name="BrasletTropikaniaHawaii" icon="GirlBrasletTropikaniaHawaiiIcon@islandAvatarIcons"
+                            gold="7" silver="0" saleSilver="70" subType="left" rating="12" priority="1" />
+                        <item id="gBrlt5" label="#girlBraceletTropikaniaAmazon"
+                            name="BraceletTropikaniaAmazon" icon="GirlBraceletTropikaniaAmazonIcon@islandAvatarIcons"
+                            gold="12" silver="0" saleSilver="120" subType="left" rating="25" priority="2" />
+                        <item id="gBrlt6" label="#girlBraceletTropikaniaEgypt"
+                            name="BraceletTropikaniaEgypt" icon="GirlBraceletTropikaniaEgyptIcon@islandAvatarIcons"
+                            gold="14" silver="0" saleSilver="140" subType="left" rating="30" priority="3" />
+                            
+                    </category>
+
+                    <category id="girlNecklace" label="#girlNecklaceCategory" visible="false">
+                        
+                        <item id="gNckls1" label="#girlPendantTropikaniaDefault"
+                            name="PendantTropikaniaDefault" icon="GirlPendantTropikaniaDefaultIcon@islandAvatarIcons"
+                            gold="0" silver="340" saleSilver="30" rating="3" priority="15" />
+                        <item id="gNckls2" label="#girlPendantTropikaniaAfrica"
+                            name="PendantTropikaniaAfrica" icon="GirlPendantTropikaniaAfricaIcon@islandAvatarIcons"
+                            gold="0" silver="1100" saleSilver="110" rating="11" priority="15" />
+                        <item id="gNckls3" label="#girlScarfTropikaniaButterfly"
+                            name="ScarfTropikaniaButterfly" icon="GirlScarfTropikaniaButterflyIcon@islandAvatarIcons"
+                            gold="11" silver="0" saleSilver="110" rating="22" priority="15" />
+                        <item id="gNckls4" label="#girlScarfTropikaniaHawaii"
+                            name="ScarfTropikaniaHawaii" icon="GirlScarfTropikaniaHawaiiIcon@islandAvatarIcons"
+                            gold="13" silver="0" saleSilver="130" rating="28" priority="15" />
+                        <item id="gNckls5" label="#girlPendantTropikaniaPeacock"
+                            name="PendantTropikaniaPeacock" icon="GirlPendantTropikaniaPeacockIcon@islandAvatarIcons"
+                            gold="18" silver="0" saleSilver="180" rating="36" priority="16" />
+                        <item id="gNckls6" label="#girlPendantTropikaniaEgypt"
+                            name="PendantTropikaniaEgypt" icon="GirlPendantTropikaniaEgyptIcon@islandAvatarIcons"
+                            gold="22" silver="0" saleSilver="220" rating="50" priority="17" />
+                            
+                    </category>
+                    
+                    <category id="girlEarrings" label="#girlEarringsCategory" visible="false">
+                        
+                        <item id="gErrgs1" label="#girlEarringsTropikaniaAfrica" name="EarringsTropikaniaAfrica"
+                            icon="GirlEarringsTropikaniaAfricaIcon@islandAvatarIcons" gold="0" silver="800" saleSilver="80"
+                            rating="8" priority="40" />
+                        <item id="gErrgs2" label="#girlEarringstTropikaniaBeach" name="EarringstTropikaniaBeach"
+                            icon="GirlEarringstTropikaniaBeachIcon@islandAvatarIcons" gold="14" silver="0" saleSilver="140"
+                            rating="30" priority="40" />
+                        <item id="gErrgs3" label="#girlEarringsTropikaniaButterfly" name="EarringsTropikaniaButterfly"
+                            icon="GirlEarringsTropikaniaButterflyIcon@islandAvatarIcons" gold="12" silver="0" saleSilver="120"
+                            rating="25" priority="40" />
+                        <item id="gErrgs4" label="#girlEarringsTropikaniaHawaii" name="EarringsTropikaniaHawaii"
+                            icon="GirlEarringsTropikaniaHawaiiIcon@islandAvatarIcons" gold="16" silver="0" saleSilver="160"
+                            rating="32" priority="40" />
+                        <item id="gErrgs5" label="#girlEarringsTropikaniaPeacock" name="EarringsTropikaniaPeacock"
+                            icon="GirlEarringsTropikaniaPeacockIcon@islandAvatarIcons" gold="33" silver="0" saleSilver="330"
+                            rating="85" priority="41" />
+                        <item id="gErrgs6" label="#girlEarringsTropikaniaAmazon" name="EarringsTropikaniaAmazon"
+                            icon="GirlEarringsTropikaniaAmazonIcon@islandAvatarIcons" gold="15" silver="0" saleSilver="150"
+                            rating="30" priority="42" />
+                        <item id="gErrgs7" label="#girlEarringsTropikaniaEgypt" name="EarringsTropikaniaEgypt"
+                            icon="GirlEarringsTropikaniaEgyptIcon@islandAvatarIcons" gold="25" silver="0" saleSilver="250"
+                            rating="55" priority="43" />
+                            
+                    </category>
+                    
+                    <category id="girlHairpins" label="#girlHairpinsCategory" visible="false">
+                        
+                        <item id="gHrp1" label="#girlHairpinTropikaniaBeach" name="HairpinTropikaniaBeach"
+                            icon="GirlHairpinTropikaniaBeachIcon@islandAvatarIcons" gold="8" silver="0" canTrade="0"
+                            saleSilver="80" rating="15" priority="54" />
+                        <item id="gHrp2" label="#girlHairpinsTropikaniaButterfly" name="HairpinsTropikaniaButterfly"
+                            icon="GirlHairpinsTropikaniaButterflyIcon@islandAvatarIcons" gold="14" silver="0" canTrade="0"
+                            saleSilver="140" rating="30" priority="54" />
+                        <item id="gHrp3" label="#girlHairpinTropikaniaHawaii" name="HairpinTropikaniaHawaii"
+                            icon="GirlHairpinTropikaniaHawaiiIcon@islandAvatarIcons" gold="9" silver="0" canTrade="0"
+                            saleSilver="90" rating="15" priority="54" />
+                            
+                    </category>
+                    
+                </category>
+
+                <category id="girlGlasses" label="#girlGlassesCategory" priority="2" visible="false">
+                    
+                    <item id="gGss1" label="#girlGlassesTropikaniaBeach" name="GlassesTropikaniaBeach"
+                        icon="GirlGlassesTropikaniaBeachIcon@islandAvatarIcons" gold="16" silver="0" saleSilver="160"
+                        rating="33" priority="1" canTrade="0" />
+                    <item id="gGss2" label="#girlGlassesTropikaniaButterfly" name="GlassesTropikaniaButterfly"
+                        icon="GirlGlassesTropikaniaButterflyIcon@islandAvatarIcons" gold="20" silver="0" saleSilver="200"
+                        rating="45" priority="1" canTrade="0" />
+                        
+                </category>
+                 
+                <category id="girlHats" label="#girlHatsCategory" priority="3" visible="false">
+                    
+                    <item id="gHat1" label="#girlBandanaTropikaniaAfrica" name="BandanaTropikaniaAfrica"
+                        icon="GirlFilletTropikaniaAfricaIcon@islandAvatarIcons" gold="11" silver="0" saleSilver="110"
+                        rating="22" priority="1" canTrade="0" />
+                    <item id="gHat2" label="#girlTiaraTropikaniaPeacock" name="TiaraTropikaniaPeacock"
+                        icon="GirlTiaraTropikaniaPeacockIcon@islandAvatarIcons" gold="95" silver="0" saleSilver="950"
+                        rating="250" priority="2" canTrade="0" />
+                    <item id="gHat3" label="#girlFilletTropikaniaAmazon" name="FilletTropikaniaAmazon"
+                        icon="GirlFilletTropikaniaAmazonIcon@islandAvatarIcons" gold="18" silver="0" saleSilver="180"
+                        rating="36" priority="3" canTrade="0" />
+                    <item id="gHat4" label="#girlTiaraTropikaniaEgypt" name="TiaraTropikaniaEgypt"
+                        icon="GirlTiaraTropikaniaEgyptIcon@islandAvatarIcons" gold="75" silver="0" saleSilver="750"
+                        rating="200" priority="4" canTrade="0" />
+                        
+                </category>
+                
+                <category id="girlGloves" label="#girlGlovesCategory" priority="4">
+                    <item id="gGlvs1" label="#girlMittensTropikaniaAmazon" name="MittensTropikaniaAmazon"
+                        icon="GirlMittensTropikaniaAmazonIcon@islandAvatarIcons" gold="20" silver="0" saleSilver="200"
+                        rating="45" priority="1" canTrade="0" />
+                </category>
+
+                <category id="girlOtherDecor" label="#girlOtherDecorCategory" priority="5" visible="false">
+ 
+                    <category id="girlOther" label="#girlOtherCategory" visible="false">
+                        
+                        <item id="gJckt1" label="#girlPareoTropikaniaBeach" name="PareoTropikaniaBeach"
+	                        icon="GirlPareoTropikaniaBeachIcon@islandAvatarIcons" gold="21" silver="0" subType="cloak" saleSilver="210"
+	                        rating="50" priority="1" canTrade="0" />
+	                        
+                    </category>
+                    
+                </category>
+            </category>
+
+            <category id="girlUnder" label="#avatarClothesGirlUnder" priority="8" visible="false">
+
+                <category id="girlUnderdress" label="#avatarClothesCategory9" visible="false">
+                    <item id="girlUnderdress1" label="#girlDefaultUnderdress" name="UnderdressTop" canBuy="0" />
+                    <item id="girlUnderdress2" label="#girlDefaultUnderdress" name="UnderdressDown" canBuy="0" />
+                </category>
+                
+            </category>
+            
+        </category>
+
+    </category>
+
+</config>

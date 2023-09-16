@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+
+<config>
+
+    <location id="beach" zoneId="beach" loadingContent="islandBeach" defaultRoomId="b1">
+        <rooms>
+            <room id="b1" map="beach_1_map" userCount="15" criticalUserCount="30" backgroundSound="tropicania1,tropicania2,tropicania3" />
+        </rooms>
+    </location>
+
+</config>

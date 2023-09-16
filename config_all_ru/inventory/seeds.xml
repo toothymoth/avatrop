@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config>
+
+    <!-- <item id="" label="#Title" name="" icon="Icon" gold="0" silver="0" energy="0" saleSilver="0" saleEnergy="0" priority="1" 
+        canSale="0" canTrade="0" canGift="0"> <params></params> <oldPrice gold="0" silver="0"/> </item> -->
+
+    <category id="seeds" label="#seedsCategory" priority="1" typeClass="seeds" library="islandPlants" logCategory1="seed">
+
+        <category id="baseSeeds" logCategory2="plant">
+                                 
+            <item id="bilbSd" label="#bilberryTitle" name="BlueberrySeed" icon="BlueberrySeedIcon" gold="0"
+                silver="10" saleSilver="12" priority="100" canSale="0" minLevel="1">
+                <ripen typeId="blb" time="20" fruitfulness="1" seasons="1" />
+                <dimension width="1" length="1" height="1" />
+            </item>
+            <item id="pmpSd" label="#pumpkinTitle" name="PumpkinSeed" icon="PumpkinSeedIcon" gold="0"
+                silver="25" saleSilver="30" priority="99" canSale="0" minLevel="2">
+                <ripen typeId="pmp" time="40" fruitfulness="1" seasons="1" />
+                <dimension width="1" length="1" height="1" />
+            </item>
+            <item id="blackbSd" label="#blackberryTitle" name="BlackberrySeed" icon="BlackberrySeedIcon"
+                gold="0" silver="40" saleSilver="48" priority="98" canSale="0" minLevel="3">
+                <ripen typeId="blckb" time="60" fruitfulness="1" seasons="1" />
+                <dimension width="1" length="1" height="1" />
+            </item>
+            <item id="wtrmelonSd" label="#watermelonTitle" name="WatermelonSeed" icon="WatermelonSeedIcon"
+                gold="0" silver="65" saleSilver="78" priority="97" canSale="0" minLevel="4">
+                <ripen typeId="wtrmel" time="90" fruitfulness="1" seasons="1" />
+                <dimension width="1" length="1" height="1" />
+            </item>
+            <item id="flPlSd" label="#flaxTitle" name="FlaxPlantSeed" icon="FlaxPlantSeedIcon"
+                gold="0" silver="300" saleSilver="360" priority="96" canSale="0" minLevel="5">
+                <ripen typeId="flx" time="360" fruitfulness="1" seasons="1" />
+                <dimension width="1" length="1" height="1" />
+            </item>
+            <item id="grapSd" label="#grapesTitle" name="GrapesSeed" icon="GrapesSeedIcon" gold="0" silver="80"
+                saleSilver="96" priority="95" canSale="0" minLevel="6">
+                <ripen typeId="grp" time="110" fruitfulness="1" seasons="1" />
+                <dimension width="1" length="1" height="1" />
+            </item>
+            <item id="cttnSd" label="#cottonTitle" name="CottonSeed" icon="CottonSeedIcon" gold="0" silver="650"
+                saleSilver="780" priority="94" canSale="0" minLevel="7">
+                <ripen typeId="ctn" time="480" fruitfulness="1" seasons="1" />
+                <dimension width="1" length="1" height="1.3" />
+            </item>
+            <item id="melonSd" label="#melonTitle" name="MelonSeed" icon="MelonSeedIcon" gold="0" silver="95"
+                saleSilver="114" priority="93" canSale="0" minLevel="8">
+                <ripen typeId="mel" time="120" fruitfulness="1" seasons="1" />
+                <dimension width="1" length="1" height="1" />
+            </item>
+            <item id="pnpSd" label="#pineappleTitle" name="PineappleSeed" icon="PineappleSeedIcon"
+                gold="0" silver="150" saleSilver="180" priority="92" canSale="0" minLevel="10">
+                <ripen typeId="pnp" time="180" fruitfulness="1" seasons="1" />
+                <dimension width="1" length="1" height="1" />
+            </item>
+            <item id="fjSd" label="#feijoaTitle" name="FeijoaSeed" icon="FeijoaSeedIcon" gold="0" silver="185"
+                saleSilver="222" priority="91" canSale="0" minLevel="12">
+                <ripen typeId="fj" time="180" fruitfulness="1" seasons="1" />
+                <dimension width="1" length="1" height="1" />
+            </item>
+            <item id="strbSeed" label="#strawberryTitle" name="StrawberrySeed" icon="StrawberrySeedIcon"
+                gold="0" silver="260" saleSilver="312" priority="90" canSale="0" minLevel="14">
+                <ripen typeId="strb" time="240" fruitfulness="1" seasons="1" />
+                <dimension width="1" length="1" height="1" />
+            </item>
+            <item id="currSd" label="#currantTitle" name="CurrantSeed" icon="CurrantSeedIcon" gold="0"
+                silver="280" saleSilver="336" priority="89" canSale="0" minLevel="16">
+                <ripen typeId="currant" time="240" fruitfulness="1" seasons="1" />
+                <dimension width="1" length="1" height="1" />
+            </item>
+            <item id="crnbSd" label="#cranberryTitle" name="CranberrySeed" icon="CranberrySeedIcon"
+                gold="0" silver="265" saleSilver="318" priority="88" canSale="0" minLevel="18">
+                <ripen typeId="crnb" time="300" fruitfulness="1" seasons="1" />
+                <dimension width="1" length="1" height="1" />
+            </item>
+            <item id="gosbSd" label="#gooseberryTitle" name="GooseberrySeed" icon="GooseberrySeedIcon" gold="0"
+                silver="435" saleSilver="522" priority="87" canSale="0" minLevel="20">
+                <ripen typeId="gsb" time="360" fruitfulness="1" seasons="1" />
+                <dimension width="1" length="1" height="1" />
+            </item>
+        </category>
+
+        <category id="fruitTrees" logCategory2="tree">
+            <item id="appTrSd" label="#appleTitle" name="AppleTree" icon="AppleTreeSeedIcon"
+                gold="0" silver="180" saleSilver="0" priority="70" canSale="0" minLevel="1">
+                <ripen typeId="app" time="120" fruitfulness="1" seasons="3" />
+                <dimension width="2" length="2" height="3" />
+                <direction names="SW" />
+            </item>
+            <item id="pearTrSd" label="#pearTitle" name="PearTree" icon="PearTreeSeedIcon" gold="0"
+                silver="250" saleSilver="0" priority="69" canSale="0" minLevel="4">
+                <ripen typeId="pear" time="150" fruitfulness="1" seasons="3" />
+                <dimension width="2" length="2" height="3" />
+                <direction names="SW" />
+            </item>
+            <item id="aprTrSd" label="#apricotTitle" name="ApricotTree" icon="ApricotTreeSeedIcon"
+                gold="0" silver="315" saleSilver="0" priority="68" canSale="0" minLevel="6">
+                <ripen typeId="apct" time="180" fruitfulness="1" seasons="3" />
+                <dimension width="2" length="2" height="3" />
+                <direction names="SW" />
+            </item>
+            <item id="chrTrSd" label="#cherryTitle" name="CherryTree" icon="CherryTreeSeedIcon"
+                gold="0" silver="470" saleSilver="0" priority="67" canSale="0" minLevel="8">
+                <ripen typeId="chr" time="240" fruitfulness="1" seasons="3" />
+                <dimension width="2" length="2" height="3" />
+                <direction names="SW" />
+            </item>
+            <item id="peachTrSd" label="#peachTitle" name="PeachTree" icon="PeachTreeSeedIcon"
+                gold="0" silver="540" saleSilver="0" priority="66" canSale="0" minLevel="10">
+                <ripen typeId="peach" time="300" fruitfulness="1" seasons="3" />
+                <dimension width="2" length="2" height="3" />
+                <direction names="SW" />
+            </item>
+            <item id="plumTrSd" label="#plumTitle" name="PlumTree" icon="PlumTreeSeedIcon" gold="0"
+                silver="700" saleSilver="0" priority="65" canSale="0" minLevel="12">
+                <ripen typeId="plum" time="360" fruitfulness="1" seasons="3" />
+                <dimension width="2" length="2" height="3" />
+                <direction names="SW" />
+            </item>
+            <item id="bnnTrSd" label="#bananaTitle" name="BananaTree" icon="BananaTreeSeedIcon"
+                gold="0" silver="755" saleSilver="0" priority="64" canSale="0" minLevel="14">
+                <ripen typeId="bnn" time="360" fruitfulness="1" seasons="3" />
+                <dimension width="2" length="2" height="3" />
+                <direction names="SW" />
+            </item>
+            <item id="cocPlmSd" label="#coconutPalmTitle" name="CoconutTree" icon="CoconutPalmSeedIcon"
+                gold="0" silver="1050" saleSilver="0" priority="64" canSale="0" minLevel="16">
+                <ripen typeId="ccnt" time="480" fruitfulness="1" seasons="3" />
+                <dimension width="2" length="2" height="3" />
+                <direction names="SW" />
+            </item>
+            <item id="ppTrSd" label="#papayaTitle" name="PapayaTree" icon="PapayaTreeSeedIcon"
+                gold="0" silver="1400" saleSilver="0" priority="63" canSale="0" minLevel="18">
+                <ripen typeId="ppya" time="600" fruitfulness="1" seasons="3" />
+                <dimension width="2" length="2" height="3" />
+                <direction names="SW" />
+            </item>
+            <item id="mirTrSd" label="#miracleTitle" name="MiracleTree" icon="MiracleTreeSeedIcon"
+                gold="0" silver="3500" saleSilver="0" priority="62" canSale="0" minLevel="20">
+                <ripen typeId="mirl" time="1440" fruitfulness="1" seasons="3" />
+                <dimension width="2" length="2" height="3" />
+                <direction names="SW" />
+            </item>
+        </category>
+
+        <category id="medicalSeeds" logCategory2="medical">
+            <item id="cloverSd" label="#cloverTitle" name="CloverSeed" icon="CloverSeedIcon" gold="0" silver="15"
+                saleSilver="0" priority="50" canSale="0" minLevel="1">
+                <ripen typeId="clvr" time="30" fruitfulness="1" seasons="1" />
+            </item>
+            <item id="aloeSd" label="#aloeTitle" name="AloeSeed" icon="AloeSeedIcon" gold="0" silver="120"
+                saleSilver="0" priority="49" canSale="0" minLevel="5">
+                <ripen typeId="aloe" time="120" fruitfulness="1" seasons="1" />
+            </item>
+            <item id="aniseSd" label="#aniseTitle" name="AniseSeed" icon="AniseSeedIcon" gold="0" silver="385"
+                saleSilver="0" priority="48" canSale="0" minLevel="10">
+                <ripen typeId="anise" time="300" fruitfulness="1" seasons="1" />
+            </item>
+            <item id="dgRoseSd" label="#dogRoseTitle" name="BriarSeed" icon="BriarSeedIcon" gold="0"
+                silver="420" saleSilver="0" priority="47" canSale="0" minLevel="15">
+                <ripen typeId="dgRs" time="240" fruitfulness="1" seasons="1" />
+            </item>
+            <item id="medMossSd" label="#medicinalMossTitle" name="MedicinalMossSeed" icon="MedicinalMossSeedIcon"
+                gold="0" silver="1200" saleSilver="0" priority="46" canSale="0" minLevel="20">
+                <ripen typeId="mMoss" time="480" fruitfulness="1" seasons="1" />
+            </item>
+        </category>
+
+        <category id="fishFry" logCategory2="fish">
+                                 
+            <item id="sprtFry" label="#spratTitle" name="Sprat" icon="SpratIcon"
+                gold="0" silver="30" saleSilver="0" priority="40" canSale="0" minLevel="1">
+                <ripen typeId="sprtfsh" time="60" fruitfulness="1" seasons="1" />
+                <dimension width="1" length="1" height="0.5" />
+            </item>
+            <item id="prchFry" label="#perchTitle" name="Perch" icon="PerchIcon"
+                gold="0" silver="45" saleSilver="0" priority="39" canSale="0" minLevel="3">
+                <ripen typeId="prchfsh" time="60" fruitfulness="1" seasons="1" />
+                <dimension width="1" length="1" height="0.5" />
+            </item>
+            <item id="pkFry" label="#pikeTitle" name="Pike" icon="PikeIcon"
+                gold="0" silver="90" saleSilver="0" priority="38" canSale="0" minLevel="5">
+                <ripen typeId="pkfsh" time="90" fruitfulness="1" seasons="1" />
+                <dimension width="1" length="1" height="0.5" />
+            </item>
+            <item id="ctfshFry" label="#catfishTitle" name="Catfish" icon="CatfishIcon"
+                gold="0" silver="150" saleSilver="0" priority="37" canSale="0" minLevel="7">
+                <ripen typeId="ctfsh" time="120" fruitfulness="1" seasons="1" />
+                <dimension width="1" length="1" height="0.5" />
+            </item>
+            <item id="shrFry" label="#shrimpTitle" name="Shrimp" icon="ShrimpIcon"
+                gold="0" silver="265" saleSilver="0" priority="36" canSale="0" minLevel="9">
+                <ripen typeId="shr" time="180" fruitfulness="1" seasons="1" />
+                <dimension width="1" length="1" height="0.5" />
+            </item>
+            <item id="stgnFry" label="#sturgeonTitle" name="Sturgeon" icon="SturgeonIcon"
+                gold="0" silver="415" saleSilver="0" priority="35" canSale="0" minLevel="11">
+                <ripen typeId="stgn" time="240" fruitfulness="1" seasons="1" />
+                <dimension width="1" length="1" height="0.5" />
+            </item>
+            <item id="tunFry" label="#tunnyTitle" name="TunnySmall" icon="TunnyIcon"
+                gold="0" silver="725" saleSilver="0" priority="34" canSale="0" minLevel="13">
+                <ripen typeId="tun" time="360" fruitfulness="1" seasons="1" />
+                <dimension width="1" length="1" height="0.5" />
+            </item>
+            <item id="sqFry" label="#squidTitle" name="Squid" icon="SquidIcon"
+                gold="0" silver="1150" saleSilver="0" priority="33" canSale="0" minLevel="15">
+                <ripen typeId="sqd" time="480" fruitfulness="1" seasons="1" />
+                <dimension width="1" length="1" height="0.5" />
+            </item>
+        </category>
+    </category>
+
+</config>

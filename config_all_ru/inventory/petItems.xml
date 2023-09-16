@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config>
+
+    <!-- <item id="" label="#Title" name="" icon="Icon" gold="1" silver="1" saleSilver="1" priority="1" canSale="1" > <params></params> 
+        <oldPrice gold="1" silver="1"/> </item> -->
+
+    <category id="petItems" label="#petItemsCategory" priority="1" typeClass="modificator" library="resources" logCategory1="petItems">
+
+        <category id="toyPets" target="wrkshp" logCategory2="toy">
+            <item id="pTBll" label="#petToyBallTitle" description="#petToyBallDescription" name="PetToyBall" icon="PetToyBallIcon"
+                gold="1" silver="30" saleSilver="0" priority="100" canSale="0" cooldown="0" buyCount="1" cursorId="petPlay" 
+                canUse="1" canBuy="1">
+                <modifiers>
+                    <modifier name="happiness" effect="10" />
+                    <modifier name="higiene" effect="-2" />
+                    <modifier name="cheerfullness" effect="-5" />
+                </modifiers>
+            </item>
+            <item id="pTFbee" label="#petFriesbeeTitle" description="#petFriesbeeDescription" name="PetFriesbee" icon="PetFriesbeeIcon"
+                gold="1" silver="85" saleSilver="0" priority="99" canSale="0" cooldown="0" buyCount="1" cursorId="petPlay" 
+                canUse="1" canBuy="1">
+                <modifiers>
+                    <modifier name="happiness" effect="35" />
+                    <modifier name="health" effect="7" />
+                    <modifier name="cheerfullness" effect="-10" />
+                </modifiers>
+            </item>
+            <item id="pTBt" label="#petBrainteaserTitle" description="#petBrainteaserDescription" name="PetBrainteaser" icon="PetBrainteaserIcon"
+                gold="1" silver="45" saleSilver="0" priority="98" canSale="0" cooldown="0" buyCount="1" cursorId="petPlay" 
+                canUse="1" canBuy="1">
+                <modifiers>
+                    <modifier name="happiness" effect="20" />
+                    <modifier name="cheerfullness" effect="-7" />
+                </modifiers>
+            </item>
+            <item id="pTCwrk" label="#petClockworkToyTitle" description="#petClockworkToyDescription" name="PetClockworkToy" icon="PetClockworkToyIcon"
+                gold="1" silver="55" saleSilver="0" priority="97" canSale="0" cooldown="0" buyCount="1" cursorId="petPlay" 
+                canUse="1" canBuy="1">
+                <modifiers>
+                    <modifier name="happiness" effect="25" />
+                    <modifier name="health" effect="2" />
+                    <modifier name="cheerfullness" effect="-8" />
+                </modifiers>
+            </item>
+        </category>
+
+        <category id="bathPets" logCategory2="bath">
+            <item id="pShp" label="#petShampooTitle" description="#petShampooDescription" name="PetShampoo" icon="PetShampooIcon"
+                gold="1" silver="60" saleSilver="0" priority="100" canSale="0" cooldown="0" buyCount="1" cursorId="petBathe" 
+                canUse="1" canBuy="1">
+                <modifiers>
+                    <modifier name="higiene" effect="25" />
+                    <modifier name="health" effect="5" />
+                    <modifier name="cheerfullness" effect="-5" />
+                </modifiers>
+            </item>
+            <item id="pBrsh" label="#petBrushTitle" description="#petBrushDescription" name="PetBrush" icon="PetBrushIcon"
+                gold="1" silver="25" saleSilver="0" priority="99" canSale="0" cooldown="0" buyCount="1" cursorId="petComb" 
+                canUse="1" canBuy="1">
+                <modifiers>
+                    <modifier name="higiene" effect="10" />
+                    <modifier name="health" effect="2" />
+                    <modifier name="cheerfullness" effect="-5" />
+                </modifiers>
+            </item>
+            <item id="pSoap" label="#petSoapTitle" description="#petSoapDescription" name="PetSoap" icon="PetSoapIcon"
+                gold="1" silver="30" saleSilver="0" priority="98" canSale="0" cooldown="0" buyCount="1" cursorId="petBathe" 
+                canUse="1" canBuy="1">
+                <modifiers>
+                    <modifier name="higiene" effect="15" />
+                    <modifier name="cheerfullness" effect="-5" />
+                </modifiers>
+            </item>
+            <item id="pFoam" label="#petFoamTitle" description="#petFoamDescription" name="PetFoam" icon="PetFoamIcon"
+                gold="1" silver="40" saleSilver="0" priority="97" canSale="0" cooldown="0" buyCount="1" cursorId="petBathe" 
+                canUse="1" canBuy="1">
+                <modifiers>
+                    <modifier name="higiene" effect="20" />
+                    <modifier name="cheerfullness" effect="-5" />
+                </modifiers>
+            </item>
+        </category>
+    </category>
+</config>

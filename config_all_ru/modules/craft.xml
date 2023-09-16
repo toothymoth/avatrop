@@ -1,0 +1,524 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+
+    <building id="ktchn">
+        <craftedItem title="#blueberriesGratedTitle" receptId="bluebGrt" itemId="bluebGrt" gold="1" priority="100" acceleratePrice="1">
+            <limit minLevel="1" createTime="10" />
+            <component itemId="blb" count="5" />
+            <production exp="1">
+                <item typeId="wst" count="1" />
+            </production>
+        </craftedItem>
+        <craftedItem title="#pumpkinPorridgeTitle" receptId="pmpPorridge" itemId="pmpPorridge" gold="3" priority="99" acceleratePrice="2">
+            <limit minLevel="3" createTime="20" />
+            <component itemId="pmp" count="3" />
+            <production exp="1">
+                <item typeId="wst" count="2" />
+            </production>
+        </craftedItem>
+        <craftedItem title="#blueberryJamTitle" receptId="bluebJam" itemId="bluebJam" gold="4" priority="98" acceleratePrice="4">
+            <limit minLevel="4" createTime="35" />
+            <component itemId="blb" count="6" />
+            <component itemId="app" count="1" />
+            <production exp="1">
+                <item typeId="wst" count="5" />
+            </production>
+        </craftedItem>
+        <craftedItem title="#pumpkinCreamTitle" receptId="pmpCream" itemId="pmpCream" gold="5" priority="97" acceleratePrice="5">
+            <limit minLevel="5" createTime="45" />
+            <component itemId="pmp" count="3" />
+            <component itemId="app" count="2" />
+            <production exp="1">
+                <item typeId="wst" count="5" />
+            </production>
+        </craftedItem>
+        <craftedItem title="#appleJuiceTitle" receptId="appJuice" itemId="appJuice" gold="30" priority="96" acceleratePrice="3">
+            <limit createTime="25" social="1" friends="15" minLevel="5" />
+            <component itemId="app" count="4" />
+            <production exp="1">
+                <item typeId="wst" count="2" />
+            </production>
+        </craftedItem>
+        <craftedItem title="#freshBerriesTitle" receptId="frBerries" itemId="frBerries" gold="6" priority="95" acceleratePrice="2">
+            <limit minLevel="6" createTime="20" />
+            <component itemId="blckb" count="5" />
+            <component itemId="blb" count="5" />
+            <production exp="1">
+                <item typeId="wst" count="4" />
+            </production>
+        </craftedItem>
+        <craftedItem title="#freshWatermelonTitle" receptId="frWtrmelon" itemId="frWtrmelon" gold="7" priority="94" acceleratePrice="2">
+            <limit minLevel="7" createTime="15" />
+            <component itemId="wtrmel" count="5" />
+            <production exp="1">
+                <item typeId="wst" count="2" />
+            </production>
+        </craftedItem>
+        <craftedItem title="#pearPureeTitle" receptId="pearPuree" itemId="pearPuree" gold="8" priority="93" acceleratePrice="6">
+            <limit minLevel="8" createTime="60" />
+            <component itemId="pear" count="4" />
+            <component itemId="app" count="1" />
+            <production exp="1">
+                <item typeId="wst" count="6" />
+            </production>
+        </craftedItem>
+        <craftedItem title="#porridgeWithCloverTitle" receptId="porrWClover" itemId="porrWClover" gold="14" priority="92" acceleratePrice="2">
+            <limit createTime="15" social="1" friends="7" minLevel="2" />
+            <component itemId="clvr" count="6" />
+            <component itemId="pmp" count="3" />
+            <production exp="1">
+                <item typeId="wst" count="3" />
+            </production>
+        </craftedItem>
+        <craftedItem title="#compoteTitle" receptId="compote" itemId="compote" gold="9" priority="91" acceleratePrice="5">
+            <limit minLevel="9" createTime="45" />
+            <component itemId="grp" count="4" />
+            <component itemId="apct" count="2" />
+            <production exp="1">
+                <item typeId="wst" count="6" />
+            </production>
+        </craftedItem>
+        <craftedItem title="#cocktailWithAloeTitle" receptId="cocktWAloe" itemId="cocktWAloe" gold="10" priority="90" acceleratePrice="5">
+            <limit minLevel="10" createTime="45" />
+            <component itemId="pear" count="2" />
+            <component itemId="app" count="2" />
+            <component itemId="aloe" count="2" />
+            <production exp="1">
+                <item typeId="wst" count="6" />
+            </production>
+        </craftedItem>
+        <craftedItem title="#fruitDrinkTitle" receptId="frDrink" itemId="frDrink" gold="50" priority="89" acceleratePrice="3">
+            <limit createTime="30" social="1" friends="25" minLevel="6" />
+            <component itemId="grp" count="4" />
+            <component itemId="blckb" count="8" />
+            <production exp="1">
+                <item typeId="wst" count="7" />
+            </production>
+        </craftedItem>
+        <craftedItem title="#melonCocktailTitle" receptId="melonCockt" itemId="melonCockt" gold="11" priority="88" acceleratePrice="3">
+            <limit minLevel="11" createTime="25" />
+            <component itemId="wtrmel" count="2" />
+            <component itemId="mel" count="6" />
+            <production exp="1">
+                <item typeId="wst" count="4" />
+            </production>
+        </craftedItem>
+        <craftedItem title="#cherryJamTitle" receptId="chrJam" itemId="chrJam" gold="75" priority="87" acceleratePrice="6">
+            <limit createTime="60" social="1" friends="40" minLevel="8" />
+            <component itemId="chr" count="6" />
+            <production exp="1">
+                <item typeId="wst" count="7" />
+            </production>
+        </craftedItem>
+        <craftedItem title="#fruitSyrupTitle" receptId="frSyrup" itemId="frSyrup" gold="12" priority="86" acceleratePrice="6">
+            <limit minLevel="12" createTime="55" />
+            <component itemId="chr" count="3" />
+            <component itemId="grp" count="5" />
+            <production exp="1">
+                <item typeId="wst" count="9" />
+            </production>
+        </craftedItem>
+        <craftedItem title="#pineappleJuiceTitle" receptId="pinappJuice" itemId="pinappJuice" gold="13" priority="85" acceleratePrice="3">
+            <limit minLevel="13" createTime="25" />
+            <component itemId="pnp" count="7" />
+            <production exp="1">
+                <item typeId="wst" count="4" />
+            </production>
+        </craftedItem>
+        <craftedItem title="#fruitSaladTitle" receptId="frSalad" itemId="frSalad" gold="14" priority="84" acceleratePrice="6">
+            <limit minLevel="14" createTime="60" />
+            <component itemId="peach" count="3" />
+            <component itemId="pear" count="3" />
+            <component itemId="grp" count="5" />
+            <production exp="1">
+                <item typeId="wst" count="13" />
+            </production>
+        </craftedItem>
+        <craftedItem title="#aniseSyrupTitle" receptId="aniseSyrup" itemId="aniseSyrup" gold="100" priority="83" acceleratePrice="5">
+            <limit createTime="45" social="1" friends="60" minLevel="10" />
+            <component itemId="pnp" count="4" />
+            <component itemId="anise" count="2" />
+            <production exp="1">
+                <item typeId="wst" count="6" />
+            </production>
+        </craftedItem>
+        <craftedItem title="#feijoaJuiceTitle" receptId="fjJuice" itemId="fjJuice" gold="15" priority="82" acceleratePrice="4">
+            <limit minLevel="15" createTime="35" />
+            <component itemId="fj" count="12" />
+            <production exp="1">
+                <item typeId="wst" count="9" />
+            </production>
+        </craftedItem>
+        <craftedItem title="#creamOfFeijoaTitle" receptId="creamOfFj" itemId="creamOfFj" gold="125" priority="81" acceleratePrice="4">
+            <limit createTime="40" onlyBuy="1" minLevel="15" />
+            <component itemId="fj" count="15" />
+            <component itemId="aloe" count="5" />
+            <production exp="1">
+                <item typeId="wst" count="16" />
+            </production>
+        </craftedItem>
+        <craftedItem title="#plumJamTitle" receptId="plumJam" itemId="plumJam" gold="16" priority="80" acceleratePrice="8">
+            <limit minLevel="16" createTime="75" />
+            <component itemId="plum" count="5" />
+            <component itemId="app" count="3" />
+            <production exp="1">
+                <item typeId="wst" count="12" />
+            </production>
+        </craftedItem>
+        <craftedItem title="#cranberryWaterTitle" receptId="cranbWtr" itemId="cranbWtr" gold="17" priority="79" acceleratePrice="3">
+            <limit minLevel="17" createTime="30" />
+            <component itemId="crnb" count="6" />
+            <production exp="1">
+                <item typeId="wst" count="4" />
+            </production>
+        </craftedItem>
+        <craftedItem title="#strawberryJamTitle" receptId="strbJam" itemId="strbJam" gold="18" priority="78" acceleratePrice="9">
+            <limit minLevel="18" createTime="90" />
+            <component itemId="strb" count="14" />
+            <production exp="1">
+                <item typeId="wst" count="25" />
+            </production>
+        </craftedItem>
+        <craftedItem title="#delicatePureeTitle" receptId="delicPuree" itemId="delicPuree" gold="175" priority="77" acceleratePrice="6">
+            <limit createTime="60" onlyBuy="1" minLevel="18" />
+            <component itemId="strb" count="15" />
+            <component itemId="bnn" count="2" />
+            <production exp="1">
+                <item typeId="wst" count="20" />
+            </production>
+        </craftedItem>
+        <craftedItem title="#currantJellyTitle" receptId="currtJelly" itemId="currtJelly" gold="19" priority="76" acceleratePrice="6">
+            <limit minLevel="19" createTime="60" />
+            <component itemId="currant" count="15" />
+            <production exp="1">
+                <item typeId="wst" count="18" />
+            </production>
+        </craftedItem>
+        <craftedItem title="#tropicalCocktailTitle" receptId="tropCock" itemId="tropCock" gold="200" priority="75" acceleratePrice="8">
+            <limit createTime="75" onlyBuy="1" minLevel="19" />
+            <component itemId="ccnt" count="3" />
+            <component itemId="bnn" count="5" />
+            <component itemId="pnp" count="4" />
+            <production exp="1">
+                <item typeId="wst" count="18" />
+            </production>
+        </craftedItem>
+        <craftedItem title="#coconutMilkTitle" receptId="cocMilk" itemId="cocMilk" gold="20" priority="74" acceleratePrice="5">
+            <limit minLevel="20" createTime="50" />
+            <component itemId="ccnt" count="7" />
+            <production exp="1">
+                <item typeId="wst" count="7" />
+            </production>
+        </craftedItem>
+        <craftedItem title="#bananaChipsTitle" receptId="banChips" itemId="banChips" gold="22" priority="73" acceleratePrice="9">
+            <limit minLevel="22" createTime="90" />
+            <component itemId="bnn" count="11" />
+            <production exp="1">
+                <item typeId="wst" count="20" />
+            </production>
+        </craftedItem>
+        <craftedItem title="#creamOfPapayaTitle" receptId="crOfPapaya" itemId="crOfPapaya" gold="225" priority="72" acceleratePrice="4">
+            <limit createTime="40" onlyBuy="1" minLevel="22" />
+            <component itemId="ppya" count="7" />
+            <production exp="1">
+                <item typeId="wst" count="6" />
+            </production>
+        </craftedItem>
+
+        <craftedItem title="#spratsTitle" receptId="sprtscns" itemId="sprtscns" gold="2" priority="50" acceleratePrice="2">
+            <limit minLevel="2" createTime="15" />
+            <component itemId="sprtfsh" count="3" />
+            <production exp="1">
+                <item typeId="wst" count="2" />
+            </production>
+        </craftedItem>
+        <craftedItem title="#fishSoupTitle" receptId="fishSoup" itemId="fishSoup" gold="5" priority="49" acceleratePrice="3">
+            <limit minLevel="5" createTime="25" />
+            <component itemId="prchfsh" count="5" />
+            <production exp="1">
+                <item typeId="wst" count="6" />
+            </production>
+        </craftedItem>
+        <craftedItem title="#tinnedFoodTitle" receptId="tinFood" itemId="tinFood" gold="35" priority="48" acceleratePrice="4">
+            <limit createTime="35" social="1" friends="18" minLevel="3" />
+            <component itemId="sprtfsh" count="5" />
+            <component itemId="prchfsh" count="3" />
+            <production exp="1">
+                <item typeId="wst" count="14" />
+            </production>
+        </craftedItem>
+        <craftedItem title="#stuffedPikeTitle" receptId="stuffPike" itemId="stuffPike" gold="7" priority="47" acceleratePrice="3">
+            <limit minLevel="7" createTime="30" />
+            <component itemId="pkfsh" count="2" />
+            <component itemId="app" count="3" />
+            <production exp="1">
+                <item typeId="wst" count="8" />
+            </production>
+        </craftedItem>
+        <craftedItem title="#fishPlateTitle" receptId="fishPlate" itemId="fishPlate" gold="15" priority="46" acceleratePrice="2">
+            <limit createTime="20" social="1" friends="8" minLevel="7" />
+            <component itemId="pkfsh" count="1" />
+            <component itemId="ctfsh" count="1" />
+            <component itemId="prchfsh" count="3" />
+            <production exp="1">
+                <item typeId="wst" count="5" />
+            </production>
+        </craftedItem>
+        <craftedItem title="#staffedSheatfishTitle" receptId="staffShfish" itemId="staffShfish" gold="9" priority="45" acceleratePrice="4">
+            <limit minLevel="9" createTime="35" />
+            <component itemId="ctfsh" count="1" />
+            <component itemId="apct" count="3" />
+            <production exp="1">
+                <item typeId="wst" count="7" />
+            </production>
+        </craftedItem>
+        <craftedItem title="#shrimpSoupTitle" receptId="shrimpSoup" itemId="shrimpSoup" gold="11" priority="44" acceleratePrice="4">
+            <limit minLevel="11" createTime="40" />
+            <component itemId="shr" count="2" />
+            <component itemId="clvr" count="5" />
+            <production exp="1">
+                <item typeId="wst" count="14" />
+            </production>
+        </craftedItem>
+        <craftedItem title="#sturgeonInSyrupTitle" receptId="sturgInSyrup" itemId="sturgInSyrup" gold="80" priority="43" acceleratePrice="4">
+            <limit createTime="40" social="1" friends="45" minLevel="11" />
+            <component itemId="stgn" count="1" />
+            <component itemId="chr" count="6" />
+            <production exp="1">
+                <item typeId="wst" count="14" />
+            </production>
+        </craftedItem>
+        <craftedItem title="#sturgeonFishSoupTitle" receptId="sturgFishSoup" itemId="sturgFishSoup" gold="13" priority="42" acceleratePrice="6">
+            <limit minLevel="13" createTime="60" />
+            <component itemId="stgn" count="3" />
+            <production exp="1">
+                <item typeId="wst" count="9" />
+            </production>
+        </craftedItem>
+        <craftedItem title="#tunnyBakedTitle" receptId="tunBaked" itemId="tunBaked" gold="100" priority="41" acceleratePrice="4">
+            <limit createTime="35" social="1" friends="60" minLevel="13" />
+            <component itemId="tun" count="2" />
+            <component itemId="pnp" count="3" />
+            <production exp="1">
+                <item typeId="wst" count="9" />
+            </production>
+        </craftedItem>
+        <craftedItem title="#fishMixTitle" receptId="fishMix" itemId="fishMix" gold="15" priority="40" acceleratePrice="5">
+            <limit minLevel="15" createTime="45" />
+            <component itemId="tun" count="1" />
+            <component itemId="stgn" count="2" />
+            <production exp="1">
+                <item typeId="wst" count="7" />
+            </production>
+        </craftedItem>
+        <craftedItem title="#seaCocktailTitle" receptId="seaCockt" itemId="seaCockt" gold="125" priority="39" acceleratePrice="5">
+            <limit createTime="45" onlyBuy="1" minLevel="15" />
+            <component itemId="sqd" count="2" />
+            <component itemId="shr" count="3" />
+            <production exp="1">
+                <item typeId="wst" count="11" />
+            </production>
+        </craftedItem>
+        <craftedItem title="#driedSquidTitle" receptId="driedSqd" itemId="driedSqd" gold="17" priority="38" acceleratePrice="6">
+            <limit minLevel="17" createTime="60" />
+            <component itemId="sqd" count="2" />
+            <production exp="1">
+                <item typeId="wst" count="6" />
+            </production>
+        </craftedItem>
+        <craftedItem title="#glazeResourceTitle" receptId="glz" itemId="glz" gold="33" priority="1" acceleratePrice="3">
+            <limit minLevel="20" createTime="30" />
+            <component itemId="chrJam" count="1" />
+            <component itemId="aniseSyrup" count="1" />
+            <component itemId="frSyrup" count="1" />
+            <production exp="5">
+                <item typeId="wst" count="5" />
+            </production>
+        </craftedItem>
+    </building>
+
+    <building id="lab">
+        <craftedItem title="#humusTitle" receptId="frt1" itemId="frt1" gold="5" priority="80" acceleratePrice="1">
+            <limit minLevel="5" createTime="7" />
+            <component itemId="wst" count="5" />
+            <production exp="1" />
+        </craftedItem>
+        <craftedItem title="#humus3pcs" receptId="frt2" itemId="frt1" gold="7" priority="78" acceleratePrice="2" count="3">
+            <limit minLevel="7" createTime="12" />
+            <component itemId="wst" count="12" />
+            <production exp="1" />
+        </craftedItem>
+        <craftedItem title="#humus3pcs" receptId="frt3" itemId="frt1" gold="15" priority="76" acceleratePrice="1" count="3">
+            <limit createTime="10" onlyBuy="1" />
+            <component itemId="wst" count="15" />
+            <production exp="1" />
+        </craftedItem>
+
+        <craftedItem title="#cmpst2pcs" receptId="frt4" itemId="frt4" gold="9" priority="74" acceleratePrice="3" count="2">
+            <limit minLevel="9" createTime="25" />
+            <component itemId="wst" count="30" />
+            <production exp="1" />
+        </craftedItem>
+        <craftedItem title="#cmpst5pcs" receptId="frt5" itemId="frt4" gold="11" priority="72" acceleratePrice="6" count="5">
+            <limit minLevel="11" createTime="55" />
+            <component itemId="wst" count="75" />
+            <production exp="1" />
+        </craftedItem>
+        <craftedItem title="#cmpst5pcs" receptId="frt6" itemId="frt4" gold="35" priority="70" acceleratePrice="6" count="5">
+            <limit createTime="60" onlyBuy="1" />
+            <component itemId="wst" count="65" />
+            <production exp="1" />
+        </craftedItem>
+
+        <craftedItem title="#fishFertTitle" receptId="frt16" itemId="frt16" gold="5" priority="79" acceleratePrice="1">
+            <limit minLevel="5" createTime="7" />
+            <component itemId="wst" count="5" />
+            <production exp="1" />
+        </craftedItem>
+        <craftedItem title="#fishFert3pcs" receptId="frt17" itemId="frt16" gold="7" priority="77" acceleratePrice="2" count="3">
+            <limit minLevel="7" createTime="12" />
+            <component itemId="wst" count="12" />
+            <production exp="1" />
+        </craftedItem>
+        <craftedItem title="#fishFert3pcs" receptId="frt18" itemId="frt16" gold="15" priority="75" acceleratePrice="1" count="3">
+            <limit createTime="10" onlyBuy="1" />
+            <component itemId="wst" count="15" />
+            <production exp="1" />
+        </craftedItem>
+
+        <craftedItem title="#goodFishFert2pcs" receptId="frt19" itemId="frt19" gold="9" priority="73" acceleratePrice="3" count="2">
+            <limit minLevel="9" createTime="25" />
+            <component itemId="wst" count="30" />
+            <production exp="1" />
+        </craftedItem>
+        <craftedItem title="#goodFishFert5pcs" receptId="frt20" itemId="frt19" gold="11" priority="71" acceleratePrice="6" count="5">
+            <limit minLevel="11" createTime="55" />
+            <component itemId="wst" count="75" />
+            <production exp="1" />
+        </craftedItem>
+        <craftedItem title="#goodFishFert5pcs" receptId="frt21" itemId="frt19" gold="35" priority="69" acceleratePrice="6" count="5">
+            <limit createTime="60" onlyBuy="1" />
+            <component itemId="wst" count="65" />
+            <production exp="1" />
+        </craftedItem>
+
+        <craftedItem title="#teaFromCloverTitle" receptId="teaClvr" itemId="teaClvr" gold="5" priority="99" acceleratePrice="1">
+            <limit minLevel="5" createTime="10" />
+            <component itemId="clvr" count="7" />
+            <component itemId="glss" count="1" />
+            <production exp="1">
+                <item typeId="wst" count="2" />
+            </production>
+        </craftedItem>
+        <craftedItem title="#tinctureOfAloesTitle" receptId="tinctOfAloes" itemId="tinctOfAloes" gold="7" priority="98" acceleratePrice="3">
+            <limit minLevel="7" createTime="25" />
+            <component itemId="aloe" count="3" />
+            <component itemId="glss" count="1" />
+            <production exp="1">
+                <item typeId="wst" count="3" />
+            </production>
+        </craftedItem>
+        <craftedItem title="#aniseNectarTitle" receptId="aniseNect" itemId="aniseNect" gold="28" priority="97" acceleratePrice="2">
+            <limit createTime="15" social="1" friends="30" />
+            <component itemId="anise" count="3" />
+            <component itemId="glss" count="1" />
+            <production exp="1">
+                <item typeId="wst" count="5" />
+            </production>
+        </craftedItem>
+        <craftedItem title="#teaWithRosehipTitle" receptId="teaWRsp" itemId="teaWRsp" gold="44" priority="96" acceleratePrice="2">
+            <limit minLevel="15" createTime="20" />
+            <component itemId="dgRs" count="5" />
+            <component itemId="glss" count="1" />
+            <production exp="1">
+                <item typeId="wst" count="7" />
+            </production>
+        </craftedItem>
+        <craftedItem title="#tinctureFromMossTitle" receptId="tntFMs" itemId="tntFMs" gold="68" priority="95" acceleratePrice="3"> 
+            <limit createTime="25" onlyBuy="1" />
+            <component itemId="mMoss" count="4" />
+            <component itemId="glss" count="1" />
+            <production exp="1">
+                <item typeId="wst" count="10" />
+            </production>
+        </craftedItem>
+    </building>
+
+    <building id="wrkshp">
+        <craftedItem title="#boardResourceTitle" receptId="brd" itemId="brd" gold="3" priority="11" acceleratePrice="2">
+            <limit minLevel="3" createTime="15" />
+            <component itemId="wd" count="2" />
+            <production exp="1" />
+        </craftedItem>
+        <craftedItem title="#marbleResourceTitle" receptId="mrbl" itemId="mrbl" gold="4" priority="10" acceleratePrice="2">
+            <limit minLevel="4" createTime="20" />
+            <component itemId="stn" count="3" />
+            <production exp="1" />
+        </craftedItem>
+        <craftedItem title="#glassResourceTitle" receptId="glss" itemId="glss" gold="5" priority="9" acceleratePrice="3">
+            <limit minLevel="5" createTime="30" />
+            <component itemId="stn" count="4" />
+            <production exp="1" />
+        </craftedItem>
+        <craftedItem title="#linenFabricResourceTitle" receptId="lnfb" itemId="lnfb" gold="5" priority="8" acceleratePrice="6">
+            <limit minLevel="5" createTime="60" />
+            <component itemId="flx" count="5" />
+            <production exp="1" />
+        </craftedItem>
+        <craftedItem title="#toolBoxResourceTitle" receptId="tlbx" itemId="tlbx" gold="7" priority="7" acceleratePrice="5">
+            <limit minLevel="5" createTime="45" />
+            <component itemId="brd" count="1" />
+            <component itemId="mrbl" count="1" />
+            <production exp="1" />
+        </craftedItem>
+        <craftedItem title="#cottonFabricResourceTitle" receptId="ctfb" itemId="ctfb" gold="7" priority="6" acceleratePrice="9">
+            <limit minLevel="7" createTime="90" />
+            <component itemId="ctn" count="3" />
+            <production exp="1" />
+        </craftedItem>
+        <craftedItem title="#bucketResourceTitle" receptId="bckt" itemId="bckt" gold="7" priority="25" acceleratePrice="9">
+            <limit minLevel="2" createTime="90" />
+            <component itemId="stl" count="1" />
+            <component itemId="irn" count="1" />
+            <component itemId="tlbx" count="3" />
+            <production exp="1" />
+        </craftedItem>
+    </building>
+
+    <building id="bllns">
+        <craftedItem title="#redWoodResourceTitle" receptId="rdwd" itemId="rdwd" gold="15" priority="9" acceleratePrice="9" count="1">
+            <limit createTime="90" />
+            <component itemId="tlbx" count="2" />
+            <component itemId="brd" count="3" />
+            <production exp="3" />
+        </craftedItem>
+        <craftedItem title="#graniteResourceTitle" receptId="grnt" itemId="grnt" gold="20" priority="8" acceleratePrice="12" count="1">
+            <limit createTime="120" />
+            <component itemId="tlbx" count="2" />
+            <component itemId="mrbl" count="4" />
+            <production exp="3" />
+        </craftedItem>
+        <craftedItem title="#ironResourceTitle" receptId="irn" itemId="irn" gold="35" priority="7" acceleratePrice="18" count="1">
+            <limit createTime="180" />
+            <component itemId="tlbx" count="3" />
+            <component itemId="glss" count="3" />
+            <component itemId="lnfb" count="3" />
+            <production exp="5" />
+        </craftedItem>
+        <craftedItem title="#steelResourceTitle" receptId="stl" itemId="stl" gold="45" priority="6" acceleratePrice="24" count="1">
+            <limit createTime="240" />
+            <component itemId="tlbx" count="5" />
+            <component itemId="lnfb" count="3" />
+            <component itemId="ctfb" count="2" />
+            <production exp="7" />
+        </craftedItem>
+        <craftedItem title="#totemResourceTitle" receptId="ttm" itemId="ttm" gold="55" priority="5" acceleratePrice="48" count="1">
+            <limit createTime="480" />
+            <component itemId="tlbx" count="7" />
+            <component itemId="ctfb" count="5" />
+            <component itemId="tinctOfAloes" count="3" />
+            <production exp="7" />
+        </craftedItem>
+    </building>
+
+</config>

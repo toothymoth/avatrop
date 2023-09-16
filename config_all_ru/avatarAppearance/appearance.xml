@@ -1,0 +1,475 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+
+<config>
+
+    <boy>
+
+        <!-- SKIN -->
+
+        <category id="0" label="#avatarApearanceCategory0">
+
+            <item kind="1" isCommon="1"/>
+            <item kind="2" isCommon="1"/>
+            <item kind="3" isCommon="1"/>
+            <item kind="4" isCommon="1"/>
+            <item kind="5" isCommon="1"/>
+
+        </category>
+
+        <!-- EYES -->
+
+        <category id="1" label="#avatarApearanceCategory1">
+
+            <item kind="1" silver="180" defaultOnly="1"/>
+            <item kind="2" silver="135" defaultOnly="1"/>
+            <item kind="3" silver="150" defaultOnly="1"/>
+            <item kind="4" silver="120" defaultOnly="1"/>
+            <item kind="5" silver="140" defaultOnly="1"/>
+            <item kind="6" silver="100" defaultOnly="1"/>
+
+            <!-- salonOnly -->
+
+            <item kind="7" silver="270" salonOnly="1"/>
+            <item kind="8" gold="3" salonOnly="1"/>
+            <item kind="9" silver="200" salonOnly="1"/>
+            <item kind="10" gold="3" salonOnly="1"/>
+            <item kind="11" silver="420" salonOnly="1"/>
+            <item kind="12" gold="1" salonOnly="1"/>
+
+        </category>
+
+        <!-- BROWS -->
+
+        <category id="2" label="#avatarApearanceCategory2">
+
+            <item kind="1" silver="50" defaultOnly="1"/>
+            <item kind="2" silver="65" defaultOnly="1"/>
+            <item kind="3" silver="55" defaultOnly="1"/>
+            <item kind="4" silver="95" defaultOnly="1"/>
+            <item kind="5" silver="105" defaultOnly="1"/>
+            <item kind="6" silver="45" defaultOnly="1"/>
+
+            <!-- salonOnly -->
+
+            <item kind="7" gold="1" salonOnly="1"/>
+            <item kind="8" silver="250" salonOnly="1"/>
+            <item kind="9" gold="2" salonOnly="1"/>
+            <item kind="10" silver="320" salonOnly="1"/>
+            <item kind="11" gold="2" salonOnly="1"/>
+            <item kind="12" silver="280" salonOnly="1"/>
+
+        </category>
+
+        <!-- MOUTH -->
+
+        <category id="3" label="#avatarApearanceCategory3">
+
+            <item kind="1" silver="70" defaultOnly="1"/>
+            <item kind="2" silver="65" defaultOnly="1"/>
+            <item kind="3" silver="100" defaultOnly="1"/>
+            <item kind="4" silver="80" defaultOnly="1"/>
+            <item kind="5" silver="60" defaultOnly="1"/>
+            <item kind="6" silver="115" defaultOnly="1"/>
+
+            <!-- salonOnly -->
+
+            <item kind="7" silver="430" salonOnly="1"/>
+            <item kind="8" silver="320" salonOnly="1"/>
+            <item kind="9" gold="1" salonOnly="1"/>
+            <item kind="10" silver="260" salonOnly="1"/>
+            <item kind="11" gold="3" salonOnly="1"/>
+            <item kind="12" gold="1" salonOnly="1"/>
+
+        </category>
+
+        <!-- HAIR -->
+
+        <category id="4" label="#avatarApearanceCategory4">
+
+            <item kind="1" silver="350" defaultOnly="1"/>
+            <item kind="2" silver="220" defaultOnly="1"/>
+            <item kind="3" silver="235" defaultOnly="1"/>
+            <item kind="4" silver="380" defaultOnly="1"/>
+            <item kind="5" silver="265" defaultOnly="1"/>
+            <item kind="6" silver="275" defaultOnly="1"/>
+            <item kind="7" silver="410" defaultOnly="1"/>
+            <item kind="8" silver="390" defaultOnly="1"/>
+            <item kind="9" silver="245" defaultOnly="1"/>
+            <item kind="10" silver="350" defaultOnly="1"/>
+            <item kind="11" silver="220" defaultOnly="1"/>
+            <item kind="12" silver="210" defaultOnly="1"/>
+            <item kind="13" silver="225" defaultOnly="1"/>
+            <item kind="14" silver="365" defaultOnly="1"/>
+
+            <!-- salonOnly -->
+
+            <item kind="15" gold="3" salonOnly="1"/>
+            <item kind="16" silver="675" salonOnly="1"/>
+            <item kind="17" silver="580" salonOnly="1"/>
+            <item kind="18" gold="4" salonOnly="1"/>
+            <item kind="19" gold="5" salonOnly="1"/>
+            <item kind="20" gold="3" salonOnly="1"/>
+            <item kind="21" silver="790" salonOnly="1"/>
+            <item kind="22" gold="3" salonOnly="1"/>
+            <item kind="23" gold="3" salonOnly="1"/>
+            <item kind="24" gold="2" salonOnly="1"/>
+            <item kind="25" silver="540" salonOnly="1"/>
+            <item kind="26" silver="835" salonOnly="1"/>
+            <item kind="27" silver="720" salonOnly="1"/>
+            <item kind="28" silver="815" salonOnly="1"/>
+
+            <item kind="29" silver="1450" salonOnly="1"/>
+            <item kind="30" gold="3" salonOnly="1"/>
+            <item kind="31" gold="4" salonOnly="1"/>
+            <item kind="32" gold="6" salonOnly="1"/>
+            <item kind="33" silver="900" salonOnly="1"/>
+            <item kind="34" gold="12" salonOnly="1"/>
+            <item kind="35" silver="1650" salonOnly="1"/>
+            <item kind="36" gold="4" salonOnly="1"/>
+            <item kind="37" gold="3" salonOnly="1"/>
+            <item kind="38" gold="11" salonOnly="1"/>
+            <item kind="39" gold="7" salonOnly="1"/>
+
+            <!-- HAIR CONTEST WINNERS -->
+
+            <item kind="40" gold="24" salonOnly="1"/>
+            <item kind="41" gold="21" salonOnly="1"/>
+            <item kind="42" gold="22" salonOnly="1"/>
+
+            <!-- NEW -->
+            <item kind="43" gold="15" salonOnly="1"/>
+            <item kind="44" gold="9" salonOnly="1"/>
+            <item kind="45" gold="21" salonOnly="1"/>
+            <item kind="46" silver="2450" salonOnly="1"/>
+            <item kind="47" silver="3200" salonOnly="1"/>
+            <item kind="48" gold="17" salonOnly="1"/>
+
+            <!-- GAME_UPDATE_22.07 -->
+            <item kind="49" gold="14" salonOnly="1"/>
+            <item kind="50" gold="20" salonOnly="1"/>
+
+            <!--
+            <item kind="51" gold="16" salonOnly="1" />
+            <item kind="52" gold="30" salonOnly="1" />
+            -->
+
+        </category>
+
+        <!-- BEARD -->
+
+        <category id="5" label="#avatarApearanceCategory5">
+
+            <item kind="0" isCommon="1"/>
+            <item kind="1" silver="160" isCommon="1"/>
+            <item kind="2" silver="95" isCommon="1"/>
+            <item kind="3" silver="125" isCommon="1"/>
+            <item kind="4" silver="80" isCommon="1"/>
+            <item kind="5" silver="75" isCommon="1"/>
+            <item kind="6" silver="65" isCommon="1"/>
+            <item kind="7" silver="60" isCommon="1"/>
+
+            <!-- salonOnly -->
+
+            <item kind="8" gold="4" salonOnly="1"/>
+            <item kind="9" gold="3" salonOnly="1"/>
+            <item kind="10" gold="6" salonOnly="1"/>
+
+            <!-- HAIR CONTEST WINNERS -->
+
+            <item kind="11" gold="15" salonOnly="1"/>
+            <item kind="12" gold="12" salonOnly="1"/>
+
+            <!-- NEW -->
+            <item kind="13" gold="14" salonOnly="1"/>
+            <item kind="14" gold="11" salonOnly="1"/>
+
+        </category>
+
+        <!-- SHADOW -->
+
+        <category id="6" label="#avatarApearanceCategory6">
+            <item kind="0" isCommon="1"/>
+        </category>
+    </boy>
+
+    <girl>
+
+        <!-- SKIN -->
+
+        <category id="0" label="#avatarApearanceCategory0">
+
+            <item kind="1" isCommon="1"/>
+            <item kind="2" isCommon="1"/>
+            <item kind="3" isCommon="1"/>
+            <item kind="4" isCommon="1"/>
+            <item kind="5" isCommon="1"/>
+
+        </category>
+
+        <!-- EYES -->
+
+        <category id="1" label="#avatarApearanceCategory1">
+
+            <item kind="1" silver="180" defaultOnly="1"/>
+            <item kind="2" silver="185" defaultOnly="1"/>
+            <item kind="3" silver="190" defaultOnly="1"/>
+            <item kind="4" silver="165" defaultOnly="1"/>
+            <item kind="5" silver="170" defaultOnly="1"/>
+            <item kind="6" silver="160" defaultOnly="1"/>
+            <item kind="7" silver="165" defaultOnly="1"/>
+            <item kind="8" silver="180" defaultOnly="1"/>
+
+            <!-- salonOnly -->
+
+            <item kind="9" gold="5" salonOnly="1"/>
+            <item kind="10" silver="435" salonOnly="1"/>
+            <item kind="11" silver="470" salonOnly="1"/>
+            <item kind="12" silver="540" salonOnly="1"/>
+            <item kind="13" gold="3" salonOnly="1"/>
+            <item kind="14" gold="3" salonOnly="1"/>
+            <item kind="15" gold="3" salonOnly="1"/>
+            <item kind="16" silver="485" salonOnly="1"/>
+            <item kind="17" gold="5" salonOnly="1"/>
+            <item kind="18" silver="495" salonOnly="1"/>
+
+            <!-- NEW -->
+
+            <item kind="19" gold="3" salonOnly="1"/>
+            <item kind="20" silver="515" salonOnly="1"/>
+            <item kind="21" gold="4" salonOnly="1"/>
+            <item kind="22" gold="5" salonOnly="1"/>
+            <item kind="23" silver="500" salonOnly="1"/>
+            <item kind="24" gold="5" salonOnly="1"/>
+            <item kind="25" silver="820" salonOnly="1"/>
+            <item kind="26" silver="880" salonOnly="1"/>
+            <item kind="27" gold="4" salonOnly="1"/>
+            <item kind="28" gold="3" salonOnly="1"/>
+
+        </category>
+
+        <!-- BROWS -->
+
+        <category id="2" label="#avatarApearanceCategory2">
+
+            <item kind="1" silver="55" defaultOnly="1"/>
+            <item kind="2" silver="80" defaultOnly="1"/>
+            <item kind="3" silver="50" defaultOnly="1"/>
+            <item kind="4" silver="95" defaultOnly="1"/>
+            <item kind="5" silver="45" defaultOnly="1"/>
+            <item kind="6" silver="90" defaultOnly="1"/>
+            <item kind="7" silver="65" defaultOnly="1"/>
+
+            <!-- salonOnly -->
+
+            <item kind="8" silver="350" salonOnly="1"/>
+            <item kind="9" gold="3" salonOnly="1"/>
+            <item kind="10" silver="405" salonOnly="1"/>
+            <item kind="11" silver="410" salonOnly="1"/>
+            <item kind="12" gold="5" salonOnly="1"/>
+            <item kind="13" silver="380" salonOnly="1"/>
+            <item kind="14" gold="1" salonOnly="1"/>
+
+            <!-- NEW -->
+
+            <item kind="15" gold="2" salonOnly="1"/>
+            <item kind="16" gold="4" salonOnly="1"/>
+            <item kind="17" gold="4" salonOnly="1"/>
+            <item kind="18" silver="410" salonOnly="1"/>
+            <item kind="19" silver="500" salonOnly="1"/>
+            <item kind="20" silver="370" salonOnly="1"/>
+            <item kind="21" silver="425" salonOnly="1"/>
+
+        </category>
+
+        <!-- MOUTH -->
+
+        <category id="3" label="#avatarApearanceCategory3">
+
+            <item kind="1" silver="115" defaultOnly="1"/>
+            <item kind="2" silver="130" defaultOnly="1"/>
+            <item kind="3" silver="95" defaultOnly="1"/>
+            <item kind="4" silver="90" defaultOnly="1"/>
+            <item kind="5" silver="100" defaultOnly="1"/>
+            <item kind="6" silver="95" defaultOnly="1"/>
+            <item kind="7" silver="80" defaultOnly="1"/>
+
+            <!-- salonOnly -->
+
+            <item kind="8" silver="420" salonOnly="1"/>
+            <item kind="9" silver="485" salonOnly="1"/>
+            <item kind="10" silver="550" salonOnly="1"/>
+            <item kind="11" gold="3" salonOnly="1"/>
+            <item kind="12" silver="495" salonOnly="1"/>
+            <item kind="13" gold="3" salonOnly="1"/>
+            <item kind="14" gold="5" salonOnly="1"/>
+
+            <!-- NEW -->
+
+            <item kind="15" silver="680" salonOnly="1"/>
+            <item kind="16" gold="3" salonOnly="1"/>
+            <item kind="17" silver="735" salonOnly="1"/>
+            <item kind="18" silver="720" salonOnly="1"/>
+            <item kind="19" gold="3" salonOnly="1"/>
+            <item kind="20" gold="3" salonOnly="1"/>
+            <item kind="21" gold="4" salonOnly="1"/>
+
+        </category>
+
+        <!-- HAIR -->
+
+        <category id="4" label="#avatarApearanceCategory4">
+
+            <item kind="1" silver="320" defaultOnly="1"/>
+            <item kind="2" silver="350" defaultOnly="1"/>
+            <item kind="3" silver="330" defaultOnly="1"/>
+            <item kind="4" silver="365" defaultOnly="1"/>
+            <item kind="5" silver="315" defaultOnly="1"/>
+            <item kind="6" silver="325" defaultOnly="1"/>
+            <item kind="7" silver="295" defaultOnly="1"/>
+            <item kind="8" silver="300" defaultOnly="1"/>
+            <item kind="9" silver="320" defaultOnly="1"/>
+            <item kind="10" silver="360" defaultOnly="1"/>
+            <item kind="11" silver="385" defaultOnly="1"/>
+            <item kind="12" silver="330" defaultOnly="1"/>
+            <item kind="13" silver="320" defaultOnly="1"/>
+            <item kind="14" silver="290" defaultOnly="1"/>
+            <item kind="15" silver="300" defaultOnly="1"/>
+            <item kind="16" silver="310" defaultOnly="1"/>
+            <item kind="17" silver="375" defaultOnly="1"/>
+
+            <!-- salonOnly -->
+
+            <item kind="18" gold="5" salonOnly="1"/>
+            <item kind="19" gold="6" salonOnly="1"/>
+            <item kind="20" gold="6" salonOnly="1"/>
+            <item kind="21" silver="800" salonOnly="1"/>
+            <item kind="22" gold="4" salonOnly="1"/>
+            <item kind="23" silver="760" salonOnly="1"/>
+            <item kind="24" silver="920" salonOnly="1"/>
+            <item kind="25" gold="6" salonOnly="1"/>
+            <item kind="26" gold="4" salonOnly="1"/>
+            <item kind="27" gold="5" salonOnly="1"/>
+            <item kind="28" gold="5" salonOnly="1"/>
+            <item kind="29" silver="785" salonOnly="1"/>
+            <item kind="30" gold="6" salonOnly="1"/>
+            <item kind="31" silver="690" salonOnly="1"/>
+            <item kind="32" silver="770" salonOnly="1"/>
+            <item kind="33" silver="865" salonOnly="1"/>
+            <item kind="34" gold="5" salonOnly="1"/>
+            <item kind="35" gold="4" salonOnly="1"/>
+            <item kind="36" gold="4" salonOnly="1"/>
+            <item kind="37" gold="5" salonOnly="1"/>
+            <item kind="38" silver="940" salonOnly="1"/>
+            <item kind="39" silver="650" salonOnly="1"/>
+            <item kind="40" gold="3" salonOnly="1"/>
+            <item kind="41" silver="1000" salonOnly="1"/>
+            <item kind="42" gold="3" salonOnly="1"/>
+            <item kind="43" gold="3" salonOnly="1"/>
+            <item kind="44" gold="4" salonOnly="1"/>
+            <item kind="45" silver="950" salonOnly="1"/>
+            <item kind="46" gold="25" wedding="1"/>
+            <item kind="47" gold="20" wedding="1"/>
+            <item kind="48" silver="6000" wedding="1"/>
+            <item kind="49" silver="7800" wedding="1"/>
+            <item kind="50" silver="7500" wedding="1"/>
+            <item kind="51" gold="16" wedding="1"/>
+            <item kind="52" gold="14" wedding="1"/>
+            <item kind="53" gold="35" wedding="1"/>
+            <item kind="54" gold="11" wedding="1"/>
+            <item kind="55" gold="50" wedding="1"/>
+            <item kind="56" gold="22" wedding="1"/>
+            <item kind="57" silver="8350" wedding="1"/>
+
+            <!-- NEW -->
+
+            <item kind="58" silver="4950" salonOnly="1"/>
+            <item kind="59" gold="10" salonOnly="1"/>
+            <item kind="60" gold="7" salonOnly="1"/>
+            <item kind="61" gold="5" salonOnly="1"/>
+            <item kind="62" silver="2200" salonOnly="1"/>
+            <item kind="63" gold="8" salonOnly="1"/>
+            <item kind="64" gold="9" salonOnly="1"/>
+            <item kind="65" gold="16" salonOnly="1"/>
+            <item kind="66" gold="12" salonOnly="1"/>
+            <item kind="67" gold="15" salonOnly="1"/>
+            <item kind="68" gold="16" salonOnly="1"/>
+            <item kind="69" gold="10" salonOnly="1"/>
+            <item kind="70" gold="12" salonOnly="1"/>
+            <item kind="71" gold="10" salonOnly="1"/>
+            <item kind="72" gold="11" salonOnly="1"/>
+            <item kind="73" gold="15" salonOnly="1"/>
+            <item kind="74" gold="12" salonOnly="1"/>
+            <item kind="75" gold="8" salonOnly="1"/>
+            <item kind="76" silver="2850" salonOnly="1"/>
+            <item kind="77" gold="7" salonOnly="1"/>
+            <item kind="78" silver="2700" salonOnly="1"/>
+            <item kind="79" gold="17" salonOnly="1"/>
+            <item kind="80" gold="14" salonOnly="1"/>
+            <item kind="81" gold="6" salonOnly="1"/>
+            <item kind="82" gold="19" salonOnly="1"/>
+            <item kind="83" gold="15" salonOnly="1"/>
+            <item kind="84" gold="23" salonOnly="1"/>
+            <item kind="85" gold="35" salonOnly="1"/>
+
+            <!-- NEW -->
+            <item kind="86" gold="21" salonOnly="1"/>
+            <item kind="87" silver="3500" salonOnly="1"/>
+            <item kind="88" gold="35" salonOnly="1"/>
+            <item kind="89" silver="4400" salonOnly="1"/>
+
+            <!-- GAME_UPDATE_22.07 -->
+            <item kind="90" gold="19" salonOnly="1"/>
+            <item kind="91" gold="22" salonOnly="1"/>
+
+        </category>
+
+        <!-- SHADOW -->
+
+        <category id="6" label="#avatarApearanceCategory6">
+
+            <item kind="0"/>
+            <item kind="1" gold="2" salonOnly="1"/>
+            <item kind="2" silver="440" salonOnly="1"/>
+            <item kind="3" gold="5" salonOnly="1"/>
+            <item kind="4" gold="3" salonOnly="1"/>
+            <item kind="5" gold="3" salonOnly="1"/>
+            <item kind="6" gold="4" salonOnly="1"/>
+            <item kind="7" silver="465" salonOnly="1"/>
+
+        </category>
+
+        <!-- ROUGE -->
+
+        <category id="7" label="#avatarApearanceCategory7">
+
+            <item kind="0"/>
+            <item kind="1" gold="3" salonOnly="1"/>
+            <item kind="2" silver="500" salonOnly="1"/>
+            <item kind="3" gold="2" salonOnly="1"/>
+
+        </category>
+
+        <!-- STRASS -->
+
+        <category id="8" label="#avatarApearanceCategory8">
+
+            <item kind="0"/>
+            <item kind="1" gold="3" salonOnly="1"/>
+            <item kind="2" gold="4" salonOnly="1"/>
+            <item kind="3" gold="2" salonOnly="1"/>
+            <item kind="4" gold="5" salonOnly="1"/>
+            <item kind="5" silver="980" salonOnly="1"/>
+            <item kind="6" silver="995" salonOnly="1"/>
+            <item kind="7" silver="750" salonOnly="1"/>
+            <item kind="8" gold="3" salonOnly="1"/>
+            <item kind="9" gold="3" salonOnly="1"/>
+            <item kind="10" gold="5" salonOnly="1"/>
+            <item kind="11" gold="5" salonOnly="1"/>
+            <item kind="12" gold="3" salonOnly="1"/>
+            <item kind="13" gold="3" salonOnly="1"/>
+
+        </category>
+
+    </girl>
+
+</config>

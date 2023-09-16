@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<adventures>
+    <adventure id="adv1" label="#adventure1Label" description="#adventure1Description" icon="PetIslandAdventureIcon" petLevel="1" adventureTime="1200">
+        <characters>
+            <character id="st" minValue="50" reduceCoefficient="1.2"/>
+            <character id="hp" minValue="45" reduceCoefficient="1.1"/>
+            <character id="hl" minValue="50" reduceCoefficient="1.2"/>
+            <character id="hg" minValue="40" reduceCoefficient="1.4"/>
+            <character id="cf" minValue="45" reduceCoefficient="1.5"/>
+        </characters>
+        <price silver="0" gold="0">
+            <item id="sprtscns" count="1"/>
+            <item id="bluebGrt" count="1"/>
+        </price>
+        <reward>
+            <item typeId="gold" probability="5" minValue="1" maxValue="3"/>
+            <item typeId="silver" minValue="500" maxValue="1500"/>
+            <item typeId="wd" probability="65" minValue="1" maxValue="5"/>
+            <item typeId="brd" probability="30" minValue="1" maxValue="2"/>
+        </reward>
+    </adventure>
+    
+    <adventure id="adv2" label="#adventure2Label" description="#adventure2Description" icon="PetCaveAdventureIcon" petLevel="1" adventureTime="2700">
+        <characters>
+            <character id="st" minValue="70" reduceCoefficient="2.2"/>
+            <character id="hp" minValue="65" reduceCoefficient="2.1"/>
+            <character id="hl" minValue="75" reduceCoefficient="2.2"/>
+            <character id="hg" minValue="60" reduceCoefficient="2.4"/>
+            <character id="cf" minValue="65" reduceCoefficient="2.5"/>
+        </characters>
+        <price silver="0" gold="0">
+            <item id="pmpPorridge" count="1"/>
+            <item id="teaClvr" count="1"/>
+        </price>
+        <reward>
+            <item typeId="gold" probability="7" minValue="1" maxValue="5"/>
+            <item typeId="silver" minValue="750" maxValue="2500"/>
+            <item typeId="stn" probability="70" minValue="1" maxValue="5"/>
+            <item typeId="mrbl" probability="35" minValue="1" maxValue="2"/>
+        </reward>
+    </adventure>
+    
+    <adventure id="adv3" label="#adventure3Label" description="#adventure3Description" icon="PetIslandAdventureIcon" petLevel="1" adventureTime="3600">
+        <characters>
+            <character id="st" minValue="80" reduceCoefficient="2.4"/>
+            <character id="hp" minValue="75" reduceCoefficient="2.3"/>
+            <character id="hl" minValue="85" reduceCoefficient="2.4"/>
+            <character id="hg" minValue="70" reduceCoefficient="2.6"/>
+            <character id="cf" minValue="75" reduceCoefficient="2.7"/>
+        </characters>
+        <price silver="0" gold="0">
+            <item id="pmpCream" count="2"/>
+            <item id="tinctOfAloes" count="1"/>
+        </price>
+        <reward>
+            <item typeId="gold" probability="7" minValue="2" maxValue="7"/>
+            <item typeId="silver" minValue="1000" maxValue="4000"/>
+            <item typeId="lnfb" probability="25" minValue="1" maxValue="2"/>
+            <item typeId="grnt" probability="10" minValue="1" maxValue="2"/>
+        </reward>
+    </adventure>
+    
+    <adventure id="adv4" label="#adventure4Label" description="#adventure4Description" icon="PetCaveAdventureIcon" petLevel="1" adventureTime="5400">
+        <characters>
+            <character id="st" minValue="85" reduceCoefficient="2.5"/>
+            <character id="hp" minValue="80" reduceCoefficient="2.4"/>
+            <character id="hl" minValue="85" reduceCoefficient="2.5"/>
+            <character id="hg" minValue="75" reduceCoefficient="2.7"/>
+            <character id="cf" minValue="80" reduceCoefficient="2.8"/>
+        </characters>
+        <price silver="0" gold="0">
+            <item id="porrWClover" count="2"/>
+            <item id="tinctOfAloes" count="1"/>
+        </price>
+        <reward>
+            <item typeId="gold" probability="7" minValue="3" maxValue="10"/>
+            <item typeId="silver" minValue="1000" maxValue="6000"/>
+            <item typeId="irn" probability="15" minValue="1" maxValue="2"/>
+            <item typeId="stl" probability="10" minValue="1" maxValue="2"/>
+        </reward>
+    </adventure>
+    
+    <adventure id="adv5" label="#adventure5Label" description="#adventure5Description" icon="PetIslandAdventureIcon" petLevel="1" adventureTime="7200">
+        <characters>
+            <character id="st" minValue="95" reduceCoefficient="3.2"/>
+            <character id="hp" minValue="90" reduceCoefficient="3.1"/>
+            <character id="hl" minValue="95" reduceCoefficient="3.2"/>
+            <character id="hg" minValue="85" reduceCoefficient="3.4"/>
+            <character id="cf" minValue="90" reduceCoefficient="3.5"/>
+        </characters>
+        <price silver="0" gold="0">
+            <item id="tinFood" count="3"/>
+            <item id="aniseNect" count="1"/>
+        </price>
+        <reward>
+            <item typeId="gold" probability="10" minValue="5" maxValue="15"/>
+            <item typeId="silver" minValue="1000" maxValue="8000"/>
+            <item typeId="grnt" probability="20" minValue="1" maxValue="5"/>
+            <item typeId="ttm" probability="5" minValue="1" maxValue="2"/>
+        </reward>
+    </adventure>
+</adventures>

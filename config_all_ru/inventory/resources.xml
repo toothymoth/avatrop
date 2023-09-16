@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config>
+    <category id="resources" label="#resourcesCategory" priority="1" library="resources" typeClass="loot" logCategory1="resource">
+    
+        <category id="fruitBerryResources" logCategory2="fruitBerry">
+            <item id="blb" label="#bilberryTitle" name="BilberryLoot" icon="BilberryIcon" gold="60"
+                silver="0" saleSilver="12" priority="100" canSale="1"/>
+            <item id="pmp" label="#pumpkinTitle" name="PumpkinLoot" icon="PumpkinIcon" gold="100"
+                silver="0" saleSilver="30" priority="99" canSale="1" />
+            <item id="blckb" label="#blackberryTitle" name="BlackberryLoot" icon="BlackberryIcon"
+                gold="140" silver="0" saleSilver="48" priority="98" canSale="1" />
+            <item id="wtrmel" label="#watermelonTitle" name="WatermelonLoot" icon="WatermelonIcon"
+                gold="200" silver="0" saleSilver="78" priority="97" canSale="1" />
+            <item id="grp" label="#grapesTitle" name="GrapesLoot" icon="GrapesIcon" gold="240" silver="0"
+                saleSilver="96" priority="96" canSale="1" />
+            <item id="mel" label="#melonTitle" name="MelonLoot" icon="MelonIcon" gold="260" silver="0"
+                saleSilver="114" priority="95" canSale="1" />
+            <item id="pnp" label="#pineappleTitle" name="PineappleLoot" icon="PineappleIcon"
+                gold="360" silver="0" saleSilver="180" priority="94" canSale="1" />
+            <item id="fj" label="#feijoaTitle" name="FeijoaLoot" icon="FeijoaIcon" gold="360" silver="0"
+                saleSilver="222" priority="93" canSale="1" />
+            <item id="strb" label="#strawberryTitle" name="StrawberryLoot" icon="StrawberryIcon"
+                gold="500" silver="0" saleSilver="312" priority="92" canSale="1" />
+            <item id="currant" label="#currantTitle" name="CurrantLoot" icon="CurrantIcon" gold="500"
+                silver="0" saleSilver="336" priority="91" canSale="1" />
+            <item id="crnb" label="#cranberryTitle" name="CranberryLoot" icon="CranberryIcon"
+                gold="640" silver="0" saleSilver="318" priority="90" canSale="1" />
+            <item id="gsb" label="#gooseberryTitle" name="GooseberryLoot" icon="GooseberryIcon" gold="760"
+                silver="0" saleSilver="522" priority="89" canSale="1" />
+            <item id="flx" label="#flaxTitle" name="FlaxLoot" icon="FlaxIcon" gold="700"
+                silver="0" saleSilver="360" priority="88" canSale="1" />
+            <item id="ctn" label="#cottonTitle" name="CottonLoot" icon="CottonIcon" gold="960"
+                silver="0" saleSilver="780" priority="87" canSale="1" />
+         </category>
+         
+         <category id="fruitTreeResources" logCategory2="fruitTree">
+            <item id="app" label="#appleTitle" name="AppleLoot" icon="AppleIcon"
+                gold="240" silver="0" saleSilver="72" priority="70" canSale="1" />
+            <item id="pear" label="#pearTitle" name="PearLoot" icon="PearIcon" gold="300"
+                silver="0" saleSilver="100" priority="69" canSale="1" />
+            <item id="apct" label="#apricotTitle" name="ApricotLoot" icon="ApricotIcon"
+                gold="360" silver="0" saleSilver="126" priority="68" canSale="1" />
+            <item id="chr" label="#cherryTitle" name="CherryLoot" icon="CherryIcon"
+                gold="480" silver="0" saleSilver="188" priority="67" canSale="1" />
+            <item id="peach" label="#peachTitle" name="PeachLoot" icon="PeachIcon"
+                gold="600" silver="0" saleSilver="216" priority="66" canSale="1" />
+            <item id="plum" label="#plumTitle" name="PlumLoot" icon="PlumIcon" gold="720"
+                silver="0" saleSilver="280" priority="65" canSale="1" />
+            <item id="bnn" label="#bananaTitle" name="BananaLoot" icon="BananaIcon"
+                gold="720" silver="0" saleSilver="302" priority="64" canSale="1" />
+            <item id="ccnt" label="#coconutPalmTitle" name="CoconutPalmLoot" icon="CoconutPalmIcon"
+                gold="960" silver="0" saleSilver="420" priority="64" canSale="1" />
+            <item id="ppya" label="#papayaTitle" name="PapayaLoot" icon="PapayaIcon"
+                gold="1200" silver="0" saleSilver="560" priority="63" canSale="1" />
+            <item id="mirl" label="#miracleTitle" name="MiracleLoot" icon="MiracleIcon"
+                gold="2900" silver="0" saleSilver="1400" priority="62" canSale="1" />
+          </category>
+          
+          <category id="medicalResources" logCategory2="medical">
+            <item id="clvr" label="#cloverTitle" name="CloverLoot" icon="CloverIcon" gold="100" silver="0"
+                saleSilver="18" priority="50" canSale="1" />
+            <item id="aloe" label="#aloeTitle" name="AloeLoot" icon="AloeIcon" gold="300" silver="0"
+                saleSilver="144" priority="49" canSale="1" />
+            <item id="anise" label="#aniseTitle" name="AniseLoot" icon="AniseIcon" gold="640" silver="0"
+                saleSilver="462" priority="48" canSale="1" />
+            <item id="dgRs" label="#dogRoseTitle" name="DogRoseLoot" icon="DogRoseIcon" gold="500"
+                silver="0" saleSilver="504" priority="47" canSale="1" />
+            <item id="mMoss" label="#medicinalMossTitle" name="MedicinalMossLoot" icon="MedicinalMossIcon"
+                gold="1000" silver="0" saleSilver="1440" priority="46" canSale="1" />
+        </category>
+
+        <category id="fishHarvest" logCategory2="fishHarvest">
+            <item id="sprtfsh" label="#spratTitle" name="SpratsLoot" icon="SpratsIcon"
+                gold="120" silver="0" saleSilver="36" priority="40" canSale="1" />
+            <item id="prchfsh" label="#perchTitle" name="PerchLoot" icon="PerchIcon"
+                gold="120" silver="0" saleSilver="54" priority="39" canSale="1" />
+            <item id="pkfsh" label="#pikeTitle" name="PikeLoot" icon="PikeIcon"
+                gold="170" silver="0" saleSilver="108" priority="38" canSale="1" />
+            <item id="ctfsh" label="#catfishTitle" name="CatfishLoot" icon="CatfishIcon"
+                gold="200" silver="0" saleSilver="180" priority="37" canSale="1" />
+            <item id="shr" label="#shrimpTitle" name="ShrimpLoot" icon="ShrimpIcon"
+                gold="250" silver="0" saleSilver="318" priority="36" canSale="1" />                
+            <item id="stgn" label="#sturgeonTitle" name="SturgeonLoot" icon="SturgeonIcon"
+                gold="400" silver="0" saleSilver="498" priority="35" canSale="1" />
+            <item id="tun" label="#tunnyTitle" name="TunnyLoot" icon="TunnyIcon"
+                gold="600" silver="0" saleSilver="870" priority="34" canSale="1" />
+            <item id="sqd" label="#squidTitle" name="SquidLoot" icon="SquidIcon"
+                gold="800" silver="0" saleSilver="1380" priority="33" canSale="1" />
+        </category>
+
+	    <category id="productionResources" logCategory2="production">
+	        <item id="wd" label="#woodResourceTitle" description="#woodResourceDesc" name="WoodLoot" icon="WoodIcon" gold="100"
+	            silver="0" saleSilver="10" priority="1" canSale="1" probability="1" />
+	        <item id="stn" label="#stoneResourceTitle" description="#stoneResourceDesc" name="StoneLoot" icon="StoneIcon" gold="100"
+	            silver="0" saleSilver="10" priority="2" canSale="1" probability="1" />
+	        <item id="brd" label="#boardResourceTitle" description="#friendsWorkshopResourceDesc" name="BoardLoot" icon="BoardIcon" gold="200"
+	            silver="0" saleSilver="0" priority="3" social="1" canSale="0"/>
+	        <item id="mrbl" label="#marbleResourceTitle" description="#friendsWorkshopResourceDesc" name="MarbleLoot" icon="MarbleIcon" gold="300"
+	            silver="0" saleSilver="0" priority="4" social="1" canSale="0"/>
+	        <item id="lnfb" label="#linenFabricResourceTitle" description="#workshopResourceDesc" name="LinenFabricLoot" icon="LinenFabricIcon" gold="1500"
+	            silver="0" saleSilver="150" priority="5" canSale="1" canTransfer="1" />
+	        <item id="ctfb" label="#cottonFabricResourceTitle" description="#workshopResourceDesc" name="CottonFabricLoot" icon="CottonFabricIcon" gold="2500"
+	            silver="0" saleSilver="250" priority="6" canSale="1" canTransfer="1" />
+	        <item id="tlbx" label="#toolBoxResourceTitle" description="#workshopResourceDesc" name="ToolBoxLoot" icon="ToolBoxIcon" gold="500"
+	            silver="0" saleSilver="50" priority="7" canSale="1"/>
+	        <item id="glss" label="#glassResourceTitle" description="#workshopResourceDesc" name="GlassLoot" icon="GlassIcon" gold="400"
+	            silver="0" saleSilver="40" priority="8" canSale="1"/>
+	        <item id="grnt" label="#graniteResourceTitle" description="#aborigineResourceDesc" name="GraniteLoot" icon="GraniteIcon" gold="2000"
+	            silver="0" saleSilver="200" priority="9" canSale="1"/>
+	        <item id="rdwd" label="#redWoodResourceTitle" description="#aborigineResourceDesc" name="RedWoodLoot" icon="RedWoodIcon" gold="1500"
+	            silver="0" saleSilver="150" priority="10" canSale="1" canTransfer="1" />
+	        <item id="stl" label="#steelResourceTitle" description="#aborigineResourceDesc" name="SteelLoot" icon="SteelIcon" gold="4500"
+	            silver="0" saleSilver="450" priority="11" canSale="1"/>
+	        <item id="irn" label="#ironResourceTitle" description="#aborigineResourceDesc" name="IronLoot" icon="IronIcon" gold="3500"
+	            silver="0" saleSilver="350" priority="12" canSale="1"/>
+	        <item id="ttm" label="#totemResourceTitle" description="#aborigineResourceDesc" name="LuckyTotemLoot" icon="LuckyTotemIcon" gold="5500"
+	            silver="0" saleSilver="550" priority="13" canSale="1" canTransfer="1" />
+	        <item id="wst" label="#wasteResourceTitle" description="#wasteResourceDesc" name="WasteLoot" icon="WasteIcon" gold="50"
+	            silver="0" saleSilver="0" priority="14" canSale="0"/>
+	        <item id="bckt" label="#bucketResourceTitle" description="#bucketResourceDesc" name="BucketLoot" icon="BucketIcon" gold="8500"
+                silver="0" saleSilver="150" priority="98" canSale="1" canTransfer="1" />
+	        <item id="glz" label="#glazeResourceTitle" description="#glazeResourceDesc" name="GlazeLoot" icon="GlazeIcon" gold="3300"
+                silver="0" saleSilver="150" priority="99" canSale="1" canTransfer="1" />
+	    </category>
+    </category>
+</config>

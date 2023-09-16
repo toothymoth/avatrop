@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <tasks>
+        <task id="t1" minLevel="8" maxLevel="10" typeId="blb" count="30" />
+        <task id="t2" minLevel="8" maxLevel="10" typeId="pmp" count="15" />
+        <task id="t3" minLevel="8" maxLevel="10" typeId="blckb" count="12" />
+        <task id="t4" minLevel="8" maxLevel="10" typeId="wtrmel" count="8" />
+        <task id="t5" minLevel="8" maxLevel="10" typeId="grp" count="6" />
+        <task id="t6" minLevel="8" maxLevel="10" typeId="mel" count="6" />
+        <task id="t7" minLevel="8" maxLevel="10" typeId="pnp" count="3" />
+        <task id="t8" minLevel="8" maxLevel="10" typeId="flx" count="1" />
+        <task id="t9" minLevel="8" maxLevel="10" typeId="bluebGrt" count="4" />
+        <task id="t10" minLevel="8" maxLevel="10" typeId="pmpPorridge" count="3" />
+        <task id="t11" minLevel="8" maxLevel="10" typeId="bluebJam" count="2" />
+        <task id="t12" minLevel="8" maxLevel="10" typeId="pmpCream" count="1" />
+        <task id="t13" minLevel="8" maxLevel="10" typeId="frBerries" count="1" />
+        <task id="t14" minLevel="8" maxLevel="10" typeId="sprtfsh" count="12" />
+        <task id="t15" minLevel="8" maxLevel="10" typeId="prchfsh" count="10" />
+        <task id="t16" minLevel="8" maxLevel="10" typeId="pkfsh" count="5" />
+        <task id="t17" minLevel="8" maxLevel="10" typeId="ctfsh" count="3" />
+        <task id="t18" minLevel="8" maxLevel="10" typeId="sprtscns" count="3" />
+        <task id="t19" minLevel="8" maxLevel="10" typeId="fishSoup" count="1" />
+        <task id="t20" minLevel="8" maxLevel="10" typeId="clvr" count="18" />
+        <task id="t21" minLevel="8" maxLevel="10" typeId="aloe" count="3" />
+        <task id="t22" minLevel="8" maxLevel="10" typeId="anise" count="1" />
+        <task id="t23" minLevel="8" maxLevel="10" typeId="app" count="5" />
+        <task id="t24" minLevel="8" maxLevel="10" typeId="pear" count="4" />
+        <task id="t25" minLevel="8" maxLevel="10" typeId="apct" count="3" />
+        <task id="t26" minLevel="8" maxLevel="10" typeId="chr" count="2" />
+        <task id="t27" minLevel="8" maxLevel="10" typeId="peach" count="2" />
+        <task id="t28" minLevel="8" maxLevel="10" typeId="brd" count="1" />
+        <task id="t29" minLevel="8" maxLevel="10" typeId="mrbl" count="1" />
+        <task id="t30" minLevel="8" maxLevel="10" typeId="glss" count="1" />
+        
+        <task id="t31" minLevel="11" maxLevel="13" typeId="brd" count="3" />
+        <task id="t32" minLevel="11" maxLevel="13" typeId="mrbl" count="3" />
+        <task id="t33" minLevel="11" maxLevel="13" typeId="tlbx" count="1" />
+        <task id="t34" minLevel="11" maxLevel="13" typeId="fj" count="8" />
+        <task id="t35" minLevel="11" maxLevel="16" typeId="melonCockt" count="1" />
+        <task id="t36" minLevel="11" maxLevel="16" typeId="shrimpSoup" count="1" />
+        <task id="t37" minLevel="11" maxLevel="13" typeId="stgn" count="2" />
+        <task id="t38" minLevel="11" maxLevel="13" typeId="tun" count="1" />
+        <task id="t39" minLevel="11" maxLevel="13" typeId="shr" count="3" />
+        <task id="t40" minLevel="11" maxLevel="13" typeId="stuffPike" count="1" />
+        <task id="t41" minLevel="11" maxLevel="13" typeId="staffShfish" count="1" />
+        <task id="t42" minLevel="11" maxLevel="13" typeId="plum" count="3" />
+        <task id="t43" minLevel="11" maxLevel="13" typeId="ctn" count="1" />
+        <task id="t44" minLevel="11" maxLevel="16" typeId="frWtrmelon" count="2" />
+        <task id="t45" minLevel="11" maxLevel="13" typeId="pearPuree" count="1" />
+        <task id="t46" minLevel="11" maxLevel="16" typeId="compote" count="1" />
+        <task id="t47" minLevel="11" maxLevel="16" typeId="cocktWAloe" count="1" />
+        <task id="t48" minLevel="11" maxLevel="13" typeId="teaClvr" count="1" />
+        <task id="t49" minLevel="11" maxLevel="16" typeId="tinctOfAloes" count="1" />
+        <task id="t50" minLevel="11" maxLevel="13" typeId="lnfb" count="1" />
+        <task id="t51" minLevel="11" maxLevel="13" typeId="ctfb" count="1" />
+        <task id="t52" minLevel="11" maxLevel="13" typeId="glss" count="2" />
+        <task id="t53" minLevel="11" maxLevel="13" typeId="blb" count="60" />
+        <task id="t54" minLevel="11" maxLevel="13" typeId="pmp" count="30" />
+        <task id="t55" minLevel="11" maxLevel="13" typeId="blckb" count="20" />
+        <task id="t56" minLevel="11" maxLevel="13" typeId="wtrmel" count="12" />
+        <task id="t57" minLevel="11" maxLevel="13" typeId="grp" count="10" />
+        <task id="t58" minLevel="11" maxLevel="13" typeId="mel" count="8" />
+        <task id="t59" minLevel="11" maxLevel="13" typeId="pnp" count="5" />
+        <task id="t60" minLevel="11" maxLevel="13" typeId="flx" count="3" />
+        <task id="t61" minLevel="11" maxLevel="13" typeId="bluebGrt" count="10" />
+        <task id="t62" minLevel="11" maxLevel="13" typeId="pmpPorridge" count="7" />
+        <task id="t63" minLevel="11" maxLevel="13" typeId="bluebJam" count="4" />
+        <task id="t64" minLevel="11" maxLevel="13" typeId="pmpCream" count="3" />
+        <task id="t65" minLevel="11" maxLevel="13" typeId="frBerries" count="2" />
+        <task id="t66" minLevel="11" maxLevel="13" typeId="sprtfsh" count="25" />
+        <task id="t67" minLevel="11" maxLevel="13" typeId="prchfsh" count="15" />
+        <task id="t68" minLevel="11" maxLevel="13" typeId="pkfsh" count="8" />
+        <task id="t69" minLevel="11" maxLevel="13" typeId="ctfsh" count="5" />
+        <task id="t70" minLevel="11" maxLevel="13" typeId="sprtscns" count="6" />
+        <task id="t71" minLevel="11" maxLevel="13" typeId="fishSoup" count="2" />
+        <task id="t72" minLevel="11" maxLevel="13" typeId="clvr" count="45" />
+        <task id="t73" minLevel="11" maxLevel="13" typeId="aloe" count="7" />
+        <task id="t74" minLevel="11" maxLevel="13" typeId="anise" count="2" />
+        <task id="t75" minLevel="11" maxLevel="13" typeId="app" count="12" />
+        <task id="t76" minLevel="11" maxLevel="13" typeId="pear" count="10" />
+        <task id="t77" minLevel="11" maxLevel="13" typeId="apct" count="8" />
+        <task id="t78" minLevel="11" maxLevel="13" typeId="chr" count="5" />
+        <task id="t79" minLevel="11" maxLevel="13" typeId="peach" count="4" />
+        
+        <task id="t80" minLevel="14" maxLevel="16" typeId="brd" count="5" />
+        <task id="t81" minLevel="14" maxLevel="16" typeId="mrbl" count="5" />
+        <task id="t82" minLevel="14" maxLevel="16" typeId="tlbx" count="2" />
+        <task id="t83" minLevel="14" maxLevel="16" typeId="glss" count="3" />
+        <task id="t84" minLevel="14" maxLevel="19" typeId="frSyrup" count="1" />
+        <task id="t85" minLevel="14" maxLevel="19" typeId="pinappJuice" count="1" />
+        <task id="t86" minLevel="14" maxLevel="19" typeId="sturgFishSoup" count="1" />
+        <task id="t87" minLevel="14" maxLevel="16" typeId="strb" count="9" />
+        <task id="t88" minLevel="14" maxLevel="16" typeId="currant" count="8" />
+        <task id="t89" minLevel="14" maxLevel="19" typeId="fjJuice" count="1" />
+        <task id="t90" minLevel="14" maxLevel="19" typeId="tun" count="2" />
+        <task id="t91" minLevel="14" maxLevel="16" typeId="sqd" count="1" />
+        <task id="t92" minLevel="14" maxLevel="16" typeId="bnn" count="5" />
+        <task id="t93" minLevel="14" maxLevel="16" typeId="ccnt" count="3" />
+        <task id="t94" minLevel="14" maxLevel="16" typeId="dgRs" count="3" />
+        <task id="t95" minLevel="14" maxLevel="16" typeId="blb" count="100" />
+        <task id="t96" minLevel="14" maxLevel="16" typeId="pmp" count="45" />
+        <task id="t97" minLevel="14" maxLevel="16" typeId="blckb" count="30" />
+        <task id="t98" minLevel="14" maxLevel="16" typeId="wtrmel" count="18" />
+        <task id="t99" minLevel="14" maxLevel="16" typeId="grp" count="15" />
+        <task id="t100" minLevel="14" maxLevel="16" typeId="mel" count="12" />
+        <task id="t101" minLevel="14" maxLevel="16" typeId="pnp" count="7" />
+        <task id="t102" minLevel="14" maxLevel="16" typeId="flx" count="4" />
+        <task id="t103" minLevel="14" maxLevel="16" typeId="bluebGrt" count="15" />
+        <task id="t104" minLevel="14" maxLevel="16" typeId="pmpPorridge" count="10" />
+        <task id="t105" minLevel="14" maxLevel="16" typeId="bluebJam" count="6" />
+        <task id="t106" minLevel="14" maxLevel="16" typeId="pmpCream" count="4" />
+        <task id="t107" minLevel="14" maxLevel="16" typeId="frBerries" count="3" />
+        <task id="t108" minLevel="14" maxLevel="16" typeId="sprtfsh" count="35" />
+        <task id="t109" minLevel="14" maxLevel="16" typeId="prchfsh" count="25" />
+        <task id="t110" minLevel="14" maxLevel="16" typeId="pkfsh" count="12" />
+        <task id="t111" minLevel="14" maxLevel="16" typeId="ctfsh" count="7" />
+        <task id="t112" minLevel="14" maxLevel="16" typeId="sprtscns" count="8" />
+        <task id="t113" minLevel="14" maxLevel="16" typeId="fishSoup" count="3" />
+        <task id="t114" minLevel="14" maxLevel="16" typeId="clvr" count="75" />
+        <task id="t115" minLevel="14" maxLevel="16" typeId="aloe" count="9" />
+        <task id="t116" minLevel="14" maxLevel="16" typeId="anise" count="3" />
+        <task id="t117" minLevel="14" maxLevel="16" typeId="app" count="18" />
+        <task id="t118" minLevel="14" maxLevel="16" typeId="pear" count="13" />
+        <task id="t119" minLevel="14" maxLevel="16" typeId="apct" count="10" />
+        <task id="t120" minLevel="14" maxLevel="16" typeId="chr" count="7" />
+        <task id="t121" minLevel="14" maxLevel="16" typeId="peach" count="6" />
+        <task id="t122" minLevel="14" maxLevel="16" typeId="fj" count="12" />
+        <task id="t123" minLevel="14" maxLevel="16" typeId="stgn" count="3" />
+        <task id="t124" minLevel="14" maxLevel="19" typeId="tun" count="2" />
+        <task id="t125" minLevel="14" maxLevel="16" typeId="sqd" count="4" />
+        <task id="t126" minLevel="14" maxLevel="16" typeId="stuffPike" count="2" />
+        <task id="t127" minLevel="14" maxLevel="19" typeId="staffShfish" count="2" />
+        <task id="t128" minLevel="14" maxLevel="16" typeId="plum" count="5" />
+        <task id="t129" minLevel="14" maxLevel="16" typeId="ctn" count="2" />
+        <task id="t130" minLevel="14" maxLevel="16" typeId="pearPuree" count="2" />
+        <task id="t131" minLevel="14" maxLevel="19" typeId="teaClvr" count="2" />
+        <task id="t132" minLevel="14" maxLevel="16" typeId="lnfb" count="2" />
+        <task id="t133" minLevel="14" maxLevel="16" typeId="ctfb" count="2" />
+        
+        <task id="t134" minLevel="17" maxLevel="19" typeId="crnb" count="8" />
+        <task id="t135" minLevel="17" maxLevel="250" typeId="cranbWtr" count="1" />
+        <task id="t136" minLevel="17" maxLevel="19" typeId="ppya" count="5" />
+        <task id="t137" minLevel="17" maxLevel="19" typeId="frSalad" count="1" />
+        <task id="t138" minLevel="17" maxLevel="19" typeId="plumJam" count="1" />
+        <task id="t139" minLevel="17" maxLevel="19" typeId="fishMix" count="1" />
+        <task id="t140" minLevel="17" maxLevel="19" typeId="brd" count="8" />
+        <task id="t141" minLevel="17" maxLevel="19" typeId="mrbl" count="8" />
+        <task id="t142" minLevel="17" maxLevel="19" typeId="tlbx" count="3" />
+        <task id="t143" minLevel="17" maxLevel="19" typeId="rdwd" count="1" />
+        <task id="t144" minLevel="17" maxLevel="19" typeId="glss" count="4" />
+        <task id="t145" minLevel="17" maxLevel="19" typeId="grnt" count="1" />
+        <task id="t146" minLevel="17" maxLevel="19" typeId="blb" count="125" />
+        <task id="t147" minLevel="17" maxLevel="19" typeId="pmp" count="55" />
+        <task id="t148" minLevel="17" maxLevel="19" typeId="blckb" count="35" />
+        <task id="t149" minLevel="17" maxLevel="19" typeId="wtrmel" count="25" />
+        <task id="t150" minLevel="17" maxLevel="19" typeId="grp" count="20" />
+        <task id="t151" minLevel="17" maxLevel="19" typeId="mel" count="15" />
+        <task id="t152" minLevel="17" maxLevel="19" typeId="pnp" count="10" />
+        <task id="t153" minLevel="17" maxLevel="19" typeId="flx" count="5" />
+        <task id="t154" minLevel="17" maxLevel="19" typeId="bluebGrt" count="20" />
+        <task id="t155" minLevel="17" maxLevel="19" typeId="pmpPorridge" count="12" />
+        <task id="t156" minLevel="17" maxLevel="19" typeId="bluebJam" count="8" />
+        <task id="t157" minLevel="17" maxLevel="19" typeId="pmpCream" count="5" />
+        <task id="t158" minLevel="17" maxLevel="19" typeId="frBerries" count="4" />
+        <task id="t159" minLevel="17" maxLevel="19" typeId="sprtfsh" count="45" />
+        <task id="t160" minLevel="17" maxLevel="19" typeId="prchfsh" count="35" />
+        <task id="t161" minLevel="17" maxLevel="19" typeId="pkfsh" count="17" />
+        <task id="t162" minLevel="17" maxLevel="19" typeId="ctfsh" count="10" />
+        <task id="t163" minLevel="17" maxLevel="19" typeId="sprtscns" count="12" />
+        <task id="t164" minLevel="17" maxLevel="19" typeId="fishSoup" count="5" />
+        <task id="t165" minLevel="17" maxLevel="19" typeId="clvr" count="100" />
+        <task id="t166" minLevel="17" maxLevel="19" typeId="aloe" count="12" />
+        <task id="t167" minLevel="17" maxLevel="19" typeId="anise" count="4" />
+        <task id="t168" minLevel="17" maxLevel="19" typeId="app" count="25" />
+        <task id="t169" minLevel="17" maxLevel="19" typeId="pear" count="18" />
+        <task id="t170" minLevel="17" maxLevel="19" typeId="apct" count="15" />
+        <task id="t171" minLevel="17" maxLevel="19" typeId="chr" count="10" />
+        <task id="t172" minLevel="17" maxLevel="19" typeId="peach" count="8" />
+        <task id="t173" minLevel="17" maxLevel="19" typeId="fj" count="18" />
+        <task id="t174" minLevel="17" maxLevel="250" typeId="melonCockt" count="2" />
+        <task id="t175" minLevel="17" maxLevel="250" typeId="shrimpSoup" count="2" />
+        <task id="t176" minLevel="17" maxLevel="19" typeId="stgn" count="4" />
+        <task id="t177" minLevel="17" maxLevel="19" typeId="shr" count="6" />
+        <task id="t178" minLevel="17" maxLevel="19" typeId="stuffPike" count="3" />
+        <task id="t179" minLevel="17" maxLevel="19" typeId="plum" count="7" />
+        <task id="t180" minLevel="17" maxLevel="19" typeId="ctn" count="3" />
+        <task id="t181" minLevel="17" maxLevel="19" typeId="frWtrmelon" count="3" />
+        <task id="t182" minLevel="17" maxLevel="19" typeId="pearPuree" count="3" />
+        <task id="t183" minLevel="17" maxLevel="19" typeId="compote" count="2" />
+        <task id="t184" minLevel="17" maxLevel="19" typeId="cocktWAloe" count="2" />
+        <task id="t185" minLevel="17" maxLevel="19" typeId="tinctOfAloes" count="2" />
+        <task id="t186" minLevel="17" maxLevel="19" typeId="lnfb" count="3" />
+        <task id="t187" minLevel="17" maxLevel="19" typeId="ctfb" count="3" />
+        <task id="t188" minLevel="17" maxLevel="19" typeId="strb" count="12" />
+        <task id="t189" minLevel="17" maxLevel="19" typeId="sqd" count="2" />
+        <task id="t190" minLevel="17" maxLevel="19" typeId="bnn" count="7" />
+        <task id="t191" minLevel="17" maxLevel="19" typeId="ccnt" count="5" />
+        <task id="t192" minLevel="17" maxLevel="19" typeId="dgRs" count="4" />
+        
+        <task id="t193" minLevel="20" maxLevel="250" typeId="strbJam" count="1" />
+        <task id="t194" minLevel="20" maxLevel="250" typeId="currtJelly" count="1" />
+        <task id="t195" minLevel="20" maxLevel="250" typeId="driedSqd" count="1" />
+        <task id="t196" minLevel="20" maxLevel="250" typeId="gsb" count="15" />
+        <task id="t197" minLevel="20" maxLevel="250" typeId="cocMilk" count="1" />
+        <task id="t198" minLevel="20" maxLevel="250" typeId="banChips" count="1" />
+        <task id="t199" minLevel="20" maxLevel="250" typeId="mirl" count="3" />
+        <task id="t200" minLevel="20" maxLevel="250" typeId="mMoss" count="3" />
+        <task id="t201" minLevel="20" maxLevel="250" typeId="brd" count="12" />
+        <task id="t202" minLevel="20" maxLevel="250" typeId="mrbl" count="12" />
+        <task id="t203" minLevel="20" maxLevel="250" typeId="tlbx" count="5" />
+        <task id="t204" minLevel="20" maxLevel="250" typeId="rdwd" count="2" />
+        <task id="t205" minLevel="20" maxLevel="250" typeId="glss" count="5" />
+        <task id="t206" minLevel="20" maxLevel="250" typeId="grnt" count="1" />
+        <task id="t207" minLevel="20" maxLevel="250" typeId="irn" count="1" />
+        <task id="t208" minLevel="20" maxLevel="250" typeId="stl" count="1" />
+        <task id="t209" minLevel="20" maxLevel="250" typeId="ttm" count="1" />
+        <task id="t210" minLevel="20" maxLevel="250" typeId="blb" count="175" />
+        <task id="t211" minLevel="20" maxLevel="250" typeId="pmp" count="75" />
+        <task id="t212" minLevel="20" maxLevel="250" typeId="blckb" count="50" />
+        <task id="t213" minLevel="20" maxLevel="250" typeId="wtrmel" count="35" />
+        <task id="t214" minLevel="20" maxLevel="250" typeId="grp" count="30" />
+        <task id="t215" minLevel="20" maxLevel="250" typeId="mel" count="25" />
+        <task id="t216" minLevel="20" maxLevel="250" typeId="pnp" count="15" />
+        <task id="t217" minLevel="20" maxLevel="250" typeId="flx" count="8" />
+        <task id="t218" minLevel="20" maxLevel="250" typeId="bluebGrt" count="30" />
+        <task id="t219" minLevel="20" maxLevel="250" typeId="pmpPorridge" count="20" />
+        <task id="t220" minLevel="20" maxLevel="250" typeId="bluebJam" count="12" />
+        <task id="t221" minLevel="20" maxLevel="250" typeId="pmpCream" count="8" />
+        <task id="t222" minLevel="20" maxLevel="250" typeId="frBerries" count="6" />
+        <task id="t223" minLevel="20" maxLevel="250" typeId="sprtfsh" count="70" />
+        <task id="t224" minLevel="20" maxLevel="250" typeId="prchfsh" count="50" />
+        <task id="t225" minLevel="20" maxLevel="250" typeId="pkfsh" count="25" />
+        <task id="t226" minLevel="20" maxLevel="250" typeId="ctfsh" count="15" />
+        <task id="t227" minLevel="20" maxLevel="250" typeId="sprtscns" count="15" />
+        <task id="t228" minLevel="20" maxLevel="250" typeId="fishSoup" count="7" />
+        <task id="t229" minLevel="20" maxLevel="250" typeId="clvr" count="150" />
+        <task id="t230" minLevel="20" maxLevel="250" typeId="aloe" count="20" />
+        <task id="t230" minLevel="20" maxLevel="250" typeId="anise" count="6" />
+        <task id="t231" minLevel="20" maxLevel="250" typeId="app" count="40" />
+        <task id="t232" minLevel="20" maxLevel="250" typeId="pear" count="30" />
+        <task id="t233" minLevel="20" maxLevel="250" typeId="apct" count="22" />
+        <task id="t234" minLevel="20" maxLevel="250" typeId="chr" count="15" />
+        <task id="t235" minLevel="20" maxLevel="250" typeId="peach" count="12" />
+        <task id="t236" minLevel="20" maxLevel="250" typeId="fj" count="25" />
+        <task id="t237" minLevel="20" maxLevel="250" typeId="stgn" count="5" />
+        <task id="t238" minLevel="20" maxLevel="250" typeId="tun" count="3" />
+        <task id="t239" minLevel="20" maxLevel="250" typeId="shr" count="8" />
+        <task id="t240" minLevel="20" maxLevel="250" typeId="stuffPike" count="4" />
+        <task id="t241" minLevel="20" maxLevel="250" typeId="staffShfish" count="3" />
+        <task id="t242" minLevel="20" maxLevel="250" typeId="plum" count="10" />
+        <task id="t243" minLevel="20" maxLevel="250" typeId="ctn" count="4" />
+        <task id="t244" minLevel="20" maxLevel="250" typeId="frWtrmelon" count="5" />
+        <task id="t245" minLevel="20" maxLevel="250" typeId="pearPuree" count="4" />
+        <task id="t246" minLevel="20" maxLevel="250" typeId="compote" count="3" />
+        <task id="t247" minLevel="20" maxLevel="250" typeId="cocktWAloe" count="3" />
+        <task id="t248" minLevel="20" maxLevel="250" typeId="teaClvr" count="4" />
+        <task id="t249" minLevel="20" maxLevel="250" typeId="tinctOfAloes" count="3" />
+        <task id="t250" minLevel="20" maxLevel="250" typeId="lnfb" count="5" />
+        <task id="t251" minLevel="20" maxLevel="250" typeId="ctfb" count="5" />
+        <task id="t252" minLevel="20" maxLevel="250" typeId="frSyrup" count="2" />
+        <task id="t253" minLevel="20" maxLevel="250" typeId="pinappJuice" count="2" />
+        <task id="t254" minLevel="20" maxLevel="250" typeId="sturgFishSoup" count="2" />
+        <task id="t255" minLevel="20" maxLevel="250" typeId="strb" count="21" />
+        <task id="t256" minLevel="20" maxLevel="250" typeId="currant" count="20" />
+        <task id="t257" minLevel="20" maxLevel="250" typeId="fjJuice" count="2" />
+        <task id="t258" minLevel="20" maxLevel="250" typeId="tun" count="3" />
+        <task id="t259" minLevel="20" maxLevel="250" typeId="sqd" count="3" />
+        <task id="t260" minLevel="20" maxLevel="250" typeId="bnn" count="12" />
+        <task id="t261" minLevel="20" maxLevel="250" typeId="ccnt" count="8" />
+        <task id="t262" minLevel="20" maxLevel="250" typeId="dgRs" count="6" />
+        <task id="t263" minLevel="20" maxLevel="250" typeId="crnb" count="12" />
+        <task id="t264" minLevel="20" maxLevel="250" typeId="ppya" count="7" />
+        <task id="t265" minLevel="20" maxLevel="250" typeId="frSalad" count="2" />
+        <task id="t266" minLevel="20" maxLevel="250" typeId="plumJam" count="2" />
+        <task id="t267" minLevel="20" maxLevel="250" typeId="fishMix" count="2" />
+    </tasks>
+    
+    <awards>
+        <award minLevel="8" gold="3" exp="3">
+            <item typeId="frt1" count="3" />
+            <item typeId="frt16" count="3" />
+        </award>
+        <award minLevel="11" gold="5" exp="5">
+            <item typeId="frt3" count="3" />
+            <item typeId="frt19" count="3" />
+        </award>
+        <award minLevel="14" gold="7" exp="7">
+            <item typeId="frt6" count="3" />
+            <item typeId="frt21" count="3" />
+        </award>
+        <award minLevel="17" gold="10" exp="10">
+            <item typeId="frt11" count="3" />
+            <item typeId="frt14" count="3" />
+        </award>
+        <award minLevel="20" gold="15" exp="15">
+            <item typeId="frt12" count="3" />
+            <item typeId="frt15" count="3" />
+        </award>
+    </awards>
+</config>

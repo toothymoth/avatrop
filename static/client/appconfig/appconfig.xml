@@ -1,0 +1,85 @@
+<?xml version="1.0"?>
+
+<config>
+    <profile>vkIsland</profile>
+    <socialNetwork>vkontakte</socialNetwork>
+    <clientLogUrl>#</clientLogUrl>
+    <allowedIds></allowedIds>
+    <production>true</production>
+    <locale>ru</locale>
+    
+    <socialAuth url="http://127.0.0.1:5000/auth_" ttl="110" social="vkontakte" project="tropicania-vk" active="true" />
+
+    <billing>
+        <currency label="votes" pointsRate="1000" goldRate="100" />
+
+        <products>
+            <product id="goldCoin" points="100" gold="1" bonusGold="0" icon="OfferGoldPack10@ui" tag="" />
+            <product id="pack10" points="1000" gold="10" bonusGold="0" icon="OfferGoldPack30@ui" tag="mainDialog" />
+            <product id="pack30" points="3000" gold="30" bonusGold="2" icon="OfferGoldPack50@ui" tag="mainDialog" />
+            <product id="pack50" points="5000" gold="50" bonusGold="5" icon="OfferGoldPack100@ui" tag="mainDialog"
+                     label="topSale" />
+            <product id="pack100" points="10000" gold="100" bonusGold="20" icon="OfferGoldPack200@ui"
+                     tag="mainDialog" />
+            <product id="pack200" points="20000" gold="200" bonusGold="60" icon="OfferGoldPack500@ui"
+                     tag="mainDialog" />
+            <product id="pack500" points="50000" gold="500" bonusGold="200" icon="OfferGoldPack500@ui"
+                     tag="mainDialog" label="bestPrice" />
+            <product id="pack5000" points="500000" gold="5000" bonusGold="2000" icon="OfferGoldPack500@ui"
+                     tag="notEnougth" />
+            <product id="pack9999" points="1000000" gold="9999" bonusGold="4000" icon="OfferGoldPack500@ui"
+                     tag="notEnougth" />
+
+            <product id="unbanPack1000" points="100000" unban="1" gold="0" tag="unban" label="1000 gold coins" />
+            <product id="unbanPack3000" points="300000" unban="1" gold="0" tag="unban" label="3000 gold coins" />
+            <product id="unbanPack5000" points="500000" unban="1" gold="0" tag="unban" label="5000 gold coins" />
+        </products>
+        <silverPacks>
+            <product gold="1" silver="100" icon="OfferSilverPack10@ui" tag="mainDialog" />
+            <product gold="5" silver="500" icon="OfferSilverPack50@ui" tag="mainDialog" />
+            <product gold="25" silver="2500" icon="OfferSilverPack500@ui" tag="mainDialog" />
+            <product gold="50" silver="5000" icon="OfferSilverPack5000@ui" tag="mainDialog" />
+        </silverPacks>
+    </billing>
+
+    <social>
+        <application name="city">
+            <url>http://vk.com/app2255775</url>
+            <appId>2255775</appId>
+            <testMode>0</testMode>
+        </application>
+
+        <application name="island">
+            <url>http://vk.com/app2976126</url>
+            <appId>2976126</appId>
+            <testMode>0</testMode>
+        </application>
+    </social>
+
+    <!-- Servers -->
+
+    <islandServer>127.0.0.1</islandServer>
+    <islandPort>8123</islandPort>
+
+    <outsideServer>127.0.0.1</outsideServer>
+    <outsidePort>8123</outsidePort>
+
+    <avataria show="true" exchange="true" />
+    
+    <serverconfig protocol="binary" />
+    
+    <contentConfigs>
+        <contentConfig cdn="default">
+            <contentUrl>http://127.0.0.1:5000/static/</contentUrl>
+           <contentMirrorUrl>http://127.0.0.1:5000/static/</contentMirrorUrl>
+<furnitureUrl>http://127.0.0.1:5000/static/swf/furniture/</furnitureUrl>
+            <furnitureMirrorUrl>http://127.0.0.1:5000/static/swf/furniture/</furnitureMirrorUrl>
+        </contentConfig>
+    </contentConfigs>
+
+    <supportUrl>https://tortuga.zendesk.com/hc/ru/categories/360001255992-%D0%A2%D1%80%D0%BE%D0%BF%D0%B8%D0%BA%D0%B0%D0%BD%D0%B8%D1%8F</supportUrl>
+    <communityUrl>https://vk.com/tropicaniaclub</communityUrl>
+
+    <test mode="false" groupId="39485893" />
+    
+</config>

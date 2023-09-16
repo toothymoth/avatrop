@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+
+<config>
+    
+    <category id="game" label="#gameCategory" typeClass="base" library="islandFarmLocation">
+	    <category id="art" label="#artifactCategory" visible="false" library="islandFarmLocation">
+            <!-- WORK -->
+            <item id="workGoldLoot" label="#gold" name="GoldLoot" icon="GoldLoot" />
+            <item id="workSilverLoot" label="#silver" name="SilverLoot" icon="SilverLoot" />
+            <item id="workEnergyLoot" label="#energy" name="EnergyLoot" icon="EnergyLoot" />
+            <item id="workExpLoot" label="#exp" name="ExpLoot" icon="ExpLoot" />
+	    </category>
+    </category>
+
+    <category id="barMenu" typeClass="modificator" library="resources">
+        <category id="beachBarMenu" library="resources">
+	        <item id="bmPnCl" label="#pinaColadaTitle" name="PanaColada" icon="PinaColadaIcon" gold="1" silver="625"
+	            saleSilver="0" priority="3" canSale="1" canUse="1" description="#pinaColadaDescription">
+	            <modifiers>
+	                <modifier name="energy" effect="10" />
+	            </modifiers>
+	        </item>
+	        <item id="bmBlHw" label="#blueHawaiiTitle" name="BlueHawaii" icon="BlueHawaiiIcon" gold="1" silver="1250"
+	            saleSilver="0" priority="2" canSale="1" canUse="1" description="#blueHawaiiDescription">
+	            <modifiers>
+	                <modifier name="energy" effect="20" />
+	            </modifiers>
+	        </item>
+	        <item id="bmStDq" label="#strawberryDaiquiriTitle" name="StrawberryDaiquiri" icon="StrawberryDaiquiriIcon" gold="2" silver="3500"
+	            saleSilver="0" priority="1" canSale="1" canUse="1" description="#strawberryDaiquiriDescription">
+	            <modifiers>
+	                <modifier name="energy" effect="50" />
+	            </modifiers>
+	        </item>
+        </category>
+    </category>
+
+	<category id="avatarAppearanceServices" typeClass="base" logCategory1="avatar" logCategory2="appearance">
+		<item id="renameAvatar" name="rename" />
+		<item id="changeHomeAppearance" name="home" />
+	</category>
+
+	<category id="resourceServices" typeClass="base" logCategory1="resource">
+		<item id="energyResource" name="energy" />
+		<item id="silverResource" name="silver" />
+	</category>
+</config>

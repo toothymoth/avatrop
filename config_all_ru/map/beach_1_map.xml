@@ -1,0 +1,72 @@
+<?xml version="1.0" ?>
+<map width="26" length="24">
+  <viewport x="430" y="-410" width="1190" height="800"/>
+  <items>
+    <item class="backgroundItem" wx="13.041666666666666" skin="Background@islandBeach" wy="-4.125"/>
+    <item class="islandLieItem" wx="15" wy="3" kind="islLounge2" direction="SE" wz="0" id="islandLieItem2"/>
+    <item class="islandLieItem" wx="14" wy="3" kind="islLounge2" direction="SE" wz="0" id="islandLieItem3"/>
+    <item class="landscapeItem" wx="16" wy="4" kind="islTable" wz="0" id="landscapeItem4"/>
+    <item class="landscapeItem" wx="13" wy="2" kind="islPalmSmall" wz="0" id="landscapeItem5"/>
+    <item class="landscapeItem" wx="11" wy="3" kind="islUmbrella" wz="0" id="landscapeItem6"/>
+    <item class="islandSitItem" wx="12" wy="4" kind="islChair1" direction="SW" wz="0" id="islandSitItem7"/>
+    <item class="islandLieItem" wx="8" wy="5" kind="islLounge2" direction="SW" wz="0" id="islandLieItem8"/>
+    <item class="islandLieItem" wx="6" wy="7" kind="islLounge1" direction="SW" wz="0" id="islandLieItem9"/>
+    <item class="islandLieItem" wx="6" wy="8" kind="islLounge1" direction="SW" wz="0" id="islandLieItem10"/>
+    <item class="islandLieItem" wx="6" wy="10" kind="islLounge2" direction="SW" wz="0" id="islandLieItem11"/>
+    <item class="islandLieItem" wx="6" wy="11" kind="islLounge2" direction="SW" wz="0" id="islandLieItem12"/>
+    <item class="islandLieItem" wx="6" wy="13" kind="islLounge1" direction="SW" wz="0" id="islandLieItem13"/>
+    <item class="landscapeItem" wx="7" wy="14" kind="islTable" wz="0" id="landscapeItem14"/>
+    <item class="landscapeItem" wx="7" wy="15" kind="islUmbrella" wz="0" id="landscapeItem15"/>
+    <item class="landscapeItem" wx="11" wy="14" kind="islStrelitzia" wz="0" id="landscapeItem16"/>
+    <item class="islandLieItem" wx="11" wy="15" kind="islLounge1" direction="SE" wz="0" id="islandLieItem17"/>
+    <item class="islandLieItem" wx="12" wy="15" kind="islLounge1" direction="SE" wz="0" id="islandLieItem18"/>
+    <item class="islandSitItem" wx="14" wy="16" kind="islChair2" direction="SW" wz="0" id="islandSitItem19"/>
+    <item class="islandSitItem" wx="14" wy="17" kind="islChair2" direction="SW" wz="0" id="islandSitItem20"/>
+    <item class="landscapeItem" wx="15" wy="17" kind="islUmbrella" wz="0" id="landscapeItem21"/>
+    <item class="landscapeItem" wx="11" wy="7" kind="islTable" wz="0" id="landscapeItem43"/>
+    <item class="islandSitItem" wx="11" wy="8" kind="islChair2" direction="SW" wz="0" id="islandSitItem44"/>
+    <item class="islandSitItem" wx="11" wy="9" kind="islChair2" direction="SW" wz="0" id="islandSitItem45"/>
+    <item class="islandSitItem" wx="11" wy="11" kind="islChair1" direction="SW" wz="0" id="islandSitItem46"/>
+    <item class="islandSitItem" wx="11" wy="12" kind="islChair1" direction="SW" wz="0" id="islandSitItem47"/>
+    <item class="islandBeachMenuItem" wx="15" wy="9" kind="islBar" wz="0" direction="SW" id="islandBeachMenuItem1"/>
+    <item class="islandLieItem" wx="11" wy="19" kind="islLounge2" direction="SW" wz="0" id="islandLieItem49"/>
+    <item class="landscapeItem" wx="13" wy="20" kind="islTable" wz="0" id="landscapeItem50"/>
+    <item class="islandSitItem" wx="14" wy="10" kind="islChair3" direction="SW" wz="0" id="islandSitItem80"/>
+    <item class="islandSitItem" wx="14" wy="11" kind="islChair4" direction="SW" wz="0" id="islandSitItem111"/>
+    <item class="islandSitItem" wx="14" wy="12" kind="islChair3" direction="SW" wz="0" id="islandSitItem112"/>
+    <item class="islandSitItem" wx="14" wy="13" kind="islChair4" direction="SW" wz="0" id="islandSitItem113"/>
+    <item class="landscapeItem" wx="19" wy="9" kind="islBush" wz="0" id="landscapeItem114"/>
+    <item class="landscapeItem" wx="20" wy="12" kind="islBush" wz="0" id="landscapeItem115"/>
+    <item class="walkingGridItem" cols="26" rows="24">
+      <grid>
+        <row values="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1"/>
+        <row values="0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1"/>
+        <row values="0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,1"/>
+        <row values="0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,1"/>
+        <row values="0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,1"/>
+        <row values="0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,1"/>
+        <row values="0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1"/>
+        <row values="0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1"/>
+        <row values="0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1"/>
+        <row values="0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1"/>
+        <row values="0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1"/>
+        <row values="0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,1"/>
+        <row values="0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,1"/>
+        <row values="0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,1"/>
+        <row values="0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,1"/>
+        <row values="0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,1"/>
+        <row values="0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,1"/>
+        <row values="0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,1"/>
+        <row values="0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,1"/>
+        <row values="0,0,0,0,0,0,0,0,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,1"/>
+        <row values="0,0,0,0,0,0,0,0,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1"/>
+        <row values="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1"/>
+        <row values="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1"/>
+        <row values="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1"/>
+      </grid>
+    </item>
+    <item class="dispositionItem" wx="15" wy="7" id="dispositionItem37"/>
+    <item class="dispositionItem" wx="10" wy="16" id="dispositionItem38"/>
+    <item class="dispositionItem" wx="5" wy="11" id="dispositionItem39"/>
+  </items>
+</map>

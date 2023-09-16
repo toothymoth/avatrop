@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+
+    <!-- GARDENER -->
+    <profession id="grdnr" active="true" locationId="garden" title="#professionsGardenerTitle" progressTitle="#professionsGardenerProgressTitle">
+        <level level="1" maxProgress="60" questId="grdnPro_q1"/>
+        <level level="2" maxProgress="85" questId="grdnPro_q2">
+            <awards>
+                <award typeId="grdnDsyBqt" awardType="craft" count="1"/>
+            </awards>
+        </level>
+        <level level="3" maxProgress="140" questId="grdnPro_q3">
+            <awards>
+                <award typeId="chrGrdGft" awardType="gift" count="1"/>
+            </awards>
+        </level>
+        <level level="4" maxProgress="200" questId="grdnPro_q4">
+            <awards>
+                <award typeId="grdFrmBtrfl1" awardType="craft" count="1"/>
+            </awards>
+        </level>
+        <level level="5" maxProgress="280" questId="grdnPro_q5">
+            <awards>
+                <award typeId="wtrfll3" awardType="gift" count="1"/>
+            </awards>
+        </level>
+        <level level="6" maxProgress="420" questId="grdnPro_q6">
+            <awards>
+                <award typeId="grdnrHrbrm" awardType="craft" count="1"/>
+            </awards>
+        </level>
+        <level level="7" maxProgress="560" questId="grdnPro_q7">
+            <awards>
+                <award typeId="wrdGrdnrGft" awardType="gift" count="1"/>
+            </awards>
+        </level>
+        <level level="8" maxProgress="700" questId="grdnPro_q8">
+            <awards>
+                <award typeId="tblGrdnrGft" awardType="gift" count="1"/>
+            </awards>
+        </level>
+        <level level="9" maxProgress="850" questId="grdnPro_q9">
+            <awards>
+                <award typeId="grdnFlwrBskt" awardType="craft" count="1"/>
+            </awards>
+        </level>
+        <level level="10" maxProgress="1000" questId="grdnPro_q10">
+            <awards>
+                <award typeId="wtrfll3" awardType="gift" count="1"/>
+            </awards>
+        </level>
+        <level level="11" maxProgress="1200" questId="grdnPro_q11">
+            <awards>
+                <award typeId="wtrfll3" awardType="gift" count="1"/>
+            </awards>
+        </level>
+        <level level="12" maxProgress="1400" questId="grdnPro_q12">
+            <awards>
+                <award typeId="grdnrBtrflColCtg" awardType="craft" count="1"/>
+            </awards>
+        </level>
+        <level level="13" maxProgress="1700" questId="grdnPro_q13">
+            <awards>
+                <award typeId="chstGrdnrGft" awardType="gift" count="1"/>
+            </awards>
+        </level>
+        <level level="14" maxProgress="2000" questId="grdnPro_q14">
+            <awards>
+                <award typeId="grdnFlwrbd" awardType="craft" count="1"/>
+            </awards>
+        </level>
+        <level level="15" maxProgress="2100" questId="grdnPro_q15">
+            <awards>
+                <award typeId="sfGrdnrGft" awardType="gift" count="1"/>
+            </awards>
+        </level>
+    </profession>
+
+    <!-- JANITOR -->
+    <profession id="jntr" active="true" locationId="garbage" title="#professionsJanitorTitle" progressTitle="#professionsJanitorProgressTitle">
+        <level level="1" maxProgress="95" questId="grdnPro_q1"/>
+        <level level="2" maxProgress="140" questId="grdnPro_q2">
+            <awards>
+                <award typeId="jntrSmvr" awardType="craft" count="1"/>
+            </awards>
+        </level>
+        <level level="3" maxProgress="220" questId="grdnPro_q3">
+            <awards>
+                <award typeId="jntrGrmphn" awardType="craft" count="1"/>
+            </awards>
+        </level>
+        <level level="4" maxProgress="320" questId="grdnPro_q4">
+            <awards>
+                <award typeId="JanitorJukeboxIcon" awardType="craft" count="1"/>
+            </awards>
+        </level>
+        <level level="5" maxProgress="450" questId="grdnPro_q5">
+            <awards>
+                <award typeId="jntrGrndClck" awardType="craft" count="1"/>
+            </awards>
+        </level>
+        <level level="6" maxProgress="650" questId="grdnPro_q6">
+            <awards>
+                <award typeId="jntrSdMchn" awardType="craft" count="1"/>
+            </awards>
+        </level>
+        <level level="7" maxProgress="900" questId="grdnPro_q7">
+            <awards>
+                <award typeId="jntrRckr" awardType="craft" count="1"/>
+            </awards>
+        </level>
+        <level level="8" maxProgress="1100" questId="grdnPro_q8">
+            <awards>
+                <award typeId="jntrKnght" awardType="craft" count="1"/>
+            </awards>
+        </level>
+        <level level="9" maxProgress="1300" questId="grdnPro_q9">
+            <awards>
+                <award typeId="jntFrdg" awardType="craft" count="1"/>
+            </awards>
+        </level>
+        <level level="10" maxProgress="1500" questId="grdnPro_q10">
+            <awards>
+            <award typeId="wtrfll3" awardType="craft" count="1"/>
+            </awards>
+        </level>
+        <level level="11" maxProgress="1800" questId="grdnPro_q11">
+            <awards>
+                <award typeId="jntrHrgls" awardType="craft" count="1"/>
+            </awards>
+        </level>
+        <level level="12" maxProgress="2200" questId="grdnPro_q12">
+            <awards>
+                <award typeId="jntrCckClck" awardType="craft" count="1"/>
+            </awards>
+        </level>
+        <level level="13" maxProgress="2700" questId="grdnPro_q13">
+            <awards>
+                <award typeId="jntrRlwCtg" awardType="craft" count="1"/>
+            </awards>
+        </level>
+        <level level="14" maxProgress="3200" questId="grdnPro_q14">
+            <awards>
+                <award typeId="jntrFrplc" awardType="craft" count="1"/>
+            </awards>
+        </level>
+        <level level="15" maxProgress="3300" questId="grdnPro_q15">
+            <awards>
+                <award typeId="jntrTrnsstr" awardType="craft" count="1"/>
+            </awards>
+        </level>
+    </profession>
+
+    <!-- PHOTOGRAPHER -->
+    <profession id="phtghr" active="false" locationId="photoSalon" title="#professionsPhotographerTitle" progressTitle="#professionsPhotographerProgressTitle">
+        <level level="1" maxProgress="50" questId="phtghrPro_q1"/>
+        <level level="2" maxProgress="150" questId="phtghrPro_q2">
+            <awards>
+                <award typeId="teddyBear" awardType="craft" count="1"/>
+                <award typeId="color" awardType="color" count="1"/>
+                <award typeId="beach" awardType="location" count="1"/>
+            </awards>
+        </level>
+        <level level="3" maxProgress="250" questId="phtghrPro_q3">
+            <awards>
+                <award typeId="wtrfll3" awardType="gift" count="1"/>
+            </awards>
+        </level>
+        <level level="4" maxProgress="350" questId="phtghrPro_q4">
+            <awards>
+                <award typeId="wtrfll3" awardType="gift" count="1"/>
+            </awards>
+        </level>
+        <level level="5" maxProgress="450" questId="phtghrPro_q5">
+            <awards>
+                <award typeId="wtrfll3" awardType="gift" count="1"/>
+            </awards>
+        </level>
+    </profession>
+
+    <!-- VISAGIST -->
+    <profession id="vsgst" active="false" locationId="salon" title="#professionsVisagistTitle" progressTitle="#professionsVisagistProgressTitle">
+        <level level="1" maxProgress="50" questId="vsgstPro_q1"/>
+        <level level="2" maxProgress="150" questId="vsgstPro_q2">
+            <awards>
+                <award typeId="teddyBear" awardType="craft" count="1"/>
+                <award typeId="color" awardType="color" count="1"/>
+                <award typeId="Boy:4:49" awardType="appearance" count="1"/>
+                <award typeId="Girl:4:49" awardType="appearance" count="1"/>
+            </awards>
+        </level>
+        <level level="3" maxProgress="250" questId="vsgstPro_q3">
+            <awards>
+                <award typeId="wtrfll3" awardType="gift" count="1"/>
+            </awards>
+        </level>
+        <level level="4" maxProgress="350" questId="vsgstPro_q4">
+            <awards>
+                <award typeId="wtrfll3" awardType="gift" count="1"/>
+            </awards>
+        </level>
+        <level level="5" maxProgress="450" questId="vsgstPro_q5">
+            <awards>
+                <award typeId="wtrfll3" awardType="gift" count="1"/>
+                <award typeId="color" subTypeId="hairSet:25" awardType="color" count="1"/>
+            </awards>
+        </level>
+    </profession>
+</config>

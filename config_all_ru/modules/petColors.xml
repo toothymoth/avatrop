@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+
+<config>
+    
+    <pet kind="Dalmatian">
+    
+	    <colorSet index="0" />
+	    
+	    <colorSet index="1">
+	        <color name="0" value="0xF2CFD4" />
+	        <color name="1" value="0xE8D5CA" />
+	        <color name="2" value="0xE2C8BA" />
+	        <color name="3" value="0xDBB8A6" />
+	        <color name="4" value="0xCFA18E" />
+	        <color name="5" value="0xC79074" />
+	        <color name="6" value="0x00FF00" />
+	    </colorSet>
+	    
+	    <colorSet index="2">
+	        <color name="0" value="0xF2CFD4" />
+	        <color name="1" value="0xE0C4B5" />
+	        <color name="2" value="0xD7B39F" />
+	        <color name="3" value="0xD0A48E" />
+	        <color name="4" value="0xC28367" />
+	        <color name="5" value="0xC28367" />
+	        <color name="6" value="0x00FF00" />
+	    </colorSet>
+	    
+	    <colorSet index="3">
+	        <color name="0" value="0xE4B69B" />
+	        <color name="1" value="0xD5AD90" />
+	        <color name="2" value="0xCFA38D" />
+	        <color name="3" value="0xC79277" />
+	        <color name="4" value="0xBA7454" />
+	        <color name="5" value="0xB25F32" />
+	        <color name="6" value="0x00FF00" />
+	    </colorSet>
+	    
+	    <colorSet index="4">
+	        <color name="0" value="0xE4B69B" />
+	        <color name="1" value="0xD0A17E" />
+	        <color name="2" value="0xC99875" />
+	        <color name="3" value="0xC48C65" />
+	        <color name="4" value="0xB8713E" />
+	        <color name="5" value="0xB46F34" />
+	        <color name="6" value="0x00FF00" />
+	    </colorSet>
+	
+	    <colorSet index="5">
+	        <color name="0" value="0xBB7554" />
+	        <color name="1" value="0xB6805F" />
+	        <color name="2" value="0xB17552" />
+	        <color name="3" value="0xA7623C" />
+	        <color name="4" value="0x9D5025" />
+	        <color name="5" value="0x933A11" />
+	        <color name="6" value="0x00FF00" />
+	    </colorSet>
+	    
+    </pet>
+    
+    <pet kind="Bulldog">
+    
+        <colorSet index="0" />
+        
+        <colorSet index="1">
+            <color name="0" value="0xF2CFD4" />
+            <color name="1" value="0xE8D5CA" />
+            <color name="2" value="0xE2C8BA" />
+            <color name="3" value="0xDBB8A6" />
+            <color name="4" value="0xCFA18E" />
+            <color name="5" value="0xC79074" />
+            <color name="6" value="0x00FF00" />
+            <color name="7" value="0x00FF10" />
+            <color name="8" value="0x00FF20" />
+            <color name="9" value="0x00FF30" />
+        </colorSet>
+        
+        <colorSet index="2">
+            <color name="0" value="0xF2CFD4" />
+            <color name="1" value="0xE0C4B5" />
+            <color name="2" value="0xD7B39F" />
+            <color name="3" value="0xD0A48E" />
+            <color name="4" value="0xC28367" />
+            <color name="5" value="0xC28367" />
+            <color name="6" value="0x00FF00" />
+            <color name="7" value="0x00FF10" />
+            <color name="8" value="0x00FF20" />
+            <color name="9" value="0x00FF30" />
+        </colorSet>
+        
+    </pet>
+    
+</config>

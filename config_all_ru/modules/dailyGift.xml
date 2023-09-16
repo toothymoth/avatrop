@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <rule index="1">
+        <gift itemType="game" itemId="wd" count="3"/>
+    </rule>
+    <rule index="2">
+        <gift itemType="game" itemId="stn" count="3"/>
+    </rule>
+    <rule index="3">
+        <gift itemType="resource" itemId="silver" count="150"/>
+    </rule>
+    <rule index="4">
+        <gift itemType="game" itemId="frt1" count="5"/>
+    </rule>
+    <rule index="5">
+        <gift itemType="resource" itemId="gold" count="1"/>
+    </rule>
+    <rule index="6">
+        <gift itemType="game" itemId="brd" count="2"/>
+    </rule>
+    <rule index="7">
+        <gift itemType="game" itemId="mrbl" count="2"/>
+    </rule>
+    <rule index="8">
+        <gift itemType="resource" itemId="silver" count="450"/>
+    </rule>
+    <rule index="9">
+        <gift itemType="game" itemId="frt18" count="5"/>
+    </rule>
+    <rule index="10">
+        <gift itemType="resource" itemId="gold" count="3"/>
+    </rule>
+    <rule index="11">
+        <gift itemType="game" itemId="tlbx" count="1"/>
+    </rule>
+    <rule index="12">
+        <gift itemType="game" itemId="glss" count="3"/>
+    </rule>
+    <rule index="13">
+        <gift itemType="resource" itemId="silver" count="950"/>
+    </rule>
+    <rule index="14">
+        <gift itemType="game" itemId="frt4" count="5"/>
+    </rule>
+    <rule index="15">
+        <gift itemType="resource" itemId="gold" count="5"/>
+    </rule>
+    <rule index="16">
+        <gift itemType="game" itemId="lnfb" count="1"/>
+    </rule>
+    <rule index="17">
+        <gift itemType="game" itemId="teaClvr" count="3"/>
+    </rule>
+    <rule index="18">
+        <gift itemType="resource" itemId="silver" count="1750"/>
+    </rule>
+    <rule index="19">
+        <gift itemType="game" itemId="frt6" count="5"/>
+    </rule>
+    <rule index="20">
+        <gift itemType="resource" itemId="gold" count="7"/>
+    </rule>
+    <rule index="21">
+        <gift itemType="game" itemId="ctfb" count="1"/>
+    </rule>
+    <rule index="22">
+        <gift itemType="game" itemId="tinctOfAloes" count="3"/>
+    </rule>
+    <rule index="23">
+        <gift itemType="resource" itemId="silver" count="2500"/>
+    </rule>
+    <rule index="24">
+        <gift itemType="game" itemId="frt11" count="5"/>
+    </rule>
+    <rule index="25">
+        <gift itemType="resource" itemId="gold" count="9"/>
+    </rule>
+    <rule index="26">
+        <gift itemType="game" itemId="rdwd" count="1"/>
+    </rule>
+    <rule index="27">
+        <gift itemType="game" itemId="grnt" count="1"/>
+    </rule>
+    <rule index="28">
+        <gift itemType="resource" itemId="silver" count="3500"/>
+    </rule>
+    <rule index="29">
+        <gift itemType="game" itemId="frt12" count="5"/>
+    </rule>
+    <rule index="30">
+        <gift itemType="resource" itemId="gold" count="12"/>
+        <goto index="16"/>
+    </rule>
+</config>

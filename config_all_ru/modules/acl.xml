@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <roles>
+        <role id="0" name="USER" authority="0" />
+        <role id="1" name="TRAINEE_MODERATOR" authority="1" />
+        <role id="2" name="MODERATOR" authority="2" />
+        <role id="3" name="TOP_MODERATOR" authority="3" />
+        <role id="4" name="CURATOR" authority="4" />
+        <role id="5" name="ADMIN" authority="5" />
+    </roles>
+
+    <privileges>
+        <privilege name="CHAT_BAN" minAuthority="1" />
+        <privilege name="EVENT_BAN" minAuthority="1" />
+        <privilege name="MESSAGE_TO_USER" minAuthority="1" />
+
+        <privilege name="EXIT_APARTMENTS_BAN" minAuthority="2" />
+        <privilege name="ABILITY_HIDE_LETTER" minAuthority="2" />
+        <privilege name="AVATAR_BAN" minAuthority="2" />
+        <privilege name="SHIFT_CLICK" minAuthority="2" />
+        <privilege name="PRIVATE_LIST" minAuthority="2" />
+        <privilege name="FREE_RENAME_ITSELF" minAuthority="2" />
+        <privilege name="VIEW_ALL_EVENTS" minAuthority="2" />
+
+        <privilege name="RENAME_AVATAR" minAuthority="3" />
+        <privilege name="USER_ACTIONS_HISTORY" minAuthority="3" />
+        <privilege name="MONTH_BAN" minAuthority="3" />
+        <privilege name="VISIT_TO_LOCK_APARTMENTS" minAuthority="3" />
+        <privilege name="FIND_ITSELF_BAN" minAuthority="3" />
+        <privilege name="SWITCH_FIREPLACE" minAuthority="3" />
+
+        <privilege name="CREATE_MODERATOR_EVENT" minAuthority="4" />
+        <privilege name="GO_TO_PROFILE" minAuthority="4" />
+
+        <privilege name="ENTER_AS_OTHER_PLAYER" minAuthority="5" />
+        <privilege name="FREE_PASS_QUESTS" minAuthority="5" />
+        <privilege name="GET_OFFER" minAuthority="5" />
+        <privilege name="ALLOW_BAN_ALWAYS" minAuthority="4" />
+        <privilege name="LOOK_SOMETHING" minAuthority="5" />
+
+        <privilege name="MAINTENANCE" minAuthority="4" />
+
+        <privilege name="CHECK_SOCIAL_API" minAuthority="5" />
+    </privileges>
+</config>

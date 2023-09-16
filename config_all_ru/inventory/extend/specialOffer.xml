@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+<!-- Special prices -->
+    <offer day="0" gold="16" silver="0">
+        <item typeId="dplnt8" count="1" />
+        <item typeId="dplnt11" count="1" />
+    </offer>
+    <offer day="1" gold="55" silver="0">
+        <item typeId="dd8" count="1" />
+    </offer>
+    <offer day="2" gold="33" silver="0">
+        <item typeId="glss" count="5" />
+        <item typeId="teaClvr" count="5" />
+        <item typeId="tinctOfAloes" count="5" />
+    </offer>
+    <offer day="3" gold="22" silver="0">
+        <item typeId="dfrn2" count="1" />
+    </offer>
+    <offer day="4" gold="99" silver="0">
+        <item typeId="dd4" count="1" />
+    </offer>
+    <offer day="5" gold="11" silver="0">
+        <item typeId="dplnt10" count="1" />
+        <item typeId="dplnt5" count="1" />
+    </offer>
+    <offer day="6" gold="37" silver="0">
+        <item typeId="dfrn5" count="1" />
+    </offer>
+    <offer day="7" gold="25" silver="0">
+        <item typeId="dd1" count="3" />
+    </offer>
+    <offer day="8" gold="111" silver="0">
+        <item typeId="dd2" count="1" />
+    </offer>
+    <offer day="9" gold="11" silver="0">
+        <item typeId="dplnt2" count="1" />
+        <item typeId="dplnt3" count="1" />
+    </offer>
+    <offer day="10" gold="7" silver="0">
+        <item typeId="dfrn7" count="1" />
+    </offer>
+    <offer day="11" gold="37" silver="0">
+        <item typeId="grnt" count="3" />
+        <item typeId="tlbx" count="5" />
+        <item typeId="stn" count="10" />
+    </offer>
+    <offer day="12" gold="11" silver="0">
+        <item typeId="dplnt9" count="1" />
+    </offer>
+    <offer day="13" gold="249" silver="0">
+        <item typeId="dfrn4" count="1" />
+    </offer>
+    <offer day="14" gold="22" silver="0">
+        <item typeId="dfrn3" count="1" />
+    </offer>
+    <offer day="15" gold="12" silver="0">
+        <item typeId="dd7" count="1" />
+    </offer>
+    <offer day="16" gold="10" silver="0">
+        <item typeId="dplnt1" count="1" />
+        <item typeId="dplnt4" count="1" />
+    </offer>
+    <offer day="17" gold="51" silver="0">
+        <item typeId="dfrn8" count="1" />
+    </offer>
+    <offer day="18" gold="55" silver="0">
+        <item typeId="frt12" count="20" />
+        <item typeId="frt15" count="10" />
+        <item typeId="frt11" count="15" />
+    </offer>
+    <offer day="19" gold="75" silver="0">
+        <item typeId="dfrn6" count="1" />
+    </offer>
+    <offer day="20" gold="14" silver="0">
+        <item typeId="dd5" count="1" />
+        <item typeId="dplnt7" count="5" />
+    </offer>
+    <offer day="21" gold="59" silver="0">
+        <item typeId="stl" count="1" />
+        <item typeId="irn" count="1" />
+        <item typeId="tlbx" count="10" />
+    </offer>
+    <offer day="22" gold="13" silver="0">
+        <item typeId="dfrn1" count="1" />
+    </offer>
+    <offer day="23" gold="149" silver="0">
+        <item typeId="dd3" count="1" />
+    </offer>
+<!-- Normal price 
+	<offer day="0" gold="33" silver="0">
+		<item typeId="dplnt8" count="1" />
+		<item typeId="dplnt11" count="1" />
+	</offer>
+	<offer day="1" gold="77" silver="0">
+		<item typeId="dd8" count="1" />
+	</offer>
+	<offer day="2" gold="33" silver="0">
+		<item typeId="glss" count="5" />
+		<item typeId="teaClvr" count="5" />
+		<item typeId="tinctOfAloes" count="5" />
+	</offer>
+	<offer day="3" gold="44" silver="0">
+		<item typeId="dfrn2" count="1" />
+	</offer>
+	<offer day="4" gold="175" silver="0">
+		<item typeId="dd4" count="1" />
+	</offer>
+	<offer day="5" gold="22" silver="0">
+		<item typeId="dplnt10" count="1" />
+		<item typeId="dplnt5" count="1" />
+	</offer>
+	<offer day="6" gold="55" silver="0">
+		<item typeId="dfrn5" count="1" />
+	</offer>
+	<offer day="7" gold="55" silver="0">
+		<item typeId="dd1" count="3" />
+	</offer>
+	<offer day="8" gold="185" silver="0">
+		<item typeId="dd2" count="1" />
+	</offer>
+	<offer day="9" gold="22" silver="0">
+		<item typeId="dplnt2" count="1" />
+		<item typeId="dplnt3" count="1" />
+	</offer>
+	<offer day="10" gold="11" silver="0">
+		<item typeId="dfrn7" count="1" />
+	</offer>
+	<offer day="11" gold="37" silver="0">
+		<item typeId="grnt" count="3" />
+		<item typeId="tlbx" count="5" />
+		<item typeId="stn" count="10" />
+	</offer>
+	<offer day="12" gold="19" silver="0">
+		<item typeId="dplnt9" count="1" />
+	</offer>
+	<offer day="13" gold="399" silver="0">
+		<item typeId="dfrn4" count="1" />
+	</offer>
+	<offer day="14" gold="22" silver="0">
+		<item typeId="dfrn3" count="1" />
+	</offer>
+	<offer day="15" gold="49" silver="0">
+		<item typeId="dd7" count="1" />
+	</offer>
+	<offer day="16" gold="19" silver="0">
+		<item typeId="dplnt1" count="1" />
+		<item typeId="dplnt4" count="1" />
+	</offer>
+	<offer day="17" gold="99" silver="0">
+		<item typeId="dfrn8" count="1" />
+	</offer>
+	<offer day="18" gold="55" silver="0">
+		<item typeId="frt12" count="20" />
+		<item typeId="frt15" count="10" />
+		<item typeId="frt11" count="15" />
+	</offer>
+	<offer day="19" gold="111" silver="0">
+		<item typeId="dfrn6" count="1" />
+	</offer>
+	<offer day="20" gold="22" silver="0">
+		<item typeId="dd5" count="1" />
+		<item typeId="dplnt7" count="5" />
+	</offer>
+	<offer day="21" gold="59" silver="0">
+		<item typeId="stl" count="1" />
+		<item typeId="irn" count="1" />
+		<item typeId="tlbx" count="10" />
+	</offer>
+	<offer day="22" gold="22" silver="0">
+		<item typeId="dfrn1" count="1" />
+	</offer>
+	<offer day="23" gold="222" silver="0">
+		<item typeId="dd3" count="1" />
+	</offer>
+-->
+</config>

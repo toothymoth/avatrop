@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+
+    <flow>
+        <step index="0" id="preStory" />
+        <step index="1" id="cleanTerritory" />
+        <step index="2" id="buildHome" />
+        <step index="3" id="upgradeHome" />
+        <step index="4" id="moveHome" />
+        <step index="5" id="digBed" />
+        <step index="6" id="rapidGrowth" />
+        <step index="7" id="collectHarvest" />
+        <step index="8" id="saleHarvest" />
+        <step index="9" id="grownTrees" />
+        <step index="10" id="buildKitchen" />
+        <step index="11" id="upgradeKitchen" />
+        <step index="12" id="produceBilberries" />
+        <step index="13" id="expandIsland" />
+        <step index="14" id="buildPetHouse" />
+        <step index="15" id="upgradePetHouse" />
+        <step index="16" id="buyPet" />
+        <step index="17" id="interractPet" />
+        <step index="18" id="finished" />
+    </flow>
+
+    <steps>
+        
+        <step id="preStory">
+            <action id="default">
+                <helper type="1" title="#ttIntr" canContinue="1" onContinue="finishStep" width="400" x="200" y="100" />
+            </action>
+        </step>
+        
+        <step id="cleanTerritory" questId="q1">
+            <action id="default">
+            </action>
+            <action id="handleWeed">
+                <helper type="1" title="#ttHandleWeed" width="300" x="400" y="15" />
+                <helper type="3" x="29" y="59" />
+            </action>
+        </step>
+        
+        <step id="buildHome" questId="q2">
+            <action id="default">
+            </action>
+            <action id="selectItem1">
+                <helper type="1" title="#ttBuyHomeSelectItem" width="300" x="400" y="15" canFinish="1" />
+                <helper type="2" target="marketBtn" direction="bottom" />
+            </action>
+            <action id="buyItem">
+                <helper type="1" title="#ttBuyHomeBuyItem" width="300" x="400" y="15" canFinish="1" />
+            </action>
+            <action id="placeItem">
+                <helper type="1" title="#ttBuyHomePlaceItem" width="300" x="400" y="15" canFinish="1" />
+            </action>
+        </step>
+
+        <step id="upgradeHome" questId="q3">
+            <action id="default">
+            </action>
+            <action id="selectItem1">
+                <helper type="1" title="#ttUpgradeHomeDialog" width="300" x="400" y="15" />
+            </action>
+            <action id="upgradeItem1">
+                <helper type="1" title="#ttUpgradeHomeAction" width="300" x="400" y="15" />
+            </action>
+        </step>
+        
+        <step id="moveHome" questId="q4">
+            <action id="default">
+            </action>
+            <action id="preSelectTool">
+                <helper type="1" title="#ttMoveHomePreSelectTool" width="300" x="400" y="15" />
+                <helper type="2" target="actionPanel" direction="bottom" />
+            </action>
+            <action id="selectTool">
+                <helper type="1" title="#ttMoveHomeSelectTool" width="300" x="400" y="15" />
+            </action>            
+            <action id="moveItem">
+                <helper type="1" title="#ttMoveHome" width="300" x="400" y="15" />
+            </action>
+            <action id="rotateItem">
+                <helper type="1" title="#ttRotateHome" width="300" x="400" y="15" />
+            </action>
+        </step>
+        
+        <step id="digBed" questId="q5">
+            <action id="default">
+            </action>
+            <action id="selectItem1">
+                <helper type="1" title="#ttBilberrySeedSelectItem" width="300" x="400" y="15" />
+                <helper type="2" target="marketBtn" direction="bottom" />
+            </action>
+            <action id="buyItem">
+                <helper type="1" title="#ttBilberrySeedBuyItem" width="300" x="400" y="15" />
+            </action>
+            <action id="placeItem">
+                <helper type="1" title="#ttBilberrySeedPlaceItem" width="300" x="400" y="15" />
+            </action>
+        </step>
+        
+        <step id="rapidGrowth" questId="q6">
+            <action id="default">
+            </action>
+            <action id="selectItem1">
+                <helper type="1" title="#ttFertilizerSelectItem" width="300" x="400" y="15" />
+                <helper type="2" target="marketBtn" direction="bottom" />
+            </action>
+            <action id="buyItem">
+                <helper type="1" title="#ttFertilizerBuyItem" width="300" x="400" y="15" />
+            </action>
+            <action id="placeItem">
+                <helper type="1" title="#ttFertilizerPlaceItem" width="300" x="400" y="15" />
+            </action>
+            <action id="error">
+                <helper type="1" title="#ttErrorUseFertilizer" width="300" x="400" y="15" canContinue="1" onContinue="finishStep" />
+            </action>
+        </step>
+        
+        <step id="collectHarvest" questId="q7">
+            <action id="default">
+            </action>
+            <action id="collectItem">
+                <helper type="1" title="#ttCollectBilberry" width="300" x="400" y="15" />
+            </action>
+        </step>
+
+        <step id="saleHarvest" questId="q8">
+            <action id="default">
+            </action>
+            <action id="selectItem1">
+                <helper type="1" title="#ttSaleBilberrySelectItem" width="300" x="400" y="15" />
+                <helper type="2" target="invBtn" direction="bottom" />
+            </action>
+            <action id="saleItem">
+                <helper type="1" title="#ttSaleBilberrySaleItem" width="300" x="400" y="15" />
+            </action>
+        </step>
+
+        <step id="grownTrees" questId="q9">
+            <action id="default">
+            </action>
+            <action id="selectItem1">
+                <helper type="1" title="#ttAppleTreeSelectItem" width="300" x="400" y="15" />
+                <helper type="2" target="marketBtn" direction="bottom" />
+            </action>
+            <action id="buyItem">
+                <helper type="1" title="#ttAppleTreeBuyItem" width="300" x="400" y="15" />
+            </action>
+            <action id="placeItem">
+                <helper type="1" title="#ttAppleTreePlaceItem" width="300" x="400" y="15" />
+            </action>
+            
+        </step>
+
+        <step id="buildKitchen" questId="q10">
+            <action id="default">
+            </action>
+            <action id="selectItem1">
+                <helper type="1" title="#ttBuyKitchenSelectItem" width="300" x="400" y="15" />
+                <helper type="2" target="marketBtn" direction="bottom" />
+            </action>
+            <action id="buyItem">
+                <helper type="1" title="#ttBuyKitchenBuyItem" width="300" x="400" y="15" />
+            </action>
+            <action id="placeItem">
+                <helper type="1" title="#ttBuyKitchenPlaceItem" width="300" x="400" y="15" />
+            </action>
+        </step>
+
+        <step id="upgradeKitchen" questId="q11">
+            <action id="default">
+            </action>
+            <action id="selectItem1">
+                <helper type="1" title="#ttUpgradeKitchenDialog" width="300" x="400" y="15" />
+            </action>
+            <action id="upgradeItem1">
+                <helper type="1" title="#ttUpgradeKitchenAction" width="600" x="100" y="15" />
+            </action>
+            <action id="selectItem2">
+                <helper type="1" title="#ttUpgradeKitchen2Dialog" width="300" x="400" y="15" />
+            </action>
+            <action id="upgradeItem2">
+                <helper type="1" title="#ttUpgradeKitchenAction" width="600" x="100" y="15" />
+            </action>
+        </step>
+
+        <step id="produceBilberries" questId="q12">
+            <action id="default">
+            </action>
+            <action id="selectItem1">
+                <helper type="1" title="#ttProduceBilberriesCraftDialog" width="300" x="400" y="15" />
+            </action>
+            <action id="afterselectItem1">
+                <helper type="1" title="#ttProduceBilberriesSelectItem" width="300" x="400" y="15" />
+            </action>
+        </step>
+
+        <step id="expandIsland" questId="q13">
+            <action id="default">
+            </action>
+            <action id="expandIsland">
+                <helper type="1" title="#ttExpandIsland" width="300" x="100" y="15" />
+                <helper type="3" x="21" y="41" />
+            </action>
+        </step>
+
+        <step id="buildPetHouse" questId="q14">
+            <action id="default">
+            </action>
+            <action id="selectItem1">
+                <helper type="1" title="#ttBuyPetHouseSelectItem" width="300" x="400" y="15" />
+                <helper type="2" target="marketBtn" direction="bottom" />
+            </action>
+            <action id="buyItem">
+                <helper type="1" title="#ttBuyPetHouseBuyItem" width="300" x="400" y="15" />
+            </action>
+            <action id="placeItem">
+                <helper type="1" title="#ttBuyPetHousePlaceItem" width="300" x="400" y="15" />
+            </action>
+        </step>
+        
+        <step id="upgradePetHouse" questId="q15">
+            <action id="default">
+            </action>
+            <action id="selectItem1">
+                <helper type="1" title="#ttUpgradePetHouseDialog" width="300" x="400" y="15" />
+            </action>
+            <action id="upgradeItem1">
+                <helper type="1" title="#ttUpgradePetHouseAction" width="500" x="200" y="15" />
+            </action>
+        </step>
+        
+        <step id="buyPet" questId="q16">
+            <action id="default">
+            </action>
+            <action id="selectItem1">
+                <helper type="1" title="#ttBuyPetSelectItem" width="300" x="400" y="15" />
+                <helper type="2" target="marketPetBtn" direction="bottom" />
+            </action>
+            <action id="buyItem">
+                <helper type="1" title="#ttPetBuyItem" width="600" x="100" y="15" />
+            </action>
+        </step>
+
+        <step id="interractPet" questId="q17">
+            <action id="default">
+            </action>
+            <action id="useItem1">
+                <helper type="1" title="#ttUseBallItem" width="500" x="200" y="15" />
+            </action>
+            <action id="useItem2">
+                <helper type="1" title="#ttUseVSaladItem" width="500" x="200" y="15" />
+            </action>
+            <action id="useItem3">
+                <helper type="1" title="#ttUseBrushItem" width="500" x="200" y="15" />
+            </action>
+        </step>
+
+<!-- 
+
+        <step id="getPet" questId="q11">
+            <action id="default">
+            </action>
+            <action id="selectItem1">
+                <helper type="1" title="#ttGetPetSelectItem" width="300" x="100" y="15" />
+                <helper type="3" x="73" y="28" />
+            </action>
+            <action id="buyItem">
+                <helper type="1" title="#ttGetPetBuyItem" width="300" x="400" y="15" />
+            </action>
+            <action id="petNewName">
+                <helper type="1" title="#ttGetPetNewName" width="300" x="400" y="15" />
+            </action>
+        </step>
+ -->
+         
+    </steps>
+    
+</config>

@@ -1,0 +1,1382 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+
+    <characters>
+    
+        <!-- крокодил, который охраняет сундук -->
+        <npc id="npc1" skin="NpcChestSilverSW">
+            <dimension width="2" length="1" height="1" />
+            <step index="0" frame="f1" title="#npc1Step0Title" description="#npc1Step0Desc">
+                <price>
+                    <item typeId="bluebGrt" count="5"/>
+                    <item typeId="sprtscns" count="3"/>
+                </price>
+                <award gold="1" exp="10" />
+                <pet wx="-0.8" wy="0" typeId="petCrdl" direction="S">
+                    <animation name="PetSit" />
+                </pet>
+            </step>
+            <step index="1" frame="f1" onComplete="hide" title="#npc1Step1Title" 
+            	icon="NpcChestSilverIcon@islandFarmLocation" description="#npc1Step1Desc">
+                <price silver="100">
+                    <item typeId="tlbx" count="2"/>
+                </price>
+                <award gold="2" exp="25">
+                    <item typeId="glss" count="1" />
+                </award>
+            </step>
+        </npc>
+
+        <!-- сундук -->
+        <npc id="npc2" skin="NpcChestCopperSW" icon="NpcChestCopperIcon@islandFarmLocation">
+            <dimension width="1" length="1" height="1" />
+            <step index="0" frame="f1" title="#npc2Step0Title" description="#npc2Step0Desc">
+                <price silver="250">
+                    <item typeId="tlbx" count="3"/>
+                </price>
+                <award gold="3" exp="25">
+                    <item typeId="appJuice" count="1" />
+                </award>
+            </step>
+            <step index="1" frame="f1" onComplete="hide" title="#npc2Step1Title" 
+            	icon="NpcChestGoldIcon@islandFarmLocation" description="#npc2Step1Desc">
+                <price silver="400">
+                    <item typeId="tlbx" count="5"/>
+                </price>
+                <award gold="7" exp="30" />
+            </step>
+        </npc>
+
+        <!-- голодный лемур -->
+        <npc id="npc3">
+            <dimension width="1" length="1" height="1" />
+            <step index="0" frame="f1" title="#npc3Step0Title" description="#npc3Step0Desc">
+                <price>
+                    <item typeId="peach" count="2"/>
+                    <item typeId="grp" count="7"/>
+                    <item typeId="apct" count="3"/>
+                </price>
+                <award exp="20" energy="3" />
+                <pet wx="0" wy="0" typeId="petLmr" direction="SW">
+                    <animation name="PetSad" />
+                </pet>
+            </step>
+            <step index="1" frame="f1" title="#npc3Step1Title" description="#npc3Step1Desc">
+                <price>
+                    <item typeId="wd" count="10"/>
+                    <item typeId="lnfb" count="1"/>
+                    <item typeId="brd" count="4"/>
+                </price>
+                <award exp="30" energy="5" />
+                <pet wx="0" wy="0" typeId="petLmr" direction="SW">
+                    <animation name="PetJumpOnPlace" />
+                </pet>
+            </step>
+            <step index="2" frame="f1" onComplete="hide" title="#npc3Step2Title" description="#npc3Step2Desc">
+                <price>
+                    <item typeId="blckb" count="10"/>
+                    <item typeId="chr" count="5"/>
+                    <item typeId="frBerries" count="3"/>
+                </price>
+                <award exp="50">
+                    <item typeId="ttm" count="1" />
+                </award>
+                <pet wx="0" wy="0" typeId="petLmr" direction="SW">
+                    <animation name="PetRun" />
+                </pet>
+            </step>
+        </npc>
+
+        <!-- 2 сундука, которые охраняет тушканчег -->
+        <npc id="npc4" skin="Npc4SW">
+            <dimension width="1" length="2" height="1" />
+            <step index="0" frame="f1" title="#npc4Step0Title" description="#npc4Step0Desc">
+                <price gold="1" />
+                <award silver="1" exp="25" />
+                <pet wx="-0.2" wy="0.6" typeId="petJba" direction="SW">
+                    <animation name="PetSad" />
+                </pet>
+            </step>
+            <step index="1" frame="f1" title="#npc4Step1Title" description="#npc4Step1Desc">
+                <price gold="1" />
+                <award silver="1" exp="25" />
+                <pet wx="-0.2" wy="0.6" typeId="petJba" direction="SW">
+                    <animation name="PetSit" />
+                </pet>
+            </step>
+            <step index="2" frame="f1" title="#npc4Step2Title" description="#npc4Step2Desc">
+                <price>
+                	<item typeId="frSyrup" count="1"/>
+                	<item typeId="sturgFishSoup" count="1"/>
+                	<item typeId="pinappJuice" count="1"/>
+                </price>
+                <award energy="5" exp="30" />
+                <pet wx="-0.2" wy="0.6" typeId="petJba" direction="SW">
+                    <animation name="PetSit" />
+                </pet>
+            </step>
+            <step index="3" frame="f1" title="#npc4Step3Title" description="#npc4Step3Desc"
+            	icon="NpcChestCopperIcon@islandFarmLocation">
+                <price silver="600">
+                	<item typeId="tlbx" count="5"/>
+                </price>
+                <award energy="5" exp="40">
+                	<item typeId="rdwd" count="2"/>
+                </award>
+            </step>
+            <step index="4" frame="f1" title="#npc4Step4Title" description="#npc4Step4Desc" onComplete="hide" 
+            	icon="NpcChestGoldIcon@islandFarmLocation">
+                <price silver="900">
+                	<item typeId="tlbx" count="7"/>
+                	<item typeId="ttm" count="1"/>
+                </price>
+                <award gold="10" exp="50">
+                	<item typeId="lnfb" count="1"/>
+                </award>
+            </step>
+        </npc>
+
+        <!-- заболевший котенок -->
+        <npc id="npc5">
+            <dimension width="1" length="1" height="1" />
+            <step index="0" frame="f1" title="#npc5Step0Title" description="#npc5Step0Desc">
+                <price>
+                    <item typeId="lnfb" count="1"/>
+                    <item typeId="ctfb" count="1"/>
+                    <item typeId="tinctOfAloes" count="2"/>
+                </price>
+                <award exp="25">
+                    <item typeId="aniseSyrup" count="1" />
+                    <item typeId="teaWRsp" count="1" />
+                </award>
+                <pet wx="0" wy="0" typeId="petKttn" direction="SE">
+                    <animation name="PetSad" />
+                </pet>
+            </step>
+            <step index="1" frame="f1" title="#npc5Step1Title" description="#npc5Step1Desc">
+                <price>
+                    <item typeId="fishMix" count="3"/>
+                    <item typeId="frSalad" count="3"/>
+                    <item typeId="fjJuice" count="3"/>
+                </price>
+                <award exp="40">
+                    <item typeId="fishPlate" count="1" />
+                    <item typeId="tinFood" count="1" />
+                </award>
+                <pet wx="0" wy="0" typeId="petKttn" direction="SE">
+                    <animation name="PetSad" />
+                </pet>
+            </step>
+            <step index="2" frame="f1" title="#npc5Step2Title" description="#npc5Step2Desc" onComplete="hide">
+                <price>
+                    <item typeId="wd" count="8"/>
+                    <item typeId="brd" count="4"/>
+                    <item typeId="lnfb" count="3"/>
+                </price>
+                <award exp="35" gold="3">
+                    <item typeId="tunBaked" count="1" />
+                </award>
+                <pet wx="0" wy="0" typeId="petKttn" direction="SE">
+                    <animation name="PetSit" />
+                </pet>
+            </step>
+        </npc>
+    
+        <!-- сундук -->
+        <npc id="npc6" skin="NpcChestCopperSE" icon="NpcChestCopperIcon@islandFarmLocation">
+            <dimension width="1" length="1" height="1" />
+            <step index="0" frame="f1" title="#npc6Title" description="#npc6Step0Desc">
+                <price gold="1" />
+                <award gold="5" exp="30" />
+            </step>
+            <step index="1" frame="f1" title="#npc6Title" description="#npc6Step1Desc" onComplete="hide">
+                <price gold="5" />
+                <award gold="20" exp="50" />
+            </step>
+        </npc>
+
+        <!-- аватар-мальчик, охраняющий сундук -->
+        <npc id="npc8" skin="NpcChestGoldSW" icon="NpcChestGoldIcon@islandFarmLocation">
+            <dimension width="1" length="1" height="3" />
+            <step index="0" frame="f1" title="#npc8Title" description="#npc8Step0Desc">
+                <price>
+                    <item typeId="brd" count="20"/>
+                    <item typeId="lnfb" count="7"/>
+                    <item typeId="ctfb" count="3"/>
+                </price>
+                <award gold="5" exp="50" />
+                <avatar wx="-0.5" wy="0.1" sex="1" direction="SE">
+                    <clothes name="TShirtTropikaniaAfrica" />
+                    <clothes name="ShortsTropikaniaHawaii" />
+                    <clothes name="SandalsTropikaniaParrot" />
+                </avatar>
+            </step>
+            <step index="1" frame="f1" title="#npc8Title" description="#npc8Step1Desc">
+                <price>
+                    <item typeId="irn" count="1"/>
+                    <item typeId="stl" count="1"/>
+                </price>
+                <award exp="45">
+                	<item typeId="ttm" count="1"/>
+                </award>
+                <avatar wx="-0.5" wy="0.1" sex="1" direction="SE">
+                    <clothes name="TShirtTropikaniaAfrica" />
+                    <clothes name="ShortsTropikaniaHawaii" />
+                    <clothes name="SandalsTropikaniaParrot" />
+                </avatar>
+            </step>
+            <step index="2" frame="f1" title="#npc8Title" description="#npc8Step2Desc">
+                <price silver="500">
+                    <item typeId="app" count="20"/>
+                </price>
+                <award exp="55">
+                	<item typeId="appJuice" count="7"/>
+                </award>
+                <avatar wx="-0.5" wy="0.1" sex="1" direction="SE">
+                    <clothes name="TShirtTropikaniaAfrica" />
+                    <clothes name="ShortsTropikaniaHawaii" />
+                    <clothes name="SandalsTropikaniaParrot" />
+                </avatar>
+            </step>
+            <step index="3" frame="f1" title="#npc8Title" description="#npc8Step3Desc">
+                <price silver="1000">
+                    <item typeId="tun" count="2"/>
+                    <item typeId="pnp" count="3"/>
+                </price>
+                <award exp="50" energy="5">
+                	<item typeId="tunBaked" count="1"/>
+                </award>
+                <avatar wx="-0.5" wy="0.1" sex="1" direction="SE">
+                    <clothes name="TShirtTropikaniaAfrica" />
+                    <clothes name="ShortsTropikaniaHawaii" />
+                    <clothes name="SandalsTropikaniaParrot" />
+                </avatar>
+            </step>
+            <step index="4" frame="f1" title="#npc8Title" description="#npc8Step4Desc">
+                <price>
+                    <item typeId="lnfb" count="3"/>
+                    <item typeId="ctfb" count="1"/>
+                </price>
+                <award exp="50" gold="8" />
+                <avatar wx="-0.5" wy="0.1" sex="1" direction="SE">
+                    <clothes name="TShirtTropikaniaAfrica" />
+                    <clothes name="ShortsTropikaniaHawaii" />
+                    <clothes name="SandalsTropikaniaParrot" />
+                </avatar>
+            </step>
+            <step index="5" frame="f1" title="#npc8Title" description="#npc8Step5Desc">
+                <price>
+                    <item typeId="frt1" count="15"/>
+                    <item typeId="frt4" count="10"/>
+                </price>
+                <award exp="70" gold="8" />
+                <avatar wx="-0.5" wy="0.1" sex="1" direction="SE">
+                    <clothes name="TShirtTropikaniaParrot" />
+                    <clothes name="PantsTropikaniaAfrica" />
+                    <clothes name="SandalsTropikaniaParrot" />
+                </avatar>
+            </step>
+            <step index="6" frame="f1" title="#npc8Title" description="#npc8Step6Desc">
+                <price silver="1500">
+                    <item typeId="frt1" count="10"/>
+                    <item typeId="frt4" count="5"/>
+                </price>
+                <award exp="60">
+                	<item typeId="frt3" count="10"/>
+                	<item typeId="frt6" count="5"/>
+                </award>
+                <avatar wx="-0.5" wy="0.1" sex="1" direction="SE">
+                    <clothes name="TShirtTropikaniaParrot" />
+                    <clothes name="PantsTropikaniaAfrica" />
+                    <clothes name="SandalsTropikaniaParrot" />
+                </avatar>
+            </step>
+            <step index="7" frame="f1" title="#npc8Title" description="#npc8Step7Desc">
+                <price>
+                    <item typeId="tlbx" count="15"/>
+                </price>
+                <award exp="65" gold="25" />
+                <avatar wx="-0.5" wy="0.1" sex="1" direction="SE">
+                    <clothes name="TShirtTropikaniaParrot" />
+                    <clothes name="PantsTropikaniaAfrica" />
+                    <clothes name="SandalsTropikaniaParrot" />
+                </avatar>
+            </step>
+            <step index="8" frame="f1" title="#npc8Title" description="#npc8Step8Desc">
+                <price>
+                    <item typeId="driedSqd" count="5"/>
+                    <item typeId="banChips" count="3"/>
+                    <item typeId="fishMix" count="5"/>
+                </price>
+                <award exp="75" gold="50" />
+                <avatar wx="-0.5" wy="0.1" sex="1" direction="SE">
+                    <clothes name="TShirtTropikaniaParrot" />
+                    <clothes name="PantsTropikaniaAfrica" />
+                    <clothes name="SandalsTropikaniaParrot" />
+                </avatar>
+            </step>
+            <step index="9" frame="f1" title="#npc8Step9Title" description="#npc8Step9Desc" onComplete="hide">
+                <price>
+                    <item typeId="tlbx" count="5"/>
+                </price>
+                <award exp="50">
+                	<item typeId="tropCock" count="1"/>
+                	<item typeId="aniseNect" count="3"/>
+                </award>
+            </step>
+        </npc>
+
+        <!-- голодный минипиг -->
+        <npc id="npc9">
+            <dimension width="2" length="2" height="1.2" />
+            <step index="0" frame="f1" title="#npc9Title" description="#npc9Step0Desc">
+                <price>
+                    <item typeId="shrimpSoup" count="1"/>
+                    <item typeId="fishMix" count="1"/>
+                    <item typeId="frSalad" count="1"/>
+                </price>
+                <award energy="25" exp="50" />
+                <pet wx="0" wy="0" typeId="petMPg" direction="SE">
+                    <animation name="PetStand" />
+                </pet>
+            </step>
+            <step index="1" frame="f1" title="#npc9Title" description="#npc9Step1Desc">
+                <price>
+                    <item typeId="cocMilk" count="1"/>
+                    <item typeId="cranbWtr" count="1"/>
+                    <item typeId="cocktWAloe" count="1"/>
+                </price>
+                <award energy="25" exp="50" />
+                <pet wx="0" wy="0" typeId="petMPg" direction="SE">
+                    <animation name="PetStand" />
+                </pet>
+            </step>
+            <step index="2" frame="f1" title="#npc9Title" description="#npc9Step2Desc" onComplete="hide">
+                <price>
+                    <item typeId="banChips" count="1"/>
+                    <item typeId="strbJam" count="1"/>
+                    <item typeId="plumJam" count="1"/>
+                </price>
+                <award gold="15" exp="60" />
+                <pet wx="0" wy="0" typeId="petMPg" direction="SE">
+                    <animation name="PetStand" />
+                </pet>
+            </step>
+        </npc>
+
+        <!-- сундук -->
+        <npc id="npc10" skin="NpcChestSilverSW" icon="NpcChestSilverIcon@islandFarmLocation">
+            <dimension width="2" length="2" height="1.2" />
+            <step index="0" frame="f1" title="#npc10Step0Title" description="#npc10Step0Desc">
+                <price silver="650">
+                    <item typeId="tlbx" count="5"/>
+                    <item typeId="ttm" count="1"/>
+                </price>
+                <award exp="50" energy="25" />
+            </step>
+            <step index="1" frame="f1" title="#npc10Step1Title" description="#npc10Step1Desc" onComplete="hide">
+                <price silver="900">
+                    <item typeId="tlbx" count="7"/>
+                    <item typeId="ttm" count="1"/>
+                </price>
+                <award exp="75" gold="25" />
+            </step>
+        </npc>
+
+        <!-- розовое существо, охраняющее сундук -->
+        <npc id="npc11" skin="NpcChestCopperSW">
+            <dimension width="1" length="1" height="1.2" />
+            <step index="0" frame="f1" title="#npc11Step0Title" description="#npc11Step0Desc">
+                <price>
+                    <item typeId="ppya" count="3"/>
+                    <item typeId="bnn" count="6"/>
+                    <item typeId="mirl" count="2"/>
+                </price>
+                <award exp="50" energy="30" />
+                <pet wx="-0.5" wy="0.1" typeId="petPkBll" direction="SE">
+                    <animation name="PetStand" />
+                </pet>
+            </step>
+            <step index="1" frame="f1" title="#npc11Step1Title" description="#npc11Step1Desc">
+                <price>
+                    <item typeId="pTBll" count="15"/>
+                    <item typeId="pTFbee" count="15"/>
+                    <item typeId="pBrsh" count="15"/>
+                </price>
+                <award exp="35" energy="15" />
+                <pet wx="-0.5" wy="0.1" typeId="petPkBll" direction="SE">
+                    <animation name="PetStand" />
+                </pet>
+            </step>
+            <step index="2" frame="f1" title="#npc11Step2Title" description="#npc11Step2Desc" onComplete="hide">
+                <price>
+                    <item typeId="mirl" count="5"/>
+                    <item typeId="ccnt" count="8"/>
+                    <item typeId="bnn" count="15"/>
+                </price>
+                <award exp="75" gold="6">
+                	<item typeId="rdwd" count="3"/>
+                </award>
+                <pet wx="-0.5" wy="0.1" typeId="petPkBll" direction="SE">
+                    <animation name="PetStand" />
+                </pet>
+            </step>
+        </npc>
+
+        <!-- сундук 1 в зарослях -->
+        <npc id="npc12" skin="NpcChestGoldSE" icon="NpcChestGoldIcon@islandFarmLocation">
+            <dimension width="1" length="1" height="1" />
+            <step index="0" frame="f1" title="#npc12Step0Title" description="#npc12Step0Desc" onComplete="hide">
+                <price silver="750">
+                    <item typeId="tlbx" count="5"/>
+                </price>
+                <award gold="5" exp="45">
+                    <item typeId="grnt" count="2" />
+                </award>
+            </step>
+        </npc>
+
+        <!-- сундук 2 в зарослях -->
+        <npc id="npc13" skin="NpcChestCopperSW" icon="NpcChestCopperIcon@islandFarmLocation">
+            <dimension width="1" length="1" height="1" />
+            <step index="0" frame="f1" title="#npc13Step0Title" description="#npc13Step0Desc" onComplete="hide">
+                <price>
+                    <item typeId="tlbx" count="2"/>
+                </price>
+                <award exp="25">
+                    <item typeId="lnfb" count="1" />
+                    <item typeId="frt21" count="3" />
+                </award>
+            </step>
+        </npc>
+
+        <!-- сундук 3 в зарослях -->
+        <npc id="npc14" skin="NpcChestSilverSE" icon="NpcChestSilverIcon@islandFarmLocation">
+            <dimension width="1" length="1" height="1.2" />
+            <step index="0" frame="f1" title="#npc14Step0Title" description="#npc14Step0Desc" onComplete="hide">
+                <price silver="1750">
+                    <item typeId="tlbx" count="12"/>
+                </price>
+                <award gold="10" exp="80">
+                    <item typeId="stl" count="1" />
+                </award>
+            </step>
+        </npc>
+
+        <!-- заболевший крокодил -->
+        <npc id="npc15">
+            <dimension width="1" length="1" height="1.2" />
+            <step index="0" frame="f1" title="#npc15Step0Title" description="#npc15Step0Desc">
+                <price>
+                    <item typeId="pMix" count="10"/>
+                    <item typeId="aniseNect" count="1"/>
+                    <item typeId="tinctOfAloes" count="1"/>
+                </price>
+                <award exp="85" energy="10">
+                    <item typeId="sqd" count="5" />
+                </award>
+                <pet wx="0" wy="0" typeId="petCrdl" direction="SW">
+                    <animation name="PetSad" />
+                </pet>
+            </step>
+            <step index="1" frame="f1" title="#npc15Step1Title" description="#npc15Step1Desc">
+                <price>
+                    <item typeId="staffShfish" count="5"/>
+                    <item typeId="fishMix" count="3"/>
+                    <item typeId="mirl" count="3"/>
+                </price>
+                <award exp="80" energy="15">
+                    <item typeId="sqd" count="10" />
+                </award>
+                <pet wx="0" wy="0" typeId="petCrdl" direction="SW">
+                    <animation name="PetSad" />
+                </pet>
+            </step>
+            <step index="2" frame="f1" title="#npc15Step2Title" description="#npc15Step2Desc" onComplete="hide">
+                <price>
+                    <item typeId="driedSqd" count="3"/>
+                    <item typeId="seaCockt" count="1"/>
+                    <item typeId="delicPuree" count="1"/>
+                </price>
+                <award exp="100" energy="25">
+                    <item typeId="sturgInSyrup" count="1" />
+                </award>
+                <pet wx="0" wy="0" typeId="petCrdl" direction="SW">
+                    <animation name="PetSad" />
+                </pet>
+            </step>
+        </npc>
+
+        <!-- бульдог, охраняющий 2 сундука -->
+        <npc id="npc16" skin="Npc16SW">
+            <dimension width="2" length="2" height="1.2" />
+            <step index="0" frame="f1" title="#npc16Step0Title" description="#npc16Step0Desc">
+                <price>
+                    <item typeId="pBbq" count="1"/>
+                    <item typeId="shrimpSoup" count="1"/>
+                    <item typeId="currtJelly" count="1"/>
+                </price>
+                <award exp="90" energy="15">
+                    <item typeId="lnfb" count="1" />
+                </award>
+                <pet wx="-0.5" wy="1.1" typeId="petBld" direction="SE">
+                    <animation name="PetSit" />
+                </pet>
+            </step>
+            <step index="1" frame="f1" title="#npc16Step1Title" description="#npc16Step1Desc">
+                <price>
+                    <item typeId="pBbq" count="1"/>
+                    <item typeId="sturgFishSoup" count="1"/>
+                    <item typeId="banChips" count="1"/>
+                </price>
+                <award exp="90" energy="15">
+                    <item typeId="stl" count="1" />
+                </award>
+                <pet wx="-0.5" wy="1.1" typeId="petBld" direction="SE">
+                    <animation name="PetSit" />
+                </pet>
+            </step>
+            <step index="2" frame="f1" title="#npc16Step2Title" description="#npc16Step2Desc">
+                <price>
+                    <item typeId="pBbq" count="3"/>
+                    <item typeId="stuffPike" count="3"/>
+                    <item typeId="strbJam" count="5"/>
+                </price>
+                <award exp="120" energy="25">
+                    <item typeId="ttm" count="1" />
+                </award>
+                <pet wx="-0.5" wy="1.1" typeId="petBld" direction="SE">
+                    <animation name="PetSit" />
+                </pet>
+            </step>
+            <step index="3" frame="f1" title="#npc16Step34Title" description="#npc16Step34Desc"
+            	 icon="NpcChestSilverIcon@islandFarmLocation">
+                <price silver="450">
+                    <item typeId="tlbx" count="3"/>
+                </price>
+                <award exp="135">
+                    <item typeId="irn" count="3" />
+                    <item typeId="grnt" count="5" />
+                </award>
+            </step>
+            <step index="4" frame="f1" title="#npc16Step34Title" description="#npc16Step34Desc" onComplete="hide"
+            	icon="NpcChestSilverIcon@islandFarmLocation">
+                <price silver="700">
+                    <item typeId="tlbx" count="5"/>
+                </price>
+                <award exp="150">
+                    <item typeId="frt12" count="8" />
+                    <item typeId="frt15" count="6" />
+                </award>
+            </step>
+        </npc>
+
+        <!-- аватар-девочка -->
+        <npc id="npc17">
+            <dimension width="1" length="1" height="3" />
+            <step index="0" frame="f1" title="#npc17Step0Title" description="#npc17Step0Desc">
+                <price gold="0" silver="0">
+                    <item typeId="ttm" count="7"/>
+                </price>
+                <award gold="30" silver="0" exp="150">
+                    <item typeId="pMix" count="30" />
+                </award>
+                <avatar wx="0" wy="0" sex="2" direction="SE">
+                    <clothes name="SandalsTropikaniaHawaii" />
+                    <clothes name="BrasletTropikaniaHawaii" />
+                    <clothes name="ScarfTropikaniaHawaii" />
+                    <clothes name="TopTropikaniaHawaii" />
+                    <clothes name="SkirtTropikaniaHawaii" />
+                </avatar>
+            </step>
+            <step index="1" frame="f1" title="#npc17Step1Title" description="#npc17Step1Desc">
+                <price gold="0" silver="0">
+                    <item typeId="bnn" count="20"/>
+                    <item typeId="ccnt" count="12"/>
+                    <item typeId="ppya" count="10"/>
+                </price>
+                <award gold="15" silver="0" exp="135">
+                    <item typeId="ttm" count="1" />
+                </award>
+                <avatar wx="0" wy="0" sex="2" direction="SE">
+                    <clothes name="SandalsTropikaniaHawaii" />
+                    <clothes name="BrasletTropikaniaHawaii" />
+                    <clothes name="ScarfTropikaniaHawaii" />
+                    <clothes name="TopTropikaniaHawaii" />
+                    <clothes name="SkirtTropikaniaHawaii" />
+                </avatar>
+            </step>
+            <step index="2" frame="f1" title="#npc17Step2Title" description="#npc17Step2Desc" onComplete="hide">
+                <price gold="0" silver="0">
+                    <item typeId="wd" count="50"/>
+                    <item typeId="tlbx" count="10"/>
+                    <item typeId="brd" count="15"/>
+                </price>
+                <award gold="20" energy="25" exp="140" />
+                <avatar wx="0" wy="0" sex="2" direction="SE">
+                    <clothes name="SandalsTropikaniaHawaii" />
+                    <clothes name="BrasletTropikaniaHawaii" />
+                    <clothes name="ScarfTropikaniaHawaii" />
+                    <clothes name="TopTropikaniaHawaii" />
+                    <clothes name="SkirtTropikaniaHawaii" />
+                </avatar>
+            </step>
+        </npc>
+
+        <!-- крокодил 1 охраняет свой сундук -->
+        <npc id="npc18" skin="NpcChestGoldSW" icon="NpcChestGoldIcon@islandFarmLocation">
+            <dimension width="2" length="1" height="1" />
+            <step index="0" frame="f1" title="#npc18Step0Title" description="#npc18Step0Desc">
+                <price gold="0" silver="0">
+                    <item typeId="fishMix" count="3"/>
+                    <item typeId="driedSqd" count="3"/>
+                    <item typeId="sturgFishSoup" count="3"/>
+                </price>
+                <award gold="0" silver="0" exp="135">
+                    <item typeId="ccnt" count="5" />
+                    <item typeId="ppya" count="3" />
+                </award>
+                <pet wx="-0.8" wy="0" typeId="petCrdl" direction="S">
+                    <animation name="PetSad" />
+                </pet>
+            </step>
+            <step index="1" frame="f1" title="#npc18Step1Title" description="#npc18Step1Desc">
+                <price gold="0" silver="10000">
+                    <item typeId="shrimpSoup" count="3"/>
+                    <item typeId="crOfPapaya" count="1"/>
+                </price>
+                <award gold="0" energy="25" exp="150">
+                    <item typeId="bnn" count="5" />
+                </award>
+                <pet wx="-0.8" wy="0" typeId="petCrdl" direction="S">
+                    <animation name="PetSad" />
+                </pet>
+            </step>
+            <step index="2" frame="f1" title="#npc18Step2Title" description="#npc18Step2Desc" onComplete="hide">
+                <price gold="0" silver="1500">
+                    <item typeId="tlbx" count="10"/>
+                </price>
+                <award gold="15" silver="0" exp="135">
+                    <item typeId="stl" count="2" />
+                </award>
+            </step>
+        </npc>
+
+        <!-- крокодил 2 охраняет свой сундук -->
+        <npc id="npc19" skin="NpcChestSilverSW" icon="NpcChestSilverIcon@islandFarmLocation">
+            <dimension width="1" length="2" height="1" />
+            <step index="0" frame="f1" title="#npc19Step0Title" description="#npc19Step0Desc">
+                <price gold="0" silver="0">
+                    <item typeId="brd" count="15"/>
+                    <item typeId="tlbx" count="5"/>
+                    <item typeId="wd" count="25"/>
+                </price>
+                <award gold="0" silver="0" exp="120">
+                    <item typeId="sturgInSyrup" count="1" />
+                    <item typeId="tunBaked" count="1" />
+                </award>
+                <pet wx="-0.8" wy="0.2" typeId="petCrdl" direction="SE">
+                    <animation name="PetSad" />
+                </pet>
+            </step>
+            <step index="1" frame="f1" title="#npc19Step1Title" description="#npc19Step1Desc">
+                <price gold="0" silver="0">
+                    <item typeId="cocMilk" count="3"/>
+                    <item typeId="tropCock" count="1"/>
+                    <item typeId="cranbWtr" count="5"/>
+                </price>
+                <award gold="7" silver="0" exp="135">
+                    <item typeId="ctfb" count="1" />
+                </award>
+                <pet wx="-0.8" wy="0.2" typeId="petCrdl" direction="SE">
+                    <animation name="PetSad" />
+                </pet>
+            </step>
+            <step index="2" frame="f1" title="#npc19Step2Title" description="#npc19Step2Desc">
+                <price gold="0" silver="0">
+                    <item typeId="fjJuice" count="5"/>
+                    <item typeId="frDrink" count="3"/>
+                    <item typeId="frBerries" count="7"/>
+                </price>
+                <award gold="5" silver="0" exp="120">
+                    <item typeId="pBbq" count="5" />
+                </award>
+                <pet wx="-0.8" wy="0.2" typeId="petCrdl" direction="SE">
+                    <animation name="PetSad" />
+                </pet>
+            </step>
+            <step index="3" frame="f1" title="#npc19Step3Title" description="#npc19Step3Desc" onComplete="hide">
+                <price gold="0" silver="1700">
+                    <item typeId="tlbx" count="12"/>
+                    <item typeId="ttm" count="1"/>
+                </price>
+                <award gold="0" silver="0" exp="155">
+                    <item typeId="frt14" count="10" />
+                    <item typeId="pTFbee" count="25" />
+                </award>
+            </step>
+        </npc>
+
+        <!-- крокодил 3 охраняет свой сундук -->
+        <npc id="npc20" skin="NpcChestCopperSW" icon="NpcChestCopperIcon@islandFarmLocation">
+            <dimension width="2" length="1" height="1" />
+            <step index="0" frame="f1" title="#npc20Step0Title" description="#npc20Step0Desc">
+                <price gold="0" silver="0">
+                    <item typeId="tlbx" count="5"/>
+                    <item typeId="irn" count="3"/>
+                    <item typeId="stl" count="2"/>
+                </price>
+                <award gold="0" silver="0" exp="200">
+                    <item typeId="frt11" count="15" />
+                    <item typeId="shr" count="15" />
+                </award>
+                <pet wx="-0.8" wy="0" typeId="petCrdl" direction="SE">
+                    <animation name="PetSad" />
+                </pet>
+            </step>
+            <step index="1" frame="f1" title="#npc20Step1Title" description="#npc20Step1Desc">
+                <price gold="0" silver="0">
+                    <item typeId="cocktWAloe" count="1"/>
+                    <item typeId="frSyrup" count="1"/>
+                    <item typeId="sturgInSyrup" count="1"/>
+                </price>
+                <award gold="0" silver="0" exp="175">
+                    <item typeId="stgn" count="5" />
+                    <item typeId="anise" count="3" />
+                </award>
+                <pet wx="-0.8" wy="0" typeId="petCrdl" direction="SE">
+                    <animation name="PetSad" />
+                </pet>
+            </step>
+            <step index="2" frame="f1" title="#npc20Step2Title" description="#npc20Step2Desc" onComplete="hide">
+                <price gold="0" silver="0">
+                    <item typeId="tlbx" count="25"/>
+                    <item typeId="mirl" count="10"/>
+                    <item typeId="mMoss" count="5"/>
+                </price>
+                <award gold="0" energy="15" exp="215">
+                    <item typeId="ttm" count="3" />
+                </award>
+            </step>
+        </npc>
+
+        <!-- голодный лемур 1 -->
+        <npc id="npc21">
+            <dimension width="1" length="1" height="1" />
+            <step index="0" frame="f1" title="#npc21Step0Title" description="#npc21Step0Desc" onComplete="hide">
+                <price gold="0" silver="0">
+                    <item typeId="sprtscns" count="3"/>
+                    <item typeId="app" count="5"/>
+                    <item typeId="pear" count="3"/>
+                </price>
+                <award gold="2" energy="5" exp="125" />
+                <pet wx="0" wy="0" typeId="petLmr" direction="SE">
+                    <animation name="PetSad" />
+                </pet>
+            </step>
+        </npc>
+
+        <!-- голодный лемур 2 -->
+        <npc id="npc22">
+            <dimension width="1" length="1" height="1" />
+            <step index="0" frame="f1" title="#npc21Step0Title" description="#npc21Step0Desc" onComplete="hide">
+                <price gold="0" silver="0">
+                    <item typeId="ppya" count="3"/>
+                    <item typeId="bnn" count="5"/>
+                    <item typeId="shrimpSoup" count="1"/>
+                </price>
+                <award gold="3" energy="10" exp="135" />
+                <pet wx="0" wy="0" typeId="petLmr" direction="SW">
+                    <animation name="PetSad" />
+                </pet>
+            </step>
+        </npc>
+
+        <!-- голодный лемур 3 -->
+        <npc id="npc23">
+            <dimension width="1" length="1" height="1" />
+            <step index="0" frame="f1" title="#npc21Step0Title" description="#npc21Step0Desc" onComplete="hide">
+                <price gold="0" silver="0">
+                    <item typeId="ccnt" count="3"/>
+                    <item typeId="strb" count="10"/>
+                    <item typeId="fishPlate" count="1"/>
+                </price>
+                <award gold="5" energy="10" exp="125" />
+                <pet wx="0" wy="0" typeId="petLmr" direction="SE">
+                    <animation name="PetSad" />
+                </pet>
+            </step>
+        </npc>
+
+        <!-- голодный лемур 4 -->
+        <npc id="npc24">
+            <dimension width="1" length="1" height="1" />
+            <step index="0" frame="f1" title="#npc21Step0Title" description="#npc21Step0Desc" onComplete="hide">
+                <price gold="0" silver="0">
+                    <item typeId="gsb" count="10"/>
+                    <item typeId="frSalad" count="2"/>
+                    <item typeId="plum" count="6"/>
+                </price>
+                <award gold="3" energy="5" exp="125" />
+                <pet wx="0" wy="0" typeId="petLmr" direction="SE">
+                    <animation name="PetSad" />
+                </pet>
+            </step>
+        </npc>
+
+        <!-- голодный лемур 5 -->
+        <npc id="npc25">
+            <dimension width="1" length="1" height="1" />
+            <step index="0" frame="f1" title="#npc21Step0Title" description="#npc21Step0Desc" onComplete="hide">
+                <price gold="0" silver="0">
+                    <item typeId="aniseSyrup" count="1"/>
+                    <item typeId="strbJam" count="1"/>
+                    <item typeId="peach" count="10"/>
+                </price>
+                <award gold="5" energy="10" exp="125" />
+                <pet wx="0" wy="0" typeId="petLmr" direction="SW">
+                    <animation name="PetSad" />
+                </pet>
+            </step>
+        </npc>
+
+        <!-- сундук 1 без охраны -->
+        <npc id="npc26" skin="NpcChestCopperSE" icon="NpcChestCopperIcon@islandFarmLocation">
+            <dimension width="1" length="1" height="1" />
+            <step index="0" frame="f1" title="#npc26Step0Title" description="#npc26Step0Desc" onComplete="hide">
+                <price gold="0" silver="2000">
+                    <item typeId="tlbx" count="20"/>
+                    <item typeId="grnt" count="3"/>
+                </price>
+                <award gold="25" energy="20" exp="180" />
+            </step>
+        </npc>
+
+        <!-- сундук 2 без охраны -->
+        <npc id="npc27" skin="NpcChestCopperSW" icon="NpcChestCopperSW@islandFarmLocation">
+            <dimension width="1" length="1" height="1.2" />
+            <step index="0" frame="f1" title="#npc27Step0Title" description="#npc27Step0Desc" onComplete="hide">
+                <price gold="10" silver="1500">
+                    <item typeId="tlbx" count="15"/>
+                </price>
+                <award gold="35" energy="30" exp="200" />
+            </step>
+        </npc>
+
+        <!-- овчарка охраняет сундук -->
+        <npc id="npc28" skin="NpcChestSilverSE" icon="NpcChestSilverIcon@islandFarmLocation">
+            <dimension width="1" length="2" height="1" />
+            <step index="0" frame="f1" title="#npc28Step0Title" description="#npc28Step0Desc">
+                <price gold="0" silver="0">
+                    <item typeId="tlbx" count="10"/>
+                    <item typeId="brd" count="20"/>
+                    <item typeId="mrbl" count="15"/>
+                </price>
+                <award gold="0" silver="0" exp="215">
+                    <item typeId="pBrsh" count="50" />
+                    <item typeId="pBbq" count="7" />
+                </award>
+                <pet wx="0.4" wy="0.8" typeId="petShpd" direction="SW">
+                    <animation name="PetSad" />
+                </pet>
+            </step>
+            <step index="1" frame="f1" title="#npc28Step1Title" description="#npc28Step1Desc">
+                <price gold="0" silver="0">
+                    <item typeId="tlbx" count="15"/>
+                    <item typeId="brd" count="25"/>
+                    <item typeId="mrbl" count="20"/>
+                </price>
+                <award gold="0" silver="0" exp="225" energy="10">
+                    <item typeId="pShp" count="35" />
+                </award>
+                <pet wx="0.4" wy="0.8" typeId="petShpd" direction="SW">
+                    <animation name="PetSad" />
+                </pet>
+            </step>
+            <step index="2" frame="f1" title="#npc28Step2Title" description="#npc28Step2Desc">
+                <price gold="0" silver="0">
+                    <item typeId="tlbx" count="50"/>
+                    <item typeId="brd" count="75"/>
+                    <item typeId="mrbl" count="60"/>
+                </price>
+                <award gold="35" silver="0" exp="350" energy="40" />
+                <pet wx="0.4" wy="0.8" typeId="petShpd" direction="SW">
+                    <animation name="PetSad" />
+                </pet>
+            </step>
+            <step index="3" frame="f1" title="#npc28Step3Title" description="#npc28Step3Desc">
+                <price gold="0" silver="1500">
+                    <item typeId="tlbx" count="20"/>
+                </price>
+                <award gold="0" silver="0" exp="150" energy="10" />
+            </step>
+            <step index="4" frame="f1" title="#npc28Step4Title" description="#npc28Step4Desc" onComplete="hide">
+                <price gold="0" silver="2500">
+                    <item typeId="tlbx" count="30"/>
+                    <item typeId="ttm" count="1"/>
+                </price>
+                <award gold="0" silver="0" exp="250">
+                	<item typeId="irn" count="3"/>
+                	<item typeId="stl" count="3"/>
+                </award>
+            </step>
+        </npc>
+
+        <!-- далматин охраняет сундук -->
+        <npc id="npc29" skin="NpcChestGoldSW" icon="NpcChestGoldIcon@islandFarmLocation">
+            <dimension width="2" length="1" height="1" />
+            <step index="0" frame="f1" title="#npc29Step0Title" description="#npc29Step0Desc">
+                <price gold="0" silver="0">
+                    <item typeId="currtJelly" count="3"/>
+                    <item typeId="strbJam" count="3"/>
+                    <item typeId="creamOfFj" count="3"/>
+                </price>
+                <award gold="0" silver="0" exp="250" energy="20">
+                    <item typeId="mMoss" count="5" />
+                </award>
+                <pet wx="-0.6" wy="0.2" typeId="petDlm" direction="SW">
+                    <animation name="PetSad" />
+                </pet>
+            </step>
+            <step index="1" frame="f1" title="#npc29Step1Title" description="#npc29Step1Desc">
+                <price gold="0" silver="0">
+                    <item typeId="anise" count="10"/>
+                    <item typeId="clvr" count="50"/>
+                    <item typeId="aloe" count="15"/>
+                </price>
+                <award gold="0" silver="0" exp="235">
+                    <item typeId="aniseNect" count="10" />
+                    <item typeId="pMix" count="15" />
+                </award>
+                <pet wx="-0.6" wy="0.2" typeId="petDlm" direction="SW">
+                    <animation name="PetSad" />
+                </pet>
+            </step>
+            <step index="2" frame="f1" title="#npc29Step2Title" description="#npc29Step2Desc" onComplete="hide">
+                <price gold="0" silver="750">
+                    <item typeId="tlbx" count="10"/>
+                </price>
+                <award gold="0" silver="0" exp="210">
+                    <item typeId="lnfb" count="5" />
+                </award>
+            </step>
+        </npc>
+
+        <!-- бульдог охраняет сундук -->
+        <npc id="npc30" skin="NpcChestSilverSW" icon="NpcChestSilverIcon@islandFarmLocation">
+            <dimension width="2" length="1" height="1" />
+            <step index="0" frame="f1" title="#npc30Step0Title" description="#npc30Step0Desc">
+                <price gold="0" silver="0">
+                    <item typeId="pBbq" count="3"/>
+                    <item typeId="crnb" count="10"/>
+                    <item typeId="frSyrup" count="5"/>
+                </price>
+                <award gold="0" silver="0" exp="230" energy="15">
+                    <item typeId="aniseSyrup" count="3" />
+                </award>
+                <pet wx="-0.6" wy="0.2" typeId="petBld" direction="SW">
+                    <animation name="PetSad" />
+                </pet>
+            </step>
+            <step index="1" frame="f1" title="#npc30Step1Title" description="#npc30Step1Desc">
+                <price gold="0" silver="0">
+                    <item typeId="ppya" count="15"/>
+                    <item typeId="sqd" count="5"/>
+                    <item typeId="shr" count="8"/>
+                </price>
+                <award gold="0" silver="0" exp="250">
+                    <item typeId="crOfPapaya" count="3" />
+                    <item typeId="seaCockt" count="1" />
+                </award>
+                <pet wx="-0.6" wy="0.2" typeId="petBld" direction="SW">
+                    <animation name="PetSad" />
+                </pet>
+            </step>
+            <step index="2" frame="f1" title="#npc30Step2Title" description="#npc30Step2Desc" onComplete="hide">
+                <price gold="0" silver="1950">
+                    <item typeId="tlbx" count="15"/>
+                </price>
+                <award gold="15" silver="0" exp="300">
+                    <item typeId="frt14" count="3" />
+                </award>
+            </step>
+        </npc>
+
+        <!-- голодный фантастический зверек -->
+        <npc id="npc31">
+            <dimension width="1" length="1" height="1" />
+            <step index="0" frame="f1" title="#npc31Step0Title" description="#npc31Step0Desc">
+                <price gold="0" silver="0">
+                    <item typeId="sprtscns" count="10"/>
+                    <item typeId="mirl" count="5"/>
+                    <item typeId="grp" count="15"/>
+                </price>
+                <award gold="0" silver="0" exp="235" energy="35"/>
+                <pet wx="0" wy="0" typeId="petJba" direction="SW">
+                    <animation name="PetStand" />
+                </pet>
+            </step>
+            <step index="1" frame="f1" title="#npc31Step1Title" description="#npc31Step1Desc" onComplete="hide">
+                <price gold="0" silver="0">
+                    <item typeId="gsb" count="10"/>
+                    <item typeId="crnb" count="15"/>
+                    <item typeId="currant" count="20"/>
+                </price>
+                <award gold="5" silver="0" exp="235">
+                	<item typeId="frt11" count="5"/>
+                </award>
+                <pet wx="0" wy="0" typeId="petJba" direction="SW">
+                    <animation name="PetStand" />
+                </pet>
+            </step>
+        </npc>
+
+        <!-- больной фантастический зверек -->
+        <npc id="npc32">
+            <dimension width="1" length="1" height="1" />
+            <step index="0" frame="f1" title="#npc32Step0Title" description="#npc32Step0Desc">
+                <price gold="0" silver="8000" />
+                <award gold="0" silver="0" exp="220" energy="15"/>
+                <pet wx="0" wy="0" typeId="petJba" direction="SE">
+                    <animation name="PetSad" />
+                </pet>
+            </step>
+            <step index="1" frame="f1" title="#npc32Step1Title" description="#npc32Step1Desc">
+                <price gold="0" silver="0">
+                	<item typeId="mMoss" count="7"/>
+                	<item typeId="dgRs" count="10"/>
+                	<item typeId="anise" count="15"/>
+                </price>
+                <award gold="10" silver="0" exp="220">
+                	<item typeId="ctfb" count="2"/>
+                </award>
+                <pet wx="0" wy="0" typeId="petJba" direction="SE">
+                    <animation name="PetSad" />
+                </pet>
+            </step>
+            <step index="2" frame="f1" title="#npc32Step2Title" description="#npc32Step2Desc" onComplete="hide">
+                <price gold="0" silver="0">
+                	<item typeId="aniseNect" count="3"/>
+                	<item typeId="tinctOfAloes" count="5"/>
+                	<item typeId="pMix" count="25"/>
+                </price>
+                <award gold="40" silver="0" exp="275" energy="25" />
+                <pet wx="0" wy="0" typeId="petJba" direction="SE">
+                    <animation name="PetSad" />
+                </pet>
+            </step>
+        </npc>
+
+        <!-- голодная киса -->
+        <npc id="npc33">
+            <dimension width="1" length="1" height="2" />
+            <step index="0" frame="f1" title="#npc33Step0Title" description="#npc33Step0Desc">
+                <price gold="0" silver="0">
+                    <item typeId="stgn" count="5"/>
+                    <item typeId="tun" count="5"/>
+                </price>
+                <award gold="0" silver="0" exp="235" energy="15">
+                    <item typeId="rdwd" count="1" />
+                </award>
+                <pet wx="0" wy="0" typeId="petCtBW" direction="SW">
+                    <animation name="PetStand" />
+                </pet>
+            </step>
+            <step index="1" frame="f1" title="#npc33Step1Title" description="#npc33Step1Desc">
+                <price gold="0" silver="0">
+                    <item typeId="sprtfsh" count="50"/>
+                    <item typeId="prchfsh" count="20"/>
+                </price>
+                <award gold="15" silver="0" exp="260">
+                    <item typeId="tinFood" count="3" />
+                </award>
+                <pet wx="0" wy="0" typeId="petCtBW" direction="SW">
+                    <animation name="PetStand" />
+                </pet>
+            </step>
+            <step index="2" frame="f1" title="#npc33Step2Title" description="#npc33Step2Desc" onComplete="hide">
+                <price gold="0" silver="0">
+                    <item typeId="fishMix" count="3"/>
+                    <item typeId="seaCockt" count="3"/>
+                    <item typeId="tunBaked" count="3"/>
+                </price>
+                <award gold="0" silver="0" exp="250">
+                    <item typeId="frt15" count="10" />
+                    <item typeId="irn" count="1" />
+                </award>
+                <pet wx="0" wy="0" typeId="petCtBW" direction="SW">
+                    <animation name="PetStand" />
+                </pet>
+            </step>
+        </npc>
+
+        <!-- розовое существо -->
+        <npc id="npc34" skin="NpcChestSilverSW" icon="NpcChestSilverIcon@islandFarmLocation">
+            <dimension width="1" length="1" height="2" />
+            <step index="0" frame="f1" title="#npc34Step0Title" description="#npc34Step0Desc">
+                <price gold="0" silver="0">
+                    <item typeId="gsb" count="10"/>
+                    <item typeId="currant" count="15"/>
+                    <item typeId="grp" count="35"/>
+                </price>
+                <award gold="0" silver="0" exp="275" energy="25">
+                    <item typeId="grnt" count="1" />
+                </award>
+                <pet wx="0" wy="0" typeId="petPkBll" direction="SW">
+                    <animation name="PetSad" />
+                </pet>
+            </step>
+            <step index="1" frame="f1" title="#npc34Step1Title" description="#npc34Step1Desc">
+                <price gold="0" silver="0">
+                    <item typeId="mirl" count="5"/>
+                    <item typeId="bnn" count="15"/>
+                    <item typeId="mel" count="35"/>
+                </price>
+                <award gold="10" silver="0" exp="270">
+                    <item typeId="crOfPapaya" count="1" />
+                </award>
+                <pet wx="0" wy="0" typeId="petPkBll" direction="SW">
+                    <animation name="PetSad" />
+                </pet>
+            </step>
+            <step index="2" frame="f1" title="#npc34Step2Title" description="#npc34Step2Desc">
+                <price gold="0" silver="2500">
+                    <item typeId="tlbx" count="20"/>
+                </price>
+                <award gold="0" silver="0" exp="280" energy="10" />
+            </step>
+            <step index="3" frame="f1" title="#npc34Step3Title" description="#npc34Step3Desc" onComplete="hide">
+                <price gold="0" silver="3200">
+                    <item typeId="tlbx" count="25"/>
+                    <item typeId="irn" count="2"/>
+                </price>
+                <award gold="25" silver="0" exp="300">
+                	<item typeId="frt12" count="15" />
+               	</award>
+            </step>
+        </npc>
+
+        <!-- овчарка 1 охраняет сундук -->
+        <npc id="npc35" skin="NpcChestSilverSW" icon="NpcChestSilverIcon@islandFarmLocation">
+            <dimension width="1" length="1" height="2" />
+            <step index="0" frame="f1" title="#npc35Step0Title" description="#npc35Step0Desc">
+                <price gold="0" silver="0">
+                    <item typeId="pTFbee" count="30"/>
+                    <item typeId="pShp" count="30"/>
+                    <item typeId="pBrsh" count="30"/>
+                </price>
+                <award gold="0" silver="0" exp="285">
+                    <item typeId="pBbq" count="10" />
+                    <item typeId="aniseNect" count="5" />
+                </award>
+                <pet wx="-0.6" wy="0.1" typeId="petShpd" direction="SE">
+                    <animation name="PetSad" />
+                </pet>
+            </step>
+            <step index="1" frame="f1" title="#npc35Step1Title" description="#npc35Step1Desc">
+                <price gold="0" silver="0">
+                    <item typeId="ctfsh" count="15"/>
+                    <item typeId="shr" count="25"/>
+                    <item typeId="ppya" count="10"/>
+                </price>
+                <award gold="0" silver="0" exp="300">
+                    <item typeId="frt12" count="5" />
+                    <item typeId="frt14" count="15" />
+                </award>
+                <pet wx="-0.6" wy="0.1" typeId="petShpd" direction="SE">
+                    <animation name="PetSad" />
+                </pet>
+            </step>
+            <step index="2" frame="f1" title="#npc35Step2Title" description="#npc35Step2Desc" onComplete="hide">
+                <price gold="0" silver="2700">
+                    <item typeId="tlbx" count="20"/>
+                    <item typeId="irn" count="2"/>
+                </price>
+                <award gold="0" silver="0" exp="300">
+                    <item typeId="mrbl" count="12" />
+                    <item typeId="ttm" count="1" />
+                </award>
+            </step>
+        </npc>
+
+        <!-- овчарка 2 охраняет сундук -->
+        <npc id="npc36" skin="NpcChestGoldSW" icon="NpcChestGoldIcon@islandFarmLocation">
+            <dimension width="1" length="1" height="2" />
+            <step index="0" frame="f1" title="#npc36Step0Title" description="#npc36Step0Desc">
+                <price gold="0" silver="3500">
+                    <item typeId="tlbx" count="30"/>
+                    <item typeId="irn" count="2"/>
+                </price>
+                <award gold="0" silver="0" exp="325" energy="15" />
+                <pet wx="-0.5" wy="0" typeId="petShpd" direction="SW">
+                    <animation name="PetSad" />
+                </pet>
+            </step>
+            <step index="1" frame="f1" title="#npc36Step1Title" description="#npc36Step1Desc" onComplete="hide">
+                <price gold="0" silver="4500">
+                    <item typeId="tlbx" count="35"/>
+                    <item typeId="stl" count="2"/>
+                </price>
+                <award gold="50" silver="0" exp="375">
+                	<item typeId="mirl" count="5"/>
+                </award>
+                <pet wx="-0.5" wy="0" typeId="petShpd" direction="SW">
+                    <animation name="PetSad" />
+                </pet>
+            </step>
+        </npc>
+
+        <!-- овчарка 3 охраняет сундук -->
+        <npc id="npc37" skin="NpcChestCopperSW" icon="NpcChestCopperIcon@islandFarmLocation">
+            <dimension width="1" length="1" height="2" />
+            <step index="0" frame="f1" title="#npc37Step0Title" description="#npc37Step0Desc">
+                <price gold="0" silver="0">
+                    <item typeId="aniseNect" count="5"/>
+                    <item typeId="crOfPapaya" count="5"/>
+                    <item typeId="seaCockt" count="5"/>
+                </price>
+                <award gold="0" silver="0" exp="350" energy="50" />
+                <pet wx="-0.6" wy="0.1" typeId="petShpd" direction="SE">
+                    <animation name="PetStand" />
+                </pet>
+            </step>
+            <step index="1" frame="f1" title="#npc37Step1Title" description="#npc37Step1Desc">
+                <price gold="0" silver="0">
+                    <item typeId="rdwd" count="6"/>
+                    <item typeId="grnt" count="4"/>
+                    <item typeId="brd" count="12"/>
+                </price>
+                <award gold="0" silver="0" exp="320" energy="40">
+                	<item typeId="irn" count="1"/>
+                </award>
+                <pet wx="-0.6" wy="0.1" typeId="petShpd" direction="SE">
+                    <animation name="PetStand" />
+                </pet>
+            </step>
+            <step index="2" frame="f1" title="#npc37Step2Title" description="#npc37Step2Desc" onComplete="hide">
+                <price gold="0" silver="3000">
+                    <item typeId="tlbx" count="25"/>
+                    <item typeId="stl" count="2"/>
+                </price>
+                <award gold="50" silver="0" exp="375">
+                	<item typeId="lnfb" count="3"/>
+                </award>
+            </step>
+        </npc>
+
+        <!-- сундук 1 в зарослях -->
+        <npc id="npc38" skin="NpcChestCopperSE" icon="NpcChestCopperIcon@islandFarmLocation">
+            <dimension width="1" length="1" height="1" />
+            <step index="0" frame="f1" title="#npc38Step0Title" description="#npc38Step0Desc" onComplete="hide">
+                <price gold="0" silver="0">
+                    <item typeId="tlbx" count="30"/>
+                    <item typeId="stl" count="2"/>
+                    <item typeId="irn" count="2"/>
+                </price>
+                <award gold="35" silver="0" exp="400">
+                    <item typeId="ttm" count="2" />
+                </award>
+            </step>
+        </npc>
+
+        <!-- сундук 2 в зарослях -->
+        <npc id="npc39" skin="NpcChestSilverSW" icon="NpcChestSilverIcon@islandFarmLocation">
+            <dimension width="1" length="1" height="1" />
+            <step index="0" frame="f1" title="#npc39Step0Title" description="#npc39Step0Desc" onComplete="hide">
+                <price gold="0" silver="4000">
+                    <item typeId="tlbx" count="35"/>
+                    <item typeId="ttm" count="1"/>
+                </price>
+                <award gold="55" silver="0" exp="450">
+                    <item typeId="tropCock" count="1" />
+                </award>
+            </step>
+        </npc>
+
+        <!-- голодный крокодил -->
+        <npc id="npc40">
+            <dimension width="1" length="1" height="1" />
+            <step index="0" frame="f1" title="#npc40Step0Title" description="#npc40Step0Desc">
+                <price gold="0" silver="0">
+                    <item typeId="driedSqd" count="5"/>
+                    <item typeId="seaCockt" count="5"/>
+                    <item typeId="tunBaked" count="10"/>
+                </price>
+                <award gold="0" silver="0" exp="400" energy="50">
+                    <item typeId="frt15" count="7" />
+                </award>
+                <pet wx="0" wy="0" typeId="petCrdl" direction="SW">
+                    <animation name="PetStand" />
+                </pet>                
+            </step>
+            <step index="1" frame="f1" title="#npc40Step1Title" description="#npc40Step1Desc" onComplete="hide">
+                <price gold="0" silver="0">
+                    <item typeId="fishMix" count="15"/>
+                    <item typeId="crOfPapaya" count="7"/>
+                    <item typeId="fishPlate" count="12"/>
+                </price>
+                <award gold="15" silver="0" exp="395">
+                    <item typeId="frt12" count="5" />
+                </award>
+                <pet wx="0" wy="0" typeId="petCrdl" direction="SW">
+                    <animation name="PetStand" />
+                </pet>                
+            </step>
+        </npc>
+
+        <!-- больной крокодил -->
+        <npc id="npc41">
+            <dimension width="1" length="1" height="2" />
+            <step index="0" frame="f1" title="#npc41Step0Title" description="#npc41Step0Desc" onComplete="hide">
+                <price gold="0" silver="0">
+                    <item typeId="mMoss" count="15"/>
+                    <item typeId="tinctOfAloes" count="12"/>
+                    <item typeId="aniseNect" count="7"/>
+                </price>
+                <award gold="75" silver="0" exp="425" energy="100" />
+                <pet wx="0" wy="0" typeId="petCrdl" direction="SE">
+                    <animation name="PetSad" />
+                </pet>                
+            </step>
+        </npc>
+
+        <!-- крокодил охраняющий сундук -->
+        <npc id="npc42" skin="NpcChestGoldSE" icon="NpcChestGoldIcon@islandFarmLocation">
+            <dimension width="1" length="1" height="2" />
+            <step index="0" frame="f1" title="#npc42Step0Title" description="#npc42Step0Desc">
+                <price gold="0" silver="0">
+                    <item typeId="tlbx" count="50"/>
+                    <item typeId="brd" count="75"/>
+                    <item typeId="mrbl" count="45"/>
+                </price>
+                <award gold="0" silver="0" exp="500">
+                    <item typeId="ttm" count="3" />
+                    <item typeId="rdwd" count="5" />
+                </award>
+                <pet wx="0.5" wy="1" typeId="petCrdl" direction="SW">
+                    <animation name="PetSad" />
+                </pet>
+            </step>
+            <step index="1" frame="f1" title="#npc42Step1Title" description="#npc42Step1Desc">
+                <price gold="0" silver="0">
+                    <item typeId="irn" count="10"/>
+                    <item typeId="stl" count="8"/>
+                </price>
+                <award gold="100" silver="0" exp="500" energy="75" />
+                <pet wx="0.5" wy="1" typeId="petCrdl" direction="SW">
+                    <animation name="PetSad" />
+                </pet>
+            </step>
+            <step index="2" frame="f1" title="#npc42Step2Title" description="#npc42Step2Desc">
+                <price gold="0" silver="0">
+                    <item typeId="tlbx" count="50"/>
+                    <item typeId="irn" count="6"/>
+                    <item typeId="stl" count="4"/>
+                </price>
+                <award gold="150" silver="0" exp="750" energy="100" />
+            </step>
+        </npc>
+
+    </characters>
+      
+</config>

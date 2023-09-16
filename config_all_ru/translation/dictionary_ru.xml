@@ -1,0 +1,1672 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<dictionary>
+    <locale name="ru">
+        
+        <!-- COMMON -->
+        
+        <plural key="votes">
+            <form>:value: голос</form>
+            <form>:value: голоса</form>
+            <form>:value: голосов</form>
+        </plural>
+
+        <plural key="tcoins">
+            <form>:value: T</form>
+            <form>:value: T</form>
+            <form>:value: T</form>
+        </plural>
+
+        <plural key="oks">
+            <form>:value: OK</form>
+            <form>:value: OK</form>
+            <form>:value: OK</form>
+        </plural>
+        <plural key="rurs">
+            <form>:value: мэйлик</form>
+            <form>:value: мэйлика</form>
+            <form>:value: мэйликов</form>
+        </plural>
+        <plural key="gxps">
+            <form>:value: GXP</form>
+            <form>:value: GXP</form>
+            <form>:value: GXP</form>
+        </plural>
+        <plural key="credits">
+            <form>:value: кредит</form>
+            <form>:value: кредита</form>
+            <form>:value: кредитов</form>
+        </plural>
+        <plural key="fotomoneys">
+            <form>:value: ФМ</form>
+            <form>:value: ФМ</form>
+            <form>:value: ФМ</form>
+        </plural>
+        <plural key="golds">
+            <form>:value: золотая монета</form>
+            <form>:value: золотые монеты</form>
+            <form>:value: золотых монет</form>
+        </plural>
+        <plural key="goldPoints">
+            <form>:value: золото</form>
+            <form>:value: золота</form>
+            <form>:value: золота</form>
+        </plural>
+        <plural key="silvers">
+            <form>:value: серебряная монета</form>
+            <form>:value: серебряные монеты</form>
+            <form>:value: серебряных монет</form>
+        </plural>
+        <plural key="counters">
+            <form>:value: фишка</form>
+            <form>:value: фишки</form>
+            <form>:value: фишек</form>
+        </plural>
+        <plural key="rooms">
+            <form>:value: комната</form>
+            <form>:value: комнаты</form>
+            <form>:value: комнат</form>
+        </plural>
+        <plural key="gameChips">
+            <form>:value: фишка</form>
+            <form>:value: фишки</form>
+            <form>:value: фишек</form>
+        </plural>
+        <plural key="seconds">
+            <form>:value: секунду</form>
+            <form>:value: секунды</form>
+            <form>:value: секунд</form>
+        </plural>
+        <plural key="gift">
+            <form>подарок</form>
+            <form>подарка</form>
+            <form>подарков</form>
+        </plural>
+        <plural key="points">
+            <form>:value: очко</form>
+            <form>:value: очка</form>
+            <form>:value: очков</form>
+        </plural>
+        <gender key="owner">
+        	<form>Хозяин</form>
+        	<form>Хозяйка</form>
+        </gender>
+        <gender key="genderDrop">
+        	<form>бросил</form>
+        	<form>бросила</form>
+        </gender>
+        <gender key="genderAsked">
+        	<form>просил</form>
+        	<form>просила</form>
+        </gender>
+        <gender key="himhis">
+        	<form>его</form>
+        	<form>её</form>
+        </gender>
+        <plural key="buddy">
+            <form>приятель</form>
+            <form>приятеля</form>
+            <form>приятелей</form>
+        </plural>
+        <plural key="days">
+            <form>день</form>
+            <form>дня</form>
+            <form>дней</form>
+        </plural>
+        
+        <message key="today">сегодня</message>
+        <message key="yesterday">вчера</message>
+        <message key="inTime">в :time:</message>
+        <message key="timeD">:days: д.</message>
+        <message key="timeH">:hours: ч.</message>
+        <message key="timeM">:minutes: м.</message>
+        <message key="timeS">:seconds: с.</message>
+        
+        <message key="month1">января</message>
+        <message key="month2">февраля</message>
+        <message key="month3">марта</message>
+        <message key="month4">апреля</message>
+        <message key="month5">мая</message>
+        <message key="month6">июня</message>
+        <message key="month7">июля</message>
+        <message key="month8">августа</message>
+        <message key="month9">сентября</message>
+        <message key="month10">октября</message>
+        <message key="month11">ноября</message>
+        <message key="month12">декабря</message>
+        
+        <message key="publishConfirm">Поделись новым достижением!</message>
+        <message key="newAchievement">У меня новая награда</message>
+        <message key="newLevel">У меня новый уровень</message>
+        <message key="newRelation">У меня новые отношения</message>
+        <message key="newWedding">У меня скоро свадьба</message>
+        <gender key="newWeddingWitness">
+            <form>Я стал свидетелем на свадьбе друзей</form>
+            <form>Я стала свидетельницей на свадьбе друзей</form>
+        </gender>
+
+        <message key="publishCraftConfirm">Попросить помощи у друзей?</message>
+        <message key="publishWeddingConfirm">Поделиться радостью с друзьями?</message>
+        <message key="askCraftComponentTitle">просит помощи</message>
+        <message key="selectPlayersDialogTitle">Выбери игроков</message>
+        <message key="selectPlayerDialogTitle">Выбери игрока</message>
+        <message key="empltyPlayerList">Нет никого, кого можно было бы выбрать.</message>
+        <message key="neededForPurchase">Для покупки необходимо</message>
+        <message key="selectFriendToHelp">Попросить друга о помощи</message>
+        
+        <!-- BUTTONS -->
+        
+        <message key="okButtonTitle">ОК</message>
+        <message key="yesButtonTitle">да</message>
+        <message key="noButtonTitle">нет</message>
+        <message key="buyButtonTitle">купить</message>
+        <message key="doneButtonTitle">готово</message>
+        <message key="closeButtonTitle">закрыть</message>
+        <message key="publishButtonTitle">опубликовать</message>
+        <message key="publish2ButtonTitle">рассказать</message>
+        <message key="askToComeButtonTitle">позвать</message>
+        <message key="askButtonTitle">попросить</message>
+        <message key="cancelButtonTitle">отменить</message>
+        <message key="continueButtonTitle">продолжить</message>
+        <message key="changeButtonTitle">изменить</message>
+        <message key="addButtonTitle">добавить</message>
+        <message key="saveButtonTitle">сохранить</message>
+        <message key="useButtonTitle">использовать</message>
+        <message key="rotateButtonTitle">повернуть</message>
+        <message key="removeButtonTitle">удалить</message>
+        <message key="sayButtonTitle">сказать</message>
+        <message key="messageButtonTitle">написать</message>
+        <message key="kickButtonTitle">пнуть</message>
+        <message key="visitHouseButtonTitle">в гости</message>
+        <message key="kissButtonTitle">поцеловать</message>
+        <message key="longKissButtonTitle">долгий поцелуй</message>
+        <message key="slapButtonTitle">пощечина</message>
+        <message key="hugButtonTitle">обнять</message>
+        <message key="tradeButtonTitle">меняться</message>
+        <message key="tradeNoItemsText">Очень жаль, но список предметов для обмена пуст.</message>
+        <message key="exchangeButtonTitle">отправить в Аватарию</message>
+        <message key="danceButtonTitle">танцевать</message>
+        <message key="cryingButtonTitle">плакать</message>
+        <message key="angryButtonTitle">злиться</message>
+        <message key="washButtonTitle">умыться</message>
+        <message key="exitButtonTitle">выйти</message>
+        <message key="sendButtonTitle">отправить</message>
+        <message key="driveOutButtonTitle">выгнать</message>
+        <message key="banButtonTitle">забанить</message>
+        <message key="renameButtonTitle">переименовать</message>
+        <message key="walkToButtonTitle">перейти</message>
+        <message key="actionButtonTitle">действие</message>
+        <message key="moderateButtonTitle">модерировать</message>
+        <message key="moderatorMessageButtonTitle">сообщение</message>
+        <message key="socialPageButtonTitle">профиль</message>
+        <message key="backButtonTitle">назад</message>
+        <message key="selectButtonTitle">выбрать</message>
+        <message key="screenShotInAlbum">Снимок экрана</message>
+        <message key="visitEventButton">посетить</message>
+        <message key="fillEnergyButtonTitle">восстановить энергию</message>
+        <message key="freeButtonTitle">бесплатно</message>
+        <message key="vipButtonTitle">подарить VIP</message>
+        <message key="giftsButtonTitle">подарки</message>
+        <message key="ringsButtonTitle">подарки</message>
+        <message key="giftButtonTitle">сделать подарок</message>
+        <message key="transferButtonTitle">передать</message>
+        <message key="transferResourceButtonTitle">передать ресурсы</message>
+        <message key="transferItemButtonTitle">передать вещи</message>
+        <message key="approveButtonTitle">согласиться</message>
+        <message key="declineButtonTitle">отказаться</message>
+        <message key="receiveButtonTitle">получить</message>
+        <message key="editFirToysButtonTitle">редактировать</message>
+        <message key="buyFirToyButtonTitle">купить игрушку</message>
+        <message key="giftFirToyButtonTitle">подарить игрушку</message>
+        <message key="passportButtonTitle">паспорт</message>
+        <message key="expandButtonTitle">расширить</message>
+        
+        <!-- AVATAR APEARANCE -->
+        
+        <message key="createAvatarTitle">Создание аватара</message>
+        <message key="editAvatarAppearanceTitle">Внешний вид</message>
+        <message key="chooseAvatarSex">Выбери пол:</message>
+        <message key="avatarSexMale">мужской</message>
+        <message key="avatarSexFemale">женский</message>
+        <message key="pageFromPages">:page: из :maxPages:</message>
+        <message key="changeGenderButtonTitle">Сменить пол</message>
+        <message key="selectColor">Выбор цвета</message>
+        
+        <message key="avatarApearance">Внешность</message>
+        <message key="avatarApearanceCategory0">Кожа</message>
+        <message key="avatarApearanceCategory1">Глаза</message>
+        <message key="avatarApearanceCategory2">Брови</message>
+        <message key="avatarApearanceCategory3">Губы</message>
+        <message key="avatarApearanceCategory4">Прически</message>
+        <message key="avatarApearanceCategory5">Борода и усы</message>
+        <message key="avatarApearanceCategory6">Тени</message>
+        <message key="avatarApearanceCategory7">Румяна</message>
+        <message key="avatarApearanceCategory8">Стразы</message>
+        
+        <message key="defaultAvatarName">Введи имя аватара</message>
+        <message key="setAvatarName">Задай имя для своего аватара</message>
+        <message key="warning">Внимание!</message>
+        <message key="noAvatarNameWarning">Ты не ввел имя аватара</message>
+        <message key="tooShortAvatarNameWarning">Слишком короткое имя аватара</message>
+        <message key="editAvatarNameDialogTitle">Редактирование имени</message>
+        
+        <!-- AVATAR CLOTHES -->
+        
+        <message key="editAvatarClothesTitle">Гардероб</message>
+        <message key="clothesShopTitle">Одежда</message>
+        <message key="petShopTitle">Зоомагазин</message>
+        <message key="weddingShopTitle">Свадебный магазин</message>
+        <message key="beautyLocationTitle">Салон красоты</message>
+        <message key="buyConfirmTitle">Подтверждение покупки</message>
+        <message key="basket">Корзина</message>
+        <message key="toBasket">в корзину</message>
+        <message key="clothesRating">Имидж</message>
+        
+        <message key="allTypeButtonTitle">все</message>
+        <message key="silverTypeButtonTitle">за серебро</message>
+        <message key="goldTypeButtonTitle">за золото</message>
+        <message key="vipTypeButtonTitle">VIP</message>
+        
+        <message key="buyItemDescription"><![CDATA[<p>Твоя покупка: <span class="bold">:itemName:</span></p>]]></message>
+        
+        <!-- FURNITURE -->
+        
+        <message key="houseRating">Комфорт</message>
+        <message key="furnitureShopTitle">Мебель</message>
+        <message key="buyRoomLevelMessage">Чтобы купить еще одну комнату тебе нужно достигнуть :level: уровня.</message>
+        <message key="buyRoomTitle">Покупка комнаты</message>
+        <message key="buyRoomConfirmMessage">Хочешь купить еще одну комнату?</message>
+        <message key="editDoorTitle">Редактор дверей</message>
+        <message key="editDoorNoItemsMessge">Нет ни одной двери для редактирования. Но всё поправимо!&#13;Ты можешь подобрать дверь по своему вкусу в Магазине.</message>
+        <message key="maxDoorsCountReachedMessage">В комнате не может быть более :count: дверей. Для покупки еще одной двери перейдите в другую комнату.</message>
+        <message key="addRoomButtonTitle">+ комната</message>
+        <message key="gotoFurnitureShop">в магазин</message>
+        <message key="editorExitConfirmTitle">Выход из редактора</message>
+        <message key="editorExitConfirmMessage">Сохранить изменения перед выходом из редактора?</message>
+        <message key="addRoomInfoMessage">Комнаты будут соединяться между собой проходами. Перед покупкой комнаты, тебе нужно будет указать место, где ты хочешь разместить проход. Продолжить?</message>
+        <message key="cantMoveWithLinkedObjectsTitle">Нелья убрать предмет</message>
+        <message key="cantMoveWithLinkedObjectsMessage">Пока на предмете стоят другие объекты, его нельзя убрать из комнаты.</message>
+        <message key="cantRemoveBrokenObjectsMessage">Пока объект сломан, его нельзя убрать из комнаты.</message>
+        <message key="cantReplaceWallsWithGraffitiMessage">Нужно стереть граффити, прежде чем менять обои.</message>
+        <message key="alreadyHasGraffitiMessage">На этой стене уже есть граффити.</message>
+        <message key="cantRemoveBrokenObjectsTitle">Предмет сломан</message>
+        
+        <message key="cantRemoveEmptyFoodObjectsTitle">Еда не произведена</message>
+        <message key="cantRemoveEmptyFoodObjectsMessage">Пока не восстановится время производства еды, вы не можете убрать объект из комнаты.</message>
+        
+        <message key="notAllObjectsInPlacesTitle">Размести все предметы</message>
+        <message key="notAllObjectsInPlacesMessage">Не все предметы стоят на своих местах. Размести их в комнате так, чтобы они не мешали друг другу, а лишние убери.</message>
+        <message key="buyWardrobeTitle">Нет места</message>
+        <message key="buyWardrobeMessage">Вещи должны храниться в шкафу, а у тебя пока что его нет. Купи шкаф и поставь его в своей квартире, чтобы хранить все свои вещи.</message>
+        
+        <!-- MENU BUTTONS -->
+        
+        <message key="editHouseButtonLabel">Редактор комнаты</message>
+        <message key="editAvatarButtonLabel">Внешность</message>
+        <message key="editClothesButtonLabel">Переодеться</message>
+        <message key="inventoryButtonLabel">Инвентарь</message>
+        <message key="craftButtonLabel">Мастерская</message>
+        <message key="placesButtonLabel">Места</message>
+        <message key="shopsButtonLabel">Магазины</message>
+        <message key="buddyListButtonLabel">Приятели</message>
+        <message key="gameChipsButtonLabel">Фишки</message>
+        <message key="homeButtonLabel">Домой</message>
+        <message key="helpButtonLabel">Поддержка</message>
+        <message key="windowButtonLabel">Размер экрана</message>
+        <message key="energyProgressLabel">Энергия. Восстанавливается каждую минуту.</message>
+        <message key="levelProgressLabel">Уровень. Побеждай противников, чтобы получить новый уровень.</message>
+        
+        <!-- ACTIONS -->
+        
+        <message key="rotateAction">Повернуть</message>
+        <message key="editAction">Редактировать</message>
+        <message key="hideAction">В инвентарь</message>
+        <message key="deselectAction">Снять выделение</message>
+        <message key="removeAllClothes">снять все</message>
+        
+        <!-- LOCATION -->
+        
+        <message key="removeObjectTitle">Удаление объекта</message>
+        <message key="removeObjectConfirm">Ты действительно хочешь удалить этот объект с карты?</message>
+        <message key="locationSelectTitle">Добро пожаловать</message>
+        <message key="publicPlacesTitle">Места</message>
+        <message key="workLocationsTitle">Работа</message>
+        <message key="shopsTitle">Магазины</message>
+        <message key="gamesTitle">Игры</message>
+        <message key="eventsTitle">События</message>
+        <message key="eventTitle">Событие</message>
+        <message key="questsTitle">Задания</message>
+        <message key="banTitle">Блокировка</message>
+        <message key="banMessage">Тебя выгнали из комнаты.</message>
+        <message key="banMessageConfirm">Тебя выгнали из комнаты. Хочешь уйти?</message>
+        <message key="loadingLocation">Идет загрузка...</message>
+        <message key="loading">загрузка...</message>
+        <message key="yoursApartments">Твоя квартира</message>
+        <message key="apartment">Квартира</message>
+        <message key="innerRoomTitle">Комната</message>
+        <message key="livingRoom">Гостиная</message>
+        <message key="bathroomDoorTitle">Ванная</message>
+        <message key="kitchenDoorTitle">Кухня</message>
+        <message key="sleepingroomDoorTitle">Спальня</message>
+        <message key="cabinetDoorTitle">Кабинет</message>
+       
+        <message key="outsideDoorTitle">На улицу</message>
+        
+        <message key="yardLocationTitle">Сквер</message>
+        <message key="vipLocationTitle">VIP-зона</message>
+        <message key="parkLocationTitle">Парк</message>
+        <message key="clubLocationTitle">Клуб</message>
+        <message key="cafeLocationTitle">Кафе</message>
+        <message key="streetLocationTitle">Улица</message>
+        
+        <message key="vipRoomTitle">VIP-комната</message>
+        <message key="vipRoomForbiddenMessage">Пройти в VIP-комнату может только обладатель VIP-статуса. Хочешь получить его?</message>
+        <message key="locationLevelTitle">Недостаточный уровень</message>
+        <message key="locationLevelWarning">Для того, чтобы попасть в это место, нужно достичь :level: уровня.</message>
+        <message key="locationNeedVipTitle">Требуется VIP-статус</message>
+        <message key="locationNeedVipWarning">Для того, чтобы попасть в это место, нужен VIP-статус. Хочешь получить его?</message>
+        <message key="buyVipOnlyItemTitle">Покупка</message>
+        <message key="buyVipOnlyItemWarning">Купить данную вещь может только обладатель VIP-статуса. Хочешь получить его?</message>
+        <message key="dressCode">Дресс-код</message>
+        <message key="dressCodeOutsideWarning">Повседневный дресс-код не позволяет ходить в публичные места без обуви или в нижнем белье.</message>
+        <message key="dressCodeConfirm">Желаешь переодеться?</message>
+        
+        <message key="gotoIn">В</message>
+        
+        <message key="cafeMenuTitle">Меню</message>
+        <message key="clubMenuTitle">Меню</message>
+        <message key="yourOrder">Вот ваш заказ</message>
+        <message key="yourOrderFrom">Вам заказ от: :name:</message>
+        <message key="thankyou">Спасибо!</message>
+        <message key="sendCocktailButtonTitle">угостить</message>
+        <message key="sendCafeDishButtonTitle">угостить</message>
+        <message key="smearCakeButtonTitle">кинуть торт</message>
+        <message key="throwCakeTitle">Кинь тортом!</message>
+        <message key="takeGiftTitle">Тебе подарок</message>
+        <message key="takeGiftMessage">Тебе послали подарок. Сейчас официант принесет его.</message>
+        <message key="takeGiftWithSenderMessage">:name: послал тебе подарок. Сейчас официант принесет его.</message>
+        
+        <message key="cafeWaitressName">Официант</message>
+        <message key="cafeCookName">Повар</message>
+        <message key="clubDjName">DJ</message>
+        <message key="clubBarmaidName">Бармен</message>
+        <message key="clubWaitressName">Официант</message>
+        <message key="makeWaitressOrder">сделать заказ</message>
+        <message key="vipWaitressName">Официант</message>
+        
+        <message key="gamesComingMessage">Совсем скоро ты сможешь поиграть с друзьями в увлекательные игры и зарабатывать серебряные монеты.</message>
+        
+        <!-- HOUSE -->
+        
+        <message key="lockHouseButtonTitle">Закрыть квартиру</message>
+        <message key="unlockHouseButtonTitle">Открыть квартиру</message>
+        <message key="lockHouseTitle">Блокировка квартиры</message>
+        <message key="lockTime">Квартира закрыта до </message>
+        <message key="unlockHouseConfirm">Хочешь открыть квартиру, чтобы принимать гостей и устраивать вечеринки у себя дома?</message>
+        <message key="lockHouseConfirm">Если твоя квартира будет закрыта, твои друзья не смогут приходить к тебе в гости. Ты действительно хочешь закрыть квартиру?</message>
+        <message key="houseLockedTitle">Квартира закрыта</message>
+        <message key="houseLockedMessage">Хозяин квартиры пожелал закрыть её от посторонних.</message>
+        <message key="houseKickedTitle">Тебя выгнали.</message>
+        <message key="houseKickedMessage">Хозяин квартиры не желает видеть тебя некоторое время.</message>
+        
+        <message key="bathClothesTitle">Нужно переодеться</message>
+        <message key="bathClothesConfirm">Чтобы забраться в ванну, нужно переодеться в купальный костюм. Хочешь переодеться?</message>
+        <message key="ownerNotAtHouse">Хозяин не дома</message>
+        <message key="ownerNotAtHouseWarning">Без хозяина пользоваться этим предметом нельзя. Дождись пока хозяин дома вернется.</message>
+        
+        <message key="brokenHintText">Сломано</message>
+        
+        <message key="itemsNotFound">Нет в наличии</message>
+        <message key="neededItemsNotFound">Нет в наличии необходимых для действия предметов.</message>
+        
+        <!-- WORK -->
+        
+        <message key="gardenWorkTitle">Уход за садом</message>
+        <message key="fortuneWorkTitle">Колесо фортуны</message>
+        <message key="garbageWorkTitle">Уборка мусора</message>
+        
+        <message key="workCooldownTime">До конца рабочей смены :time:</message>
+        <message key="workCooldownOver">Сверхурочные</message>
+        
+        <message key="followFriendWorkTitle">Поиск приятеля</message>
+        <message key="followFriendWorkMessage">Твой приятель сейчас зарабатывает монеты на работе. Хочешь заняться тем же?</message>
+        
+        <!-- BILLING -->
+        
+        <message key="buyGoldTitle">Покупка золотых монет</message>
+        <message key="buySilverTitle">Покупка серебряных монет</message>
+        <message key="buySilverCase1">Ты можешь заработать серебро, ухаживая за садом, или убирая двор.</message>
+        <message key="buySilverCase2">Ты можешь заработать серебро, посещая квартиры друзей и собирая мусор.</message>
+        
+        <message key="notEnoughSilverTitle">Недостаточно серебра</message>
+        <message key="notEnoughSilverMessage">У тебя не хватает серебра. Хочешь обменять золотые монеты на серебряные?</message>
+        <message key="notEnoughGoldTitle">Недостаточно золота</message>
+        <message key="notEnoughGoldMessage">У тебя не хватает :gold:.</message>
+        <message key="exchangeGoldToSilverMessage">Ты можешь обменять золотые монеты на серебряные.</message>
+        <message key="saleCoins">Ты отдаешь</message>
+        <message key="buyCoins">Ты получаешь</message>
+        
+        <message key="goldGift">+:gold: в подарок</message>
+        <message key="forCoins">Купить за :coins:</message>
+        <message key="forGolds">Купить за :golds:</message>
+        <message key="buyGoldResult">Поздравляем! Теперь у тебя :gold:.</message>
+        <message key="goldPurchase">:gold:</message>
+        <message key="goldPurchaseDescription">Золотые монеты - самый ценный ресурс, поэтому самые лучшие товары в Тропикании продаются только за золото.</message>
+        <message key="smsAllowed">Доступен SMS платеж</message>
+        <message key="exchangePointsMessage">У тебя :coins:. Ты можешь обменять их на :gold:.</message>
+        <message key="exchangePointsButtonTitle">Обменять</message>
+
+        <message key="bonusPointsTitle">Перевод денег</message>
+        <message key="bonusPointsMessage">На твой счет поступило :coins:. Ты можешь обменять их на :gold:.</message>
+        <message key="bonusPointsButton">Забрать :coins:</message>
+        <message key="getBonusGoldMessage">На твой счет поступило :gold:.</message>
+        
+		<message key="energy">энергия</message>
+        <message key="notEnoughEnergyTitle">Не хватает энергии</message>
+        <message key="notEnoughEnergyMessage">Хочешь восстановить :energy: энергии за :gold:?</message>
+        <message key="energyRestoredTitle">Восстановление энергии</message>
+        <message key="energyRestoredButtonTitle">Купить :energy: энергии за :golds:</message>
+        <message key="energyRestoreMessage"><![CDATA[<p>Ты можешь пополнить запасы энергии за золотые монеты. Если шкала энергии не полная, то она восстанавливается по 1 единице каждую минуту.</p>]]></message>
+        <message key="energyRestoredResult">Ты снова чувствуешь себя полным сил и энергии!</message>
+        
+        <message key="vipRefillTimeNotExpiredTitle">Время не вышло</message>
+        <message key="vipRefillTimeNotExpiredMessage">Можно восстановить через :time:</message>
+        <message key="mustBeVipUserMessage">Для выполнения данного действия нужно быть VIP игроком.</message>
+        
+        <!-- ERROR -->
+        
+        <message key="error">Ошибка</message>
+        <message key="userBanned">Пользователь заблокирован</message>
+        <message key="accessDeny">К сожалению, доступ к этому приложению закрыт для тебя.</message>
+        <message key="serverBusy">Приложение временно недоступно. Пожалуйста, попробуй заглянуть к нам немного попозже.</message>
+        <message key="wrongApiVersion">Приложение "Тропикания" было обновлено. Чтобы использовать все новые возможности, пожалуйста, обновите страницу приложения.</message>
+        <message key="wrongIp">Это действие не может быть выполнено с одного и того же IP-адреса.</message>
+        <message key="unknownError">Произошла ошибка. Повторите действие, и если ошибка повторится, пожалуйста, обновите страницу приложения.</message>
+        <message key="serverUpdating">В данный момент мы загружаем обновление для "Тропикании". Просим набраться терпения и немного подождать.</message>
+        <message key="notEnoughResourcesError">У тебя недостаточно ресурсов.</message>
+        <message key="userNotFoundError">Неизвестный пользователь. Ошибка работы с социальной сетью.</message>
+        <message key="userOffline">Игрок не в сети. Данное действие можно будет выполнить, когда пользователь будет онлайн.</message>
+        <message key="userNotFound">Игрок не найден.</message>
+        <message key="notVip">Действие доступно только игроку с VIP-статусом.</message>
+        <message key="notEnoughLevel">Ваш уровень слишком мал.</message>
+        <message key="notEnoughRelationStatuss">Не достаточный уровень отношений.</message>
+        <message key="maintenanceError">На сервере идут профилактические работы. Пожалуйста, зайдите немного позже.</message>
+        <message key="duplicateUserSessionError">От твоего имени было повторно запущено приложение.</message>
+        
+        
+        <message key="socialRequestMaxCountError">Ты можешь послать не более 10 подарков в день.</message>
+        <message key="socialRequestMaxUserCountError">Ты можешь послать не более 1 подарка одному другу в день.</message>
+        
+        <message key="lagDisconnected">Соединение потеряно...</message>
+        <message key="lagReconnectTitle">Пауза</message>
+        <message key="lagReconnectMessage">Игра приостановлена. Продолжить?</message>
+        <message key="networkLagtMessage">Для игры, необходимо более стабильное соединение с Интернет. Убедитесь, что у вас не запущены другие приложения и программы, активно использующие сеть (например, торрент-трекер).</message>
+        <message key="reconnectWarningMessage">Повторное подключение через несколько секунд.</message>
+        <message key="tryRefreshMessage">Пожалуйста, обновите страницу приложения для того, чтобы продолжить играть.</message>
+
+        <!-- MODERATION -->
+        
+        <message key="youAreBanned">Доступ временно запрещен</message>
+        <message key="banInfoMessage">:reason:. Войти в приложение возможно через :leftTime:</message>
+        
+        <message key="badWordsBanReason">Вы использовали нецензурные выражения</message>
+        <message key="badWordsWarning">Нецензурные выражения запрещены. Будьте вежливы. В противном случае, мы заблокируем вам доступ к приложению.</message>
+        
+        <message key="floodBanReason">Частая отправка однотипных сообщений (флуд) запрещена правилами</message>
+        <message key="floodWarning">Частая отправка однотипных сообщений (флуд) запрещена. Будьте вежливы. В противном случае, мы заблокируем вам доступ к приложению.</message>
+        
+        <message key="badBehaviourBanReason">Вы вели себя неподобающе</message>
+        <message key="badRulesBanReason">Вы нарушили правила пользовательского соглашения</message>
+
+        <message key="paragraphNumber">(п.:paragraph:)</message>
+        <message key="moderationRule3Full"><![CDATA[Продажа/покупка/обмен/передача/дарение игрового аккаунта. Распространение информации о намерении совершить указанные действия как самим пользователем, так и любыми третьими лицами.]]></message>
+        <message key="moderationRule3Notify">Всем пользователям в Игре запрещено покупать/продавать/обменивать/дарить/передавать свой игровой аккаунт.</message>
+        <message key="moderationRule3Title">манипуляции с игровым аккаунтом</message>
+
+        <message key="moderationRule4Full"><![CDATA[Осуществление или поощрение следующих действий с любым внутриигровым объектом, функционалом, ценностью, дополнительным функционалом Игры, игровой валютой: покупка/продажа/обмен за внеигровые ценности.]]></message>
+        <message key="moderationRule4Notify">Всем пользователям в Игре запрещено покупать/продавать/обменивать любой внутриигровой объект/функционал/ценность.</message>
+        <message key="moderationRule4Title">махинации с игровой валютой</message>
+
+        <message key="moderationRule5Full">Создание и использование игровых ботов.</message>
+        <message key="moderationRule5Notify">Пользователям запрещается создавать несколько игровых аккаунтов.</message>
+        <message key="moderationRule5Title">использование игровых ботов</message>
+
+        <message key="moderationRule6Full"><![CDATA[Использование/распространение информации о любых ошибках, как внутриигровых, так и ошибках любого сопутствующего программного обеспечения.]]></message>
+        <message key="moderationRule6Notify">Пользователям запрещено использовать/пропагандировать любые внутриигровые ошибки.</message>
+        <message key="moderationRule6Title">использование багов игры</message>
+
+        <message key="moderationRule7Full"><![CDATA[Пользователям запрещено распространение слухов, клеветы, порочащей информации о представителях администрации (модераторы/кураторы).]]></message>
+        <message key="moderationRule7Notify">Пользователям запрещено распространение слухов, клеветы о представителях администрации (модераторы/кураторы) и игроков</message>
+        <message key="moderationRule7Title">клевета в адрес представителей администрации/игроков</message>
+
+        <message key="moderationRule7_1Full"><![CDATA[Пользователям запрещено распространение слухов, клеветы, порочащей информации о представителях администрации (модераторы/кураторы).]]></message>
+        <message key="moderationRule7_1Notify">Пользователям запрещено распространение слухов, клеветы о представителях администрации (модераторы/кураторы) и игроков</message>
+        <message key="moderationRule7_1Title">клевета в адрес представителей администрации/игроков</message>
+
+        <message key="moderationRule7_2Full"><![CDATA[Пользователям запрещено распространение слухов, клеветы, порочащей информации о Компании ООО "Тортуга", игровых сервисах, игровых акциях, игровых мероприятиях, партнерах Компании, Игре в целом.]]></message>
+        <message key="moderationRule7_2Notify"> Пользователям запрещено распространение слухов, клеветы, порочащей информации о компании "Тортуга", игровых сервисах, игровых акциях, игровых мероприятиях, партнерах Компании, Игре в целом.</message>
+        <message key="moderationRule7_2Title">клевета в адрес компании/игры</message>
+
+        <message key="moderationRule8Full">Пользователям запрещено спамить и флудить в игровых чатах.</message>
+        <message key="moderationRule8Notify">Пользователям запрещено осуществлять спам, флуд в игровых чатах.</message>
+        <message key="moderationRule8Title">спам или флуд</message>
+
+        <message key="moderationRule9Full">Распространение рекламных объявлений, включая воспроизведение в Игре любых ссылок на страницы сети Интернет.</message>
+        <message key="moderationRule9Notify">Пользователям запрещено осуществлять любые рекламные объявления (в том числе обсуждение сторонних игр), включая воспроизведение в Игре любых ссылок на страницы сети Интернет.</message>
+        <message key="moderationRule9Title">реклама или ссылки</message>
+
+        <message key="moderationRule10Full"><![CDATA[Использование любых нецензурных, оскорбительных, провокационных, рекламных или не предусмотренных Игрой слов и символов в любом виде в наименованиях или описаниях персонажей, других игровых объектов, гильдий и любых других сообществ и организаций игроков.]]></message>
+        <message key="moderationRule10Notify">Ваш ник нарушает Правил игры, мы вынуждены сменить его в принудительном порядке.</message>
+        <message key="moderationRule10Title">нецензурные описания и названия</message>
+
+        <message key="moderationRule11Full"><![CDATA[Использование в игровом процессе, в общих каналах и сервисах общения, информирующих одновременно несколько игроков, — ненормативной лексики, оскорблений, а также во всех без исключения каналах и типах сообщений — угрозы насилия или физической расправы, рекламы наркотиков, порнографических материалов или сторонних ресурсов, содержащих эти материалы в открытом доступе, пропаганды нетерпимости к расовой, национальной, религиозной, культурной, идеологической, половой, языковой или политической принадлежности, а также поощрять подобные действия и высказывания, совершаемые другими пользователями.]]></message>
+        <message key="moderationRule11Notify">Пользователям запрещено использование ненормативной лексики/оскорблений/ флейма/троллинга, а также угроз физ.расправы, рекламы наркотиков, порнографических материалов, пропаганды нетерпимости к расовой/национальной/политической и др. принадлежностям.</message>
+        <message key="moderationRule11Title">мат и/или оскорбления</message>
+
+        <message key="moderationRule12Full"><![CDATA[Намеренное совершение любых действий, затрудняющих или делающих невозможным доступ к Игре другим пользователям или выполнение Компанией своих обязанностей. Создание в игре для других пользователей преднамеренных помех, не предусмотренных имеющимся игровым процессом.]]></message>
+        <message key="moderationRule12Notify">Пользователям запрещено намеренное совершение любых действий, затрудняющих или делающих невозможным доступ к Игре другим пользователям или выполнение Компанией своих обязанностей.</message>
+        <message key="moderationRule12Title">умышленное создание трудностей</message>
+
+        <message key="moderationRule13Full"><![CDATA[Опубликование информации или загрузка файлов, которые содержат вредоносное программное обеспечение, поврежденные или модифицированные файлы или данные, прочее подобное программное обеспечение, которое может повредить Игре, нарушить работу чужих компьютеров и средств связи или неприкосновенность учетных записей (игровых аккаунтов) пользователей.]]></message>
+        <message key="moderationRule13Notify">Пользователям запрещено публиковать информацию или загружать файлы, которые содержат вредоносное программное обеспечение.</message>
+        <message key="moderationRule13Title">вредоносные файлы</message>
+
+        <message key="moderationRule14Full"><![CDATA[Создание имен персонажей, названий предметов, внутриигровых объектов, сообществ и организаций игроков и любых других знаков отличия, указывающих на принадлежность к Компании ООО "Тортуга" или его партнерам, а также представление себя перед другими пользователями как действующего или бывшего сотрудника Компании или его партнера.]]></message>
+        <message key="moderationRule14Notify">Пользователям запрещено создание имен персонажей, внутриигровых объектов и любых других знаков отличия, указывающих на принадлежность к Компании ООО "Тортуга".</message>
+        <message key="moderationRule14Title">выдает себя за сотрудника</message>
+
+        <message key="moderationRule15Full"><![CDATA[Распространение, использование или намеренное получение информации, позволяющей получить доступ к учетным записям (игровым аккаунтам) пользователей в Игре, на Интернет сайте Игры, на форумах Игры, на сопутствующих Игре сервисах, а также распространение ссылок на сторонние ресурсы, содержащие такую информацию.]]></message>
+        <message key="moderationRule15Notify">Пользователям запрещено распространение, использование или намеренное получение информации, позволяющей получить доступ к учетным записям пользователей в Игре.</message>
+        <message key="moderationRule15Title">попытка доступа к чужому аккаунту</message>
+
+        <message key="moderationRule16Full">Подача заведомо ложной информации в случае обращения к Администрации, а также фальсификация предоставляемых данных.</message>
+        <message key="moderationRule16Notify">Пользователям запрещено в случае обращения к Администрации подавать заведомо ложную информацию.</message>
+        <message key="moderationRule16Title">введение в заблуждение Администрации</message>
+
+        <message key="moderationRule17Full">Пользователям запрещено заниматься мошенничеством - обманывать других игроков с целью получения личной выгоды в игре (обман на игровые подарки и ценности) и в реальной жизни (обман на игровую валюту и валюту социальной сети, в том числе с целью получения доступа к чужим аккаунтам)..</message>
+        <message key="moderationRule17Notify">Пользователям запрещено заниматься мошенничеством - обманывать других игроков с целью получения личной выгоды.</message>
+        <message key="moderationRule17Title">мошенничество</message>
+
+        <message key="moderationRule17_1Full">Пользователям запрещено заниматься мошенничеством - обманывать других игроков с целью получения личной выгоды в игре (обман на игровые подарки и ценности).</message>
+        <message key="moderationRule17_1Notify">Пользователям запрещено заниматься мошенничеством - обманывать других игроков с целью получения личной выгоды в игре (обман на игровые подарки и ценности).</message>
+        <message key="moderationRule17_1Title">обман на подарки</message>
+
+        <message key="moderationRule17_2Full"><![CDATA[Пользователям запрещено заниматься мошенничеством - обманывать других игроков с целью получения личной выгоды в реальной жизни (обман на игровую валюту и валюту социальной сети, в том числе с целью получения доступа к чужим аккаунтам).]]></message>
+        <message key="moderationRule17_2Notify">Пользователям запрещено заниматься мошенничеством - обманывать других игроков с целью личной выгоды.</message>
+        <message key="moderationRule17_2Title">мошенничество</message>
+
+        <message key="moderationRule18Full"><![CDATA[Избыточное форматирование, включая написание "КРИЧАЩИХ" сообщений (капс), написание сообщений ЗаБоРчИкОм, а также частичное использование избыточного форматирования, превышающее 30% от всего текста.]]></message>
+        <message key="moderationRule18Notify">Выключите КАПС. Пользователям запрещено злоупотреблять избыточным форматированием.</message>
+        <message key="moderationRule18Title">избыточное форматирование</message>
+
+        <message key="moderationRule18_1Notify">Пишите по-русски. Языком Игры является русский язык. Допускается использование транслитерации.</message>
+        <message key="moderationRule18_1Title">форматирование (ин.яз)</message>
+
+        <!--<message key="banReasonParagraph6">манипуляции с игровым аккаунтом</message>-->
+        <!--<message key="banReasonParagraph6Full">(п.3) Продажа/покупка/обмен/передача/дарение игрового аккаунта. Распространение информации о намерении совершить указанные действия как самим пользователем, так и любыми третьими лицами.</message>-->
+        <!--<message key="banReasonParagraph7">махинации с игровой валютой</message>-->
+        <!--<message key="banReasonParagraph7Full">(п.4) Осуществление или поощрение следующих действий с любым внутриигровым объектом, функционалом, ценностью, дополнительным функционалом Игры, игровой валютой: покупка/продажа/обмен за внеигровые ценности.</message>-->
+        <!--<message key="banReasonParagraph8">использование игровых ботов</message>-->
+        <!--<message key="banReasonParagraph8Full">(п.5) Создание и использование игровых ботов.</message>-->
+        <!--<message key="banReasonParagraph9">использование багов игры</message>-->
+        <!--<message key="banReasonParagraph9Full">(п.6) Использование/распространение информации о любых ошибках, как внутриигровых, так и ошибках любого сопутствующего программного обеспечения.</message>-->
+        <!--<message key="banReasonParagraph10">распространение клеветы</message>-->
+        <!--<message key="banReasonParagraph10Full">(п.7) Распространение слухов, клеветы, порочащей информации о Компании ООО "Тортуга", других пользователях, игровых сервисах, игровых акциях, игровых мероприятиях, партнерах Компании. Игре в целом.</message>-->
+        <!--<message key="banReasonParagraph11">спам или флуд</message>-->
+        <!--<message key="banReasonParagraph11Full">(п.8) Спам/флуд в любых видах информационных сервисов Игры.</message>-->
+        <!--<message key="banReasonParagraph12">реклама или ссылки</message>-->
+        <!--<message key="banReasonParagraph12Full">(п.9) Распространение рекламных объявлений, включая воспроизведение в Игре любых ссылок на страницы сети Интернет.</message>-->
+        <!--<message key="banReasonParagraph13">нецензурные описания и названия</message>-->
+        <!--<message key="banReasonParagraph13Full">(п.10) Использование любых нецензурных, оскорбительных, провокационных, рекламных или не предусмотренных Игрой слов и символов в любом виде в наименованиях или описаниях персонажей, других игровых объектов, гильдий и любых других сообществ и организаций игроков.</message>-->
+        <!--<message key="banReasonParagraph14">мат и/или оскорбления</message>-->
+        <!--<message key="banReasonParagraph14Full">(п.11) Использование в игровом процессе, в общих каналах и сервисах общения, информирующих одновременно несколько игроков, — ненормативной лексики, оскорблений, а также во всех без исключения каналах и типах сообщений — угрозы насилия или физической расправы, рекламы наркотиков, порнографических материалов или сторонних ресурсов, содержащих эти материалы в открытом доступе, пропаганды нетерпимости к расовой, национальной, религиозной, культурной, идеологической, половой, языковой или политической принадлежности, а также поощрять подобные действия и высказывания, совершаемые другими пользователями.</message>-->
+        <!--<message key="banReasonParagraph15">умышленное создание трудностей</message>-->
+        <!--<message key="banReasonParagraph15Full">(п.12) Намеренное совершение любых действий, затрудняющих или делающих невозможным доступ к Игре другим пользователям или выполнение Компанией своих обязанностей. Создание в игре для других пользователей преднамеренных помех, не предусмотренных имеющимся игровым процессом.</message>-->
+        <!--<message key="banReasonParagraph16">вредоносные файлы</message>-->
+        <!--<message key="banReasonParagraph16Full">(п.13) Опубликование информации или загрузка файлов, которые содержат вредоносное программное обеспечение, поврежденные или модифицированные файлы или данные, прочее подобное программное обеспечение, которое может повредить Игре, нарушить работу чужих компьютеров и средств связи или неприкосновенность учетных записей (игровых аккаунтов) пользователей.</message>-->
+        <!--<message key="banReasonParagraph17">выдает себя за сотрудника</message>-->
+        <!--<message key="banReasonParagraph17Full">(п.14) Создание имен персонажей, названий предметов, внутриигровых объектов, сообществ и организаций игроков и любых других знаков отличия, указывающих на принадлежность к Компании ООО "Тортуга" или его партнерам, а также представление себя перед другими пользователями как действующего или бывшего сотрудника Компании или его партнера.</message>-->
+        <!--<message key="banReasonParagraph18">попытка получения доступа к чужому аккаунту</message>-->
+        <!--<message key="banReasonParagraph18Full">(п.15) Распространение, использование или намеренное получение информации, позволяющей получить доступ к учетным записям (игровым аккаунтам) пользователей в Игре, на Интернет сайте Игры, на форумах Игры, на сопутствующих Игре сервисах, а также распространение ссылок на сторонние ресурсы, содержащие такую информацию.</message>-->
+        <!--<message key="banReasonParagraph19">введение в заблуждение Администрации</message>-->
+        <!--<message key="banReasonParagraph19Full">(п.18) Подача заведомо ложной информации в случае обращения к Администрации, а также фальсификация предоставляемых данных.</message>-->
+        <!--<message key="banReasonParagraph20">мошенничество</message>-->
+        <!--<message key="banReasonParagraph20Full">(п.19) Мошенничество (обман других игроков с целью личной выгоды, в том числе с целью получить доступ к учетным данным других игроков).</message>-->
+        <!--<message key="banReasonParagraph21">избыточное форматирование</message>-->
+        <!--<message key="banReasonParagraph21Full">(п. 20) Избыточное форматирование, включая написание "КРИЧАЩИХ" сообщений (капс), написание сообщений ЗаБоРчИкОм, а также частичное использование избыточного форматирования, превышающее 30% от всего текста.</message>-->
+        
+        <message key="moderatorRenameLabel">Нарушитель</message>
+        <message key="unbanLabel">Вы можете разблокировать ваш аккаунт за :coins:</message>
+        <message key="unbanButtonTitle">Разблокировать</message>
+        <message key="refreshAfterUnban">После оплаты разблокировки аккаунта обновите страницу и войдите в приложение заново.</message>
+        
+        <!-- SHOP -->
+        
+        <message key="inventory">Инвентарь</message>
+        <message key="inventoryBuyDialogTitle">Покупка инвентаря</message>
+        <message key="countLabel">Количество</message>
+        <message key="hasItemTitle">Уже куплено</message>
+        <message key="hasItemMessage">Эта вещь у тебя уже есть.</message>
+        <message key="buyCompleteTitle">Товар куплен</message>
+        <message key="buyCompleteMessage">Поздравляем с успешной покупкой!</message>
+        <message key="sale">продать</message>
+        <message key="saleNoItemsText">У тебя пока что нет никаких вещей, но ты всегда можешь прикупить себе что-нибудь в магазине.</message>
+        
+        <message key="needLevel">Нужен уровень</message>
+        
+        <!-- NOTIFICATION -->
+        
+        <message key="buyed">Куплено</message>
+        <message key="fullscreen">Полноэкранный режим</message>
+        <message key="actionForbiddenInFullscreen">Действие не может быть выполнено в полноэкранном режиме. Вернуться в оконный режим?</message>
+        
+        <!-- BUDDY -->
+        
+        <message key="buddyList">Список приятелей</message>
+        <message key="associateBuddyListEmpty"><p><center>У тебя пока нет <span class="bold">приятелей.</span> Чтобы добавить приятеля, необходимо познакомиться с кем-нибудь.</center></p></message>
+        <message key="enemyBuddyListEmpty"><p><center><span class="bold">Список пуст.</span> Здесь будут показаны твои неприятели в игре, если такие появятся.</center></p></message>
+        <message key="friendBuddyListEmpty"><p><center>У тебя пока нет <span class="bold">друзей.</span> Здесь будут показаны твои приятели, которые согласились дружить с тобой.</center></p></message>
+        <message key="loveBuddyListEmpty"><p><center><span class="bold">Список пуст.</span> Здесь будут показаны твои близкие друзья.</center></p></message>        
+        <message key="fileredBuddyListEmpty"><p><center><span class="bold">Список пуст.</span> Попробуй изменить критерии поиска в колонке слева.</center></p></message>        
+        <message key="removeBuddyButtonTitle">удалить из приятелей</message>
+        <message key="addBuddyButtonTitle">добавить в приятели</message>
+        
+        <message key="buddyRequestTitle">Запрос на дружбу</message>
+        <message key="buddyRequestMessage">:userName: предлагает тебе стать приятелями. Согласиться?</message>
+        <message key="buddyRequestDeclineTitle">Отказ от дружбы</message>
+        <message key="removeBuddyConfirmMessage">Отказаться от дружбы с :userName:?</message>
+        <message key="buddyRequestDeclineMessage">Пользователь :userName: отклонил твой запрос дружбы.</message>
+        <message key="buddyRemovedTitle">Приятель удален</message>
+        <message key="buddyRemovedMessage">Ты и :userName: больше не приятели.</message>
+        <message key="buddyAddedTitle">У тебя новый приятель</message>
+        <message key="buddyAddedMessage">Ты и :userName: теперь приятели.</message>
+        <message key="buddyOnlineTitle">Приятель онлайн</message>
+        <message key="buddyOnlineMessage">:userName: теперь в игре.</message>
+        
+        <message key="invitationMessage">Посети мою квартиру!</message>
+        
+        <message key="buddyErrorTitle">Ошибка приятелей</message>
+        <message key="buddyErrorMessage">Ошибка списка приятелей</message>
+        <message key="buddyListIsFull">Список приятелей полон. Попробуй удалить кого-нибудь, а потом добавить новых приятелей.</message>
+        <message key="buddyDuplicate">Пользователь уже находится в твоем списке приятелей.</message>
+
+        <message key="defaultLookupInputText">введите имя</message>
+        <message key="buddyListLookupBtn">найти</message>
+        <message key="buddyListHomeBtn">в гости</message>
+        <message key="buddyListRemoveBtn">удалить</message>
+        <message key="buddyStatInfo"><![CDATA[<p>У тебя <span class="bold">:count:</span> :buddy: из <span class="bold">:max:</span> возможных</p>]]></message>
+        <message key="buddyListLookupTitle">Поиск приятеля:</message>
+        <message key="buddyListSortTitle">Выводить по:</message>
+        <message key="buddyListSortOnLevel">Уровню</message>
+        <message key="buddyListSortOnImage">Имиджу</message>
+        <message key="buddyListSortOnComfort">Комфорту</message>
+        <message key="buddyListOnlineText">только онлайн</message>
+        
+        <!-- TRADE -->
+        
+        <message key="tradeDialogTitle">Обмен</message>
+        <message key="tradeRequestDialogTitle">Запрос на обмен</message>
+        <message key="tradeSuccessTitle">Успешный обмен</message>
+        <message key="tradeSuccessMessage">Обмен вещами с пользователем :userName: прошел успешно.</message>
+        <message key="tradeFailTitle">Обмен отклонен</message>
+        <message key="tradeFailMessage">Пользователь :userName: не хочет меняться с тобой вещами.</message>
+        <message key="exchangeInfo">Выбери предметы для обмена</message>
+        <message key="myRequestButtonTitle">свой вариант</message>
+        <message key="tradeLevelMessage">Для того, чтобы обменяться вещами, тебе нужно достичь :level: уровня.</message>
+        
+        <!-- CHAT -->
+        
+        <message key="smiles">Смайлы</message>
+        <message key="privateChatMessageTitle">Личное сообщение</message>
+        <message key="privateMessageFor">:name:, личное сообщение:</message>
+        <message key="moderatorMessage">Сообщение от модератора</message>
+        <message key="systemMessage">Важное объявление</message>
+        <message key="commonChatTitle">Общий</message>
+        
+        <!-- TRASH -->
+        
+        <message key="trashInviteTitle">Уборка мусора</message>
+        <message key="trashInviteMessage">В день ты можешь убраться у :maxCount: соседей. Хочешь пригласить своих знакомых в игру?</message>
+        
+        <!-- KISS -->
+        
+        <message key="kissRequestSendedTitle">Разрешение на поцелуй</message>
+        <message key="kissRequestSendedMessage">:name: узнает о твоем желании поцеловаться через мгновение.</message>
+        <message key="kissRequestReceivedTitle">Тебя хотят поцеловать</message>
+        <message key="kissRequestReceivedMessage">:name: хочет тебя поцеловать. Разрешить?</message>
+        <message key="kissRequestApprovedTitle">Давай, целуй!</message>
+        <message key="kissRequestApprovedMessage">:name: будет не против поцелуя</message>
+        <message key="kissRequestDeclinedTitle">Отказ</message>
+        <message key="kissRequestDeclinedMessage">:name: против твоего поцелуя</message>
+        <message key="kissTitle">Поцелуй</message>
+        <message key="kissLevelMessage">Для того, чтобы поцеловать кого-либо, тебе нужно достичь :level: уровня.</message>
+        
+        <!-- HUG -->
+        
+        <message key="hugRequestSendedTitle">Разрешение на объятия</message>
+        <message key="hugRequestSendedMessage">:name: узнает о твоем желании обняться через мгновение.</message>
+        <message key="hugRequestReceivedTitle">Тебя хотят обнять</message>
+        <message key="hugRequestReceivedMessage">:name: хочет тебя обнять. Разрешить?</message>
+        <message key="hugRequestApprovedTitle">Давай, обнимай!</message>
+        <message key="hugRequestApprovedMessage">:name: будет не против объятий</message>
+        <message key="hugRequestDeclinedTitle">Отказ</message>
+        <message key="hugRequestDeclinedMessage">:name: против твоих объятий</message>
+        <message key="hugTitle">Объятия</message>
+        <message key="hugLevelMessage">Для того, чтобы обнять кого-либо, тебе нужно достичь :level: уровня.</message>
+        
+        <!-- MISC -->
+        
+        <message key="roomNameDialogTitle">Название комнаты</message>
+        <message key="roomRenameDialogTitle">Название комнаты</message>
+        <message key="roomNameDialogDescription">Ты должен назвать комнату.</message>
+        <message key="roomRenameDialogDescription">Ты можешь изменить название этой комнаты.</message>
+        <message key="roomScreenshotPublishDialogTitle">Публикация фото</message>
+        <message key="publishSuccess">Спасибо! Фотография успешно опубликована.</message>
+        <message key="roomScreenshotPublishDialogMessage">Опубликуй фото своей комнаты, чтобы друзья обзавидовались! ;)</message>
+        
+        <message key="photoAlbumName">Тропикания</message>
+        <message key="photoAlbumDescription"><![CDATA[Я играю в Тропикаю. Альбом посвящен красивым местам и интересным моментам игры. Присоединяйтесь!
+
+:appLink:]]></message>
+        
+        <!-- QUEST -->
+        
+        <message key="allowedQuests">Доступные задания</message>
+        <message key="congratulationsTitle">Поздравляем!</message>
+        <gender key="questCompleted">
+            <form>Ты выполнил задание ":questTitle:"</form>
+            <form>Ты выполнила задание ":questTitle:"</form>
+        </gender>
+        <gender key="questCompleteByMe">
+            <form>Я выполнил задание ":questTitle:" в игре "Тропикания"</form>
+            <form>Я выполнила задание ":questTitle:" в игре "Тропикания"</form>
+        </gender>
+        <gender key="newLevelAchived">
+            <form>Ты достиг уровня</form>
+            <form>Ты достигла уровня</form>
+        </gender>
+        <gender key="newLevelAchivedByMe">
+            <form>Я достиг :level: уровня в игре "Тропикания". Если хочешь, я могу помочь тебе достигнуть такого же уровня.</form>
+            <form>Я достигла :level: уровня в игре "Тропикания". Если хочешь, я могу помочь тебе достигнуть такого же уровня.</form>
+        </gender>
+        <message key="questYouAwardTitle">Твоя награда:</message>
+        <message key="awardTitle">Награда:</message>
+        <message key="noAwardTitle">нет</message>
+        <message key="buyTaskFor">Пройти за :gold:</message>
+        
+        <message key="questLegendLabel0">обязательное задание</message>
+        <message key="questLegendLabel1">бонусное задание</message>
+        <message key="questLegendLabel2">новогоднее задание</message>
+        
+        <!-- FORTUNE -->
+        
+        <message key="jackpot">Джекпот</message>
+        <message key="play">Играть</message>
+        <message key="require">Необходимо</message>
+        <message key="spin">Крутить!</message>
+        <message key="bankrupt">БАНКРОТ</message>
+        <message key="takeWin">Забрать сейчас</message>
+        <message key="currentWin">Текущий выигрыш</message>
+        <message key="dontShowAnymore">Больше не показывать</message>
+        <message key="howToPlay">Как играть?</message>
+        <message key="hurra">Ура!</message>
+        <message key="congratulation">Поздравляем!</message>
+        <message key="playAgain">Играть снова</message>
+        <message key="exit">Выйти</message>
+        <message key="multipler">УМНОЖЕНИЕ</message>
+        <message key="yoursWin">Твой выигрыш</message>
+        
+        <message key="youWin">Ты :gender:</message>
+        <gender key="winMessageSex">
+        	<form>выиграл</form>
+        	<form>выиграла</form>
+        </gender>
+        <gender key="looseMessageSex">
+        	<form>проиграл</form>
+        	<form>проиграла</form>
+        </gender>
+        <message key="looseMessage">К сожалению, ты :gender:.</message>
+        
+        <message key="gameRulesDialogTitle">Правила игры</message>
+        <message key="helpMessage1"><![CDATA[Нажми кнопку «<b>Крутить!</b>», чтобы колесо начало вращаться. Ты можешь крутить колесо любое количество раз.]]></message>
+        <message key="helpMessage2"><![CDATA[Будь осторожен, если ты попадешь на сектор «<b>Банкрот</b>», ты потеряешь свой выигрыш, и игра закончится.]]></message>
+        <message key="helpMessage3"><![CDATA[Как только ты будешь удовлетворен размером выигрыша, нажми кнопку «<b>Забрать сейчас</b>».]]></message>
+        
+        <message key="buyGameChipsTitle">Покупка фишек</message>
+        <message key="exchangeGoldToChipsMessage">Ты можешь обменять золотые монеты на фишки.</message>
+        <message key="buyChips">Ты получаешь</message>
+        
+        <message key="notEnoughGameChipsTitle">Недостаточно фишек</message>
+        <message key="notEnoughGameChipsConfirm">У тебя недостаточно игровых фишек. Каждый день ты получаешь в подарок по :daylyChips:. Но их так же можно купить за золото. Открыть диалог покупки фишек?</message>
+        
+        <!-- EVENT -->
+        
+        <message key="selectEventCategory">Категория</message>
+        
+        <message key="allEventCategories">все</message>
+        <message key="partyEventCategories">вечеринка</message>
+        <message key="saleEventCategories">распродажа</message>
+        <message key="weddingEventCategories">свадьба</message>
+        
+        <message key="updateButtonTitle">обновить</message>
+        <message key="createForButtonTitle">создать за</message>
+        <message key="createEventButtonTitle">создать событие</message>
+        <message key="closeCityEvent">закрыть событие</message>
+        
+        <message key="createEventTitle">Создание нового события</message>
+        <message key="createEventLevelMessage">Для создания нового события тебе нужно достичь :level: уровня.</message>
+        <message key="eventNameLabel">Название</message>
+        <message key="eventDescriptionLabel">Описание</message>
+        <message key="eventCategoryLabel">Категория</message>
+        <message key="eventLengthLabel">Длительность</message>
+        <message key="eventRatingLabel">Золотая звездочка</message>
+        <message key="eventLevelRestrictLabel">Мин. уровень</message>
+        <message key="eventLevelNoRestrictLabel">не ограничено</message>
+        <message key="eventCreatedMessage">Событие успешно создано. Жди гостей!</message>
+        <message key="eventMinLevelRestrictInfo">от :level: уровня</message>
+        <message key="yourEvent">Твое событие</message>
+        <message key="eventMinLevelRestrictMessage">Событие доступно с :level: уровня</message>
+        
+        <message key="eventLength30">полчаса</message>
+        <message key="eventLength60">один час</message>
+        <message key="eventLength120">два часа</message>
+        
+        <message key="noneEventRating">без пиара</message>
+        <message key="silverEventRating">серебряная звезда (:silver: S)</message>
+        <message key="goldEventRating">золотая звезда (:gold: G)</message>
+        
+        <message key="closeEventTitle">Закрытие события</message>
+        <message key="closeEventConfirm">После закрытия события оно пропадет изо всех списков. Продолжить?</message>
+        <message key="createEventFillFields">Введи название события и несколько слов в его описание.</message>
+        
+        <message key="notEngagedTitle">Невозможно создать событие</message>
+        <message key="notEngagedTitleMessage">Для создания события "Свадьба" нужно быть обрученным. Сперва обручись со своей второй половинкой.</message>
+        
+        <message key="needEngagedStatusMessage">Нужно быть помолвленным</message>
+        
+        <!-- RELATION -->
+        
+        <message key="relations">отношения</message>
+        <message key="associateButtonTitle">в знакомые</message>
+        <message key="enemyButtonTitle">враждовать</message>
+        <message key="addFriendButtonTitle">в друзья</message>
+        <message key="apologizeButtonTitle">извиниться</message>
+        <message key="removeFriendButtonTitle">поссориться</message>
+        <message key="noEnemyButtonTitle">мириться</message>
+        <message key="sendRequestButtonTitle">отправить запрос</message>
+        <message key="addBelovedButtonTitle">встречаться</message>
+        <message key="removeFromBelovedButtonTitle">расстаться</message>
+        <message key="addEngagedButtonTitle">обручиться</message>
+        <message key="removeFromEngagedButtonTitle">расстаться</message>
+        <message key="addMarriedButtonTitle">пожениться</message>
+        <message key="removeFromMarriedButtonTitle">развестись</message>
+        
+        <message key="defaultRelationConfirmTitle">Добавить в :status:?</message>
+        <message key="exBelovedConfirmTitle">Ты действительно хочешь расстаться?</message>
+        <message key="belovedConfirmTitle">Предложить встречаться?</message>
+        <message key="engadegConfirmTitle">Предложить руку и сердце?</message>
+        <message key="marriedConfirmTitle">Заключить брак?</message>
+        <message key="exEngagedConfirmTitle">Ты хочешь разорвать отношения?</message>
+        <message key="exMarriedConfirmTitle">Ты хочешь развестись?</message>
+        
+        <message key="defaultRelationConfirmButton">добавить</message>
+        <message key="exBelovedConfirmButton">бросить</message>
+        <message key="exEngagedConfirmButton">разовать</message>
+        <message key="exMarriedConfirmButton">развестись</message>
+        <message key="engegedButtonTitle">предложить</message>
+        <message key="marriedButtonTitle">предложить</message>
+        
+        <message key="sendRelationLabel">Ты и :name: будете</message>
+        <message key="newRelationLabel">Ты и :name: теперь</message>
+        <message key="newSelfRelationLabel">Я и :name: теперь :relation:. Мы развиваем наши отношения чтобы получить доступ к новым возможностям.</message>
+        <message key="changeStatusInfo">Новый уровень отношений открывает больше возможностей для взаимодействия</message>
+        
+        <message key="addToEngagedGirlMessage">Предложить руку и сердце могут только парни</message>
+        
+        <message key="relationAssociateGroup">приятели</message>
+        <message key="relationEnemyGroup">неприятели</message>
+        <message key="relationFriendsGroup">друзья</message>
+        <message key="relationLoveGroup">близкие</message>
+        <message key="relationStrangerGroup">незнакомые</message>
+        
+        <gender key="relationStranger">
+            <form>незнакомец</form>
+            <form>незнакомка</form>
+        </gender>
+        <message key="relationStrangers">незнакомцы</message>
+        
+        <gender key="relationAssociate">
+            <form>приятель</form>
+            <form>приятельница</form>
+        </gender>
+        <message key="relationAssociates">приятели</message>
+        
+        <gender key="relationBadAssociate">
+            <form>плохой приятель</form>
+            <form>плохая приятельница</form>
+        </gender>
+        <message key="relationBadAssociates">плохие приятели</message>
+        
+        <gender key="relationGoodAssociate">
+            <form>хороший приятель</form>
+            <form>хорошая приятельница</form>
+        </gender>
+        <message key="relationGoodAssociates">хорошие приятели</message>
+        
+        <gender key="relationEnemy">
+            <form>неприятель</form>
+            <form>неприятельница</form>
+        </gender>
+        <message key="relationEnemys">неприятели</message>
+        
+        <gender key="relationWorstEnemy">
+            <form>заклятый враг</form>
+            <form>заклятый враг</form>
+        </gender>
+        <message key="relationWorstEnemys">заклятые враги</message>
+        
+        <gender key="relationBadEnemy">
+            <form>враг</form>
+            <form>враг</form>
+        </gender>
+        <message key="relationBadEnemys">враги</message>
+        
+        <gender key="relationFriend">
+            <form>друг</form>
+            <form>подруга</form>
+        </gender>
+        <message key="relationFriends">друзья</message>
+        
+        <gender key="relationBadFriend">
+            <form>плохой друг</form>
+            <form>плохая подруга</form>
+        </gender>
+        <message key="relationBadFriends">плохие друзья</message>
+        
+        <gender key="relationGoodFriend">
+            <form>хороший друг</form>
+            <form>хорошая подруга</form>
+        </gender>
+        <message key="relationGoodFriends">хорошие друзья</message>
+        
+        <gender key="relationBestFriend">
+            <form>лучший друг</form>
+            <form>лучшая подруга</form>
+        </gender>
+        <message key="relationBestFriends">лучшие друзья</message>
+        
+        <gender key="relationBeloved">
+            <form>парень</form>
+            <form>девушка</form>
+        </gender>
+        <message key="relationBeloveds">пара</message>
+        
+        <gender key="relationEngaged">
+            <form>жених</form>
+            <form>невеста</form>
+        </gender>
+        <message key="relationEngageds">обрученные</message>
+        
+        <gender key="relationMarried">
+            <form>муж</form>
+            <form>жена</form>
+        </gender>
+        <message key="relationMarrieds">женаты</message>
+        
+        <gender key="relationExEngaged">
+            <form>бывший жених</form>
+            <form>бывшая невеста</form>
+        </gender>
+        <message key="relationExEngageds">бывшие обрученные</message>
+        
+        <gender key="relationExFriend">
+            <form>бывший друг</form>
+            <form>бывшая подруга</form>
+        </gender>
+        <message key="relationExFriends">бывшие друзья</message>
+        
+        <gender key="relationExMarried">
+            <form>бывший муж</form>
+            <form>бывшая жена</form>
+        </gender>
+        <message key="relationExMarrieds">разведенные</message>
+        
+        <gender key="relationExBeloved">
+            <form>бывший парень</form>
+            <form>бывшая девушка</form>
+        </gender>
+        <message key="relationExBeloveds">бывшие возлюбленные</message>
+        
+        <gender key="relationExEnemy">
+            <form>бывший враг</form>
+            <form>бывший враг</form>
+        </gender>
+        <message key="relationExEnemys">бывшие враги</message>
+        
+        
+        <message key="associateRequestSendedTitle">Запрос на знакомство</message>
+        <message key="associateRequestSendedMessage">:name: узнает о твоем желании познакомиться через мгновение.</message>
+        <message key="associateRequestReceivedMessage">:name: хочет с тобой познакомиться. Согласиться?</message>
+        <message key="associateRequestDeclinedTitle">Отказ</message>
+        <message key="associateRequestDeclinedMessage">:name: не хочет с тобой знакомиться</message>
+        
+        <message key="friendsRequestSendedTitle">Запрос на дружбу</message>
+        <message key="friendsRequestSendedMessage">:name: узнает о твоем желании подружиться через мгновение.</message>
+        <message key="friendsRequestReceivedMessage">:name: предлагает перейти на новый уровень отношений - дружба. Согласиться?</message>
+        <message key="friendsRequestDeclinedTitle">Отказ</message>
+        <message key="friendsRequestDeclinedMessage">:name: не хочет с тобой дружить</message>
+        
+        <message key="belovedRequestSendedTitle">Запрос на отношения</message>
+        <message key="belovedRequestSendedMessage">:name: узнает о твоем желании быть парой через мгновение.</message>
+        <message key="belovedRequestReceivedMessage">:name: предлагает вам стать парой. Согласиться?</message>
+        <message key="belovedRequestDeclinedTitle">Отказ</message>
+        <message key="belovedRequestDeclinedMessage">:name: не хочет быть с тобой парой</message>
+        
+        <message key="engagedRequestSendedTitle">Запрос на отношения</message>
+        <message key="engagedRequestSendedMessage">:name: узнает о твоем предложении руки и сердца через мгновение.</message>
+        <message key="engagedRequestReceivedMessage">:name: предлагает тебе свою руку и сердце</message>
+        <message key="engagedRequestDeclinedTitle">Отказ</message>
+        <message key="engagedRequestDeclinedMessage">:name: отвергла твое предложение</message>
+        
+        <message key="marriedRequestSendedTitle">Запрос на отношения</message>
+        <message key="marriedRequestSendedMessage">:name: узнает о твоем заключить брак через мгновение.</message>
+        <message key="marriedRequestReceivedMessage">:name: предлагает вам стать мужем и женой. Согласиться?</message>
+        <message key="marriedRequestDeclinedTitle">Отказ</message>
+        <message key="marriedRequestDeclinedMessage">:name: не хочет заключать с тобой брачный союз</message>
+        
+        <message key="notenemyRequestSendedTitle">Перемирие</message>
+        <message key="notenemyRequestSendedMessage">:name: узнает о твоем предложении о мире через мгновение.</message>
+        <message key="notenemyRequestReceivedMessage">:name: предлагает перемире. Больше вы не будете врагами. Согласиться?</message>
+        <message key="notenemyRequestDeclinedTitle">Отказ</message>
+        <message key="notenemyRequestDeclinedMessage">:name: хочет остаться врагами</message>
+        
+        <message key="weddingWitnessRequestSendedTitle">Предложение стать свидетелем</message>
+        <message key="weddingWitnessRequestSendedMessage">:name: узнает о предожении стать твоим свидетелем через мгновение.</message>
+        <message key="weddingWitnessReceivedMessage">:name: предлагает тебе стать свидетелем на свадьбе. Согласиться?</message>
+        <message key="weddingWitnessRequestDeclinedTitle">Отказ</message>
+        <message key="weddingWitnessRequestDeclinedMessage">:name: не хочет быть свидетелем на твоей свадьбе.</message>
+        <message key="weddingWitnessRequestApprovedTitle">Свидетель согласен</message>
+        <message key="weddingWitnessRequestApprovedMessage">:name: будет свидетелем на твоей свадьбе.</message>
+        <message key="weddingWitnessCongratulationMessage">Поздравляем! Тебя выбрали свидетелем на свадьбе игроков :name1: и :name2:</message>
+        
+        <message key="relationPermissionsRequestTitle">Изменить отношения</message>
+        <message key="relationPermissionsRequestMessage">У тебя не те отношения с пользователем, при которых это было бы возможно.</message>
+        <message key="relationPermissionsShortRequestMessage">У тебя не те отношения с пользователем</message>
+        <message key="tradePermissionsRequestMessage">Для того, чтобы обмениваться вещами с другими игроками, вам нужно быть хорошими приятелями. Стать приятелями?</message>
+        <message key="tradePermissionsRequestMessage2">Для обмена вещами нужно быть хорошими приятелями.</message>
+        <message key="kissPermissionsRequestMessage">Чтобы целовать других игроков, нужно быть с ними друзьями. Подружиться?</message>
+        <message key="kissPermissionsRequestMessage2">Чтобы целовать других игроков, нужно быть с ними друзьями.</message>
+        <message key="hugPermissionsRequestMessage">Для того, чтобы обнять другого игрока, вам нужно помириться. Помириться?</message>
+        <message key="bestAssociateBeforeMessage">Сначала станьте хорошими приятелями.</message>
+        <message key="bestFriendsBeforeMessage">Прежде, чем объявить себя парой, станьте лучшими друзьями.</message>
+        <message key="jacuzziRepairPermissionsDenyedMessage">Для того, чтобы починить джакузи, вам необходимо стать хорошими друзьями.</message>
+        <message key="jacuzziBrokePermissionsDenyedMessage">Для того, чтобы сломать джакузи, вам необходимо стать врагами.</message>
+        
+        <message key="maxRelationsTitle">Список полон</message>
+        <message key="maxAssociateMessage">У тебя слишком много приятелей. Развивай свои отношения с ними, либо удаляй тех, с кем не общаешься.</message>
+        <message key="targetMaxAssociateMessage">Нельзя добавить нового приятеля, так как его список приятелей полон.</message>
+        <message key="maxEnemyMessage">У тебя слишком много врагов. Помирись с некоторыми из ни, либо порви отношения.</message>
+        <message key="targetMaxEnemyMessage">Нельзя добавить нового врага, так как его список неприятелей полон.</message>
+        <message key="ringNotDefinedTitle">Кольцо не выбрано</message>
+        <message key="ringNotDefinedMessage">Выбери кольцо чтобы сделать предложение.</message>
+
+        <!--
+        <message key="removeRelation">порвать отношения</message>
+        -->
+        <message key="removeRelationTitle">Разрыв отношений</message>
+        <message key="removeRelationConfirm">Ты действительно хочешь порвать все отношения с :name:?</message>
+        <message key="removeRelationAlert">Ты и :name: больше не имеете ничего общего.</message>
+        
+        <message key="viewNewOpportunitiesButton">узнать о новых возможностях</message>
+        
+        <!-- WEDDING -->
+        
+        <gender key="alreadyEngagedTitle">
+            <form>Ты уже обручен</form>
+            <form>Ты уже обручена</form>
+        </gender>
+        <gender key="alreadyEngagedMessage">
+            <form>Ты уже обручен. Сначала расстанься со своей невестой.</form>
+            <form>Ты уже обручена. Сначала расстанься со своим женихом.</form>
+        </gender>
+        <gender key="alreadyMarriedTitle">
+            <form>Ты уже женат</form>
+            <form>Ты уже замужем</form>
+        </gender>
+        <gender key="alreadyMarriedMessage">
+            <form>Ты уже женат. Сначала рассторгни брак со своей женой.</form>
+            <form>Ты уже замужем. Сначала рассторгни брак со своим мужем.</form>
+        </gender>
+        <message key="selectBestman">Выбери свидетеля твоей свадьбы</message>
+        <message key="selectBridesmaid">Выбери свидетельницу твоей свадьбы</message>
+        <message key="createWeddingEventButtonTitle">события</message>
+        <message key="buyWeddingRingButtonTitle">в магазин</message>
+        <message key="buyWeddingClothesButtonTitle">в магазин</message>
+        <message key="weddingStepsTitle">Подготовка к свадьбе</message>
+        <message key="weddingStepsMessage">Для хорошей свадьбы нужно подготовиться</message>
+        <message key="weddingDressCodeTitle">Неподобающая одежда</message>
+        <message key="weddingRingsErrorTitle">Нет обручальных колец</message>
+        <message key="conditionsErrorTitle">Не все условия выполнены</message>
+        <gender key="weddingDressCodeSelfMessage">
+            <form>Для такого торжественного события ты должен быть одет в праздничую одежду. Переодеться?</form>
+            <form>Для такого торжественного события ты должна быть одета в праздничую одежду. Переодеться?</form>
+        </gender>
+        <gender key="weddingDressCodeMessage">
+            <form>Для такого торжественного события твоя невеста должна быть одета в праздничую одежду. Попроси её переодеться.</form>
+            <form>Для такого торжественного события твой жених должен быть одет в праздничую одежду. Попроси его переодеться.</form>
+        </gender>
+        
+        <message key="weddingClothesCheck">Приобрети :weddingClothes:.</message>
+        <gender key="weddingClothesCheckDetails">
+            <form>Костюм состоит из пиджака, рубашки и брюк. В свадебном магазине есть отличные костюмы как раз твоего размера.</form>
+            <form>В свадебном магазине есть отличные платья как раз твоего размера.</form>
+        </gender>
+        <message key="weddingRingsCheck">Приобрети :weddingRings:.</message>
+        <message key="weddingRingsCheckDetails">Кольца можно присмотреть, примерить и приобрести в свадебном магазине.</message>
+        <message key="weddingEventCheck">Создай свадебное событие и позови гостей.</message>
+        <message key="weddingEventCheckDetails">Для свадьбы вам понадобятся свидетель и свидетельница, которых можно будет выбрать из пришедших гостей.</message>
+        
+        <gender key="buyBeforeWedding">
+            <form>Прежде, чем звать гостей, купи</form>
+            <form>Прежде, чем звать гостей, купи</form>
+        </gender>
+        <gender key="weddingClothes">
+            <form>свадебный костюм</form>
+            <form>свадебный костюм</form>
+        </gender>
+        <gender key="weddingRings">
+            <form>обручальные кольца</form>
+            <form>обручальные кольца</form>
+        </gender>
+        <gender key="getReadyForGuests">
+            <form>Ты должен быть готов встречать гостей!</form>
+            <form>Ты должна быть готова встречать гостей!</form>
+        </gender>
+        
+        <message key="buyRingMessage">Выбери кольцо, и подари своей невесте</message>
+        <message key="weddingEventWallDescription">У меня скоро свадьба в игре Тропикания! Приглашаю всех гостей посетить это событие и порадоваться за нас!</message>
+        <message key="weddingWitnessWallDescription">Мои друзья :name1: и :name2: женятся! Они пригласили меня быть свидетелем на их свадьбе!</message>
+        <gender key="weddingConfirm">
+            <form>:name:, согласен ли ты что :opponent: станет твоей женой?</form>
+            <form>:name:, согласна ли ты что :opponent: станет твоим мужем?</form>
+        </gender>
+        <message key="selectWeddingRing">Выбери кольцо для обмена</message>
+        <message key="weddingCancelled">Церемония прервана</message>
+        <gender key="weddingCancelledMessage">
+            <form>:name: прервал вашу свадебную церемонию.</form>
+            <form>:name: прервала вашу свадебную церемонию.</form>
+        </gender>
+        <message key="weddingEventNotification">Поздравляем, событие создано! Теперь позови гостей на свой праздник.</message>
+        
+		<!-- LOCATION GAMES -->
+		
+		<message key="fightButtonTitle">поединок</message>
+
+		<message key="gameRequestSendedTitle">Запрос отправлен</message>
+		<message key="gameRequestSendedMessage">:name: получит твой запрос через мгновение.</message>
+		<message key="fightGameRequest">:name: вызывает тебя на поединок. Согласиться?</message>
+		<message key="gameRequestApprovedTitle">Запрос подтвержден</message>
+		<message key="gameRequestDeclinedTitle">Запрос отклонен</message>
+		<message key="gameRequestApprovedMessage">:name: будет не против твоего предложения.</message>
+		<message key="gameRequestDeclinedMessage">:name: против твоего предложения.</message>
+		
+		<message key="fightDrawResult">Ничья!</message>
+		<gender key="fightWinResult">
+             <form>Ты выиграл</form>
+             <form>Ты выиграла</form>
+		</gender>
+        <gender key="fightLooseResult">
+             <form>Ты проиграл</form>
+             <form>Ты проиграла</form>
+        </gender>
+		
+		<message key="startFightGameTitle">Начать драку</message>
+		<message key="readyButtonTitle">готов!</message>
+        <message key="fightGameReadyTimeLeft">Игра завершится через :time:.</message>
+        
+        <message key="fightRequestLabel">:name: :genderDrop: тебе вызов</message>
+        <message key="acceptFightButtonLabel">принять</message>
+        <message key="denyFightButtonLabel">отклонить</message>
+        <message key="fightRequestDialogTitle">Вызов на бой</message>
+        <message key="step">Шаг</message>
+        <message key="chooseFightActionLabel">Выбери действие для текущего этапа из списка</message>
+        <message key="total">Всего:</message>
+        <message key="strikes">Удары:</message>
+        <message key="blocks">Блоки:</message>
+        
+        <message key="startBattle">в бой!</message>
+        <message key="escapeBattle">сбежать</message>
+        
+        <message key="block">блок</message>
+        
+        <message key="fightPillowUpMove">Удар подушкой в голову</message>
+        <message key="fightPillowDownMove">Удар подушкой в ноги</message>
+        <message key="fightDefenceUpMove">Блок головы</message>
+        <message key="fightDefenceDownMove">Блок ног</message>
+        
+        <!-- CLOTHES COLLECTIONS -->
+        
+        <message key="clothesCollectionCasual">Повседневная</message>
+        <message key="clothesCollectionClub">Клубная</message>
+        <message key="clothesCollectionOfficial">Официальная</message>
+        <message key="clothesCollectionSwimwear">Купальная</message>
+        <message key="clothesCollectionUnderdress">Нижнее белье</message>
+        
+        <!-- CAKEWAR -->
+        
+        <message key="warningCakeTitle">Осторожно, торт!</message>
+        <message key="warningCakeMessage">:userName: :genderDrop: в тебя торт.</message>
+        <message key="sendBackCakeButtonTitle">ответить</message>
+        
+        <!-- STYLIST REPLICS -->
+        
+        <message key="beautySalonTitle">Салон красоты</message>
+        <message key="salonStylistName">Стилист</message>
+        <message key="lookingGreat">Прекрасно выглядите!</message>
+        
+        <!-- HAIR ACTION -->
+        
+        <message key="stylistHairActionMessage1">Говорила мне мама, а я все на мальчиков смотрел...</message>
+        <message key="stylistHairActionMessage2">Звезда в шоке!</message>
+        <message key="stylistHairActionMessage3">Мне кажется, я бигуди дома не выключил...</message>
+        <message key="stylistHairActionMessage4">Нет, мелирование мне не идет, к Волкову не ходи!</message>
+        <message key="stylistHairActionMessage5">Ох, как же я хорош собой!</message>
+        <message key="stylistHairActionMessage6">На 6 часов Сержик, на 7:30 Димуля записаны сегодня.</message>
+        <message key="stylistHairActionMessage7">И никаких больше мальчишников!</message>
+        <message key="stylistHairActionMessage8">Главное, чтобы тушь не потекла.</message>
+        
+        <!-- INVITING ACTION -->
+        
+        <message key="stylistInvitingActionMessage1">Присаживайтесь, сейчас сделаем из вас человека!</message>
+        <message key="stylistInvitingActionMessage2">Прическа, завивка? Все для вас, прямо здесь и сейчас!</message>
+        <message key="stylistInvitingActionMessage3">Готов поработать на благо вашей красоты!</message>
+        <message key="stylistInvitingActionMessage4">Не стесняемся, проходим, садимся!</message>
+        <message key="stylistInvitingActionMessage5">Кто следующий? Ваш мастер готов творить!</message>
+        <message key="stylistInvitingActionMessage6">Красота требует жертв, и я на все готов!</message>
+        
+        <!-- ACHIEVEMENTS -->
+        
+        <message key="achievementTitleLabel">Поздравляем!</message>
+        <message key="achievementAwardText">Ты получил награду ":award:"</message>
+        <message key="achievementAwardDescription">Награду ты можешь найти в инвентаре.</message>
+        <message key="achievementAwardNextDescription">Чтобы получить награду следующего уровня, тебе необходимо :nextAwardAction:.</message>
+        <message key="achievementAwardWallDescription">Я получил награду ":award:" в игре Тропикания! Приходи и получишь такую же!</message>
+        <message key="achievementProgressText">осталось :count: из :maxCount:</message>
+        
+        <!-- CRAFT -->
+        
+        <message key="confirmTitle">Предупреждение</message>
+        <message key="craftAskComponentMessage">Разместить просьбу на страничке у друзей</message>
+        <message key="inventoryDialogTitle">Инвентарь</message>
+        <message key="inventoryTabTitle">Инвентарь</message>
+        <message key="achievementTabTitle">Награды</message>
+        <message key="craftTabTitle">Мастерская</message>
+        <message key="craftButtonCompleteLabel">Собрать</message>
+        <message key="craftButtonBuyLabel">купить всё за</message>
+        <message key="craftNotificationDone">Завершено!</message>
+        <message key="craftNotificationCollect">собрать</message>
+        <message key="craftUseButtonTitle">использовать</message>
+        <message key="craftAskFriendButtonTitle">попросить</message>
+        <message key="craftFriendRequestDialogTitle">Запросы и ответы друзей</message>
+        <message key="craftFriendRequestTabTitle">Запросы (:count:)</message>
+        <message key="craftFriendResponseTabTitle">Ответы (:count:)</message>
+        <message key="craftFriendRequestPanelTitle">Ты можешь отправить :count: :gift: сегодня.</message>
+        <message key="craftFriendResponsePanelTitle">Друзья прислали тебе:</message>
+        <message key="craftFriendResponsePanelEmptyTitle">Тебе ничего не подарили</message>
+        <message key="craftFriendRequestDescription">Мне нужен предмет :item:. Пожалуйста, пришли его мне!</message>
+        <message key="craftFriendRequestApprove">подарить</message>
+        <message key="craftFriendRequestDeny">отклонить</message>
+        <message key="craftFriendResponseOk">ок</message>
+        <message key="craftFriendResponseDescription">Вот тебе :item:, что ты :action:</message>
+        <message key="craftResponseNotificationButton">мастерская</message>
+        <message key="craftResponseNotificationPanelTitle">Мастерская</message>
+        <gender key="craftResponseNotificationDescription">
+            <form><![CDATA[<p>:name: прислал тебе <span class="bold">:component:</span></p>]]></form>
+            <form><![CDATA[<p>:name: прислала тебе <span class="bold">:component:</span></p>]]></form>
+        </gender>
+        <message key="craftFriendRequestDefaultText"><![CDATA[<p><center>Список запросов пуст. <a href="event:1">Приглашай</a> больше друзей и помогай им собирать коллекции.</center></p>]]></message>
+        <message key="craftFriendResponseDefaultText"><![CDATA[<p><center>Тебе ничего не подарили сегодня. <a href="event:1">Приглашай</a> друзей и получай от них подарки.</center></p>]]></message>
+        
+        <!-- VIP -->
+        <gender key="presentedVipNotification">
+            <form>:name: получил VIP-статус</form>
+            <form>:name: получила VIP-статус</form>
+        </gender>
+        <gender key="buyVipNotification">
+            <form>:name: купил VIP-статус</form>
+            <form>:name: купила VIP-статус</form>
+        </gender>
+        
+        <message key="congratulateButton">Поздравить</message>
+        <message key="congratulateTitle">Поздравляем</message>
+        <gender key="presentedVipTitle">
+            <form>:name: подарил тебе VIP-статус</form>
+            <form>:name: подарила тебе VIP-статус</form>
+        </gender>
+        <gender key="buyVipTitle">
+            <form>Ты купил VIP-статус</form>
+            <form>Ты купила VIP-статус</form>
+        </gender>
+        <gender key="wallVipTitle">
+            <form>получил VIP-статус</form>
+            <form>получила VIP-статус</form>
+        </gender>
+        
+        <gender key="wallBuyVipDescription">
+            <form>Я купил себе VIP-статус, и теперь могу проходить в закрытую VIP-зону, бесплатно восстанавливать энергию и многое другое!</form>
+            <form>Я купила себе VIP-статус, и теперь могу проходить в закрытую VIP-зону, бесплатно восстанавливать энергию и многое другое!</form>
+         </gender>
+        <message key="wallPresentedVipDescription">Мне подарили VIP-статус, и теперь могу проходить в закрытую VIP-зону, бесплатно восстанавливать энергию и многое другое!</message>
+        <gender key="presentVipSuccesfullMessage">
+            <form>:name: успешно получил VIP-статус от тебя</form>
+            <form>:name: успешно получила VIP-статус от тебя</form>
+        </gender>
+        
+        <message key="needVipStatusMessage">Нужен VIP-статус</message>
+        
+        <message key="vipSoonExpireDialogTitle">Напоминаем</message>
+        <message key="vipSoonExpireDescription">Действие твоего VIP-статуса :expired:</message>
+        <message key="vipExpired">истекает через :date:</message>
+        <message key="vipExpiredToday">истекает сегодня</message>
+        <message key="vipProlongText">Продлить на:</message>
+
+        <message key="buyVipDialogTitle">Купить VIP</message>
+        <message key="giftVipDialogTitle">Подарить VIP</message>
+        <message key="buyVipButtonTitle">купить за :value:</message>
+        <message key="giftVipButtonTitle">подарить за :value:</message>
+        <message key="buyVipDialogDescription">VIP-статус — мир твоих новых возможностей. Позволь себе немного роскоши, живи полной жизнью и получай максимум удовольствия от своей уникальности и крутости!</message>
+        <message key="vipExpired">истекает через :date:</message>
+        <message key="vipExpiredToday">истекает сегодня</message>
+        <message key="vipSpotDeafultHintText">VIP-статус откроет для тебя новые игровые возможности</message>
+        
+        <message key="vipBonusTitle1">Доступ в VIP-комнату</message>
+        <message key="vipBonusTitle2">Уникальные вещи</message>
+        <message key="vipBonusTitle3">Подари заряд бодрости!</message>
+        <message key="vipBonusTitle4">Стань заметнее ;)</message>
+        <message key="vipBonusTitle5">Двойная награда</message>
+        <message key="vipBonusTitle6">Еще больше ресурсов!</message>
+        <message key="vipBonusTitle7">Защита от порчи!</message>
+        
+        <message key="vipBonusDescription1">Доступ в VIP-комнату в клубе, где можно бесплатно восстанавливать энергию.</message>
+        <message key="vipBonusDescription2">Владельцу VIP-статуса доступна эксклюзивная одежда и мебель в магазине.</message>
+        <message key="vipBonusDescription3">Только обладатели VIP-статуса могут бесплатно пополнять энергию другим игрокам.</message>
+        <message key="vipBonusDescription4">Игроки с активным VIP-статусом получают уникальное, яркое оформление окна с информацией.</message>
+        <message key="vipBonusDescription5">В 2 раза больше серебра при победе в битвах на подушках!</message>
+        <message key="vipBonusDescription6">Шанс на получение ресурсов, необходимых для создания вещей в мастерской, увеличен в 2 раза!</message>
+        <message key="vipBonusDescription7">VIP статус запрещает портить вещи не VIP пользователям. За исключением бомбочек.</message>
+        <message key="eventMinLevelRestrictMessage">Чтобы попасть на это событие, тебе нужно быть не ниже :level: уровня.</message>
+        
+        <!-- DAILY GIFT -->
+        
+        <message key="dailyGiftTitle">Ежедневные подарки</message>
+        <message key="todayGiftTitle">Сегодня</message>
+        <message key="dailyGiftDayTitle">:num: день</message>
+        <message key="dailyGiftComment">Заходи в игру каждый день и получай подарки</message>
+        <message key="dayliGiftGetButtonTitle">забрать</message>
+        <message key="askResourceComponentDescription">Друзья, помогите! Мне нужен предмет — :component:! Пришлите, пожалуйста, в долгу не останусь!</message>
+        
+        <!-- ACTIVE ITEMS -->
+        
+        <message key="tooLoudTitle">Слишком громко</message>
+        <message key="tooLoudMessage">В комнате уже есть играющий музыкальный центр.</message>
+        <message key="musicChannelNotAvailableTitle">Радиостанция недоступна</message>
+        <message key="musicChannelNotAvailableMessage">В данный момент эта радиостанция недоступна. Попробуйте другую.</message>
+        
+        <!-- music channels -->
+        <message key="rock">Рок</message>
+        <message key="retro">Ретро</message>
+        <message key="pop">Поп</message>
+        <message key="club">Электро</message>
+        <message key="rap">Рэп</message>
+        
+        <!-- tv channels -->
+        <message key="tvlch1">Новости</message>
+        <message key="tvlch2">Природа</message>
+        
+        <message key="tvpch1">Путешествия</message>
+        <message key="tvpch2">Отдых</message>
+        <message key="tvpch3">Фэнтези</message>
+        
+        <message key="tvmch1">Путешествия</message>
+        <message key="tvmch2">Фитнес</message>
+        <message key="tvmch3">Подводный</message>
+        
+        <message key="tvbch1">Музыкальный</message>
+        <message key="tvbch2">Новости</message>
+        <message key="tvbch3">Фантастика</message>
+        <message key="tvbch4">Танцевальный</message>
+        
+        <!-- INTERACTIVE ACTIONS -->
+        
+        <message key="repairButtonTitle">Починить</message>
+        <message key="eraseButtonTitle">Стереть</message>
+        <message key="brokeButtonTitle">Сломать</message>
+        <message key="eatButtonTitle">Поесть</message>
+        <message key="treadButtonTitle">Угостить</message>
+        <message key="sitButtonTitle">Сесть</message>
+        <message key="turnOnButtonTitle">Включить</message>
+        <message key="turnOffButtonTitle">Выключить</message>
+        <message key="sendMailMessageButtonTitle">Оставить сообщение</message>
+        <message key="checkMailMessagesButtonTitle">Проверить почту</message>
+        
+        <message key="foodNotReadyTitle">Еда не готова</message>
+        <message key="foodNotReadyMessage">До новой порции еды осталось :timeLeft:</message>
+        <message key="chooseTreadPlayerMessage">Выбери приятеля, которого хочешь угостить из холодильника.</message>
+        
+        <gender key="brokeObject">
+            <form><![CDATA[<p><span class="bold">:name:</span><span class="interactiveStateHint"> сломал :object:</span></p>]]></form>
+            <form><![CDATA[<p><span class="bold">:name:</span><span class="interactiveStateHint"> сломала :object:</span></p>]]></form>
+        </gender>
+        <gender key="eatenObject">
+            <form><![CDATA[<p><span class="bold">:name:</span><span class="interactiveStateHint"> съел еду из :object:</span></p>]]></form>
+            <form><![CDATA[<p><span class="bold">:name:</span><span class="interactiveStateHint"> съела еду из :object:</span></p>]]></form>
+        </gender>
+        <message key="yourTv">этот телевизор</message>
+        <message key="yourMusicCenter">этот музыкальный центр</message>
+        <message key="yourJacuzzi">эту джакузи</message>
+        <message key="yourComputer">этот компьютер</message>
+        <message key="yourRefrigerator">этого холодильника</message>
+        
+        <message key="removingNyFirObjectMessage">На ёлке есть игрушки, если убрать ее в инвентарь, то игрушки пропадут. Продолжить?</message>
+        <message key="computerInUseHintText">Компьютер используется</message>
+        
+        <!-- FRIEND NOTIFICATIONS -->
+        
+        <gender key="cityEventNotification">
+            <form><![CDATA[<p><span class="bold">:name:</span> создал новое событие ":event:" и ждет тебя.</p>]]></form>
+            <form><![CDATA[<p><span class="bold">:name:</span> создала новое событие ":event:" и ждет тебя.</p>]]></form>
+        </gender>
+        <gender key="achievementNotification">
+            <form><![CDATA[<p><span class="bold">:name:</span> получил награду ":achievement:". Поздравь его скорее!</p>]]></form>
+            <form><![CDATA[<p><span class="bold">:name:</span> получила награду ":achievement:". Поздравь её скорее!</p>]]></form>
+        </gender>
+        
+        <!-- MAKE GIFT -->
+        
+        <message key="makeGiftNotificationCancelTitle">Подарок</message>
+        <gender key="makeGiftNotificationCancelMessage">
+            <form>:name: отказался от подарка.</form>
+            <form>:name: отказалась от подарка.</form>
+        </gender>
+        <message key="makeGiftNotificationConfirmTitle">Подарок</message>
+        <gender key="makeGiftNotificationConfirmMessage">
+            <form>:name: принял твой подарок.</form>
+            <form>:name: приняла твой подарок.</form>
+        </gender>
+        <message key="makeGiftDialogTitle">Сделать подарок</message>
+        <message key="makeGiftInfo">Выбери предмет для подарка</message>
+        <message key="giftNoItemsText"><![CDATA[<p><center>Очень жаль, но тебе нечего подарить. Хочешь <a href="event:1">купить</a> подарок?</center></p>]]></message>
+        
+        <message key="giftLevelMessage">Для того, чтобы обменяться вещами, тебе нужно достичь :level: уровня.</message>
+        <message key="makeGiftButtonTitle">подарить</message>
+        <message key="makeGiftNotificationTitle">Сделать подарок</message>
+        <message key="makeGiftNotificationMessage">:name: узнает о твоем подарке через мгновение.</message>
+        <message key="makeOfflineGiftNotificationMessage">Игрок узнает о твоем подарке когда зайдет в игру.</message>
+        <message key="makeGiftApproveButtonTitle">принять</message>
+        <message key="makeGiftRequestNotificationPanelTitle">Подарок</message>
+        <gender key="makeGiftRequestNotificationPanelMessage">
+            <form><![CDATA[<p>:name: прислал тебе подарок: <span class="bold">:gift:</span></p>]]></form>
+            <form><![CDATA[<p>:name: прислала тебе подарок: <span class="bold">:gift:</span></p>]]></form>
+        </gender>
+        
+        <message key="roomCloseDialogTitle">Закрыть квартиру</message>
+        <message key="roomCloseButton0">бесплатно</message>
+        <message key="roomCloseButton1">за :resource:</message>
+        <message key="roomCloseButton2">за :resource:</message>
+        <message key="roomCloseTimeLabel0">20 минут</message>
+        <message key="roomCloseTimeLabel1">1 час</message>
+        <message key="roomCloseTimeLabel2">12 часов</message>
+        
+        <message key="cantPaintPaintedTitle">Нельзя нарисовать</message>
+        <message key="cantPaintPaintedMessage">Нарисовать можно через :time:</message>
+        <message key="cantBrokeRepairedTitle">Нельзя сломать</message>
+        <message key="cantBrokeRepairedMessage">Сломать можно через :time:</message>
+        <message key="brokeActionTitle">Сломать</message>
+        <message key="cantBrokeNotVipMessage">Нельзя сломать вещь у VIP-пользователя, не имея VIP-статуса. Хочешь купить VIP?</message>
+        
+        <message key="itemNeededTitle">Необходима вещь</message>
+        <message key="itemNeededMessage">Для данного действия необходима вещь: :item:</message>
+       
+        <!-- TRANSFER -->
+        <message key="transferDialogTitle">Обмен ресурсов</message>
+        <message key="transferDialogLabel">Выбрать:</message>
+        <message key="transferConfirmMessage">Передать деньги?</message>
+        <message key="transferErrorMessage">Укажите сколько золота и серебра вы хотите передать</message>
+        <message key="transferSuccessMessage">Ресурсы успешно посланы</message>
+        <message key="receiveResourceMessage">Вам пришли ресурсы</message>
+        
+        <message key="transferInventoryItemDailogTitle">Передача вещей</message>
+        <message key="transferInventoryItemLabel">Выбери приедмет который ты желаешь передать:</message>
+        <message key="transferInventoryButtonTitle">передать</message>
+        <message key="noTransferInventoryItems">Очень жаль, но список предметов для передачи пуст.</message>
+        <gender key="transferItemFromMessage">
+            <form><![CDATA[<p>:name: передал тебе <span class="bold">:item:</span></p>]]></form>
+            <form><![CDATA[<p>:name: передала тебе <span class="bold">:item:</span></p>]]></form>
+        </gender>
+        <gender key="transferItemToMessage">
+            <form><![CDATA[<p>:name: получил <span class="bold">:item:</span></p>]]></form>
+            <form><![CDATA[<p>:name: получила <span class="bold">:item:</span></p>]]></form>
+        </gender>
+        <gender key="resourcesPresentedFromMessage">
+            <form><![CDATA[<p>:name: угостил тебя <span class="bold">:item:</span></p>]]></form>
+            <form><![CDATA[<p>:name: угостила тебя <span class="bold">:item:</span></p>]]></form>
+        </gender>
+        <message key="transferDailyLimit">В день можно переводить только :coins:.</message>
+        
+        <!-- WEDDING -->
+        
+        <message key="weddingShopDialogTitle">Свадебный салон</message>
+        
+        <!-- MAIL -->
+        <message key="mailLeaveMessageDialogTitle">Оставить сообщение</message>
+        <message key="mailLeaveMessageLabel">Текст сообщения:</message>
+        <message key="mailLeaveMessageEmptyText">Пожалуйста, введите текст сообения.</message>
+        <message key="mailMessageListDailogTitle">Список сообщений</message>        
+        <message key="mainIncommingTabTitle">Входящие</message>
+        <message key="mainOutcommingTabTitle">Исходящие</message>
+        <message key="mailLeaveMessageSuccess">Сообщение успешно добавлено.</message>
+        <message key="mailNewMessageTitle">Новое сообщение</message>
+        <message key="mailNewMessageText">Тебе оставили новое сообщение.</message>
+        <message key="mailAnswerButtonLabel">ответить</message>
+        <message key="mailListDefaultIncomeText">Тебе пока что никто не писал.</message>
+        <message key="mailListDefaultOutcomeText">Ты еще не отправлял письма своим приятелям.</message>
+        
+        <message key="maxEnergyReachedMessage">Уровень энергии полон</message>
+        <message key="triksCategory">Приколы</message>
+        <message key="jokeAndPresentShopTitle">Подарки и приколы</message>
+        <message key="viewMailMessage">посмотреть</message>
+        <message key="noMailMessageSendText">Только приятели могут обмениваться сообщениями. Хочешь найти :gender: прямо сейчас?</message>
+        
+        <!-- PASSPORT -->
+        
+        <message key="passportDialogTitle">Паспорт</message>        
+        <message key="passportAwardTitle">Награды:</message>        
+        <message key="passportHideInfoLabel">скрывать информацию</message>        
+        <message key="noAchievementAwardsText">Нет наград</message>        
+        <message key="passportRelationLabel">Отношения:</message>
+        
+        <message key="passportRelationInvisible">Скрыты</message>
+        <gender key="passportRelationSingle">
+            <form>Один</form>
+            <form>Одна</form>
+        </gender>
+        <gender key="passportRelationEngaged">
+            <form>Помолвлен</form>
+            <form>Помолвлена</form>
+        </gender>
+        <gender key="passportRelationMarried">
+            <form>Женат</form>
+            <form>Замужем</form>
+        </gender>
+        <message key="needVipText">Опция доступна только для VIP.</message>
+        <message key="passportEditNameText">Изменить имя</message>
+        
+        <!-- JOKES -->
+        
+        <message key="paintBombResultTitle">Бомба с краской!</message>
+        <gender key="paintBombResultMessage">
+            <form>:name: подорвался на твоей бомбе</form>
+            <form>:name: подорвалась на твоей бомбе</form>
+        </gender>
+        <message key="paintBombTitle">Бомба сработала!</message>
+        <gender key="paintBombMessage">
+            <form>Ты подорвался на бомбе игрока :name:</form>
+            <form>Ты подорвалась на бомбе игрока :name:</form>
+        </gender>
+        
+        <message key="useJokeHintMessage">Теперь ты можешь использовать эту вещь из инвентаря.</message>
+        <message key="useApplianceBatDescription">Теперь выбери предмет техники который можно сломать.</message>
+        <message key="useJacuzziWormdsDescription">Теперь выбери джакузи в комнате.</message>
+        <message key="useChairBombDescription">Теперь выбери предмет на который можно сесть.</message>
+        <message key="cantBrokeSelfItemsMessage">Ты не можешь ломать свои вещи.</message>
+        <message key="cantPaintSelfItemsMessage">Ты не можешь разукрашивать свои стены.</message>
+        
+        <message key="changeNameDialogTitle">Сменить имя аватара</message>
+        <message key="newNameLabel">Новое имя:</message>
+        <message key="renameButtonTitle">переименовать</message>
+        <message key="renameForGolds">Сменить за :golds:</message>
+        
+        <message key="tutorialIslandTitle">Друг не готов</message>
+        <message key="tutorialIslandMessage">Твой друг еще не готов принимать гостей. Сначала дай пройти твоему другу обучение, а потом приходи.</message>
+        
+        <message key="craftOnlyBuyItemLabel">можно  разблокировать   только  за  золото</message>
+        
+        <!-- NEW_BILLING -->
+        <message key="goldPacksDialogLabel">Нужно больше золота?</message>
+        <message key="silverPacksDialogLabel">Нужно больше серебра?</message>
+        <message key="notEnougthGoldLabel">Банк</message>
+        <message key="notEnoughGoldMessage">Не хватает :coins:? Вот несколько выгодных предложений.</message>
+        <message key="specialOfferAvatarMessage">Не хочешь ждать следующей возможности заработать? Мы приготовили для тебя сюрприз - только сейчас :coins: в пол цены!</message>
+        <message key="justNowBillingMessage">Только сейчас</message>
+        <message key="targetOfferDialogConfigMessage">Вы уверены, что хотите закрыть это окно? Второго шанса может не представится.</message>
+        <message key="backButtonTitle">вернуться</message>
+        <message key="billingStarterOfferTitle">Выгодное предложение!</message>
+        <message key="billingStarterOfferMessage">Воспользуйся специальным предложением и получи целую кучу ресурсов с огромной скидкой! Торопись, пока всё не раскупили!</message>
+        <message key="beachRaceBonusLabel">бонус</message>
+        
+        <message key="getBonusGoldMessage">На твой счет поступило :gold:.</message>
+        <message key="getBonusSilverMessage">На твой счет поступило :silver:.</message>
+        
+        <!-- NEW CHAT -->
+        
+        <message key="blockedUsersButtonTitle">заблокированные</message>
+        <message key="blockUserButtonTitle">заблокировать</message>
+        <message key="unblockUserButtonTitle">разблокировать</message>
+        <message key="blockedOnLabel">заблокировано на</message>
+        
+        <message key="blockedChatUsersLengthWarning">Список заблокированных пользователей слишком велик.</message>
+        <message key="blockedChatUsersLengthEmpty">Список заблокированных пользователей пуст.</message>
+
+        <!-- FRIENDS -->
+        <message key="selectAll">выбрать всех</message>
+        <message key="inviteFriends">Пригласить друзей</message>
+        <message key="inviteButtonTitle">пригласить</message>
+        <message key="fastSearchLabel">Поиск</message>
+        <message key="typeNameLabel">Введи имя</message>
+
+        <message key="randomAppearanceHintMessage">Случайная внешность</message>
+
+        <message key="craftFriendRequestCreated">Твоя просьба отправлена другу</message>
+        <message key="craftFriendRequestAlreadyApproved">Сегодня этому другу подарок уже отправлен</message>
+
+    </locale>
+</dictionary>

@@ -1,0 +1,628 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+
+<config>
+
+    <category id="islandBuildings" label="#islandBuildingsCategoryTitle" typeClass="weed" logCategory1="island">
+
+        <category id="buildings" label="#defaultBuildingsCategoryTitle" typeClass="islandBuilding" logCategory2="building">
+
+            <item id="hs" label="#houseBuildingTitle" name="House" icon="HouseIcon" description="#houseBuildingDescription"
+                silver="50" buyCount="1" priority="9" minLevel="1" canRemove="0">
+                <dimension width="4" length="4" height="4" />
+                <direction names="SW,SE" />
+
+                <level id="0">
+                    <phase level="1">
+                        <cost gold="0" silver="100">
+                            <item typeId="wd" count="5" />
+                            <item typeId="stn" count="3" />
+                        </cost>
+                    </phase>
+                </level>
+                <level id="1">
+                </level>
+            </item>
+
+            <item id="lk" label="#lakeBuildingTitle" name="Lake" icon="LakeIcon" description="#lakeBuildingDescription"
+                buyCount="3" priority="6" minLevel="3" canRemove="0">
+                <dimension width="4" length="4" height="0.01" />
+                <direction names="SW,SE" />
+                <prices>
+                	<price index="1" silver="50" minPlayerLevel="3" />
+                	<price index="2" gold="35" minPlayerLevel="3" />
+                	<price index="3" gold="55" minPlayerLevel="3" />
+                </prices>
+                <level id="0">
+                    <phase level="1">
+                        <cost gold="0" silver="150">
+                            <item typeId="stn" count="15" />
+                            <item typeId="mrbl" count="1" />
+                        </cost>
+                    </phase>
+                    <phase level="2">
+                        <cost gold="0" silver="0">
+                            <item typeId="wd" count="12" />
+                            <item typeId="brd" count="1" />
+                        </cost>
+                    </phase>
+                </level>
+                <level id="1">
+                </level>
+            </item>
+
+            <item id="ktchn" label="#kitchenBuildingTitle" name="Kitchen" icon="KitchenIcon" description="#kitchenBuildingDescription"
+                buyCount="1" silver="150" priority="8" minLevel="2" canRemove="0">
+                <dimension width="4" length="4" height="5.5" />
+                <direction names="SW,SE" />
+
+                <level id="0">
+                    <phase level="1">
+                        <cost gold="0" silver="300">
+                            <item typeId="wd" count="6" />
+                            <item typeId="brd" count="2" />
+                        </cost>
+                    </phase>
+                    <phase level="2">
+                        <cost gold="0" silver="0">
+                            <item typeId="stn" count="4" />
+                            <item typeId="lnfb" count="1" />
+                        </cost>
+                    </phase>
+                </level>
+                <level id="1">
+                    <phase level="1">
+                        <cost gold="0" silver="0">
+                            <item typeId="brd" count="15" />
+                            <item typeId="mrbl" count="10" />
+                            <item typeId="lnfb" count="3" />
+                        </cost>
+                    </phase>
+                    <phase level="2">
+                        <cost gold="0" silver="750">
+                            <item typeId="tlbx" count="5" />
+                            <item typeId="rdwd" count="8" />
+                        </cost>
+                    </phase>
+                </level>
+                <level id="2">
+                    <phase level="1">
+                        <cost gold="0" silver="2800">
+                            <item typeId="rdwd" count="15" />
+                            <item typeId="grnt" count="10" />
+                        </cost>
+                    </phase>
+                    <phase level="2">
+                        <cost gold="0" silver="0">
+                            <item typeId="tlbx" count="15" />
+                            <item typeId="lnfb" count="10" />
+                            <item typeId="irn" count="5" />
+                        </cost>
+                    </phase>
+                    <phase level="3">
+                        <cost gold="0" silver="0">
+                            <item typeId="ctfb" count="5" />
+                            <item typeId="stl" count="6" />
+                            <item typeId="ttm" count="5" />
+                        </cost>
+                    </phase>
+                </level>
+                <level id="3">
+                </level>
+            </item>
+
+            <item id="lab" label="#laboratoryBuildingTitle" name="Laboratory" icon="LaboratoryIcon" description="#laboratoryBuildingDescription"
+                buyCount="1" silver="250" priority="4" minLevel="5" canRemove="0">
+                <dimension width="4" length="4" height="4" />
+                <direction names="SW,SE" />
+
+                <level id="0">
+                    <phase level="1">
+                        <cost gold="0" silver="2500">
+                            <item typeId="wd" count="25" />
+                            <item typeId="brd" count="7" />
+                        </cost>
+                    </phase>
+                    <phase level="2">
+                        <cost gold="0" silver="350">
+                            <item typeId="stn" count="18" />
+                            <item typeId="mrbl" count="6" />
+                        </cost>
+                    </phase>
+                    <phase level="3">
+                        <cost gold="0" silver="200">
+                            <item typeId="lnfb" count="2" />
+                            <item typeId="tlbx" count="4" />
+                        </cost>
+                    </phase>
+                </level>
+                <level id="1">
+                    <phase level="1">
+                        <cost gold="0" silver="4000">
+                            <item typeId="brd" count="10" />
+                            <item typeId="lnfb" count="5" />
+                        </cost>
+                    </phase>
+                    <phase level="2">
+                        <cost gold="0" silver="0">
+                            <item typeId="tlbx" count="6" />
+                            <item typeId="rdwd" count="15" />
+                            <item typeId="mrbl" count="8" />
+                        </cost>
+                    </phase>
+                    <phase level="3">
+                        <cost gold="0" silver="800">
+                            <item typeId="grnt" count="6" />
+                            <item typeId="ctfb" count="3" />
+                        </cost>
+                    </phase>
+                </level>
+                <level id="2">
+                    <phase level="1">
+                        <cost gold="0" silver="0">
+                            <item typeId="tlbx" count="10" />
+                            <item typeId="rdwd" count="15" />
+                            <item typeId="grnt" count="8" />
+                        </cost>
+                    </phase>
+                    <phase level="2">
+                        <cost gold="0" silver="0">
+                            <item typeId="irn" count="3" />
+                            <item typeId="ctfb" count="7" />
+                            <item typeId="ttm" count="3" />
+                        </cost>
+                    </phase>
+                    <phase level="3">
+                        <cost gold="0" silver="9500">
+                            <item typeId="stl" count="5" />
+                            <item typeId="lnfb" count="12" />
+                        </cost>
+                    </phase>
+                </level>
+                <level id="3">
+                </level>
+            </item>
+            <item id="wrkshp" label="#workshopBuildingTitle" name="Workshop" icon="WorkshopIcon" description="#workshopBuildingDescription"
+                buyCount="1" silver="150" priority="5" minLevel="4" canRemove="0">
+                <dimension width="4" length="4" height="4" />
+                <direction names="SW,SE" />
+
+                <level id="0">
+                    <phase level="1">
+                        <cost gold="0" silver="200">
+                            <item typeId="wd" count="20" />
+                            <item typeId="brd" count="5" />
+                        </cost>
+                    </phase>
+                    <phase level="2">
+                        <cost gold="0" silver="0">
+                            <item typeId="stn" count="15" />
+                            <item typeId="mrbl" count="3" />
+                        </cost>
+                    </phase>
+                </level>
+                <level id="1">
+                    <phase level="1">
+                        <cost gold="0" silver="950">
+                            <item typeId="mrbl" count="10" />
+                            <item typeId="lnfb" count="4" />
+                        </cost>
+                    </phase>
+                    <phase level="2">
+                        <cost gold="0" silver="400">
+                            <item typeId="grnt" count="4" />
+                            <item typeId="ctfb" count="3" />
+                        </cost>
+                    </phase>
+                    <phase level="3">
+                        <cost gold="0" silver="600">
+                            <item typeId="tlbx" count="7" />
+                            <item typeId="rdwd" count="6" />
+                        </cost>
+                    </phase>
+                </level>
+                <level id="2">
+                    <phase level="1">
+                        <cost gold="0" silver="3200">
+                            <item typeId="irn" count="5" />
+                            <item typeId="tlbx" count="8" />
+                        </cost>
+                    </phase>
+                    <phase level="2">
+                        <cost gold="0" silver="0">
+                            <item typeId="rdwd" count="8" />
+                            <item typeId="stl" count="6" />
+                            <item typeId="lnfb" count="10" />
+                        </cost>
+                    </phase>
+                    <phase level="3">
+                        <cost gold="0" silver="0">
+                            <item typeId="ttm" count="5" />
+                            <item typeId="ctfb" count="5" />
+                            <item typeId="mrbl" count="25" />
+                        </cost>
+                    </phase>
+                </level>
+                <level id="3">
+                </level>
+            </item>
+
+            <item id="bllns" label="#balloonsAreaBuildingTitle" name="BalloonsArea" icon="BalloonsAreaIcon"
+                buyCount="1" description="#balloonsAreaBuildingDescription" silver="750" priority="3" minLevel="7" canRemove="0">
+                <dimension width="4" length="4" height="4" />
+                <direction names="SW,SE" />
+
+                <level id="0">
+                    <phase level="1">
+                        <cost gold="0" silver="7500">
+                            <item typeId="wd" count="50" />
+                            <item typeId="brd" count="10" />
+                        </cost>
+                    </phase>
+                    <phase level="2">
+                        <cost gold="0" silver="0">
+                            <item typeId="stn" count="35" />
+                            <item typeId="lnfb" count="7" />
+                            <item typeId="mrbl" count="12" />
+                        </cost>
+                    </phase>
+                    <phase level="3">
+                        <cost gold="0" silver="2500">
+                            <item typeId="tlbx" count="7" />
+                            <item typeId="ctfb" count="12" />
+                        </cost>
+                    </phase>
+                </level>
+                <level id="1">
+                    <phase level="1">
+                        <cost gold="0" silver="11250">
+                            <item typeId="mrbl" count="25" />
+                            <item typeId="grnt" count="12" />
+                        </cost>
+                    </phase>
+                    <phase level="2">
+                        <cost gold="0" silver="0">
+                            <item typeId="rdwd" count="16" />
+                            <item typeId="irn" count="5" />
+                            <item typeId="lnfb" count="12" />
+                        </cost>
+                    </phase>
+                    <phase level="3">
+                        <cost gold="0" silver="0">
+                            <item typeId="ctfb" count="15" />
+                            <item typeId="tlbx" count="10" />
+                            <item typeId="ttm" count="3" />
+                        </cost>
+                    </phase>
+                </level>
+                <level id="2">
+                    <phase level="1">
+                        <cost gold="0" silver="32000">
+                            <item typeId="rdwd" count="25" />
+                            <item typeId="tlbx" count="15" />
+                        </cost>
+                    </phase>
+                    <phase level="2">
+                        <cost gold="0" silver="0">
+                            <item typeId="mrbl" count="40" />
+                            <item typeId="lnfb" count="20" />
+                            <item typeId="grnt" count="18" />
+                        </cost>
+                    </phase>
+                    <phase level="3">
+                        <cost gold="0" silver="0">
+                            <item typeId="stl" count="8" />
+                            <item typeId="ctfb" count="20" />
+                            <item typeId="ttm" count="6" />
+                        </cost>
+                    </phase>
+                </level>
+                <level id="3">
+                </level>
+            </item>
+
+            <item id="phs" label="#petHouseBuildingTitle" name="PetHouse" icon="PetHouseIcon" description="#petHouseBuildingDescription"
+                buyCount="10" priority="7" canRemove="0" minLevel="2">
+                <dimension width="2" length="2" height="4" />
+                <direction names="SW,SE" />
+                <prices>
+                    <price index="1" silver="50" minPlayerLevel="2" />
+                    <price index="2" silver="500" minPlayerLevel="10" />
+                    <price index="3" silver="5000" minPlayerLevel="20" />
+                    <price index="4" gold="25" minPlayerLevel="30" />
+                    <price index="5" gold="45" minPlayerLevel="40" />
+                    <price index="6" gold="60" minPlayerLevel="50" />
+                    <price index="7" gold="115" minPlayerLevel="60" />
+                    <price index="8" gold="150" minPlayerLevel="70" />
+                    <price index="9" gold="200" minPlayerLevel="80" />
+                    <price index="10" gold="275" minPlayerLevel="90" />
+                </prices>
+
+                <level id="0">
+                    <phase level="1">
+                        <cost gold="0" silver="0">
+                            <item typeId="wd" count="4" />
+                            <item typeId="stn" count="2" />
+                        </cost>
+                    </phase>
+                </level>
+                <level id="1">
+                </level>
+            </item>
+
+            <item id="ofs" label="#officeBuildingTitle" name="Office" icon="OfficeIcon" description="#officeBuildingDescription"
+                silver="1250" buyCount="1" priority="2" minLevel="10" canRemove="0">
+                <dimension width="4" length="4" height="4" />
+                <direction names="SW,SE" />
+
+                <level id="0">
+                    <phase level="1">
+                        <cost silver="7500">
+                            <item typeId="brd" count="30" />
+                            <item typeId="rdwd" count="12" />
+                        </cost>
+                    </phase>
+                    <phase level="2">
+                        <cost>
+                            <item typeId="mrbl" count="35" />
+                            <item typeId="tlbx" count="15" />
+                            <item typeId="grnt" count="8" />
+                        </cost>
+                    </phase>
+                    <phase level="3">
+                        <cost silver="2500">
+                            <item typeId="stl" count="5" />
+                            <item typeId="lnfb" count="12" />
+                        </cost>
+                    </phase>
+                    <phase level="4">
+                        <cost>
+                            <item typeId="irn" count="8" />
+                            <item typeId="ttm" count="2" />
+                            <item typeId="ctfb" count="10" />
+                        </cost>
+                    </phase>
+                </level>
+                <level id="1">
+                </level>
+            </item>
+
+
+            <!-- QUEST BUILDINGS -->
+            
+            <item id="mpsb" label="#miniPigStatueTitle" name="MiniPigStatue" icon="MiniPigStatueIcon" description="#miniPigStatueDescription"
+                canBuy="0" buyCount="0" canRemove="0" canMove="0">
+                <dimension width="2" length="2" height="3.7" />
+                <direction names="SW" />
+
+                <level id="0">
+                    <phase level="1">
+                        <cost gold="0" silver="0">
+                            <item typeId="stn" count="250" />
+                            <item typeId="mrbl" count="45" />
+                            <item typeId="tlbx" count="15" />
+                        </cost>
+                    </phase>
+                    <phase level="2">
+                        <cost gold="0" silver="0">
+                            <item typeId="brd" count="80" />
+                            <item typeId="rdwd" count="25" />
+                            <item typeId="lnfb" count="15" />
+                        </cost>
+                    </phase>
+                    <phase level="3">
+                        <cost gold="0" silver="0">
+                            <item typeId="grnt" count="20" />
+                            <item typeId="ctfb" count="15" />
+                            <item typeId="tlbx" count="15" />
+                        </cost>
+                    </phase>
+                    <phase level="4">
+                        <cost gold="0" silver="0">
+                            <item typeId="stl" count="5" />
+                            <item typeId="irn" count="10" />
+                            <item typeId="lnfb" count="10" />
+                        </cost>
+                    </phase>
+                </level>
+                <level id="1">
+                </level>
+                <bonus period="480">
+                    <item typeId="pVSal" minCount="10" maxCount="40" />
+                    <item typeId="pSDes" minCount="5" maxCount="25" />
+                    <item typeId="pBbq" minCount="5" maxCount="15" />
+                    <item typeId="pTBll" minCount="15" maxCount="50" />
+                    <item typeId="pTFbee" minCount="5" maxCount="20" />
+                    <item typeId="pTBt" minCount="10" maxCount="35" />
+                    <item typeId="pTCwrk" minCount="10" maxCount="30" />
+                    <item typeId="pVit" minCount="20" maxCount="60" />
+                    <item typeId="pMix" minCount="10" maxCount="30" />
+                    <item typeId="pSlv" minCount="5" maxCount="20" />
+                    <item typeId="pBrsh" minCount="20" maxCount="65" />
+                    <item typeId="pShp" minCount="5" maxCount="25" />
+                    <item typeId="pSoap" minCount="15" maxCount="50" />
+                    <item typeId="pFoam" minCount="10" maxCount="40" />
+                </bonus>                
+            </item>
+            <item id="mtpb" label="#monumentToPioneerTitle" name="MonumentToPioneer" icon="MonumentToPioneerIcon"
+                description="#monumentToPioneerDescription" canBuy="0" buyCount="0" canRemove="0" canMove="0">
+                <dimension width="1" length="1" height="5.7" />
+                <direction names="SW" />
+
+                <level id="0">
+                    <phase level="1">
+                        <cost gold="0" silver="0">
+                            <item typeId="wd" count="150" />
+                            <item typeId="stn" count="200" />
+                            <item typeId="tlbx" count="15" />
+                        </cost>
+                    </phase>
+                    <phase level="2">
+                        <cost gold="0" silver="0">
+                            <item typeId="mrbl" count="50" />
+                            <item typeId="grnt" count="30" />
+                            <item typeId="brd" count="50" />
+                        </cost>
+                    </phase>
+                    <phase level="3">
+                        <cost gold="0" silver="0">
+                            <item typeId="ctfb" count="25" />
+                            <item typeId="rdwd" count="35" />
+                            <item typeId="tlbx" count="25" />
+                        </cost>
+                    </phase>
+                </level>
+                <level id="1">
+                </level>
+                <bonus period="480">
+                    <item typeId="wd" minCount="10" maxCount="30" />
+                    <item typeId="stn" minCount="10" maxCount="30" />
+                    <item typeId="brd" minCount="1" maxCount="10" />
+                    <item typeId="mrbl" minCount="1" maxCount="10" />
+					<item typeId="grnt" minCount="1" maxCount="2" />
+                    <item typeId="rdwd" minCount="1" maxCount="2" />
+                    <item typeId="irn" minCount="1" maxCount="1" />
+                    <item typeId="stl" minCount="1" maxCount="1" />
+                    <item typeId="ttm" minCount="1" maxCount="1" />
+                    <item typeId="frt1" minCount="5" maxCount="30" />
+                    <item typeId="frt3" minCount="5" maxCount="20" />
+                    <item typeId="frt4" minCount="3" maxCount="10" />
+                    <item typeId="frt6" minCount="3" maxCount="10" />
+                    <item typeId="frt11" minCount="2" maxCount="5" />
+                    <item typeId="frt12" minCount="2" maxCount="5" />
+                    <item typeId="frt16" minCount="5" maxCount="30" />
+                    <item typeId="frt18" minCount="5" maxCount="20" />
+                    <item typeId="frt19" minCount="3" maxCount="10" />
+                    <item typeId="frt21" minCount="3" maxCount="10" />
+                    <item typeId="frt14" minCount="2" maxCount="5" />
+                    <item typeId="frt15" minCount="2" maxCount="5" />
+					<item typeId="lnfb" minCount="1" maxCount="3" />
+					<item typeId="ctfb" minCount="1" maxCount="2" />
+					<item typeId="tlbx" minCount="1" maxCount="5" />
+                </bonus>
+            </item>
+            <item id="lrb" label="#lightningRodTitle" name="LightningRod" icon="LightningRodIcon" description="#lightningRodDescription"
+                canBuy="0" buyCount="0" canRemove="0" canMove="0">
+                <dimension width="2" length="2" height="8" />
+                <direction names="SW" />
+
+                <level id="0">
+                    <phase level="1">
+                        <cost gold="0" silver="0">
+                            <item typeId="wd" count="150" />
+                            <item typeId="brd" count="50" />
+                            <item typeId="rdwd" count="30" />
+                        </cost>
+                    </phase>
+                    <phase level="2">
+                        <cost gold="0" silver="0">
+                            <item typeId="stn" count="150" />
+                            <item typeId="mrbl" count="50" />
+                            <item typeId="grnt" count="30" />
+                        </cost>
+                    </phase>
+                    <phase level="3">
+                        <cost gold="0" silver="0">
+                            <item typeId="stl" count="10" />
+                            <item typeId="irn" count="12" />
+                            <item typeId="tlbx" count="25" />
+                        </cost>
+                    </phase>
+                </level>
+                <level id="1">
+                </level>
+                <bonus period="240" energy="999">
+                </bonus>                
+            </item>
+
+        </category>
+
+        <category id="farmObjects" label="#farmObjectsLabel" typeClass="islandPlant" logCategory2="ridge">
+            <category id="ridges" label="#ridgesLabel">
+                <item id="ridge" label="#ridgeFarmTitle" name="Ridge" icon="RidgeIcon" description="#ridgeFarmDescription"
+                    canBuy="0" priority="1">
+                    <dimension width="1" length="1" height="0.01" />
+                    <direction names="SW" />
+                </item>
+            </category>
+            <category id="fishRidges" label="#ridgesLabel">
+                <item id="fRidge" label="#fishRidgeTitle" name="FishRidge" icon="FishRidgeIcon" description="#fishRidgeDescription"
+                    canBuy="0" priority="1">
+                    <dimension width="1" length="1" height="0.01" />
+                    <direction names="SW" />
+                </item>
+            </category>
+        </category>
+        
+        <category id="buildingSkins" label="#farmBuildingSkinsLabel" typeClass="islandBuildingSkin" logCategory2="buildingSkin">
+            <item id="hsSk1" buildingId="hs" label="#hutStoneTitle" name="HutStone" icon="HutStoneIcon" description="#hutStoneDescription"
+                silver="0" gold="200" buyCount="1" priority="1" minLevel="1" canRemove="0">
+                <dimension width="4" length="4" height="4" />
+                <direction names="SW,SE" />
+            </item>
+            <item id="hsSk2" buildingId="hs" label="#villaWhiteTitle" name="VillaWhite" icon="VillaWhiteIcon" description="#villaWhiteDescription"
+                silver="0" gold="500" buyCount="1" priority="1" minLevel="1" canRemove="0">
+                <dimension width="4" length="4" height="4" />
+                <direction names="SW,SE" />
+            </item>
+        </category>
+    </category>
+
+    <category id="expansion" label="#farmExpansionsLabel" typeClass="islandExpansion" logCategory2="expansion">
+        <item id="exp0" label="#expansionTitle" name="Exp0" icon="Exp0Icon" description="#expansionDescription"
+            canBuy="0" priority="1" expansionLevel="0" needPlayerLevel="1" friendsCount="0" gold="0" silver="0" />
+        <item id="exp1" label="#expansionTitle" name="Exp1" icon="Exp1Icon" description="#expansionDescription"
+            canBuy="0" priority="1" expansionLevel="1" needPlayerLevel="1" friendsCount="0" gold="0" silver="95" />
+        <item id="exp2" label="#expansionTitle" name="Exp2" icon="Exp2Icon" description="#expansionDescription"
+            canBuy="0" priority="1" expansionLevel="2" needPlayerLevel="4" friendsCount="0" gold="0" silver="375" />
+        <item id="exp3" label="#expansionTitle" name="Exp3" icon="Exp3Icon" description="#expansionDescription"
+            canBuy="0" priority="1" expansionLevel="3" needPlayerLevel="7" friendsCount="0" gold="0" silver="930" />
+        <item id="exp4" label="#expansionTitle" name="Exp4" icon="Exp4Icon" description="#expansionDescription"
+            canBuy="0" priority="1" expansionLevel="4" needPlayerLevel="10" friendsCount="0" gold="0" silver="1600" />
+        <item id="exp5" label="#expansionTitle" name="Exp5" icon="Exp5Icon" description="#expansionDescription"
+            canBuy="0" priority="1" expansionLevel="5" needPlayerLevel="13" friendsCount="0" gold="0" silver="2450" />
+        <item id="exp6" label="#expansionTitle" name="Exp6" icon="Exp6Icon" description="#expansionDescription"
+            canBuy="0" priority="1" expansionLevel="6" needPlayerLevel="16" friendsCount="0" gold="0" silver="3300" />
+        <item id="exp7" label="#expansionTitle" name="Exp7" icon="Exp7Icon" description="#expansionDescription"
+            canBuy="0" priority="1" expansionLevel="7" needPlayerLevel="19" friendsCount="0" gold="0" silver="4250" />
+        <item id="exp8" label="#expansionTitle" name="Exp8" icon="Exp8Icon" description="#expansionDescription"
+            canBuy="0" priority="1" expansionLevel="8" needPlayerLevel="22" friendsCount="0" gold="0" silver="5075" />
+        <item id="exp9" label="#expansionTitle" name="Exp9" icon="Exp9Icon" description="#expansionDescription"
+            canBuy="0" priority="1" expansionLevel="9" needPlayerLevel="25" friendsCount="0" gold="0" silver="5980" />
+        <item id="exp10" label="#expansionTitle" name="Exp10" icon="Exp10Icon" description="#expansionDescription"
+            canBuy="0" priority="1" expansionLevel="10" needPlayerLevel="28" friendsCount="0" gold="0" silver="6375" />
+        <item id="exp11" label="#expansionTitle" name="Exp11" icon="Exp11Icon" description="#expansionDescription"
+            canBuy="0" priority="1" expansionLevel="11" needPlayerLevel="31" friendsCount="0" gold="0" silver="7450" />
+        <item id="exp12" label="#expansionTitle" name="Exp12" icon="Exp12Icon" description="#expansionDescription"
+            canBuy="0" priority="1" expansionLevel="12" needPlayerLevel="34" friendsCount="0" gold="0" silver="8100" />
+        <item id="exp13" label="#expansionTitle" name="Exp13" icon="Exp13Icon" description="#expansionDescription"
+            canBuy="0" priority="1" expansionLevel="13" needPlayerLevel="37" friendsCount="0" gold="0" silver="8960" />
+        <item id="exp14" label="#expansionTitle" name="Exp14" icon="Exp14Icon" description="#expansionDescription"
+            canBuy="0" priority="1" expansionLevel="14" needPlayerLevel="40" friendsCount="0" gold="0" silver="9400" />
+        <item id="exp15" label="#expansionTitle" name="Exp15" icon="Exp15Icon" description="#expansionDescription"
+            canBuy="0" priority="1" expansionLevel="15" needPlayerLevel="43" friendsCount="0" gold="0" silver="10350" />
+        <item id="exp16" label="#expansionTitle" name="Exp16" icon="Exp16Icon" description="#expansionDescription"
+            canBuy="0" priority="1" expansionLevel="16" needPlayerLevel="46" friendsCount="0" gold="0" silver="11000" />
+        <item id="exp17" label="#expansionTitle" name="Exp17" icon="Exp17Icon" description="#expansionDescription"
+            canBuy="0" priority="1" expansionLevel="17" needPlayerLevel="49" friendsCount="0" gold="0" silver="12500" />
+        <item id="exp18" label="#expansionTitle" name="Exp18" icon="Exp18Icon" description="#expansionDescription"
+            canBuy="0" priority="1" expansionLevel="18" needPlayerLevel="52" friendsCount="0" gold="0" silver="14000" />
+        <item id="exp19" label="#expansionTitle" name="Exp19" icon="Exp19Icon" description="#expansionDescription"
+            canBuy="0" priority="1" expansionLevel="19" needPlayerLevel="55" friendsCount="0" gold="0" silver="15500" />
+        <item id="exp20" label="#expansionTitle" name="Exp20" icon="Exp20Icon" description="#expansionDescription"
+            canBuy="0" priority="1" expansionLevel="20" needPlayerLevel="58" friendsCount="0" gold="0" silver="17000" />
+        <item id="exp21" label="#expansionTitle" name="Exp21" icon="Exp21Icon" description="#expansionDescription"
+            canBuy="0" priority="1" expansionLevel="21" needPlayerLevel="61" friendsCount="0" gold="0" silver="18500" />
+        <item id="exp22" label="#expansionTitle" name="Exp22" icon="Exp22Icon" description="#expansionDescription"
+            canBuy="0" priority="1" expansionLevel="22" needPlayerLevel="64" friendsCount="0" gold="0" silver="20000" />
+        <item id="exp23" label="#expansionTitle" name="Exp23" icon="Exp23Icon" description="#expansionDescription"
+            canBuy="0" priority="1" expansionLevel="23" needPlayerLevel="67" friendsCount="0" gold="0" silver="21500" />
+        <item id="exp24" label="#expansionTitle" name="Exp24" icon="Exp24Icon" description="#expansionDescription"
+            canBuy="0" priority="1" expansionLevel="23" needPlayerLevel="70" friendsCount="0" gold="0" silver="23000" />
+        <item id="exp25" label="#expansionTitle" name="Exp25" icon="Exp25Icon" description="#expansionDescription"
+            canBuy="0" priority="1" expansionLevel="25" needPlayerLevel="73" friendsCount="0" gold="0" silver="24500" />
+        <item id="exp26" label="#expansionTitle" name="Exp26" icon="Exp26Icon" description="#expansionDescription"
+            canBuy="0" priority="1" expansionLevel="26" needPlayerLevel="76" friendsCount="0" gold="0" silver="26000" />
+
+    </category>
+
+</config>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rules>
+
+    <!-- BOY -->
+    <rule type="conflict" category1="boySuits" category2="boyShirts" />
+    <rule type="conflict" category1="boySuits" category2="boyJackets" />
+    <rule type="conflict" category1="boySuits" category2="boyBottomClothes" />
+    <rule type="conflict" category1="boySuits" category2="boyUnder" />
+    <rule type="conflict" category1="boySuits" category2="boySwimsuit" />
+    
+    <rule type="conflict" category1="boyJackets" category2="boyVests" />
+    <rule type="conflict" category1="boyHelmets" category2="boyFaces" />
+    <rule type="conflict" category1="boyHelmets" category2="boyHats" />
+    
+    <rule type="conflict" category1="boySwimsuit" category2="boyTopClothes" />
+    <rule type="conflict" category1="boySwimsuit" category2="boyBottomClothes" />
+    <rule type="conflict" category1="boySwimsuit" category2="boyShoes" />
+    <rule type="conflict" category1="boySwimsuit" category2="boyUnder" />
+    <rule type="conflict" category1="boySwimsuit" category2="boySuits" />
+    
+    <rule type="conflict" category1="boyUnderweare" category2="boyPants" />
+    
+    <rule type="conflict" category1="boyJackets" category2="boyWeddingJackets" />
+    <rule type="conflict" category1="boyPants" category2="boyWeddingPants" />
+    <rule type="conflict" category1="boyShirts" category2="boyWeddingShirts" />
+    
+    <rule type="conflict" category1="boySleepwear" category2="boyTopClothes" />
+    <rule type="conflict" category1="boySleepwear" category2="boyBottomClothes" />
+    <rule type="conflict" category1="boySleepwear" category2="boyUnder" />
+    <rule type="conflict" category1="boySleepwear" category2="boySuits" />
+    <rule type="conflict" category1="boySleepwear" category2="boySwimsuit" />
+    
+    <!-- GIRL -->
+    <rule type="conflict" category1="girlSuits" category2="girlShirts" />
+    <rule type="conflict" category1="girlSuits" category2="girlJackets" />
+    <rule type="conflict" category1="girlSuits" category2="girlBottomClothes" />
+    <rule type="conflict" category1="girlSuits" category2="girlDress" />
+    <rule type="conflict" category1="girlSuits" category2="girlUnder" />
+    <rule type="conflict" category1="girlSuits" category2="girlSwimsuit" />
+    
+    <rule type="conflict" category1="girlJackets" category2="girlVests" />
+    <rule type="conflict" category1="girlHorns" category2="girlHats" />
+    
+    <rule type="conflict" category1="girlSwimsuit" category2="girlTopClothes" />
+    <rule type="conflict" category1="girlSwimsuit" category2="girlBottomClothes" />
+    <rule type="conflict" category1="girlSwimsuit" category2="girlShoes" />
+    <rule type="conflict" category1="girlSwimsuit" category2="girlDress" />
+    <rule type="conflict" category1="girlSwimsuit" category2="girlUnder" />
+    <rule type="conflict" category1="girlSwimsuit" category2="girlSuits" />
+    
+    <rule type="conflict" category1="girlUnderweare" category2="girlShirts" />
+    <rule type="conflict" category1="girlUnderweare" category2="girlPants" />
+    <rule type="conflict" category1="girlUnderweare" category2="girlSkirts" />
+    
+    <rule type="conflict" category1="girlDress" category2="girlJackets" />
+    <rule type="conflict" category1="girlDress" category2="girlShirts" />
+    <rule type="conflict" category1="girlDress" category2="girlPants" />
+    <rule type="conflict" category1="girlDress" category2="girlSkirts" />
+    <rule type="conflict" category1="girlDress" category2="girlWeddingDress" />
+    
+    <rule type="conflict" category1="girlSleepwear" category2="girlTopClothes" />
+    <rule type="conflict" category1="girlSleepwear" category2="girlBottomClothes" />
+    <rule type="conflict" category1="girlSleepwear" category2="girlDress" />
+    <rule type="conflict" category1="girlSleepwear" category2="girlUnder" />
+    <rule type="conflict" category1="girlSleepwear" category2="girlSwimsuit" />
+    <rule type="conflict" category1="girlSleepwear" category2="girlSuits" />
+    
+</rules>
