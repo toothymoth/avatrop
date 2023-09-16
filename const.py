@@ -11,8 +11,8 @@ ROOM_LIMIT = 20
 FREE_GOLD = True
 DEBUG = ["1", "2"]
 BLACKLIST_TROPHIES = []
-PREMIUM_TROPHIES = ["astralifePremium"]
-ADMIN_TROPHIES = ["astralifeAdmin", "astralifeModer", "astralifeBloger"]
+PREMIUM_TROPHIES = []
+ADMIN_TROPHIES = []
 PREMIUM_BUBBLES = []
 
 room_items = [{"tpid": "wallHiTechKitchen2021", "d": 3, "oid": 1, "x": 0.0, "y": 0.0,
@@ -51,11 +51,7 @@ treeExchange = True
 #                  "id": 644, "iu": "", "tp": 9,
 #                  "ed": datetime(2047, 5, 31, 11, 46)})
 
-campaigns.append({"st": 1, "v": 1,
-                  "cil": [{"sc": 0, "gl": 0, "si": 0, "id": 29,
-                           "tid": "treeExchange", "gl": 0, "cid": 29}],
-                  "id": 29, "iu": "", "tp": 9,
-                  "ed": datetime(2018, 8, 2, 3, 0)})
+
                   
 campaigns.append({"st": 1, "v": 1,
                   "cil": [{"sc": 0, "gl": 0, "si": 0, "id": 40950,
