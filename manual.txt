@@ -1,0 +1,19 @@
+Win:
+	1. download python (https://www.python.org/downloads/) + add to path win
+	2. download redis (https://redis.io/download/) + run redis-server.exe
+	3. download pip-python
+	4. write on console win: ( python -m pip install -r req.txt )
+	5. run server: python server.py & python web.py
+
+Linux:
+	1. download python + redis + pip
+	2. write on console win: ( python -m pip install -r req.txt )
+	3. run server: python server.py & python web.py
+
+
+Server: Python Flask
+Client: ActionScript3 swf
+
+Address web server: from console when run server!
+	
+	

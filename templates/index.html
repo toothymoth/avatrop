@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ru" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {% if not token %}
+    <title>Тропикания</title>
+    {% else %}
+    <title>Тропикания | {{ nameav }}</title>
+    {% endif %}
+</head>
+<body class="is-boxed has-animations">
+    <div class="body-wrap">
+        <main>
+            <center><a style="display: none;" style="display: center;" id="flash" href="//www.adobe.com/go/getflashplayer" target="_blank">
+                              <img src="//cdn-sp.tortugasocial.com/avataria-vk/img/flash/pnz_page_preloader_button.png" alt="">
+                              </a>
+                                <div id="flashContent"></div>
+                            <script>
+                                    function play(){
+                                            if (swfobject.getFlashPlayerVersion().major == 0){
+                                                document.getElementById('flash').style.display = "block";
+                                                return;
+                                            }
+                                            var vars = {};
+                                            vars['config'] = '/static/client/appconfig/appconfig.xml?{{ update_time }}';
+                                            vars['versions'] = '/static/client/versions/versions.json?{{ update_time }}';
+                                            vars['appSwf'] = '/static/client/pnz-island.swf?{{ update_time }}';
+                                            var flashVars = [];
+                                            for (var variable in vars) {
+                                                flashVars.push(variable + '=' + vars[variable]);
+                                            }
+                                            flashVars.push("auth_key={{ token }}");
+                                            flashVars.push("access_token={{ token }}");
+                                            flashVars.push("viewer_id={{ uid }}");
+                                            flashVars.push("user_id={{ uid }}");
+                                            flashVars.push("api_settings=263");
+                                            flashVars.push("is_app_user=1");
+                                            flashVars.push("api_url=http://127.0.0.1:5000");
+                                            flashVars.push("api_id={{ update_time }}");
+                                            flashVars.push("api_settings=7");
+                                            flashVars.push("viewer_type=0");
+                                            flashVars.push("sid={{ uid }}");
+                                            flashVars.push("stats_hash=0");
+                                            flashVars.push("ads_app_id=0");
+                                            flashVars.push("referrer=collections");
+                                            flashVars.push("lc_name={{ token }}");
+                                            flashVars.push("hash={{ token }}");
+                                            var params = {
+                                                flashvars: flashVars.join("&"),
+                                                allowfullscreen: "true",
+                                                allowscriptaccess: "always",
+                                                allowFullScreenInteractive: "true",
+                                                allownetworking: "all",
+                                                wmode: "transparent"
+                                            };
+                                            var el = document.getElementById("flashContent");
+                                            swfobject.embedSWF("/static/client/pnz-island-container.swf?{{ update_time }}", el, 1280, 720, 10, false, false, params, {name: "flashContent"});
+                                    }
+
+                                </script></center>
+            <section class="hero">
+                <div class="container">
+                    <div class="hero-inner">
+						<div class="hero-copy">
+                            {% if not token %}
+                            <form method="post" action="/login">
+                            <table>
+                            <td colspan="2" style="text-align: center"><input type="submit" value="Войти"></td>
+                            </tr>
+                                </table>
+                            </form>
+                            {% else %}
+	                        <div class="hero-cta"><a class="button button-primary" id="playButton" href="#" onclick="play();">Игра</a></div>
+                            {% endif %}
+						</div>
+						<div class="hero-figure anime-element">
+							<svg class="placeholder" width="528" height="396" viewBox="0 0 528 396">
+								<rect width="528" height="396" style="fill:transparent;" />
+							</svg>
+							<div class="hero-figure-box hero-figure-box-01" data-rotation="45deg"></div>
+							<div class="hero-figure-box hero-figure-box-02" data-rotation="-45deg"></div>
+							<div class="hero-figure-box hero-figure-box-03" data-rotation="0deg"></div>
+							<div class="hero-figure-box hero-figure-box-04" data-rotation="-135deg"></div>
+							<div class="hero-figure-box hero-figure-box-05"></div>
+							<div class="hero-figure-box hero-figure-box-06"></div>
+							<div class="hero-figure-box hero-figure-box-07"></div>
+							<div class="hero-figure-box hero-figure-box-08" data-rotation="-22deg"></div>
+							<div class="hero-figure-box hero-figure-box-09" data-rotation="-52deg"></div>
+							<div class="hero-figure-box hero-figure-box-10" data-rotation="-50deg"></div>
+						</div>
+                    </div>
+                </div>
+            </section>
+    </div>
+    <script src="/static/swfobject.js"></script>
+    <script src="/static/openapi.js"></script>
+    <script src="/static/xd_connection.js"></script>
+</body>
+</html>
