@@ -15,5 +15,9 @@ Server: Python Flask
 Client: ActionScript3 swf
 
 Address web server: from console when run server!
+
+For change ip at client:
+	appconfig.xml
+	pnz-island.swf (find as string "127.0.0.1" and edit in scripts)
 	
 	
