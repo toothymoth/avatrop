@@ -22,8 +22,9 @@ class Island(Module):
         if "lid" in msg[2]:
             if msg[2]['lid'] == "beach":
                 loc = msg[2]['lid'] + "_" + msg[2]["gid"] + "_1"
-                await client.send(["r.jn", {'plr': await gen_plr(client, self.server)}])
-                await client.send([loc, client.uid])
+                #await client.send(["r.jn", {'plr': await gen_plr(client, self.server)}])
+                #await client.send([loc, client.uid])
+                await Location(self.server).join_room(client, loc)
                 await client.send(["ild.gi", {"rid": loc}])
                 return
         apprnc = await self.server.get_appearance(client.uid)
