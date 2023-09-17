@@ -8,6 +8,9 @@ xml = """<?xml version="1.0" ?>
 <allow-access-from domain="*" />
 </cross-domain-policy>"""
 
+HOST = "127.0.0.1"
+PORT = 5000
+
 redis = Redis(decode_responses=True)
 
 
@@ -88,4 +91,4 @@ def method(name):
 
 if __name__ == "__main__":
     app.secret_key = 'IsKollen'
-    app.run()
+    app.run(host=HOST, port=PORT)
