@@ -193,7 +193,7 @@ class Location(Module):
             if uid not in online:
                 continue
             tmp = online[uid]
-            # await tmp.send([f"{prefix}.r.jn", {"plr": plr}])
+            await tmp.send(["r.jn", {"plr": plr}])
             await tmp.send([client.room, client.uid], type_=16)
     
     async def leave_room(self, client):
