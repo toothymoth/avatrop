@@ -33,6 +33,7 @@ class Component(Module):
                 msg[1]["msg"]["sid"] = client.uid
                 online = self.server.online
                 room = self.server.rooms[client.room]
+                room = list(set(room)) # removing repeat's players
                 for uid in room:
                     try:
                         tmp = online[uid]
