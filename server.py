@@ -353,7 +353,7 @@ class Server():
                     clths["cct"].append(item["id"])
         return clths
     
-    async def get_island(self, client):
+    async def get_island(self, uid):
         # "ir": 2,
         #       "x": 64,
         #       "y": 29,
@@ -361,7 +361,6 @@ class Server():
         #       "d": 5,
         #       "id": 583
         # {sut: 0, ast: 0, n: "Лентяй", stp: null, exp: 0, aid: null, id: 3439172, oid: "20111672", psy: 49, rt: 0, tid: "petCGgr", psx: 25, c: {lut: 1649655878, l: [{n: "st", v: 0}, {n: "cf", v: 100}, {n: "hp", v: 0}, {n: "hl", v: 0}, {n: "hg", v: 0}], ui: []}
-        uid = client.uid
         r = self.redis
         map = {}
         catsMap = ["ws", "pts", "t", "b", "dc", "np"]
