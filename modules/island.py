@@ -1,4 +1,3 @@
-
 import time
 import asyncio
 from modules.location import gen_plr
@@ -16,14 +15,13 @@ class Island(Module):
         self.server = server
         self.kicked = {}
         self.orderItems = self.server.parser.parse_game_items()
-        self.commands = {"gi": self.get_my_info, "gild": self.get_room, "obi": self.order}
+        self.commands = {"gi": self.get_my_info, "gild": self.get_room, "obi": self.order, "oinfo": self.get_info}
     
     async def get_my_info(self, msg, client):
+        await Location(self.server).leave_room(client)
         if "lid" in msg[2]:
             if msg[2]['lid'] == "beach":
                 loc = msg[2]['lid'] + "_" + msg[2]["gid"] + "_1"
-                #await client.send(["r.jn", {'plr': await gen_plr(client, self.server)}])
-                #await client.send([loc, client.uid])
                 await Location(self.server).join_room(client, loc)
                 await client.send(["ild.gi", {"rid": loc}])
                 return
@@ -61,12 +59,20 @@ class Island(Module):
     async def get_room(self, msg, client):
         room = msg[2]['rid']
         if not room:
-            room = f"farm_{client.uid}_ild"
+            #room = f"farm_{client.uid}_ild"
+            room = f"farm_{msg[2]['uid']}_ild"
         if client.room:
             await Location(self.server).leave_room(client)
         await Location(self.server).join_room(client, room)
         # await self.owner_at_house(client.uid, True)
         await client.send(["ild.gild", {"rid": client.room, "uid": msg[2]['uid']}])
+        
+    async def get_info(self, msg, client):
+        uid = str(msg[2]["uid"]);
+        msg.pop(0);
+        msg[1]["plr"] = await gen_plr(self.server.online[uid], self.server);
+        await client.send(msg);
+        #[None, 'ild.oinfo', {'uid': '14'}]}
     
     async def _perform_login(self, client):
         await self.server.modules["isin"].commands["shdgd"](client)
