@@ -156,7 +156,11 @@ class Location(Module):
                     else:
                         continue
                 rmmb.append(await gen_plr(tmp, self.server))
-            map = await self.server.get_island(client)
+            if client.room:
+                rr = client.room.split("_")[1]
+            else:
+                rr = client.uid
+            map = await self.server.get_island(rr)
             await client.send(["r.rinfo", {"rmmb": rmmb, "frm": map,
                                            "l": 2, "r":
                                                await self.server.getPlants(client, "ridge")}])  # {"id": 486, "gft":
