@@ -4,6 +4,7 @@ import asyncio
 import logging
 from datetime import datetime
 import time
+from modules.location import Location
 import aioredis
 from client import Client
 from inventory import Inventory
@@ -74,9 +75,9 @@ class Server():
         if data["type"] == 2:
             return client.writer.close()
         elif data["type"] == 17:
+            if client.room:
+                await Location(self).leave_room(client)
             await client.send([data["msg"][0], client.uid], type_=17)
-            if data["msg"][0].split("_")[0] == "game":
-                await self.modules["lg"].exit_game(data["msg"][0], client)
         elif data["type"] == 34:
             if data["msg"][1] == "clerr":
                 return
