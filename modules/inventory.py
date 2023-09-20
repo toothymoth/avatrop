@@ -42,7 +42,7 @@ class Inventory(Module):
             return
         gift = self.dailyGifts[day]  # itemType="game" or "resource" itemId="" count=""
         if gift["itemType"] == "game":
-            await self.server.inv[client.uid].add_item(gift["itemId"], "res", gift["count"])
+            await self.server.inv[client.uid].add_item(gift["itemId"], "res", int(gift["count"]))
             inv = self.server.inv[client.uid].get()
             await client.send(["ntf.invch", {"inv": inv}])
         elif gift["itemType"] == "resource":
