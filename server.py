@@ -377,7 +377,7 @@ class Server():
                 petsModel = f"uid:{uid}:pets"
                 pets = await r.lrange(petsModel, 0, -1)
                 for pet in pets:
-                    map[cat].append(await self.modules["pet"].commands["gtpt"](client, pet))
+                    map[cat].append(await self.modules["pet"].commands["gtpt"](self.online[uid], pet))
                 continue
             elif cat == "b":
                 """"x": 15,
@@ -405,7 +405,7 @@ class Server():
                 argsItem = {}
                 if cat == "b":
                     if await r.get(f"uid:{uid}:islandMap:{cat}:{item}:tid") == "phs":
-                        housePet = await self.getPetInHouse(client, item)
+                        housePet = await self.getPetInHouse(self.online[uid], item)
                         for hsPetArg in housePet:
                             argsItem[hsPetArg] = housePet[hsPetArg]
                 for arg in args:
