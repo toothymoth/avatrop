@@ -4,10 +4,10 @@ import asyncio
 import logging
 from datetime import datetime
 import time
-from modules.location import Location
 import aioredis
 from client import Client
 from inventory import Inventory
+from modules.location import Location
 from xml_parser import Parser
 
 modules: list = ["island", "avatar",
@@ -183,6 +183,7 @@ class Server():
             self.inv[uid] = Inventory(self, uid)
             await self.inv[uid]._get_inventory()
         await client.send([client.uid, "", True, False, False], type_=1)
+        print(client.room)
         client.checksummed = True
         if method == "account":
             await client.send([7, {}], type_=3)
@@ -399,6 +400,17 @@ class Server():
                 "d": 5,
                 "id": 1"""
                 args = ["stp", "x", "y", "npc", "tid", "d", "id"]
+            elif cat == "dc":
+                """"x": 15,
+                  "sid": "default",
+                  "y": 47,
+                  "l": 0,
+                  "tid": "hs",
+                  "pl": 0,
+                  "d": 3,
+                  "id": 484"""
+                # builds
+                args = ["x", "sid", "y", "l", "tid", "pl", "d", "id"]
             if not items:
                 continue
             for item in items:
@@ -523,11 +535,10 @@ class Server():
             freeId += 1
         return freeId
 
-    async def addBuild(self, client, x, y, type_):
+    async def addBuild(self, client, x, y, type_, catMap="b"):
         r = self.redis
         uid = client.uid
         attrs = ["x", "sid", "y", "l", "tid", "pl", "d", "id"]
-        catMap = "b"
         updMap = {}
         newId = await self.getFreeIdPlace(client)
         await r.rpush(f"uid:{uid}:islandMap:{catMap}", newId)
@@ -554,7 +565,20 @@ class Server():
             await r.set(f"uid:{uid}:islandMap:{catMap}:{newId}:{arg}", key)
         commandUpdateMap = ["r.b.bobj",
                             {'uid': client.uid, 'fobj': updMap}]
-        await client.send(commandUpdateMap)
+        
+        #await client.send(commandUpdateMap)
+        await self.send_everybody_room(client.room, commandUpdateMap)
+        
+    async def send_everybody_room(self, room, msg):
+        online = self.online
+        room = self.rooms[room]
+        for uid in room:
+            try:
+                tmp = online[uid]
+            except KeyError:
+                room.remove(uid)
+                continue
+            await tmp.send(msg)
         
     async def getArgsItemMapSmart(self, client, itemId, cat="b"):
         r = self.redis
@@ -596,8 +620,8 @@ class Server():
     async def _background(self):
         autoKicked: bool = False
         while True:
-            logging.info(f"Онлайн: {len(self.online)}")
-            logging.info(f"Кик лимит: {len(self.kicked)}")
+            logging.info(f"Online: {len(self.online)}")
+            logging.info(f"Rooms: {self.rooms}")
             self.msgmeter = {}
             self.kicked = []
             for uid in self.inv.copy():
