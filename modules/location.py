@@ -27,6 +27,8 @@ class Location(Module):
         subcmd = msg[1].split(".")[-1]
         if subcmd == "bobj":
             await self.server.addBuild(client, msg[2]["x"], msg[2]["y"], msg[2]["tid"])
+        elif subcmd == "bdobj":
+            await self.server.addBuild(client, msg[2]["x"], msg[2]["y"], msg[2]["tid"], "dc")
         elif subcmd == "upgbng":
             await self.server.upgradeBuild(client, msg[2]["id"])
         elif subcmd == "mvobj":
@@ -48,7 +50,8 @@ class Location(Module):
                                     {'uid': uid, 'fobj': {}}]
             else:
                 commandUpdateMap = ["r.w.uo", {'uid': uid, 'fobj': await self.server.getArgsItemMapWS(client, msg[2]['iid'])}]
-            await client.send(commandUpdateMap)
+            #await client.send(commandUpdateMap)
+            await self.server.send_everybody_room(client.room, commandUpdateMap)
             tid = await self.server.getArgsItemMapWS(client, msg[2]['iid'])
             tid = tid["tid"][:-1]
             if tid == "ws":
@@ -201,28 +204,23 @@ class Location(Module):
             await tmp.send([client.room, client.uid], type_=16)
     
     async def leave_room(self, client):
+        if not client.room:
+            return
         if client.uid not in self.server.rooms[client.room]:
             return
         self.server.rooms[client.room].remove(client.uid)
         old_room = self.server.rooms[client.room].copy()
         if old_room:
-            prefix = common.get_prefix(client.room)
             online = self.server.online
-            location_name = client.room.split("_")[0]
-            cc = None
             for uid in old_room:
                 try:
                     tmp = online[uid]
                 except KeyError:
                     continue
-                await tmp.send([f"{prefix}.r.lv", {"uid": client.uid,
-                                                   "cc": cc}])
+                await tmp.send(["r.lv", {"uid": client.uid}])
                 await tmp.send([client.room, client.uid], type_=17)
         else:
             del self.server.rooms[client.room]
-        room = client.room.split("_")
-        if room[0] == "house" and room[1] == client.uid:
-            await self.server.modules["h"].owner_at_house(client.uid, False)
         client.room = None
 
 
