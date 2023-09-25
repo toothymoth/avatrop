@@ -32,7 +32,19 @@ class Location(Module):
         elif subcmd == "upgbng":
             await self.server.upgradeBuild(client, msg[2]["id"])
         elif subcmd == "mvobj":
-            ...
+            r = self.server.redis
+            typeItem = None
+            for tp in ["b", "dc", "t"]:
+                if await self.server.getArgsItemMapSmart(client, msg[2]["id"], tp):
+                    typeItem = tp
+                    break
+            if not typeItem:
+                return
+            await r.set(f"uid:{client.uid}:islandMap:{typeItem}:{msg[2]['id']}:x", msg[2]["x"])
+            await r.set(f"uid:{client.uid}:islandMap:{typeItem}:{msg[2]['id']}:y", msg[2]["y"])
+            msg.pop(0)
+            msg[1]["fobj"] = await self.server.getArgsItemMapSmart(client, msg[1]['id'], typeItem)
+            await client.send(msg)
         elif subcmd == "ei":
             msg[2]["l"] += 1
             await client.send(msg[1:])
