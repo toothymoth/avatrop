@@ -367,6 +367,7 @@ class Server():
         catsMap = ["ws", "pts", "t", "b", "dc", "np"]
         map["m"] = "isl_1"
         map["l"] = 10
+        map["r"] = await self.getPlants(uid, "ridge")
         for cat in catsMap:
             map[cat] = []
             items = await r.lrange(f"uid:{uid}:islandMap:{cat}", 0, -1)
@@ -418,9 +419,8 @@ class Server():
                 if cat == "b":
                     if await r.get(f"uid:{uid}:islandMap:{cat}:{item}:tid") == "phs":
                         housePet = await self.getPetInHouse(self.online[uid], item)
-                        if housePet:  
-                            for hsPetArg in housePet:
-                                argsItem[hsPetArg] = housePet[hsPetArg]
+                        for hsPetArg in housePet:
+                            argsItem[hsPetArg] = housePet[hsPetArg]
                 for arg in args:
                     value = await r.get(f"uid:{uid}:islandMap:{cat}:{item}:{arg}")
                     if value.isdigit():
@@ -461,18 +461,23 @@ class Server():
             argsItem[arg] = value
         return argsItem
     
-    async def delItemMap(self, client, itemId):
+    async def delItemMap(self, client, itemId, isPlant=False):
         r = self.redis
         uid = client.uid
-        cat = "ws"
-        args = ["ir", "x", "y", "tid", "d", "id"]
-        await r.lrem(f"uid:{uid}:islandMap:{cat}", 1, str(itemId))
+        if not isPlant:
+            cat = "ws"
+            args = ["ir", "x", "y", "tid", "d", "id"]
+            await r.lrem(f"uid:{uid}:islandMap:{cat}", 1, str(itemId))
+            for arg in args:
+                await r.delete(f"uid:{uid}:islandMap:{cat}:{itemId}:{arg}")
+            return
+        args = ["x", "y", "d", "ost", "gft", "stid", "tid", "gst", "gft"]
+        await r.lrem(f"uid:{uid}:plants", 1, itemId)
         for arg in args:
-            await r.delete(f"uid:{uid}:islandMap:{cat}:{itemId}:{arg}")
+            await r.delete(f"uid:{uid}:plants:{itemId}:{arg}")
     
-    async def getPlants(self, client, type_):
+    async def getPlants(self, uid, type_):
         r = self.redis
-        uid = client.uid
         plants = []
         Idplants = await r.lrange(f"uid:{uid}:plants", 0, -1)
         if not Idplants:
@@ -494,6 +499,11 @@ class Server():
             args["id"] = int(plantId)
             plants.append(args)
         return plants
+    
+    async def getPlant(self, client, type_, plid):
+        for plant in await self.getPlants(client.uid, type_):
+            if str(plant["id"]) == str(plid):
+                return plant
     
     async def getLastNumObjectMap(self, client):
         r = self.redis
