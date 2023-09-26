@@ -1,4 +1,3 @@
-
 from modules.base_module import Module
 from client import Client
 import common, json
@@ -16,13 +15,14 @@ class Location(Module):
     def __init__(self, server):
         self.server = server
         self.commands = {"p": self.poop, "b": self.build}
+        self.plants = self.server.parser.parse_plants()
         for cm in ["ust", "mv", "k", "sa", "sl", "bd", "lks", "hs",
                    "ks", "hg", "gf", "aks", "ra", "rinfo", "stact", "finact"]:
             self.commands[cm] = self.room
         self.actions = {"ks": "kiss", "hg": "hug", "gf": "giveFive",
                         "k": "kickAss", "sl": "slap", "lks": "longKiss",
                         "hs": "handShake", "aks": "airKiss"}
-        
+    
     async def build(self, msg, client):
         subcmd = msg[1].split(".")[-1]
         if subcmd == "bobj":
@@ -48,7 +48,7 @@ class Location(Module):
         elif subcmd == "ei":
             msg[2]["l"] += 1
             await client.send(msg[1:])
-        
+    
     async def poop(self, msg, client):
         subcommand = msg[1].split(".")[-1]
         r = self.server.redis
@@ -61,8 +61,9 @@ class Location(Module):
                 commandUpdateMap = ["r.w.uo",
                                     {'uid': uid, 'fobj': {}}]
             else:
-                commandUpdateMap = ["r.w.uo", {'uid': uid, 'fobj': await self.server.getArgsItemMapWS(client, msg[2]['iid'])}]
-            #await client.send(commandUpdateMap)
+                commandUpdateMap = ["r.w.uo",
+                                    {'uid': uid, 'fobj': await self.server.getArgsItemMapWS(client, msg[2]['iid'])}]
+            # await client.send(commandUpdateMap)
             await self.server.send_everybody_room(client.room, commandUpdateMap)
             tid = await self.server.getArgsItemMapWS(client, msg[2]['iid'])
             tid = tid["tid"][:-1]
@@ -80,8 +81,9 @@ class Location(Module):
                 await client.send(["ntf.invch", {"inv": inv}])
             await client.send(["ntf.iich", {"ii": await get_island_info(client.uid, self.server)}])
             await update_resources(client, self.server)
-            await client.send(["isl.drp", {'res': {'rb': 0, 'enrg': 0, 'gld': 0, 'vmd': 0, 'slvr': 3, 'vtlt': 0, 'emd': 0, 'bns': 0},
-                                       'exp': 1, 'itms': [{'c': 1, 'iid': "", 'tid': tid}]}])
+            await client.send(
+                ["isl.drp", {'res': {'rb': 0, 'enrg': 0, 'gld': 0, 'vmd': 0, 'slvr': 3, 'vtlt': 0, 'emd': 0, 'bns': 0},
+                             'exp': 1, 'itms': [{'c': 1, 'iid': "", 'tid': tid}]}])
             if not msg[2]["ir"]:
                 await self.server.delItemMap(client, msg[2]['iid'])
         #  ["farm_20111672_ild", "r.p.prs", {stid: "bilbSd", x: 23, y: 49, pind: 2}]
@@ -103,7 +105,7 @@ class Location(Module):
                     return
                 await r.incrby(f"uid:{uid}:slvr", -price)
             await self.server.newPlantMap(client, x, y, plantId)
-            infoPlant = await self.server.getPlants(client, "ridge")
+            infoPlant = await self.server.getPlants(client.uid, "ridge")
             for inf in infoPlant:
                 if int(inf["id"]) == num:
                     infoPlant = inf
@@ -113,6 +115,37 @@ class Location(Module):
             await client.send(["isl.drp", {'exp': 1}])
             await client.send(["ntf.iich", {"ii": await get_island_info(client.uid, self.server)}])
             await update_resources(client, self.server)
+        elif subcommand == "uf":
+            timeSlice = 0
+            ffid = msg[2]["ffid"]
+            if ffid == "frt10":
+                timeSlice = 20
+            elif ffid == "frt11":
+                timeSlice = 60
+            elif ffid == "frt12":
+                timeSlice = 180
+            await r.decrby(f"uid:{uid}:plants:{msg[2]['id']}:gft", timeSlice * 60)
+            msg[2]["fobj"] = await self.server.getPlant(client, "ridge", msg[2]['id'])
+            msg.pop(0)
+            await client.send(msg)
+        elif subcommand == "crp":
+            plnt = await self.server.getPlant(client, "ridge", msg[2]["id"])
+            typePlant = plnt["stid"]
+            countItem = 3
+            itemGet = self.plants[typePlant]["ripen"]["typeId"]
+            await r.set(f"uid:{uid}:plants:{msg[2]['id']}:ost", 0)
+            await r.set(f"uid:{uid}:plants:{msg[2]['id']}:gft", 0)
+            await r.set(f"uid:{uid}:plants:{msg[2]['id']}:gst", 0)
+            await client.send(["isl.drp", {"itms": [{"atr": {"bt": 666}, "c": countItem, "iid": "", "tid": itemGet}]}])
+            msg.pop(0)
+            msg[1]["frdg"] = await self.server.getPlant(client, "ridge", msg[1]["id"])
+            await client.send(msg)
+            await self.server.delItemMap(client, msg[1]["id"], True)
+            await self.server.send_everybody_room(client.room, ["r.b.rmvobj", {"id": msg[1]["id"], "oid": "r"+str(msg[1]["id"])}])
+            await self.server.inv[client.uid].add_item(itemGet, "res")
+            inv = self.server.inv[client.uid].get()
+            await client.send(["ntf.invch", {"inv": inv}])
+            
     
     async def room(self, msg, client):
         subcommand = msg[1].split(".")[1]
@@ -177,8 +210,7 @@ class Location(Module):
                 rr = client.uid
             map = await self.server.get_island(rr)
             await client.send(["r.rinfo", {"rmmb": rmmb, "frm": map,
-                                           "l": 2, "r":
-                                               await self.server.getPlants(client, "ridge")}])  # {"id": 486, "gft":
+                                           "l": 2}])  # {"id": 486, "gft":
             # 0, "y": 49, "gst": 0, "x": 20,
             # "tid": "ridge", "d": 5, "stid": "strbSeed", "ost": 2}
         else:
@@ -205,7 +237,6 @@ class Location(Module):
         client.state = 0
         client.dimension = 4
         plr = await gen_plr(client, self.server)
-        prefix = common.get_prefix(client.room)
         online = self.server.online
         new_room = self.server.rooms[room].copy()
         for uid in new_room:
@@ -255,7 +286,7 @@ async def gen_plr(client, server):
             shlc = True
         plr["locinfo"] = {"st": client.state, "s": "127.0.0.1",
                           "at": client.action_tag, "d": client.dimension,
-                          "x": -1, "y": -1, # client.position[0-1]
+                          "x": -1, "y": -1,  # client.position[0-1]
                           "shlc": shlc, "pl": "", "l": client.room}
     plr["ii"] = await get_island_info(uid, server)
     return plr
@@ -283,7 +314,7 @@ async def get_island_info(uid, server):
     petsModel = f"uid:{uid}:pets"
     pets = await server.redis.lrange(petsModel, 0, -1)
     petsCount = len(pets)
-    lastGiftTime = await server.redis.incrby(f"uid:{uid}:dailyTime", 0) - (24*60*60)
+    lastGiftTime = await server.redis.incrby(f"uid:{uid}:dailyTime", 0) - (24 * 60 * 60)
     petRating = await getPetRating(uid, server)
     giftDay = await server.redis.incrby(f"uid:{uid}:dailyDay", 0)
     ii = {'tst': tutorial,
@@ -302,6 +333,7 @@ async def get_island_info(uid, server):
           'gdc': giftDay}
     return ii
 
+
 async def getPetRating(uid, server):
     r = server.redis
     petsModel = f"uid:{uid}:pets"
@@ -309,7 +341,7 @@ async def getPetRating(uid, server):
     pets = await r.lrange(petsModel, 0, -1)
     for pet in pets:
         petModel = f"uid:{uid}:pet:{pet}:"
-        rating += int(await r.get(petModel+"rtg"))
+        rating += int(await r.get(petModel + "rtg"))
     return rating
 
 
