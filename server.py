@@ -411,7 +411,7 @@ class Server():
                   "d": 3,
                   "id": 484"""
                 # builds
-                args = ["x", "sid", "y", "l", "tid", "pl", "d", "id"]
+                args = ["x", "sid", "y", "tid", "d", "id"]
             if not items:
                 continue
             for item in items:
@@ -594,13 +594,16 @@ class Server():
     async def getArgsItemMapSmart(self, client, itemId, cat="b"):
         r = self.redis
         uid = client.uid
-        with open("modules/default_map.json", "r") as f:
-            defMap = json.load(f)
-        try:
-            args = defMap[cat][0].keys()
-        except Exception as ex:
-            print(ex)
-            return {}
+        if cat == "dc":
+            args = ["x", "sid", "y", "tid", "d", "id"]
+        else:
+            with open("modules/default_map.json", "r") as f:
+                defMap = json.load(f)
+            try:
+                args = defMap[cat][0].keys()
+            except Exception as ex:
+                print(ex)
+                return {}
         argsItem = {}
         items = await r.lrange(f"uid:{uid}:islandMap:{cat}", 0, -1)
         if str(itemId) not in items:
