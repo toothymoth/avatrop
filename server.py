@@ -423,8 +423,9 @@ class Server():
                 if cat == "b":
                     if await r.get(f"uid:{uid}:islandMap:{cat}:{item}:tid") == "phs":
                         housePet = await self.getPetInHouse(self.online[uid], item)
-                        for hsPetArg in housePet:
-                            argsItem[hsPetArg] = housePet[hsPetArg]
+                        if housePet:
+                            for hsPetArg in housePet:
+                                argsItem[hsPetArg] = housePet[hsPetArg]
                 for arg in args:
                     value = await r.get(f"uid:{uid}:islandMap:{cat}:{item}:{arg}")
                     if value.isdigit():
