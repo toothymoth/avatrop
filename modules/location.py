@@ -124,10 +124,14 @@ class Location(Module):
                 timeSlice = 60
             elif ffid == "frt12":
                 timeSlice = 180
-            await r.decrby(f"uid:{uid}:plants:{msg[2]['id']}:gft", timeSlice * 60)
-            msg[2]["fobj"] = await self.server.getPlant(client, "ridge", msg[2]['id'])
+            if await self.server.getPlant(client, "ridge", msg[2]["id"]):
+                await r.decrby(f"uid:{uid}:plants:{msg[2]['id']}:gft", timeSlice * 60)
+                msg[2]["fobj"] = await self.server.getPlant(client, "ridge", msg[2]['id'])
+            else:
+                await r.decrby(f"uid:{uid}:islandMap:t:{msg[2]['id']}:gft", timeSlice * 60)
+                msg[2]["fobj"] = await self.server.getPlant(client, "tree", msg[2]['id'])
             msg.pop(0)
-            await client.send(msg)
+            await self.server.send_everybody_room(client.room, msg)
         elif subcommand == "crp":
             plnt = await self.server.getPlant(client, "ridge", msg[2]["id"])
             typePlant = plnt["stid"]
@@ -142,9 +146,31 @@ class Location(Module):
             await client.send(msg)
             await self.server.delItemMap(client, msg[1]["id"], True)
             await self.server.send_everybody_room(client.room, ["r.b.rmvobj", {"id": msg[1]["id"], "oid": "r"+str(msg[1]["id"])}])
-            await self.server.inv[client.uid].add_item(itemGet, "res")
+            await self.server.inv[client.uid].add_item(itemGet, "res", countItem)
             inv = self.server.inv[client.uid].get()
             await client.send(["ntf.invch", {"inv": inv}])
+        elif subcommand == "pt":
+            await self.server.newPlantMap(client, msg[2]["x"], msg[2]["y"], "", 5, msg[2]["tid"])
+        elif subcommand == "ctf":
+            if not (await r.get(f"uid:{uid}:islandMap:t:{msg[2]['id']}:ost")):
+                return
+            plnt = await self.server.getPlant(client, "tree", msg[2]["id"])
+            typePlant = plnt["tid"]
+            countItem = 3
+            itemGet = self.plants[typePlant]["ripen"]["typeId"]
+            await r.set(f"uid:{uid}:islandMap:t:{msg[2]['id']}:ost", 0)
+            await r.set(f"uid:{uid}:islandMap:t:{msg[2]['id']}:gft", 0)
+            await r.set(f"uid:{uid}:islandMap:t:{msg[2]['id']}:gst", 0)
+            await client.send(["isl.drp", {"itms": [{"atr": {"bt": 666}, "c": countItem, "iid": "", "tid": itemGet},
+                                                    {"atr": {"bt": 666}, "c": countItem, "iid": "", "tid": "wd"}]}])
+            await self.server.delItemMap(client, msg[2]["id"], False, "t")
+            await self.server.send_everybody_room(client.room,
+                                                  ["r.b.rmvobj", {"id": msg[2]["id"], "oid": "t" + str(msg[2]["id"])}])
+            await self.server.inv[client.uid].add_item(itemGet, "res", countItem)
+            await self.server.inv[client.uid].add_item("wd", "res", countItem)
+            inv = self.server.inv[client.uid].get()
+            await client.send(["ntf.invch", {"inv": inv}])
+            
             
     
     async def room(self, msg, client):
