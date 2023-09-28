@@ -47,6 +47,8 @@ class Server():
             module = self.modules[prefix]
             if hasattr(module, "_background"):
                 loop.create_task(module._background())
+            if hasattr(module, "background_two"):
+                loop.create_task(module.background_two())
         self.server = await asyncio.start_server(self.new_conn,
                                                  "0.0.0.0", 8123)
         loop.create_task(self._background())
@@ -411,7 +413,7 @@ class Server():
                   "d": 3,
                   "id": 484"""
                 # builds
-                args = ["x", "sid", "y", "tid", "d", "id"]
+                args = ["x", "sid", "y",  "tid", "d", "id"]
             if not items:
                 continue
             for item in items:
