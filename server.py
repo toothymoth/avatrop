@@ -414,6 +414,8 @@ class Server():
                   "id": 484"""
                 # builds
                 args = ["x", "sid", "y",  "tid", "d", "id"]
+            elif cat == "t":
+                args = ["x", "y", "d", "ost", "gft", "tid", "gst", "gft", "pc", "id"]
             if not items:
                 continue
             for item in items:
@@ -463,12 +465,16 @@ class Server():
             argsItem[arg] = value
         return argsItem
     
-    async def delItemMap(self, client, itemId, isPlant=False):
+    async def delItemMap(self, client, itemId, isPlant=False, cat="ws"):
         r = self.redis
         uid = client.uid
         if not isPlant:
-            cat = "ws"
-            args = ["ir", "x", "y", "tid", "d", "id"]
+            if cat == "ws":
+                args = ["ir", "x", "y", "tid", "d", "id"]
+            elif cat == "t":
+                args = ["x", "y", "d", "ost", "gft", "tid", "gst", "gft", "pc", "id"]
+            else:
+                return
             await r.lrem(f"uid:{uid}:islandMap:{cat}", 1, str(itemId))
             for arg in args:
                 await r.delete(f"uid:{uid}:islandMap:{cat}:{itemId}:{arg}")
@@ -481,25 +487,44 @@ class Server():
     async def getPlants(self, uid, type_):
         r = self.redis
         plants = []
-        Idplants = await r.lrange(f"uid:{uid}:plants", 0, -1)
-        if not Idplants:
-            return []
-        for plantId in Idplants:
-            if type_ == "ridge" and await r.get(f"uid:{uid}:plants:{plantId}:tid") != "ridge":
-                continue
-            elif type_ == "tree" and await r.get(f"uid:{uid}:plants:{plantId}:tid") == "ridge":
-                continue
-            args = {}
-            for arg in ["x", "y", "d", "ost", "gft", "stid", "tid", "gst", "gft"]:
-                value = await r.get(f"uid:{uid}:plants:{plantId}:{arg}")
-                if value:
-                    if value.isdigit():
-                        value = int(value)
-                if value == "None":
-                    value = None
-                args[arg] = value
-            args["id"] = int(plantId)
-            plants.append(args)
+        if type_ == "ridge":
+            Idplants = await r.lrange(f"uid:{uid}:plants", 0, -1)
+            if not Idplants:
+                return []
+            for plantId in Idplants:
+                if type_ == "ridge" and await r.get(f"uid:{uid}:plants:{plantId}:tid") != "ridge":
+                    continue
+                elif type_ == "tree" and await r.get(f"uid:{uid}:plants:{plantId}:tid") == "ridge":
+                    continue
+                args = {}
+                needargs = ["x", "y", "d", "ost", "gft", "tid", "gst", "gft", "stid"]
+                for arg in needargs:
+                    value = await r.get(f"uid:{uid}:plants:{plantId}:{arg}")
+                    if value:
+                        if value.isdigit():
+                            value = int(value)
+                    if value == "None":
+                        value = None
+                    args[arg] = value
+                args["id"] = int(plantId)
+                plants.append(args)
+        elif type_ == "tree":
+            Idplants = await r.lrange(f"uid:{uid}:islandMap:t", 0, -1)
+            if not Idplants:
+                return []
+            for plantId in Idplants:
+                args = {}
+                needargs = ["x", "y", "d", "ost", "gft", "tid", "gst", "gft", "pc"]
+                for arg in needargs:
+                    value = await r.get(f"uid:{uid}:islandMap:t:{plantId}:{arg}")
+                    if value:
+                        if value.isdigit():
+                            value = int(value)
+                    if value == "None":
+                        value = None
+                    args[arg] = value
+                args["id"] = int(plantId)
+                plants.append(args)
         return plants
     
     async def getPlant(self, client, type_, plid):
@@ -523,20 +548,33 @@ class Server():
         # set new plant for map
         r = self.redis
         uid = client.uid
-        cat = "ws"
         now = int(time.time())
-        plantId = str(await self.getLastNumObjectMap(client) + 1 + await r.llen(f"uid:{uid}:plants"))  # get new id plant on map
-        await r.rpush(f"uid:{uid}:plants", plantId)
-        #  attrs for plant on map
-        #  {x: 23, gft: 1685949107, ost: 1, tid: "ridge", stid: "bilbSd", gst: 1685947907, y: 49, d: 5, id: 574}
-        await r.set(f"uid:{uid}:plants:{plantId}:x", x)
-        await r.set(f"uid:{uid}:plants:{plantId}:y", y)
-        await r.set(f"uid:{uid}:plants:{plantId}:d", d)
-        await r.set(f"uid:{uid}:plants:{plantId}:tid", tid)
-        await r.set(f"uid:{uid}:plants:{plantId}:stid", stid)
-        await r.set(f"uid:{uid}:plants:{plantId}:gft", now + (self.plants[stid]["ripen"]["time"]*60))
-        await r.set(f"uid:{uid}:plants:{plantId}:gst", now)
-        await r.set(f"uid:{uid}:plants:{plantId}:ost", self.plants[stid]["ripen"]["seasons"])
+        plantId = str(await self.getLastNumObjectMap(client) + 1 + await r.llen(f"uid:{uid}:plants"))
+        if tid == "ridge":
+            await r.rpush(f"uid:{uid}:plants", plantId)
+            await r.set(f"uid:{uid}:plants:{plantId}:x", x)
+            await r.set(f"uid:{uid}:plants:{plantId}:y", y)
+            await r.set(f"uid:{uid}:plants:{plantId}:d", d)
+            await r.set(f"uid:{uid}:plants:{plantId}:tid", tid)
+            await r.set(f"uid:{uid}:plants:{plantId}:stid", stid)
+            await r.set(f"uid:{uid}:plants:{plantId}:gft", now + (self.plants[stid]["ripen"]["time"]*60))
+            await r.set(f"uid:{uid}:plants:{plantId}:gst", now)
+            await r.set(f"uid:{uid}:plants:{plantId}:ost", self.plants[stid]["ripen"]["seasons"])
+        else:
+            plantId = await self.getFreeIdPlace(client)
+            await r.rpush(f"uid:{uid}:islandMap:t", plantId)
+            treeModel = f"uid:{uid}:islandMap:t:{plantId}:"
+            await r.set(treeModel+"x", x)
+            await r.set(treeModel+"id", plantId)
+            await r.set(treeModel+"y", y)
+            await r.set(treeModel+"d", d)
+            await r.set(treeModel+"tid", tid)
+            await r.set(treeModel+"pc", 0)
+            await r.set(treeModel+"gft", now + (self.plants[tid]["ripen"]["time"] * 60))
+            await r.set(treeModel+"gst", now)
+            await r.set(treeModel+"ost", 1)
+            commandToUpdate = ["r.p.pt", {"fft": await self.getArgsItemMapSmart(client, plantId, "t")}]
+            await self.send_everybody_room(client.room, commandToUpdate)
         
     async def getFreeIdPlace(self, client) -> int:
         freeId = 1
@@ -598,6 +636,8 @@ class Server():
         uid = client.uid
         if cat == "dc":
             args = ["x", "sid", "y", "tid", "d", "id"]
+        elif cat == "t":
+            args = ["x", "y", "d", "ost", "gft", "tid", "gst", "gft", "pc", "id"]
         else:
             with open("modules/default_map.json", "r") as f:
                 defMap = json.load(f)
