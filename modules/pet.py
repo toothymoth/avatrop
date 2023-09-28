@@ -1,7 +1,5 @@
-import asyncio
-
+import asyncio, random
 from modules.base_module import Module
-import modules.notify as notify
 import time
 
 class_name = "Pet"
@@ -191,6 +189,56 @@ class Pet(Module):
         msg[2]["id"] = str(msg[2]["id"])
         await client.send(msg[1:])
         
+    async def _petMove(self, pid, client, pos=(None, None)):
+        commandWalk = ["pet.wk", {}]
+        petModel = f"uid:{client.uid}:pet:{pid}:"
+        if pos == (None, None):
+            houseId = int(await self.server.redis.get(petModel + "hid"))
+            getHouse = await self.server.getArgsItemMapSmart(client, houseId)
+            x = round(float(getHouse["x"]))
+            y = round(float(getHouse["y"]))
+            maxX = x + 6
+            maxY = y + 6
+            minX = x - 6
+            minY = y - 6
+            x = random.randint(minX, maxX)
+            y = random.randint(minY, maxY)
+            xp = round(float(await self.server.redis.get(petModel + "wx")))
+            yp = round(float(await self.server.redis.get(petModel + "wy")))
+            path = self.gen_path_move(xp, yp, x, y)
+        else:
+            return
+        commandWalk[1]["psy"] = yp
+        commandWalk[1]["psx"] = xp
+        commandWalk[1]["dur"] = len(path)*2
+        commandWalk[1]["path"] = path
+        commandWalk[1]["pid"] = "pet"+str(pid)
+        commandWalk[1]["act"] = "walk"
+        await self.server.redis.set(petModel + "wx", x)
+        await self.server.redis.set(petModel + "wy", y)
+        # bad method
+        """for xuy in range()
+        ["pet.wk", {psy: 49, path: [{y: 49, x: 19}, {y: 49, x: 20}, {y: 49, x: 21}, {y: 50, x: 22}, {y: 51, x: 23},
+                                    {y: 52, x: 24}, {y: 53, x: 24}], dur: 6, pid: "pet3439172", act: "walk", psx: 18}]"""
+        await self.server.send_everybody_room(client.room, commandWalk)
+        
+    def gen_path_move(self, x, y, sx, sy):
+        path = []
+        while sx != x and sy != y:
+            if (sx < x):
+                sx+=1
+            if (sy < y):
+                sy+=1
+            if (sx > x):
+                sx-=1
+            if (sy > y):
+                sy-=1
+            path.append({"y": sy, "x": sx})
+        path.reverse()
+        return path
+            
+            
+        
     async def _background(self):
         r = self.server.redis
         while True:
@@ -202,3 +250,15 @@ class Pet(Module):
                 for pet in pets:
                     await self._logicCharacterLinePet(onl, pet)
             await asyncio.sleep(60*60)
+
+    async def background_two(self):
+        r = self.server.redis
+        while True:
+            for onl in self.server.online:
+                petsModel = f"uid:{onl}:pets"
+                pets = await r.lrange(petsModel, 0, -1)
+                if not pets:
+                    continue
+                for pet in pets:
+                    await self._petMove(pet, self.server.online[onl])
+            await asyncio.sleep(random.randint(30, 50))
