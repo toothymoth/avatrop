@@ -195,6 +195,8 @@ class Pet(Module):
         if pos == (None, None):
             houseId = int(await self.server.redis.get(petModel + "hid"))
             getHouse = await self.server.getArgsItemMapSmart(client, houseId)
+            if not getHouse:
+                return
             x = round(float(getHouse["x"]))
             y = round(float(getHouse["y"]))
             maxX = x + 6
