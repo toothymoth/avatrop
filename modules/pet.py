@@ -10,7 +10,7 @@ class Pet(Module):
     
     def __init__(self, server):
         self.server = server
-        self.commands = {"b": self.buy, "gtpt": self._getPetModel, "e": self.editName}
+        self.commands = {"b": self.buy, "gtpt": self._getPetModel, "e": self.editName, "uc": self._updateCharacterPet}
     
     async def _addPet(self, client, houseId, namePet, colorIndexPet, petTypeId):
         r = self.server.redis
@@ -48,11 +48,16 @@ class Pet(Module):
         pet["id"] = int(pid)
         pet["n"] = await r.get(petModel + "nm")
         pet["oid"] = await r.get(petModel + "oid")
+        pet["sut"] = int(float(await r.get(petModel + "sltm")))
+        if 0 < pet["sut"] <= int(time.time()):
+            lineModel = petModel + "chrctr:line:"
+            await r.set(lineModel + "cf", 100 * 100)
+            await r.set(petModel + "sltm", 0)
+            pet["sut"] = 0
         pet["c"] = await self._updateCharacterPet(client, pid)
         pet["tid"] = await r.get(petModel + "tid")
         pet["rt"] = await r.get(petModel + "rtg")
         pet["ci"] = int(await r.get(petModel + "cix"))
-        pet["sut"] = int(await r.get(petModel + "sltm"))
         pet["stp"] = await r.get(petModel + "sltp")
         pet["psx"] = int(float(await r.get(petModel + "wx")))
         pet["psy"] = int(float(await r.get(petModel + "wy")))
@@ -166,6 +171,10 @@ class Pet(Module):
         lineModel = petModel + "chrctr:line:"
         for line in characterLineTypes:
             await r.set(lineModel + line, 10000)  # divide 10000 / 100 = 100.00%
+            # delete it
+            if line == "st":
+                await r.set(lineModel + line, 0)
+            # delete it
         await r.set(characterModel + "lut", int(time.time()))
         # await r.set(characterModel + "ui", ) used items soon
     
@@ -195,8 +204,6 @@ class Pet(Module):
         if pos == (None, None):
             houseId = int(await self.server.redis.get(petModel + "hid"))
             getHouse = await self.server.getArgsItemMapSmart(client, houseId)
-            if not getHouse:
-                return
             x = round(float(getHouse["x"]))
             y = round(float(getHouse["y"]))
             maxX = x + 6
@@ -238,8 +245,10 @@ class Pet(Module):
             path.append({"y": sy, "x": sx})
         path.reverse()
         return path
-            
-            
+    
+    async def petInSleep(self, uid, pid) -> bool:
+        petModel = f"uid:{uid}:pet:{pid}:"
+        return int(await self.server.redis.get(petModel + "sltm")) > int(time.time())
         
     async def _background(self):
         r = self.server.redis
@@ -262,5 +271,7 @@ class Pet(Module):
                 if not pets:
                     continue
                 for pet in pets:
+                    if await self.petInSleep(onl, pet):
+                        continue
                     await self._petMove(pet, self.server.online[onl])
             await asyncio.sleep(random.randint(30, 50))
