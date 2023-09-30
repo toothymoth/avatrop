@@ -171,10 +171,6 @@ class Pet(Module):
         lineModel = petModel + "chrctr:line:"
         for line in characterLineTypes:
             await r.set(lineModel + line, 10000)  # divide 10000 / 100 = 100.00%
-            # delete it
-            if line == "st":
-                await r.set(lineModel + line, 0)
-            # delete it
         await r.set(characterModel + "lut", int(time.time()))
         # await r.set(characterModel + "ui", ) used items soon
     
