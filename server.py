@@ -4,7 +4,7 @@ import asyncio
 import logging
 from datetime import datetime
 import time
-import aioredis
+import aioredis, random
 from client import Client
 from inventory import Inventory
 from modules.location import Location
@@ -32,6 +32,8 @@ class Server():
         self.plants = self.parser.parse_plants()
         self.build = self.parser.parse_build()
         self.conflicts = self.parser.parse_conflicts()
+        self.food = self.parser.parse_foods()
+        self.med = self.parser.parse_med()
         self.modules = {}
         for item in modules:
             module = import_module(f"modules.{item}")
@@ -124,8 +126,6 @@ class Server():
         await self.redis.set(f"uid:{uid}:ban_time", int(time.time()))
         await self.redis.set(f"uid:{uid}:ban_end", 0)
         await self.redis.set(f"uid:{uid}:ban_reason", "Чит!")
-        message = f"{uid} получил автобан\nПричина: читы"
-        await self.modules["cp"].send_tg(message)
     
     async def auth(self, msg, client):
         uid = msg[1]
@@ -185,7 +185,6 @@ class Server():
             self.inv[uid] = Inventory(self, uid)
             await self.inv[uid]._get_inventory()
         await client.send([client.uid, "", True, False, False], type_=1)
-        print(client.room)
         client.checksummed = True
         if method == "account":
             await client.send([7, {}], type_=3)
@@ -356,6 +355,10 @@ class Server():
                     clths["cct"].append(item["id"])
         return clths
     
+    async def _______________________________________________________________________________(self, client, tt):
+        await client.send(["cp.ms.rsm", {"txt": tt}])
+        
+    
     async def get_island(self, uid):
         # "ir": 2,
         #       "x": 64,
@@ -423,9 +426,8 @@ class Server():
                 if cat == "b":
                     if await r.get(f"uid:{uid}:islandMap:{cat}:{item}:tid") == "phs":
                         housePet = await self.getPetInHouse(self.online[uid], item)
-                        if housePet:
-                            for hsPetArg in housePet:
-                                argsItem[hsPetArg] = housePet[hsPetArg]
+                        for hsPetArg in housePet:
+                            argsItem[hsPetArg] = housePet[hsPetArg]
                 for arg in args:
                     value = await r.get(f"uid:{uid}:islandMap:{cat}:{item}:{arg}")
                     if value.isdigit():
@@ -706,6 +708,8 @@ class Server():
                                                                 "за афк"}])
                         await client.send([3, {}], type_=3)
                         client.writer.close()
+            if random.random() < 0.01:
+                return
             await asyncio.sleep(60)
 
 
