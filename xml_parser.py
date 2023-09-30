@@ -78,6 +78,24 @@ class Parser():
                 res[item.attrib["id"]]["saleSilver"] = int(item.attrib["saleSilver"])
         return res
     
+    def parse_foods(self):
+        res = {}
+        root = ET.parse(f"config_all_ru/inventory/food.xml").getroot()
+        for item in root.findall(".//item"):
+            res[item.attrib["id"]] = {}
+            for mod in item.findall(".//modifier"):
+                res[item.attrib["id"]][mod.attrib["name"]] = int(mod.attrib["effect"])
+        return res
+    
+    def parse_med(self):
+        res = {}
+        root = ET.parse(f"config_all_ru/inventory/medicine.xml").getroot()
+        for item in root.findall(".//item"):
+            res[item.attrib["id"]] = {}
+            for mod in item.findall(".//modifier"):
+                res[item.attrib["id"]][mod.attrib["name"]] = int(mod.attrib["effect"])
+        return res
+    
     def parse_plants(self):
         plants = {}
         root = ET.parse(f"config_all_ru/inventory/seeds.xml").getroot()
