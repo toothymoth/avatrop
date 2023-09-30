@@ -1,3 +1,5 @@
+import time
+
 from modules.base_module import Module
 from client import Client
 import common, json
@@ -14,7 +16,7 @@ class Location(Module):
     
     def __init__(self, server):
         self.server = server
-        self.commands = {"p": self.poop, "b": self.build}
+        self.commands = {"p": self.poop, "b": self.build, "pi": self.pet_index}
         self.plants = self.server.parser.parse_plants()
         for cm in ["ust", "mv", "k", "sa", "sl", "bd", "lks", "hs",
                    "ks", "hg", "gf", "aks", "ra", "rinfo", "stact", "finact"]:
@@ -48,6 +50,80 @@ class Location(Module):
         elif subcmd == "ei":
             msg[2]["l"] += 1
             await client.send(msg[1:])
+    
+    async def pet_index(self, msg, client):
+        subcommand = msg[1].split(".")[-1]
+        r = self.server.redis
+        uid = client.uid
+        if subcommand == "l":
+            pid = msg[2]["id"]
+            tpid = msg[2]["tpid"]
+            petModel = f"uid:{uid}:pet:{pid}:"
+            lineModel = petModel + "chrctr:line:"
+            long_term = (100 - (int(await r.get(lineModel + "cf")) / 100))/10  # long time for sleep in hours
+            await r.set(petModel + "sltm", int(time.time())+(long_term*60*60))
+            await r.set(petModel + "sltp", tpid)
+            msg[2]["stp"] = tpid
+            msg[2]["pid"] = "pet"+str(pid)
+            msg[2]["sut"] = int(int(time.time())+(long_term*60*60))
+            msg[2]["psx"] = int(float(await r.get(petModel + "wx")))
+            msg[2]["psy"] = int(float(await r.get(petModel + "wy")))
+            await self.server.send_everybody_room(client.room, msg[1:])
+        elif subcommand == "ctaui":
+            pid = msg[2]["id"]
+            tpid = msg[2]["tpid"]
+            petModel = f"uid:{uid}:pet:{pid}:"
+            lineModel = petModel + "chrctr:line:"
+            if not await self.server.inv[client.uid].take_item(tpid):
+                return
+            if tpid in self.server.food:
+                for line in self.server.food[tpid]:
+                    effect = self.server.food[tpid][line]
+                    print(line, effect)
+                    if line == "satiety":
+                        line = "st"
+                    elif line == "health":
+                        line = "hl"
+                    elif line == "cheerfullness":
+                        line = "cf"
+                    elif line == "happiness":
+                        line = "hp"
+                    else:
+                        continue
+                    if (await r.incrby(lineModel+line, 0) + (effect*100)) < 0:
+                        await r.set(lineModel + line, 0)
+                    elif (await r.incrby(lineModel+line, 0) + (effect*100)) > 10000:
+                        await r.set(lineModel + line, 10000)
+                    else:
+                        await r.incrby(lineModel+line, effect*100)
+                
+            elif tpid in self.server.med:
+                for line in self.server.med[tpid]:
+                    effect = self.server.med[tpid][line]
+                    print(line, effect)
+                    if line == "satiety":
+                        line = "st"
+                    elif line == "health":
+                        line = "hl"
+                    elif line == "cheerfullness":
+                        line = "cf"
+                    elif line == "happiness":
+                        line = "hp"
+                    else:
+                        continue
+                    if (await r.incrby(lineModel+line, 0) + (effect*100)) < 0:
+                        await r.set(lineModel + line, 0)
+                    elif (await r.incrby(lineModel+line, 0) + (effect*100)) > 10000:
+                        await r.set(lineModel + line, 10000)
+                    else:
+                        await r.incrby(lineModel+line, effect*100)
+            else:
+                return
+            inv = self.server.inv[client.uid].get()
+            await client.send(["ntf.invch", {"inv": inv}])
+            await client.send(["pet.chch", {"pid": "pet"+str(pid), "c": await self.server.modules["pet"].commands["uc"](client, str(pid))}])
+            # ['farm_36_ild', 'r.pi.ctaui', {'psx': 27, 'psy': 50, 'id': 43, 'tpid': 'pBbq'}]} food
+            
     
     async def poop(self, msg, client):
         subcommand = msg[1].split(".")[-1]
@@ -145,7 +221,8 @@ class Location(Module):
             msg[1]["frdg"] = await self.server.getPlant(client, "ridge", msg[1]["id"])
             await client.send(msg)
             await self.server.delItemMap(client, msg[1]["id"], True)
-            await self.server.send_everybody_room(client.room, ["r.b.rmvobj", {"id": msg[1]["id"], "oid": "r"+str(msg[1]["id"])}])
+            await self.server.send_everybody_room(client.room,
+                                                  ["r.b.rmvobj", {"id": msg[1]["id"], "oid": "r" + str(msg[1]["id"])}])
             await self.server.inv[client.uid].add_item(itemGet, "res", countItem)
             inv = self.server.inv[client.uid].get()
             await client.send(["ntf.invch", {"inv": inv}])
@@ -170,8 +247,6 @@ class Location(Module):
             await self.server.inv[client.uid].add_item("wd", "res", countItem)
             inv = self.server.inv[client.uid].get()
             await client.send(["ntf.invch", {"inv": inv}])
-            
-            
     
     async def room(self, msg, client):
         subcommand = msg[1].split(".")[1]
