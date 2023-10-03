@@ -708,8 +708,6 @@ class Server():
                                                                 "за афк"}])
                         await client.send([3, {}], type_=3)
                         client.writer.close()
-            if random.random() < 0.01:
-                return
             await asyncio.sleep(60)
 
 
