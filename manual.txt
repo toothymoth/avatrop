@@ -15,8 +15,10 @@ Server: Python Flask
 Client: ActionScript3 swf
 
 Address web server: from console when run server!
+variables HOST, PORT in web.py to change the IP address in the web part + const.py to change the IP address in the server
 
-For change ip at client:
+
+to change the IP address at client:
 	appconfig.xml
 	pnz-island.swf (find as string "127.0.0.1" and edit in scripts)
 	
